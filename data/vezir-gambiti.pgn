@@ -58,6 +58,102 @@
 
 1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Nf6 {Siyah da d5'i korur ve gelişir.} 4. Bg5 {Fil f6 atını açmaza alır. O at d5'in savunucusudur, dolayısıyla baskı d5'e yöneliktir.} 4... Nbd7 {Kurnaz bir hamle: d5 piyonu korumasız gibi görünür. Normal devam 5.e3 ile Ortodoks konumlara geçer.} 5. cxd5 {Beyaz merkezde değişir.} 5... exd5 {Piyon geri alındı.} 6. Nxd5?? {Hata! Beyaz d5 piyonunu bedava sanıyor, çünkü f6 atı vezire karşı açmazda görünüyor.} 6... Nxd5! {Açmaz gerçek değil! Siyah vezirini feda eder.} 7. Bxd8 {Beyaz veziri alır.} 7... Bb4+ {Ara şah! Fil b4'ten beyaz şaha şah çeker.} 8. Qd2 {Tek savunma.} 8... Bxd2+ {Siyah veziri geri alır.} 9. Kxd2 {Şah fili alır.} 9... Kxd8 {Bilanço: siyah bir piyon karşılığında bir at kazandı. Ders: Açmazdaki taşın gerçekten bağlı olup olmadığını her zaman kontrol et.} *
 
+[Event "Reddedilmiş Vezir Gambiti: Ragozin Savunması"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D38"]
+[Opening "Reddedilmiş Vezir Gambiti: Ragozin Savunması"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Nf6 {Siyah da d5'i korur ve gelişir.} 4. Nf3 {Üç At sistemi: Beyaz Bg5 yerine önce atını geliştirir.} 4... Bb4 {Ragozin: Fil c3 atını açmaza alır; Nimzo-Hint fikirleriyle Vezir Gambiti'nin birleşimi.} 5. Bg5 {Beyaz da f6 atını açmaza alır.} 5... h6 {Filin niyetini sorar.} 6. Bxf6 {Beyaz fil çiftini verir ama siyahı zaman kaybettirir.} 6... Qxf6 {Vezir aktif; siyahın fil çifti var.} 7. e3 O-O 8. Rc1 {c hattında baskı.} 8... dxc4 {Siyah merkezi açar.} 9. Bxc4 c5 {d4'e vurur.} 10. O-O cxd4 11. exd4 {Beyaz izole d piyonuyla kalır.} 11... Nc6 {Siyah d4'e baskı yapar; fil çifti ve sağlam yapı dengeyi sağlar.} *
+
+[Event "Reddedilmiş Vezir Gambiti: Viyana Varyantı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D39"]
+[Opening "Reddedilmiş Vezir Gambiti: Viyana Varyantı"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Nf6 {Siyah da d5'i korur ve gelişir.} 4. Nf3 {Üç At sistemi: Beyaz Bg5 yerine önce atını geliştirir.} 4... dxc4 {Viyana: Siyah piyonu alır ve beyazı e4 ile merkezi kurmaya davet eder.} 5. e4 {Beyaz merkezi ele geçirir.} 5... Bb4 {e4'ün savunucusu c3 atını açmaza alır.} 6. Bg5 {Beyaz da açmazla karşılık verir.} 6... c5 {Siyah merkeze vurur; konum çok keskinleşir.} 7. Bxc4 cxd4 8. Nxd4 Bxc3+ 9. bxc3 Qa5 {c3 piyonuna ve g5 filine baskı.} 10. Bb5+ {Ara şah.} 10... Nbd7 11. Bxf6 {Beyaz piyon yapısını bozar.} 11... Qxc3+ {Siyah kaleye saldırarak şah çeker.} 12. Kf1 {Şah rok hakkını kaybeder.} 12... gxf6 {Son derece keskin bir konum; iki tarafın şahı da güvensiz. Derin teori gerektirir.} *
+
+[Event "Reddedilmiş Vezir Gambiti: Cambridge Springs Savunması"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D52"]
+[Opening "Reddedilmiş Vezir Gambiti: Cambridge Springs Savunması"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Nf6 {Siyah da d5'i korur ve gelişir.} 4. Bg5 {Fil f6 atını açmaza alır. O at d5'in savunucusudur, dolayısıyla baskı d5'e yöneliktir.} 4... Nbd7 {Kurnaz bir hamle: d5 piyonu korumasız gibi görünür. Normal devam 5.e3 ile Ortodoks konumlara geçer.} 5. e3 {Beyaz normal gelişime devam eder.} 5... c6 {d5'i destekler ve vezire a5 karesini açar.} 6. Nf3 Qa5 {Cambridge Springs: Vezir g5 filinin açmazını kullanır; c3 atına ve g5 filine çifte baskı.} 7. Nd2 {g5 filini korur ve c4 karesini kontrol eder.} 7... Bb4 {c3 atına baskı artıyor.} 8. Qc2 {c3'ü korur (Bogolyubov Varyantı).} 8... O-O {Siyah rok yapar.} 9. Be2 {Gelişim.} 9... e5 {Siyah merkezi kırar; c8 filine yol açılır. Aktif bir konum.} *
+
+[Event "Yarı-Tarrasch Savunması"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D41"]
+[Opening "Yarı-Tarrasch Savunması"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Nf6 {Siyah da d5'i korur ve gelişir.} 4. Nf3 {Üç At sistemi: Beyaz Bg5 yerine önce atını geliştirir.} 4... c5 {Yarı-Tarrasch: Siyah d4'e vurur ama exd5 sonrası izole piyonla kalmamak için d5'i atla geri alacak.} 5. cxd5 {Merkez değişimi.} 5... Nxd5 {At geri alır; siyah izole piyon almaz.} 6. e4 {Beyaz büyük bir merkez kurar.} 6... Nxc3 {Değişim.} 7. bxc3 {c3–d4–e4 piyon merkezi.} 7... cxd4 8. cxd4 Bb4+ {Fil değişimiyle siyah rahatlar.} 9. Bd2 Bxd2+ 10. Qxd2 {Vezir d4'ü destekler.} 10... O-O 11. Bc4 {Fil aktif çapraza.} 11... Nc6 12. O-O b6 {Fil b7'ye gelecek. Beyazın güçlü merkezi ve d5 kırılması; siyahın vezir kanadında piyon çoğunluğu.} *
+
+[Event "Tarrasch Savunması: Ana Hat"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D34"]
+[Opening "Tarrasch Savunması: Ana Hat"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... c5 {Tarrasch: Siyah izole d piyonunu bilerek kabul eder; karşılığında serbest taş oyunu.} 4. cxd5 {Beyaz izole piyonu hemen oluşturur.} 4... exd5 {İzole d5 piyonu.} 5. Nf3 Nc6 6. g3 {Rubinstein sistemi: fil g2'den d5'e baskı yapacak.} 6... Nf6 7. Bg2 {d5 hedefte.} 7... Be7 8. O-O O-O 9. Bg5 {f6 atını, yani d5'in savunucusunu hedefler.} 9... cxd4 {Siyah c hattını açar.} 10. Nxd4 {At d4'te ideal abluka karesinde.} 10... h6 {Filin niyetini sorar.} 11. Be3 {Fil d4'ü destekler.} 11... Re8 {Siyahın taşları aktif; beyaz d5 piyonuna baskıyı sürdürür. Klasik izole piyon mücadelesi.} *
+
+[Event "Reddedilmiş Vezir Gambiti: 5.Bf4 (Harrwitz Saldırısı)"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D37"]
+[Opening "Reddedilmiş Vezir Gambiti: 5.Bf4 (Harrwitz Saldırısı)"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Nf6 {Siyah da d5'i korur ve gelişir.} 4. Nf3 {Üç At sistemi: Beyaz Bg5 yerine önce atını geliştirir.} 4... Be7 5. Bf4 {Modern ana hat: Fil Bg5 yerine f4'e gelir; açmaz yok ama c7 ve e5 karelerini kontrol eder.} 5... O-O 6. e3 c5 {Siyahın en aktif yanıtı.} 7. dxc5 {Beyaz değişir.} 7... Bxc5 {Fil aktif.} 8. Qc2 {c7'ye baskı ve uzun roka hazırlık.} 8... Nc6 9. a3 {b4 karesini kontrol eder.} 9... Qa5 {Vezir c3 atını baskı altına alır.} 10. Rd1 {d hattında baskı.} 10... Re8 11. Nd2 {e4'ü kontrol eder.} 11... e5 {Siyah fili kovalar ve merkezi açar; çok derin incelenmiş bir teori.} *
+
+[Event "Alatortsev Varyantı (3...Be7) ve 7.g4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D35"]
+[Opening "Alatortsev Varyantı (3...Be7) ve 7.g4"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Be7 {Alatortsev: Siyah önce filini geliştirir; Bg5 açmazını önceden önler.} 4. cxd5 {Değişim yapısı.} 4... exd5 5. Bf4 {Fil açmaz yerine aktif bir kareye.} 5... c6 {d5'i destekler.} 6. e3 Bf5 {Siyah filini zincirin dışına çıkarır.} 7. g4 {Botvinnik'in fikri: Beyaz filini kovalar ve şah kanadında yer kazanır.} 7... Be6 {Fil çekilir.} 8. h4 {Beyaz şah kanadında agresif; Carlsen gibi oyuncuların da kullandığı modern bir plan.} *
+
+[Event "Değişim Varyantı: Nge2 ve f3 planı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D36"]
+[Opening "Değişim Varyantı: Nge2 ve f3 planı"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e6 {Ret: Siyah d5'i e piyonuyla sağlamlaştırır. Bedeli, c8 filinin e6 piyonunun arkasında kapalı kalmasıdır. Bu açılışta siyahın ana sorunu budur.} 3. Nc3 {Gelişim ve d5'e baskı.} 3... Nf6 {Siyah da d5'i korur ve gelişir.} 4. cxd5 {Değişim: Beyaz piyon yapısını erkenden belirler. Ortaya çıkan yapıya 'Carlsbad yapısı' denir.} 4... exd5 {Siyahın c8 fili artık serbest, ama beyaz net bir plan kazanır.} 5. Bg5 {f6 atını açmaza alır.} 5... c6 {d5'i sağlamlaştırır ve vezire b6/a5 karelerini açar.} 6. e3 {Beyaz atını f3 yerine e2'ye getirecek.} 6... Be7 7. Bd3 Nbd7 8. Nge2 {Botvinnik planı: at e2'de, f3 piyonu serbest kalır.} 8... O-O 9. Qc2 {h7'ye baskı.} 9... Re8 10. O-O Nf8 {Tipik savunma manevrası.} 11. f3 {Beyaz e4 ile merkezde ilerlemeyi hazırlar; azınlık saldırısına alternatif güçlü bir plan.} *
+
 [Event "Slav Savunması: Ana Hat (Çek Varyantı)"]
 [Site "?"]
 [Date "????.??.??"]
@@ -154,6 +250,30 @@
 
 1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... dxc4 {Kabul: Siyah piyonu alır ama tutmaya çalışmaz. Amacı merkezi bırakmak karşılığında hızlı gelişim ve ...c5 ile karşı oyundur.} 3. e3 {Sakin devam: f1 fili c4'ü geri almaya hazırlanır.} 3... b5? {Piyonu korumaya çalışmak hatadır!} 4. a4 {b5 piyonuna hemen saldırır.} 4... c6 {b5'i destekler.} 5. axb5 {Beyaz alır.} 5... cxb5?? {Büyük hata: bu alış a8 ile h1 arasındaki çaprazı tamamen açar.} 6. Qf3 {Vezir çapraz boyunca a8 kalesine saldırır. Siyah ya kaleyi ya da araya koyacağı c6 atını kaybeder. Ders: Kabul'de gambit piyonunu tutmaya çalışmak gelişimi geciktirir ve zayıflık yaratır.} *
 
+[Event "Kabul Edilmiş Vezir Gambiti: 7.Qe2 (Smyslov Varyantı)"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D28"]
+[Opening "Kabul Edilmiş Vezir Gambiti: 7.Qe2 (Smyslov Varyantı)"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... dxc4 {Kabul: Siyah piyonu alır ama tutmaya çalışmaz. Amacı merkezi bırakmak karşılığında hızlı gelişim ve ...c5 ile karşı oyundur.} 3. Nf3 {En esnek devam: ...e5 karşı vuruşunu engeller.} 3... Nf6 {Gelişim; beyazın e4 ile merkezi tam kurmasını zorlaştırır.} 4. e3 {f1 filinin c4'teki piyonu geri alması için yol açar.} 4... e6 {f8 filine yol açar.} 5. Bxc4 {Gambit piyonu geri alındı; beyaz gelişimde biraz önde.} 5... c5 {Kabul'ün ana fikri: d4 merkezine saldırı.} 6. O-O {Şah güvenliği.} 6... a6 {...b5 ile vezir kanadında yer kazanmayı ve c4 filini rahatsız etmeyi hazırlar.} 7. Qe2 {Klasik ana hat: Vezir d1'i kaleye bırakır, e4 ve d5 itişlerini destekler.} 7... b5 {Siyah fili kovalar ve vezir kanadında yer kazanır.} 8. Bb3 {Fil a2–g8 çaprazında, d5 kırılmasını destekler.} 8... Bb7 {Fil uzun çaprazda d5 ve e4'ü kontrol eder.} 9. Rd1 {d hattında baskı; d5 itişi hazırlığı.} 9... Nbd7 {Gelişim.} 10. Nc3 {d5 karesine ek kontrol.} 10... Bd6 {Smyslov Varyantı: Siyah gelişimini tamamlar. Beyazın d5 kırılması ana tema.} *
+
+[Event "Kabul Edilmiş Vezir Gambiti: 3.e4 b5 kalite fedası"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D20"]
+[Opening "Kabul Edilmiş Vezir Gambiti: 3.e4 b5 kalite fedası"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... dxc4 {Kabul: Siyah piyonu alır ama tutmaya çalışmaz. Amacı merkezi bırakmak karşılığında hızlı gelişim ve ...c5 ile karşı oyundur.} 3. e4 {En iddialı devam: beyaz merkezi hemen ele geçirir, c4 piyonunu sonra alacak.} 3... b5 {Siyah piyonu tutmaya çalışır; keskin ve riskli.} 4. a4 {Beyaz hemen b5'e saldırır.} 4... c6 {b5'i destekler.} 5. axb5 cxb5 6. Nc3 {b5'e baskı artıyor.} 6... Qb6 {Vezir b5'i korur.} 7. Nd5 {At güçlü kareye, vezire saldırır.} 7... Qb7 8. Bf4 {c7'ye baskı.} 8... e5 {Karşı vuruş.} 9. Bxe5 Nd7 10. Bf4 Ngf6 11. Nc7+ {At çatal kurar.} 11... Kd8 12. Nxa8 {Beyaz kaleyi kazanır.} 12... Qxe4+ {Siyah kalite eksik ama a8 atı kapana kısıldı ve beyaz şah merkezde. Çok karmaşık; motor beyazı önde görüyor.} *
+
 [Event "Albin Karşı Gambiti: Ana Hat"]
 [Site "?"]
 [Date "????.??.??"]
@@ -177,3 +297,15 @@
 [Opening "Tuzak: Lasker Tuzağı (Albin Karşı Gambiti)"]
 
 1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... e5 {Albin: Siyah gambite karşı gambitle yanıt verir. Keskin ve riskli bir seçim.} 3. dxe5 {Beyaz piyonu alır.} 3... d4 {d4 piyonu beyaz kampına bir kama gibi girer ve beyazın gelişimini zorlaştırır.} 4. e3? {Doğal görünür ama hatalıdır: d4 piyonunu değiştirmeye çalışırken şahın etrafını zayıflatır.} 4... Bb4+ {Siyah şahla tempo kazanır.} 5. Bd2 {Araya fil koyar.} 5... dxe3! {Siyah fili umursamaz ve saldırıya devam eder.} 6. Bxb4?? {Fili almak ölümcül bir hatadır.} 6... exf2+ {Piyon şah çeker.} 7. Ke2 {Şah kaçmak zorunda. 7.Kxf2 olsaydı siyah d1'deki veziri alırdı.} 7... fxg1=N+! {Tuzağın kalbi: piyon ATA terfi eder ve şah çeker! Vezire terfi etseydi, beyaz d1'deki veziriyle d8'deki veziri şahla alırdı. At terfisi şah çektiği için beyazın buna zamanı yok.} 8. Ke1 {8.Rxg1 olsaydı ...Bg4+ ile şaha şah çekilir ve arkadaki beyaz vezir düşerdi.} 8... Qh4+ {Siyahın saldırısı ezici; beyaz şahın güvenli bir yeri yok.} *
+
+[Event "Chigorin Savunması (2...Nc6)"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D07"]
+[Opening "Chigorin Savunması (2...Nc6)"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... Nc6 {Chigorin: Klasik kurallara aykırı görünür (c piyonunun önü kapanır) ama taşlarla hızlı baskı amaçlar.} 3. Nf3 {Gelişim.} 3... Bg4 {f3 atını açmaza alır; d4'e baskı.} 4. cxd5 {Beyaz değişir.} 4... Bxf3 {Siyah fil çiftini verip piyon yapısını bozar.} 5. gxf3 {Beyazın piyon yapısı bozuldu ama fil çifti var.} 5... Qxd5 {Vezir merkezde; d4'e baskı.} 6. e3 {d4'ü sağlamlaştırır.} 6... e5 {Siyah merkeze vurur.} 7. Nc3 {Tempo kazanarak vezire saldırır.} 7... Bb4 {c3 atını açmaza alır.} 8. Bd2 Bxc3 {Siyah diğer filini de verir; taşları aktif kalır.} 9. bxc3 {Beyazın fil çifti ve merkezi var; siyahın daha iyi piyon yapısı. Dengesiz ve öğretici bir oyun.} *

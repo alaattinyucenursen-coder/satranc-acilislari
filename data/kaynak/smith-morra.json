@@ -11,9 +11,18 @@
       "eco": "B21",
       "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4 e6 7.O-O Nf6 8.Qe2 Be7 9.Rd1 e5 10.h3 O-O 11.Be3",
       "names": {
-        "1...c5": { "name": "Sicilya Savunması", "eco": "B20" },
-        "3.c3": { "name": "Smith-Morra Gambiti", "eco": "B21" },
-        "3...dxc3": { "name": "Smith-Morra Gambiti, Kabul", "eco": "B21" }
+        "1...c5": {
+          "name": "Sicilya Savunması",
+          "eco": "B20"
+        },
+        "3.c3": {
+          "name": "Smith-Morra Gambiti",
+          "eco": "B21"
+        },
+        "3...dxc3": {
+          "name": "Smith-Morra Gambiti, Kabul",
+          "eco": "B21"
+        }
       },
       "comments": {
         "1.e4": "Beyaz merkezi tutar.",
@@ -58,13 +67,124 @@
       }
     },
     {
+      "id": "morra-chicago",
+      "group": "Kabul (3...dxc3)",
+      "name": "Chicago Savunması: ...b5 ve ...Ra7",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6 6.Nf3 d6 7.O-O a6 8.Qe2 b5 9.Bb3 Ra7 10.Rd1 Rd7",
+      "comments": {
+        "8...b5": "Siyah vezir kanadında yer kazanır.",
+        "9.Bb3": "Fil e6'ya baskı.",
+        "9...Ra7": "Chicago: Kale yan taraftan d7'ye gelerek d6'yı savunacak.",
+        "10.Rd1": "d6'ya baskı.",
+        "10...Rd7": "Kale d6'yı korur; orijinal bir savunma."
+      },
+      "names": {
+        "9...Ra7": {
+          "name": "Chicago Savunması",
+          "eco": "B21"
+        }
+      }
+    },
+    {
+      "id": "morra-finegold",
+      "group": "Kabul (3...dxc3)",
+      "name": "Finegold Savunması: ...Be7 ve ...Nf6",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Nf3 d6 6.Bc4 a6 7.O-O Be7 8.Qe2 Nf6 9.Rd1 Qc7",
+      "comments": {
+        "4...e6": "Siyah önce e6 ile f7'yi sağlamlaştırır.",
+        "5...d6": "Scheveningen yapısı.",
+        "6...a6": "...b5 hazırlığı.",
+        "7...Be7": "Sağlam gelişim.",
+        "8...Nf6": "Finegold: Siyah atını en son geliştirir, e5 tuzaklarından kaçınır.",
+        "9.Rd1": "d6'ya baskı.",
+        "9...Qc7": "Sağlam bir Scheveningen; beyazın aktifliği ile siyahın piyon fazlası."
+      },
+      "names": {
+        "8...Nf6": {
+          "name": "Finegold Savunması",
+          "eco": "B21"
+        }
+      }
+    },
+    {
+      "id": "morra-fianchetto",
+      "group": "Kabul (3...dxc3)",
+      "name": "Fiyanketto Savunması: ...g6",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 g6 6.Bc4 Bg7 7.O-O d6 8.Qe2 Nf6 9.Rd1",
+      "comments": {
+        "5...g6": "Fiyanketto: Fil g7'den uzun çaprazı kontrol eder.",
+        "6.Bc4": "f7'ye baskı.",
+        "6...Bg7": "Fil çaprazda.",
+        "7.O-O": "Şah güvenliği.",
+        "7...d6": "Sağlam.",
+        "8.Qe2": "Kaleleri d hattına hazırlar.",
+        "9.Rd1": "d6'ya baskı; e5 kırılmaları gündemde."
+      },
+      "names": {
+        "5...g6": {
+          "name": "Fiyanketto Savunması",
+          "eco": "B21"
+        }
+      }
+    },
+    {
+      "id": "morra-morphy",
+      "group": "Kabul (3...dxc3)",
+      "name": "Gecikmeli Morphy Savunması: ...b5 ve ...Bc5",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 e6 6.Bc4 a6 7.O-O b5 8.Bb3 Bc5 9.e5 f5 10.a4 b4 11.Nd5 Nge7",
+      "comments": {
+        "7...b5": "Siyah vezir kanadında yer kazanır.",
+        "8.Bb3": "Fil e6'ya baskı.",
+        "8...Bc5": "Fil aktif, f2'ye bakıyor.",
+        "9.e5": "Beyaz alan kazanır; d6 karesi zayıf.",
+        "9...f5": "Siyah e5'i geçerken almaz; şah kanadını kapatır. (9...Nge7? 10.Ne4 gibi hamlelerle beyaz çok güçlü bir saldırı kazanır.)",
+        "10.a4": "b5'e vurur.",
+        "10...b4": "At kovalanır.",
+        "11.Nd5": "At güçlü merkez karesinde.",
+        "11...Nge7": "d5 atına meydan okur; siyah piyon fazlasını korur."
+      }
+    },
+    {
+      "id": "morra-acmaz",
+      "group": "Kabul (3...dxc3)",
+      "name": "Açmaz Savunması: 6...Bb4",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 e6 6.Bc4 Bb4 7.O-O Nge7 8.Qe2 O-O 9.Rd1",
+      "comments": {
+        "6...Bb4": "Siyah c3 atını açmaza alır; e4'ü zayıflatmak ister.",
+        "7.O-O": "Şah güvenliği.",
+        "7...Nge7": "Gelişim.",
+        "8.Qe2": "e4'ü korur.",
+        "9.Rd1": "d7 ve d hattı baskısı."
+      }
+    },
+    {
+      "id": "morra-larsen",
+      "group": "Kabul (3...dxc3)",
+      "name": "Larsen Savunması: 6...Qc7 7.Qe2 a6 8.O-O Bd6",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 e6 6.Bc4 Qc7 7.Qe2 a6 8.O-O Bd6",
+      "comments": {
+        "7.Qe2": "Sibirya Tuzağı'ndan farklı bir sıra.",
+        "7...a6": "...b5 hazırlığı.",
+        "8...Bd6": "Larsen: Fil e5'i kontrol eder ve h2'ye bakar."
+      }
+    },
+    {
       "id": "morra-ret-nf6",
       "group": "Ret",
       "name": "Ret: 3...Nf6 (Alapin'e geçiş)",
       "eco": "B21",
       "moves": "1.e4 c5 2.d4 cxd4 3.c3 Nf6 4.e5 Nd5 5.cxd4 d6 6.Nf3 Nc6 7.Bc4 Nb6 8.Bb5 dxe5 9.Nxe5 Bd7",
       "names": {
-        "3...Nf6": { "name": "Smith-Morra Gambiti, Ret: 3...Nf6", "eco": "B21" }
+        "3...Nf6": {
+          "name": "Smith-Morra Gambiti, Ret: 3...Nf6",
+          "eco": "B21"
+        }
       },
       "comments": {
         "3...Nf6": "Siyah gambiti kabul etmez, e4'e saldırır. Konum Alapin Varyantı'na döner.",
@@ -89,7 +209,10 @@
       "eco": "B21",
       "moves": "1.e4 c5 2.d4 cxd4 3.c3 d3 4.Bxd3 Nc6 5.Nf3 d6 6.c4 g6 7.O-O Bg7 8.Nc3 Nf6 9.h3 O-O",
       "names": {
-        "3...d3": { "name": "Smith-Morra Gambiti, Ret: 3...d3", "eco": "B21" }
+        "3...d3": {
+          "name": "Smith-Morra Gambiti, Ret: 3...d3",
+          "eco": "B21"
+        }
       },
       "comments": {
         "3...d3": "Siyah piyonu geri verir ama beyazın c3 piyonunu yanlış karede bırakır: c3 atın doğal karesini kapatıyor.",
@@ -108,6 +231,36 @@
       }
     },
     {
+      "id": "morra-ret-d5",
+      "group": "Ret",
+      "name": "Ret: 3...d5",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 d5 4.exd5 Qxd5 5.cxd4 Nc6 6.Nf3 Bg4 7.Nc3 Bxf3 8.gxf3 Qxd4 9.Qxd4 Nxd4 10.Nb5",
+      "comments": {
+        "3...d5": "Siyah gambiti reddeder ve merkezde karşılık verir.",
+        "4.exd5": "Beyaz alır.",
+        "5.cxd4": "Konum Alapin'e döner.",
+        "6...Bg4": "d4'e baskı.",
+        "7.Nc3": "Beyaz d4'ü bırakır, gelişir.",
+        "10.Nb5": "c7 çatal tehdidi; dikkatli oynanması gereken bir oyunsonu."
+      }
+    },
+    {
+      "id": "morra-ret-e5",
+      "group": "Ret",
+      "name": "Ret: 3...e5",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 e5 4.Nf3 Nc6 5.Bc4 Bc5 6.cxd4 exd4 7.O-O",
+      "comments": {
+        "3...e5": "Siyah d4 piyonunu korur.",
+        "4.Nf3": "e5'e saldırı.",
+        "5.Bc4": "f7'ye baskı.",
+        "5...Bc5": "Siyah d4'ü korur.",
+        "6.cxd4": "Beyaz değişir.",
+        "7.O-O": "Beyazın gelişim avantajı; İskoç Gambiti tarzı bir konum."
+      }
+    },
+    {
       "id": "morra-sibirya",
       "group": "Tuzaklar",
       "name": "Tuzak: Sibirya Tuzağı",
@@ -115,7 +268,10 @@
       "trap": true,
       "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 e6 6.Bc4 Qc7 7.O-O Nf6 8.Qe2 Ng4 9.h3?? Nd4! 10.Nxd4 Qh2#",
       "names": {
-        "9.h3": { "name": "Sibirya Tuzağı", "eco": "B21" }
+        "9.h3": {
+          "name": "Sibirya Tuzağı",
+          "eco": "B21"
+        }
       },
       "comments": {
         "6...Qc7": "Vezir c hattında ve h2'ye uzanan çaprazda: tuzağın ilk parçası.",
@@ -146,6 +302,24 @@
         "7...Kxf7": "Şah fili alır.",
         "8.Qxd8": "Beyaz veziri alır. Ders: Morra'da d hattının açılmasına ve f7 karesine her zaman dikkat et; 6...dxe5 yerine 6...Ng4 veya 6...Nfd7 oynanmalıydı."
       }
+    },
+    {
+      "id": "morra-tuzak-2",
+      "group": "Tuzaklar",
+      "name": "Tuzak: 7.e5 Nxe5?? 9.Bxf7+",
+      "eco": "B21",
+      "moves": "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4 Nf6 7.e5 Nxe5?? 8.Nxe5 dxe5 9.Bxf7+ Kxf7 10.Qxd8",
+      "comments": {
+        "6...Nf6": "Doğal ama e5 itişine dikkat.",
+        "7.e5": "Beyaz atı kovalar.",
+        "7...Nxe5": "Hata!",
+        "8.Nxe5": "Beyaz alır.",
+        "8...dxe5": "d hattı açılır.",
+        "9.Bxf7+": "Fil fedası.",
+        "9...Kxf7": "Şah alır.",
+        "10.Qxd8": "Beyaz veziri kazanır."
+      },
+      "trap": true
     }
   ]
 }
