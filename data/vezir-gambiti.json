@@ -7,6 +7,7 @@
   "lines": [
     {
       "id": "ret-ortodoks",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Ortodoks Savunma (Capablanca manevrası)",
       "eco": "D67",
       "trap": false,
@@ -40,6 +41,7 @@
     },
     {
       "id": "ret-tartakower",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Tartakower Savunması",
       "eco": "D58",
       "trap": false,
@@ -73,6 +75,7 @@
     },
     {
       "id": "ret-lasker",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Lasker Savunması",
       "eco": "D56",
       "trap": false,
@@ -108,6 +111,7 @@
     },
     {
       "id": "ret-degisim",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Değişim Varyantı (azınlık saldırısı)",
       "eco": "D36",
       "trap": false,
@@ -138,6 +142,7 @@
     },
     {
       "id": "ret-fil-tuzagi",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Tuzak: Fil Tuzağı (Elephant Trap)",
       "eco": "D51",
       "trap": true,
@@ -165,6 +170,7 @@
     },
     {
       "id": "slav-cek",
+      "group": "Slav ve Yarı-Slav",
       "name": "Slav Savunması: Ana Hat (Çek Varyantı)",
       "eco": "D19",
       "trap": false,
@@ -198,6 +204,7 @@
     },
     {
       "id": "slav-degisim",
+      "group": "Slav ve Yarı-Slav",
       "name": "Slav Savunması: Değişim Varyantı",
       "eco": "D14",
       "trap": false,
@@ -223,6 +230,7 @@
     },
     {
       "id": "yari-slav-meran",
+      "group": "Slav ve Yarı-Slav",
       "name": "Yarı-Slav: Meran Varyantı",
       "eco": "D48",
       "trap": false,
@@ -254,6 +262,7 @@
     },
     {
       "id": "yari-slav-botvinnik",
+      "group": "Slav ve Yarı-Slav",
       "name": "Yarı-Slav: Botvinnik Sistemi",
       "eco": "D44",
       "trap": false,
@@ -288,6 +297,7 @@
     },
     {
       "id": "yari-slav-moskova",
+      "group": "Slav ve Yarı-Slav",
       "name": "Yarı-Slav: Moskova Varyantı",
       "eco": "D43",
       "trap": false,
@@ -317,6 +327,7 @@
     },
     {
       "id": "kabul-klasik",
+      "group": "Kabul Edilmiş Vezir Gambiti",
       "name": "Kabul Edilmiş Vezir Gambiti: Klasik Varyant",
       "eco": "D27",
       "trap": false,
@@ -347,6 +358,7 @@
     },
     {
       "id": "kabul-merkez",
+      "group": "Kabul Edilmiş Vezir Gambiti",
       "name": "Kabul Edilmiş Vezir Gambiti: Merkez Varyantı (3.e4)",
       "eco": "D20",
       "trap": false,
@@ -376,6 +388,7 @@
     },
     {
       "id": "kabul-tuzak",
+      "group": "Kabul Edilmiş Vezir Gambiti",
       "name": "Tuzak: Gambit piyonunu tutmaya çalışmak",
       "eco": "D20",
       "trap": true,
@@ -396,6 +409,7 @@
     },
     {
       "id": "albin",
+      "group": "Albin Karşı Gambiti",
       "name": "Albin Karşı Gambiti: Ana Hat",
       "eco": "D09",
       "trap": false,
@@ -420,6 +434,7 @@
     },
     {
       "id": "albin-lasker-tuzagi",
+      "group": "Albin Karşı Gambiti",
       "name": "Tuzak: Lasker Tuzağı (Albin Karşı Gambiti)",
       "eco": "D08",
       "trap": true,

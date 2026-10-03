@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sicilya-alapin",
+    "name": "Sicilya Savunması: Alapin Varyantı",
+    "eco": "B22",
+    "file": "sicilya-alapin.json"
+  },
+  {
+    "id": "vezir-gambiti",
+    "name": "Vezir Gambiti",
+    "eco": "D06-D69",
+    "file": "vezir-gambiti.json"
+  }
+]

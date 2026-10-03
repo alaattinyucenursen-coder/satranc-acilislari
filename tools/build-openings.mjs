@@ -100,6 +100,7 @@ function build(src) {
 
     lines.push({
       id: line.id,
+      group: line.group,
       name: line.name,
       eco: line.eco,
       trap: Boolean(line.trap),
@@ -163,6 +164,7 @@ function toPgn(opening) {
 }
 
 let failed = false;
+const index = [];
 for (const file of readdirSync(srcDir).filter((f) => f.endsWith('.json'))) {
   try {
     const src = JSON.parse(readFileSync(join(srcDir, file), 'utf8'));
@@ -171,6 +173,7 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith('.json'))) {
       writeFileSync(join(outDir, `${opening.id}.json`), JSON.stringify(opening, null, 2) + '\n');
       writeFileSync(join(outDir, `${opening.id}.pgn`), toPgn(opening));
     }
+    index.push({ id: opening.id, name: opening.name, eco: opening.eco, file: `${opening.id}.json` });
     let nodes = 0;
     (function count(n) {
       nodes += n.children.length;
@@ -182,4 +185,6 @@ for (const file of readdirSync(srcDir).filter((f) => f.endsWith('.json'))) {
     console.error(`✗ ${file}: ${err.message}`);
   }
 }
+// Uygulamanın hangi açılışların olduğunu bilmesi için liste.
+if (!checkOnly && !failed) writeFileSync(join(outDir, 'acilislar.json'), JSON.stringify(index, null, 2) + '\n');
 process.exit(failed ? 1 : 0);

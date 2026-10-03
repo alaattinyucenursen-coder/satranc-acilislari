@@ -29,11 +29,22 @@ Plan:
 | Albin Karşı Gambiti: Ana Hat | D09 | |
 | Lasker Tuzağı (Albin) | D08 | tuzak |
 
+### Sicilya Savunması: Alapin Varyantı (`data/sicilya-alapin.json`, `data/sicilya-alapin.pgn`)
+
+| Varyant | ECO |
+|---|---|
+| 2...d5: 5...Bg4 ana hattı | B22 |
+| 2...d5: 5...e6 ve izole piyon | B22 |
+| 2...Nf6: 5.cxd4 d6 ana hattı | B22 |
+| 2...Nf6: 5.Nf3 Nc6 6.Bc4 | B22 |
+| 2...e6: Fransız tarzı yapı | B22 |
+
 ## Dosyalar
 
 - `data/kaynak/<açılış>.json`: **elle düzenlenen kaynak**. Her varyant hamle dizisi olarak yazılır; açıklamalar `"4...e6"` gibi hamle etiketleriyle eşlenir. Ortak hamlelerin açıklaması tek bir varyantta yazılması yeterli.
 - `data/<açılış>.json`: üretilen varyant ağacı (tahta ve antrenman modu bunu okur).
 - `data/<açılış>.pgn`: üretilen PGN, her varyant ayrı bir oyun. Lichess'te "Çalışma > PGN içe aktar" ile bölümler halinde açılabilir.
+- `data/acilislar.json`: üretilen açılış listesi (uygulama hangi açılışların olduğunu buradan okur).
 - `tools/build-openings.mjs`: kaynakları okur, her hamleyi [chess.js](https://github.com/jhlywa/chess.js) ile doğrular, çıktıları üretir.
 
 ```sh
@@ -56,6 +67,7 @@ Kaynağı değiştirdikten sonra `npm run build` çalıştır; geçersiz hamle, 
   "lines": [                       // antrenman modu için: her varyant baştan sona
     {
       "id": "ret-ortodoks",
+      "group": "Reddedilmiş Vezir Gambiti", // listede gruplamak için
       "name": "Reddedilmiş Vezir Gambiti: Ortodoks Savunma ...",
       "eco": "D67",
       "trap": false,               // true: tuzak varyantı

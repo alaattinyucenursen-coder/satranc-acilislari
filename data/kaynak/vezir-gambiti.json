@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "ret-ortodoks",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Ortodoks Savunma (Capablanca manevrası)",
       "eco": "D67",
       "moves": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3 Nbd7 7.Rc1 c6 8.Bd3 dxc4 9.Bxc4 Nd5 10.Bxe7 Qxe7 11.O-O Nxc3 12.Rxc3 e5",
@@ -43,6 +44,7 @@
     },
     {
       "id": "ret-tartakower",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Tartakower Savunması",
       "eco": "D58",
       "moves": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3 h6 7.Bh4 b6 8.cxd5 Nxd5 9.Bxe7 Qxe7 10.Nxd5 exd5 11.Rc1 Be6 12.Qa4 c5",
@@ -67,6 +69,7 @@
     },
     {
       "id": "ret-lasker",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Lasker Savunması",
       "eco": "D56",
       "moves": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3 h6 7.Bh4 Ne4 8.Bxe7 Qxe7 9.cxd5 Nxc3 10.bxc3 exd5 11.Qb3 Rd8 12.c4 dxc4 13.Bxc4 Nc6",
@@ -91,6 +94,7 @@
     },
     {
       "id": "ret-degisim",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Reddedilmiş Vezir Gambiti: Değişim Varyantı (azınlık saldırısı)",
       "eco": "D36",
       "moves": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 exd5 5.Bg5 c6 6.Qc2 Be7 7.e3 Nbd7 8.Bd3 O-O 9.Nf3 Re8 10.O-O Nf8 11.Rab1",
@@ -118,6 +122,7 @@
     },
     {
       "id": "ret-fil-tuzagi",
+      "group": "Reddedilmiş Vezir Gambiti",
       "name": "Tuzak: Fil Tuzağı (Elephant Trap)",
       "eco": "D51",
       "trap": true,
@@ -141,6 +146,7 @@
     },
     {
       "id": "slav-cek",
+      "group": "Slav ve Yarı-Slav",
       "name": "Slav Savunması: Ana Hat (Çek Varyantı)",
       "eco": "D19",
       "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.e3 e6 7.Bxc4 Bb4 8.O-O O-O 9.Qe2 Nbd7 10.e4 Bg6 11.Bd3 Bh5 12.e5 Nd5",
@@ -175,6 +181,7 @@
     },
     {
       "id": "slav-degisim",
+      "group": "Slav ve Yarı-Slav",
       "name": "Slav Savunması: Değişim Varyantı",
       "eco": "D14",
       "moves": "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Bf4 Nc6 6.e3 Bf5 7.Nf3 e6 8.Bb5 Nd7",
@@ -199,6 +206,7 @@
     },
     {
       "id": "yari-slav-meran",
+      "group": "Slav ve Yarı-Slav",
       "name": "Yarı-Slav: Meran Varyantı",
       "eco": "D48",
       "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6 5.e3 Nbd7 6.Bd3 dxc4 7.Bxc4 b5 8.Bd3 Bb7 9.O-O a6 10.e4 c5 11.d5 Qc7",
@@ -227,6 +235,7 @@
     },
     {
       "id": "yari-slav-botvinnik",
+      "group": "Slav ve Yarı-Slav",
       "name": "Yarı-Slav: Botvinnik Sistemi",
       "eco": "D44",
       "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6 5.Bg5 dxc4 6.e4 b5 7.e5 h6 8.Bh4 g5 9.Nxg5 hxg5 10.Bxg5 Nbd7 11.exf6 Bb7 12.g3 c5 13.d5",
@@ -255,6 +264,7 @@
     },
     {
       "id": "yari-slav-moskova",
+      "group": "Slav ve Yarı-Slav",
       "name": "Yarı-Slav: Moskova Varyantı",
       "eco": "D43",
       "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 Nd7 8.Bd3 dxc4 9.Bxc4 g6 10.O-O Bg7",
@@ -277,6 +287,7 @@
     },
     {
       "id": "kabul-klasik",
+      "group": "Kabul Edilmiş Vezir Gambiti",
       "name": "Kabul Edilmiş Vezir Gambiti: Klasik Varyant",
       "eco": "D27",
       "moves": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 6.O-O a6 7.a4 Nc6 8.Qe2 cxd4 9.Rd1 Be7 10.exd4 O-O 11.Nc3",
@@ -308,6 +319,7 @@
     },
     {
       "id": "kabul-merkez",
+      "group": "Kabul Edilmiş Vezir Gambiti",
       "name": "Kabul Edilmiş Vezir Gambiti: Merkez Varyantı (3.e4)",
       "eco": "D20",
       "moves": "1.d4 d5 2.c4 dxc4 3.e4 e5 4.Nf3 exd4 5.Bxc4 Nc6 6.O-O Be6 7.Bxe6 fxe6 8.Qb3 Qd7 9.Qxb7 Rb8 10.Qa6 Nf6",
@@ -335,6 +347,7 @@
     },
     {
       "id": "kabul-tuzak",
+      "group": "Kabul Edilmiş Vezir Gambiti",
       "name": "Tuzak: Gambit piyonunu tutmaya çalışmak",
       "eco": "D20",
       "trap": true,
@@ -354,6 +367,7 @@
     },
     {
       "id": "albin",
+      "group": "Albin Karşı Gambiti",
       "name": "Albin Karşı Gambiti: Ana Hat",
       "eco": "D09",
       "moves": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Be6 6.Nbd2 Qd7 7.Bg2 O-O-O 8.O-O",
@@ -378,6 +392,7 @@
     },
     {
       "id": "albin-lasker-tuzagi",
+      "group": "Albin Karşı Gambiti",
       "name": "Tuzak: Lasker Tuzağı (Albin Karşı Gambiti)",
       "eco": "D08",
       "trap": true,
