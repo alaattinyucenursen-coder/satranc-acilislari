@@ -1,5 +1,11 @@
 [
   {
+    "id": "ispanyol",
+    "name": "İspanyol Açılışı (Ruy Lopez)",
+    "eco": "C60-C99",
+    "file": "ispanyol.json"
+  },
+  {
     "id": "sicilya-alapin",
     "name": "Sicilya Savunması: Alapin Varyantı",
     "eco": "B22",
@@ -12,9 +18,27 @@
     "file": "sicilya-kan.json"
   },
   {
+    "id": "slav",
+    "name": "Slav Savunması",
+    "eco": "D10-D19",
+    "file": "slav.json"
+  },
+  {
+    "id": "smith-morra",
+    "name": "Smith-Morra Gambiti",
+    "eco": "B21",
+    "file": "smith-morra.json"
+  },
+  {
     "id": "vezir-gambiti",
     "name": "Vezir Gambiti",
     "eco": "D06-D69",
     "file": "vezir-gambiti.json"
+  },
+  {
+    "id": "yari-slav",
+    "name": "Yarı-Slav Savunması",
+    "eco": "D43-D49",
+    "file": "yari-slav.json"
   }
 ]

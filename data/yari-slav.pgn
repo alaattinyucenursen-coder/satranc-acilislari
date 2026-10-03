@@ -1,0 +1,59 @@
+[Event "Meran Varyantı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D48"]
+[Opening "Meran Varyantı"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... c6 {Slav: d5'i c piyonuyla korur. Böylece c8 fili e6 piyonunun arkasında hapsolmaz; Ret'in ana sorunu baştan çözülür.} 3. Nf3 {Esnek gelişim.} 3... Nf6 {Siyah da gelişir.} 4. Nc3 {d5'e baskıyı artırır.} 4... e6 {Yarı-Slav: Slav ile Ret'in birleşimi. d5 iki kez korunur; sağlam ama keskin oyunlara açık.} 5. e3 {Sakin ve sağlam devam.} 5... Nbd7 {Gelişim; ...dxc4 ve ...b5 hazırlığı.} 6. Bd3 {Fil gelişir.} 6... dxc4 {Beyaz fili ikinci kez oynamaya zorlanır.} 7. Bxc4 {Piyon geri alındı.} 7... b5 {Meran: Tempo kazanarak vezir kanadında genişler; fil b7'ye çıkacak.} 8. Bd3 {Fil iyi çapraza döner.} 8... Bb7 {Fil uzun çaprazda.} 9. O-O {Şah güvenliği.} 9... a6 {...c5 ilerlemesini hazırlar.} 10. e4 {Beyaz merkezi ele geçirmek ister.} 10... c5 {Siyah d4'e karşı vurur.} 11. d5 {Beyaz alan kazanır; konum kapalı ve keskin.} 11... Qc7 {Siyah d5 piyonunu baskı altına alır; ...c4 ve ...Bd6 planları gündemde.} *
+
+[Event "Anti-Meran: 6.Qc2"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D45"]
+[Opening "Anti-Meran: 6.Qc2"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... c6 {Slav: d5'i c piyonuyla korur. Böylece c8 fili e6 piyonunun arkasında hapsolmaz; Ret'in ana sorunu baştan çözülür.} 3. Nf3 {Esnek gelişim.} 3... Nf6 {Siyah da gelişir.} 4. Nc3 {d5'e baskıyı artırır.} 4... e6 {Yarı-Slav: Slav ile Ret'in birleşimi. d5 iki kez korunur; sağlam ama keskin oyunlara açık.} 5. e3 {Sakin ve sağlam devam.} 5... Nbd7 {Gelişim; ...dxc4 ve ...b5 hazırlığı.} 6. Qc2 {Beyaz fili d3'e geliştirmeden önce bekler: siyah ...dxc4 oynarsa fil c4'e tek hamlede gelsin.} 6... Bd6 {Siyah e5 itişini hazırlar.} 7. Bd3 {Fil gelişir.} 7... O-O {Siyah rok yapar.} 8. O-O {Beyaz rok yapar.} 8... dxc4 {Şimdi alır: fil ikinci kez oynamak zorunda.} 9. Bxc4 {Piyon geri alındı.} 9... b5 {Meran fikri: tempo kazanarak genişleme.} 10. Bd3 {Fil çekilir.} 10... Bb7 {Fil uzun çaprazda. Siyah ...c5 ya da ...e5 ile merkezi açacak.} *
+
+[Event "Botvinnik Sistemi"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D44"]
+[Opening "Botvinnik Sistemi"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... c6 {Slav: d5'i c piyonuyla korur. Böylece c8 fili e6 piyonunun arkasında hapsolmaz; Ret'in ana sorunu baştan çözülür.} 3. Nf3 {Esnek gelişim.} 3... Nf6 {Siyah da gelişir.} 4. Nc3 {d5'e baskıyı artırır.} 4... e6 {Yarı-Slav: Slav ile Ret'in birleşimi. d5 iki kez korunur; sağlam ama keskin oyunlara açık.} 5. Bg5 {Açmaz. Siyahın şimdi iki ana seçeneği var: keskin Botvinnik (5...dxc4) ve Moskova (5...h6).} 5... dxc4 {Botvinnik: piyonu alır ve satranç teorisinin en keskin bölgelerinden birine davet eder.} 6. e4 {Beyaz merkezi kurar.} 6... b5 {c4 piyonunu korur.} 7. e5 {f6 atına saldırır.} 7... h6 {Fili kovalar.} 8. Bh4 {Fil açmazı korur.} 8... g5 {Siyah atı kurtarmak için şah kanadını açar.} 9. Nxg5 {Beyaz bir at feda eder; konum son derece karmaşık hale gelir.} 9... hxg5 {Siyah feda edilen atı alır.} 10. Bxg5 {Fil açmazı yeniden kurar.} 10... Nbd7 {f6 atını korur.} 11. exf6 {Beyaz bir taş eksik ama f6'daki piyon siyahın kampında bir diken gibidir.} 11... Bb7 {Fil uzun çaprazda.} 12. g3 {Beyaz fil g2'den uzun çaprazda karşılık verecek.} 12... c5 {Siyah merkeze vurur.} 13. d5 {Teorinin derin bir köşesi: iki taraf da 20 hamleden fazla ezber bilmek ister. Başlangıç için önerilmez ama fikirleri öğreticidir.} *
+
+[Event "Moskova Varyantı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D43"]
+[Opening "Moskova Varyantı"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... c6 {Slav: d5'i c piyonuyla korur. Böylece c8 fili e6 piyonunun arkasında hapsolmaz; Ret'in ana sorunu baştan çözülür.} 3. Nf3 {Esnek gelişim.} 3... Nf6 {Siyah da gelişir.} 4. Nc3 {d5'e baskıyı artırır.} 4... e6 {Yarı-Slav: Slav ile Ret'in birleşimi. d5 iki kez korunur; sağlam ama keskin oyunlara açık.} 5. Bg5 {Açmaz. Siyahın şimdi iki ana seçeneği var: keskin Botvinnik (5...dxc4) ve Moskova (5...h6).} 5... h6 {Moskova: Siyah filin niyetini sorar.} 6. Bxf6 {Beyaz keskin oyunlardan kaçınır. 6.Bh4 dxc4 ise Anti-Moskova Gambiti'ne götürür.} 6... Qxf6 {Siyah fil çiftini kazanır; beyazın karşılığı gelişim ve merkez.} 7. e3 {Sağlam devam.} 7... Nd7 {Gelişim.} 8. Bd3 {Fil gelişir.} 8... dxc4 {Beyaz fil tekrar oynamak zorunda.} 9. Bxc4 {Piyon geri alındı.} 9... g6 {Fil g7'ye çıkacak.} 10. O-O {Şah güvenliği.} 10... Bg7 {Siyahın planı ...e5 ile merkezi açıp fillerini canlandırmak.} *
+
+[Event "Anti-Moskova Gambiti"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "D43"]
+[Opening "Anti-Moskova Gambiti"]
+
+1. d4 {Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.} 1... d5 {Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.} 2. c4 {Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.} 2... c6 {Slav: d5'i c piyonuyla korur. Böylece c8 fili e6 piyonunun arkasında hapsolmaz; Ret'in ana sorunu baştan çözülür.} 3. Nf3 {Esnek gelişim.} 3... Nf6 {Siyah da gelişir.} 4. Nc3 {d5'e baskıyı artırır.} 4... e6 {Yarı-Slav: Slav ile Ret'in birleşimi. d5 iki kez korunur; sağlam ama keskin oyunlara açık.} 5. Bg5 {Açmaz. Siyahın şimdi iki ana seçeneği var: keskin Botvinnik (5...dxc4) ve Moskova (5...h6).} 5... h6 {Moskova: Siyah filin niyetini sorar.} 6. Bh4 {Beyaz fili değişmez; bir piyon feda etmeye hazırdır.} 6... dxc4 {Siyah piyonu alır.} 7. e4 {Merkez; beyaz gelişim ve saldırı için piyonu verir.} 7... g5 {Siyah açmazı kırar.} 8. Bg3 {Fil çaprazda; e5 karesini destekler.} 8... b5 {c4 piyonunu korur.} 9. Be2 {Gelişim.} 9... Bb7 {Fil uzun çaprazda.} 10. O-O {Şah güvenliği.} 10... Nbd7 {Gelişim.} 11. Ne5 {At merkezde güçlü; f7 ve d7'ye baskı.} 11... Bg7 {Fil uzun çaprazda. Siyah bir piyon fazlası; beyazın merkezi ve gelişimi tazminat.} *

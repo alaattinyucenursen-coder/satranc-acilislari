@@ -9,25 +9,19 @@ Plan:
 
 ## Mevcut açılışlar
 
-### Vezir Gambiti (`data/vezir-gambiti.json`, `data/vezir-gambiti.pgn`)
+### İspanyol Açılışı (Ruy Lopez) (`data/ispanyol.json`, `data/ispanyol.pgn`)
 
 | Varyant | ECO | Not |
 |---|---|---|
-| Reddedilmiş VG: Ortodoks Savunma (Capablanca manevrası) | D67 | |
-| Reddedilmiş VG: Tartakower Savunması | D58 | |
-| Reddedilmiş VG: Lasker Savunması | D56 | |
-| Reddedilmiş VG: Değişim Varyantı (azınlık saldırısı) | D36 | |
-| Fil Tuzağı (Elephant Trap) | D51 | tuzak |
-| Slav: Ana Hat (Çek Varyantı) | D19 | |
-| Slav: Değişim Varyantı | D14 | |
-| Yarı-Slav: Meran | D48 | |
-| Yarı-Slav: Botvinnik Sistemi | D44 | |
-| Yarı-Slav: Moskova | D43 | |
-| Kabul Edilmiş VG: Klasik | D27 | |
-| Kabul Edilmiş VG: Merkez Varyantı (3.e4) | D20 | |
-| Kabul'de piyonu tutmaya çalışmak | D20 | tuzak |
-| Albin Karşı Gambiti: Ana Hat | D09 | |
-| Lasker Tuzağı (Albin) | D08 | tuzak |
+| Kapalı İspanyol: Chigorin Varyantı | C97 |  |
+| Kapalı İspanyol: Breyer Varyantı | C95 |  |
+| Kapalı İspanyol: Zaitsev Varyantı | C92 |  |
+| Marshall Saldırısı: Ana Hat | C89 |  |
+| Açık İspanyol: Karpov'un 11.Ng5 hamlesi | C82 |  |
+| Berlin Savunması: Berlin Duvarı | C67 |  |
+| Değişim Varyantı | C69 |  |
+| Schliemann (Jaenisch) Gambiti | C63 |  |
+| Tuzak: Nuh'un Gemisi Tuzağı | C71 | tuzak |
 
 ### Sicilya Savunması: Alapin Varyantı (`data/sicilya-alapin.json`, `data/sicilya-alapin.pgn`)
 
@@ -62,6 +56,57 @@ Plan:
 | 2.f4: Grand Prix Saldırısı | B21 |  |
 | 2.d4: Smith-Morra Gambiti | B21 |  |
 | Tuzak: Sibirya Tuzağı (Smith-Morra) | B21 | tuzak |
+
+### Slav Savunması (`data/slav.json`, `data/slav.pgn`)
+
+| Varyant | ECO | Not |
+|---|---|---|
+| Ana Hat (Çek Varyantı) | D19 |  |
+| Ana hat: 6.Ne5 (Krause Saldırısı) | D17 |  |
+| Chebanenko Varyantı: 4...a6 | D15 |  |
+| 4.e3 Bf5 ve Nh4 ile fil avı | D11 |  |
+| Değişim Varyantı | D14 |  |
+
+### Smith-Morra Gambiti (`data/smith-morra.json`, `data/smith-morra.pgn`)
+
+| Varyant | ECO | Not |
+|---|---|---|
+| Kabul: Klasik savunma (5...d6 ve ...e5) | B21 |  |
+| Kabul: ...e6, ...a6 ve ...Nge7 düzeni | B21 |  |
+| Ret: 3...Nf6 (Alapin'e geçiş) | B21 |  |
+| Ret: 3...d3 | B21 |  |
+| Tuzak: Sibirya Tuzağı | B21 | tuzak |
+| Tuzak: e5 ve Bxf7+ ile vezir kaybı | B21 | tuzak |
+
+### Vezir Gambiti (`data/vezir-gambiti.json`, `data/vezir-gambiti.pgn`)
+
+| Varyant | ECO | Not |
+|---|---|---|
+| Reddedilmiş Vezir Gambiti: Ortodoks Savunma (Capablanca manevrası) | D67 |  |
+| Reddedilmiş Vezir Gambiti: Tartakower Savunması | D58 |  |
+| Reddedilmiş Vezir Gambiti: Lasker Savunması | D56 |  |
+| Reddedilmiş Vezir Gambiti: Değişim Varyantı (azınlık saldırısı) | D36 |  |
+| Tuzak: Fil Tuzağı (Elephant Trap) | D51 | tuzak |
+| Slav Savunması: Ana Hat (Çek Varyantı) | D19 |  |
+| Slav Savunması: Değişim Varyantı | D14 |  |
+| Yarı-Slav: Meran Varyantı | D48 |  |
+| Yarı-Slav: Botvinnik Sistemi | D44 |  |
+| Yarı-Slav: Moskova Varyantı | D43 |  |
+| Kabul Edilmiş Vezir Gambiti: Klasik Varyant | D27 |  |
+| Kabul Edilmiş Vezir Gambiti: Merkez Varyantı (3.e4) | D20 |  |
+| Tuzak: Gambit piyonunu tutmaya çalışmak | D20 | tuzak |
+| Albin Karşı Gambiti: Ana Hat | D09 |  |
+| Tuzak: Lasker Tuzağı (Albin Karşı Gambiti) | D08 | tuzak |
+
+### Yarı-Slav Savunması (`data/yari-slav.json`, `data/yari-slav.pgn`)
+
+| Varyant | ECO | Not |
+|---|---|---|
+| Meran Varyantı | D48 |  |
+| Anti-Meran: 6.Qc2 | D45 |  |
+| Botvinnik Sistemi | D44 |  |
+| Moskova Varyantı | D43 |  |
+| Anti-Moskova Gambiti | D43 |  |
 
 ## Dosyalar
 
