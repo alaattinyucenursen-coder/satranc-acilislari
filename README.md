@@ -39,6 +39,15 @@ Plan:
 | 2...Nf6: 5.Nf3 Nc6 6.Bc4 | B22 |
 | 2...e6: Fransız tarzı yapı | B22 |
 
+### Sicilya Savunması: Kan Varyantı (`data/sicilya-kan.json`, `data/sicilya-kan.pgn`)
+
+| Varyant | ECO |
+|---|---|
+| 5.Bd3 Nf6 6.O-O Qc7: Maróczy yapısı | B42 |
+| 5.Bd3 Nc6 6.Nxc6 dxc6 | B42 |
+| 5.Nc3 Qc7: Klasik gelişim | B43 |
+| 5.c4: Kirpi (Hedgehog) yapısı | B41 |
+
 ## Dosyalar
 
 - `data/kaynak/<açılış>.json`: **elle düzenlenen kaynak**. Her varyant hamle dizisi olarak yazılır; açıklamalar `"4...e6"` gibi hamle etiketleriyle eşlenir. Ortak hamlelerin açıklaması tek bir varyantta yazılması yeterli.

@@ -6,6 +6,12 @@
     "file": "sicilya-alapin.json"
   },
   {
+    "id": "sicilya-kan",
+    "name": "Sicilya Savunması: Kan Varyantı",
+    "eco": "B41-B43",
+    "file": "sicilya-kan.json"
+  },
+  {
     "id": "vezir-gambiti",
     "name": "Vezir Gambiti",
     "eco": "D06-D69",

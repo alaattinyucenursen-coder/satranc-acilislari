@@ -1,0 +1,47 @@
+[Event "5.Bd3 Nf6 6.O-O Qc7: Maróczy yapısı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B42"]
+[Opening "5.Bd3 Nf6 6.O-O Qc7: Maróczy yapısı"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. Nf3 {Açık Sicilya'nın başlangıcı: Beyaz d4 ile merkezi açmaya hazırlanır.} 2... e6 {Siyah d5 karesini kontrol eder ve f8 filine yol açar.} 3. d4 {Merkezi açar.} 3... cxd4 {Siyah c piyonunu beyazın d piyonuyla değişir; yarı açık c hattı siyahın olur.} 4. Nxd4 {At merkezde güçlü bir karede.} 4... a6 {Kan: b5 karesini kontrol eder, böylece beyaz atlar oraya gelemez. Siyah taşlarını ne zaman ve nereye geliştireceğine sonra karar verecek.} 5. Bd3 {En popüler devam: fil e4'ü korur ve beyaz c4 ile merkezi güçlendirmeye hazırlanır.} 5... Nf6 {Gelişim ve e4'e baskı.} 6. O-O {Şah güvenliği.} 6... Qc7 {Vezir c hattında ve e5 karesini kontrol ediyor; siyahın Kan'daki tipik vezir karesi.} 7. Qe2 {e4'ü sağlamlaştırır ve c4'ü hazırlar.} 7... d6 {Sağlam 'kirpi' yapısının temeli: e6 ve d6 piyonları merkezi tutar.} 8. c4 {Maróczy yapısı: c4 ve e4 piyonları d5 karesini sıkıca kontrol eder, siyahın ...d5 kırılmasını zorlaştırır.} 8... g6 {Fil g7'de fiyankettolanacak.} 9. Nc3 {Gelişim, d5'e ek kontrol.} 9... Bg7 {Fil uzun çaprazda; e5 ve b2 karelerine bakıyor.} 10. Nf3 {At daha güvenli bir kareye çekilir ve e5'i kontrol eder.} 10... O-O {Siyah rok yapar.} 11. Bf4 {Fil d6 piyonuna baskı yapar.} 11... Nc6 {Gelişim tamamlanıyor. Beyaz alanda önde; siyah ...Nd7–e5 ve ...b5 gibi kırılmalarla karşı oyun arar.} *
+
+[Event "5.Bd3 Nc6 6.Nxc6 dxc6"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B42"]
+[Opening "5.Bd3 Nc6 6.Nxc6 dxc6"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. Nf3 {Açık Sicilya'nın başlangıcı: Beyaz d4 ile merkezi açmaya hazırlanır.} 2... e6 {Siyah d5 karesini kontrol eder ve f8 filine yol açar.} 3. d4 {Merkezi açar.} 3... cxd4 {Siyah c piyonunu beyazın d piyonuyla değişir; yarı açık c hattı siyahın olur.} 4. Nxd4 {At merkezde güçlü bir karede.} 4... a6 {Kan: b5 karesini kontrol eder, böylece beyaz atlar oraya gelemez. Siyah taşlarını ne zaman ve nereye geliştireceğine sonra karar verecek.} 5. Bd3 {En popüler devam: fil e4'ü korur ve beyaz c4 ile merkezi güçlendirmeye hazırlanır.} 5... Nc6 {Siyah d4 atına meydan okur.} 6. Nxc6 {Beyaz atları değişir.} 6... dxc6 {Siyah d hattını açar ve vezirlerin değişimine hazırdır; yapısı sağlam ve basit.} 7. O-O {Şah güvenliği.} 7... e5 {Siyah merkezde yer kaplar ve d4 karesini kontrol eder. Bedeli d5 karesinin zayıflaması.} 8. Nd2 {At c4'e giderek d6 ve b6 karelerini hedefleyecek.} 8... Qc7 {Vezir e5'i korur.} 9. a4 {Siyahın ...b5 ile vezir kanadında genişlemesini engeller ve c4 atını sağlamlaştırır.} 9... Bc5 {Fil aktif bir çaprazda, f2'ye bakıyor.} 10. Nc4 {At güçlü bir karede; d6 karesini hedefliyor.} 10... Ne7 {At e7'den g6 veya c8 üzerinden gelişecek. Dengeli bir konum: siyahın fil çifti, beyazın daha iyi piyon yapısı.} *
+
+[Event "5.Nc3 Qc7: Klasik gelişim"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B43"]
+[Opening "5.Nc3 Qc7: Klasik gelişim"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. Nf3 {Açık Sicilya'nın başlangıcı: Beyaz d4 ile merkezi açmaya hazırlanır.} 2... e6 {Siyah d5 karesini kontrol eder ve f8 filine yol açar.} 3. d4 {Merkezi açar.} 3... cxd4 {Siyah c piyonunu beyazın d piyonuyla değişir; yarı açık c hattı siyahın olur.} 4. Nxd4 {At merkezde güçlü bir karede.} 4... a6 {Kan: b5 karesini kontrol eder, böylece beyaz atlar oraya gelemez. Siyah taşlarını ne zaman ve nereye geliştireceğine sonra karar verecek.} 5. Nc3 {Doğal gelişim: Beyaz merkezde e5 ve d5 fikirleriyle hızlı oyun arar.} 5... Qc7 {Vezir e5 karesini kontrol eder, böylece beyazın e5 itişi zorlaşır; c hattında da baskı kurar.} 6. Bd3 {Fil e4'ü korur.} 6... Nf6 {Gelişim.} 7. O-O {Şah güvenliği.} 7... Bc5 {Fil d4 atını rahatsız eder.} 8. Nb3 {At fili kovalar.} 8... Be7 {Fil güvenli kareye çekilir; siyah sağlam ve esnek.} 9. f4 {Beyaz şah kanadında yer kazanır ve e5 itişini hazırlar.} 9... d6 {e5'i kontrol eder; tipik Scheveningen yapısı.} 10. Qf3 {Vezir şah kanadına, saldırıya hazırlık.} 10... Nbd7 {At e5'i gözetir ve c5'e gidebilir.} 11. Bd2 {Gelişim, uzun rok veya a1 kalesinin bağlanması için.} 11... b5 {Siyah vezir kanadında karşı oyun arar: ...Bb7 ve ...b4 ile e4'e baskı. İki taraf da farklı kanatta oynuyor.} *
+
+[Event "5.c4: Kirpi (Hedgehog) yapısı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B41"]
+[Opening "5.c4: Kirpi (Hedgehog) yapısı"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. Nf3 {Açık Sicilya'nın başlangıcı: Beyaz d4 ile merkezi açmaya hazırlanır.} 2... e6 {Siyah d5 karesini kontrol eder ve f8 filine yol açar.} 3. d4 {Merkezi açar.} 3... cxd4 {Siyah c piyonunu beyazın d piyonuyla değişir; yarı açık c hattı siyahın olur.} 4. Nxd4 {At merkezde güçlü bir karede.} 4... a6 {Kan: b5 karesini kontrol eder, böylece beyaz atlar oraya gelemez. Siyah taşlarını ne zaman ve nereye geliştireceğine sonra karar verecek.} 5. c4 {Beyaz hemen Maróczy yapısını kurar: c4 ve e4 piyonları d5 karesini kontrol eder ve siyahın en önemli kırılmasını engeller.} 5... Nf6 {Gelişim ve e4'e baskı.} 6. Nc3 {e4'ü korur.} 6... Qc7 {c4 piyonuna baskı ve esneklik.} 7. a3 {...Bb4 ile c3 atının açmaza alınmasını engeller.} 7... b6 {Kirpi: Siyah piyonlarını altıncı sıraya dizer (a6, b6, d6, e6). Dışarıdan pasif görünür ama dikenleri vardır: ...b5 ve ...d5 kırılmaları her an gelebilir.} 8. Be2 {Fil sağlam bir karede.} 8... Bb7 {Fil uzun çaprazda e4'e baskı yapar.} 9. f3 {e4'ü sağlamlaştırır. Beyazın tipik kuruluşu: Be3, Qd2 ve kalelerle d hattında baskı.} 9... d6 {Kirpinin son dikeni.} 10. Be3 {Gelişim.} 10... Nbd7 {At c5 veya e5'e gidebilir.} 11. O-O {Şah güvenliği.} 11... Be7 {Siyah rok yapıp bekleyecek. Beyaz alanda önde; siyah doğru anda ...b5 veya ...d5 ile patlamayı bekler. Sabır gerektiren bir yapı.} *
