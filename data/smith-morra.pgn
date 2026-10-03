@@ -1,99 +1,3 @@
-[Event "Kabul: Klasik savunma (5...d6 ve ...e5)"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Kabul: Klasik savunma (5...d6 ve ...e5)"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... d6 {e5 karesini kontrol eder ve c8 filine yol açar.} 6. Bc4 {Fil f7'yi hedefler.} 6... e6 {a2–g8 çaprazını kapatır, f7'yi korur.} 7. O-O {Şah güvenliği.} 7... Nf6 {Gelişim.} 8. Qe2 {Beyaz kaleleri c ve d hatlarına getirmeye hazırlanır.} 8... Be7 {Siyah roka hazırlanır.} 9. Rd1 {d6 piyonuna baskı; e5 itişini zorlaştırma.} 9... e5 {Siyah d hattını kapatır ve merkezde sağlam bir yapı kurar.} 10. h3 {Bg4 açmazını önler.} 10... O-O {Siyah rok yapar.} 11. Be3 {Beyaz d5 karesine ve c hattına baskı yapar. Siyah bir piyon fazlası; beyazın taşları çok aktif.} *
-
-[Event "Kabul: ...e6, ...a6 ve ...Nge7 düzeni"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Kabul: ...e6, ...a6 ve ...Nge7 düzeni"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... a6 {...b5 hazırlığı; Bb5 ve Nb5 fikirlerini de önler.} 7. O-O {Şah güvenliği.} 7... Nge7 {At g6'ya gidecek; şah kanadı sağlam kalır ve e7 atı d hattındaki açmaz risklerini azaltır.} 8. Bg5 {Beyaz e7 atını rahatsız eder.} 8... f6 {Fili kovalar ve e5 karesini kontrol eder.} 9. Be3 {Fil geri çekilir.} 9... Ng6 {Siyah bir piyon fazlası, ama gelişimi geride ve e6 piyonu zayıf. Beyazın aktif taşları güçlü bir tazminat; motor da beyazı tercih ediyor.} *
-
-[Event "Chicago Savunması: ...b5 ve ...Ra7"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Chicago Savunması: ...b5 ve ...Ra7"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Bc4 e6 6. Nf3 d6 7. O-O a6 8. Qe2 b5 {Siyah vezir kanadında yer kazanır.} 9. Bb3 {Fil e6'ya baskı.} 9... Ra7 {Chicago: Kale yan taraftan d7'ye gelerek d6'yı savunacak.} 10. Rd1 {d6'ya baskı.} 10... Rd7 {Kale d6'yı korur; orijinal bir savunma.} *
-
-[Event "Finegold Savunması: ...Be7 ve ...Nf6"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Finegold Savunması: ...Be7 ve ...Nf6"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... e6 {Siyah önce e6 ile f7'yi sağlamlaştırır.} 5. Nf3 d6 {Scheveningen yapısı.} 6. Bc4 a6 {...b5 hazırlığı.} 7. O-O Be7 {Sağlam gelişim.} 8. Qe2 Nf6 {Finegold: Siyah atını en son geliştirir, e5 tuzaklarından kaçınır.} 9. Rd1 {d6'ya baskı.} 9... Qc7 {Sağlam bir Scheveningen; beyazın aktifliği ile siyahın piyon fazlası.} *
-
-[Event "Fiyanketto Savunması: ...g6"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Fiyanketto Savunması: ...g6"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... g6 {Fiyanketto: Fil g7'den uzun çaprazı kontrol eder.} 6. Bc4 {f7'ye baskı.} 6... Bg7 {Fil çaprazda.} 7. O-O {Şah güvenliği.} 7... d6 {Sağlam.} 8. Qe2 {Kaleleri d hattına hazırlar.} 8... Nf6 9. Rd1 {d6'ya baskı; e5 kırılmaları gündemde.} *
-
-[Event "Gecikmeli Morphy Savunması: ...b5 ve ...Bc5"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Gecikmeli Morphy Savunması: ...b5 ve ...Bc5"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... a6 {...b5 hazırlığı; Bb5 ve Nb5 fikirlerini de önler.} 7. O-O {Şah güvenliği.} 7... b5 {Siyah vezir kanadında yer kazanır.} 8. Bb3 {Fil e6'ya baskı.} 8... Bc5 {Fil aktif, f2'ye bakıyor.} 9. e5 {Beyaz alan kazanır; d6 karesi zayıf.} 9... f5 {Siyah e5'i geçerken almaz; şah kanadını kapatır. (9...Nge7? 10.Ne4 gibi hamlelerle beyaz çok güçlü bir saldırı kazanır.)} 10. a4 {b5'e vurur.} 10... b4 {At kovalanır.} 11. Nd5 {At güçlü merkez karesinde.} 11... Nge7 {d5 atına meydan okur; siyah piyon fazlasını korur.} *
-
-[Event "Açmaz Savunması: 6...Bb4"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Açmaz Savunması: 6...Bb4"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... Bb4 {Siyah c3 atını açmaza alır; e4'ü zayıflatmak ister.} 7. O-O {Şah güvenliği.} 7... Nge7 {Gelişim.} 8. Qe2 {e4'ü korur.} 8... O-O 9. Rd1 {d7 ve d hattı baskısı.} *
-
-[Event "Larsen Savunması: 6...Qc7 7.Qe2 a6 8.O-O Bd6"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Larsen Savunması: 6...Qc7 7.Qe2 a6 8.O-O Bd6"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... Qc7 {Vezir c hattında ve h2'ye uzanan çaprazda: tuzağın ilk parçası.} 7. Qe2 {Sibirya Tuzağı'ndan farklı bir sıra.} 7... a6 {...b5 hazırlığı.} 8. O-O Bd6 {Larsen: Fil e5'i kontrol eder ve h2'ye bakar.} *
-
 [Event "Ret: 3...Nf6 (Alapin'e geçiş)"]
 [Site "?"]
 [Date "????.??.??"]
@@ -105,6 +9,18 @@
 [Opening "Ret: 3...Nf6 (Alapin'e geçiş)"]
 
 1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... Nf6 {Siyah gambiti kabul etmez, e4'e saldırır. Konum Alapin Varyantı'na döner.} 4. e5 {Piyon atı kovalar.} 4... Nd5 {At merkezde.} 5. cxd4 {Beyaz piyonu geri alır; artık gambit yok.} 5... d6 {e5'e saldırı.} 6. Nf3 {e5'i korur.} 6... Nc6 {e5 ve d4'e baskı.} 7. Bc4 {d5 atına saldırı.} 7... Nb6 {At geri çekilir.} 8. Bb5 {c6 atını açmaza alır.} 8... dxe5 {Siyah merkezde değişir.} 9. Nxe5 {At aktif.} 9... Bd7 {Alapin'in ana hattıyla aynı konum: dengeli bir oyun.} *
+
+[Event "Kabul: Klasik savunma (5...d6 ve ...e5)"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Kabul: Klasik savunma (5...d6 ve ...e5)"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... d6 {e5 karesini kontrol eder ve c8 filine yol açar.} 6. Bc4 {Fil f7'yi hedefler.} 6... e6 {a2–g8 çaprazını kapatır, f7'yi korur.} 7. O-O {Şah güvenliği.} 7... Nf6 {Gelişim.} 8. Qe2 {Beyaz kaleleri c ve d hatlarına getirmeye hazırlanır.} 8... Be7 {Siyah roka hazırlanır.} 9. Rd1 {d6 piyonuna baskı; e5 itişini zorlaştırma.} 9... e5 {Siyah d hattını kapatır ve merkezde sağlam bir yapı kurar.} 10. h3 {Bg4 açmazını önler.} 10... O-O {Siyah rok yapar.} 11. Be3 {Beyaz d5 karesine ve c hattına baskı yapar. Siyah bir piyon fazlası; beyazın taşları çok aktif.} *
 
 [Event "Ret: 3...d3"]
 [Site "?"]
@@ -130,6 +46,90 @@
 
 1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... d5 {Siyah gambiti reddeder ve merkezde karşılık verir.} 4. exd5 {Beyaz alır.} 4... Qxd5 5. cxd4 {Konum Alapin'e döner.} 5... Nc6 6. Nf3 Bg4 {d4'e baskı.} 7. Nc3 {Beyaz d4'ü bırakır, gelişir.} 7... Bxf3 8. gxf3 Qxd4 9. Qxd4 Nxd4 10. Nb5 {c7 çatal tehdidi; dikkatli oynanması gereken bir oyunsonu.} *
 
+[Event "Tuzak: e5 ve Bxf7+ ile vezir kaybı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Tuzak: e5 ve Bxf7+ ile vezir kaybı"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... d6 {Doğal gelişim.} 5. Bc4 {Fil f7'yi hedefler.} 5... Nf6 {Doğal görünür ama e5 itişine açık bırakır.} 6. e5 {Beyaz atı kovalar.} 6... dxe5?? {Büyük hata! d hattı açılır ve d8'deki vezir yalnız kalır.} 7. Bxf7+ {Fil şah çekerek feda edilir.} 7... Kxf7 {Şah fili alır.} 8. Qxd8 {Beyaz veziri alır. Ders: Morra'da d hattının açılmasına ve f7 karesine her zaman dikkat et; 6...dxe5 yerine 6...Ng4 veya 6...Nfd7 oynanmalıydı.} *
+
+[Event "Fiyanketto Savunması: ...g6"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Fiyanketto Savunması: ...g6"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... g6 {Fiyanketto: Fil g7'den uzun çaprazı kontrol eder.} 6. Bc4 {f7'ye baskı.} 6... Bg7 {Fil çaprazda.} 7. O-O {Şah güvenliği.} 7... d6 {Sağlam.} 8. Qe2 {Kaleleri d hattına hazırlar.} 8... Nf6 9. Rd1 {d6'ya baskı; e5 kırılmaları gündemde.} *
+
+[Event "Tuzak: 7.e5 Nxe5?? 9.Bxf7+"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Tuzak: 7.e5 Nxe5?? 9.Bxf7+"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... d6 {e5 karesini kontrol eder ve c8 filine yol açar.} 6. Bc4 {Fil f7'yi hedefler.} 6... Nf6 {Doğal ama e5 itişine dikkat.} 7. e5 {Beyaz atı kovalar.} 7... Nxe5?? {Hata!} 8. Nxe5 {Beyaz alır.} 8... dxe5 {d hattı açılır.} 9. Bxf7+ {Fil fedası.} 9... Kxf7 {Şah alır.} 10. Qxd8 {Beyaz veziri kazanır.} *
+
+[Event "Kabul: ...e6, ...a6 ve ...Nge7 düzeni"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Kabul: ...e6, ...a6 ve ...Nge7 düzeni"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... a6 {...b5 hazırlığı; Bb5 ve Nb5 fikirlerini de önler.} 7. O-O {Şah güvenliği.} 7... Nge7 {At g6'ya gidecek; şah kanadı sağlam kalır ve e7 atı d hattındaki açmaz risklerini azaltır.} 8. Bg5 {Beyaz e7 atını rahatsız eder.} 8... f6 {Fili kovalar ve e5 karesini kontrol eder.} 9. Be3 {Fil geri çekilir.} 9... Ng6 {Siyah bir piyon fazlası, ama gelişimi geride ve e6 piyonu zayıf. Beyazın aktif taşları güçlü bir tazminat; motor da beyazı tercih ediyor.} *
+
+[Event "Larsen Savunması: 6...Qc7 7.Qe2 a6 8.O-O Bd6"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Larsen Savunması: 6...Qc7 7.Qe2 a6 8.O-O Bd6"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... Qc7 {Vezir c hattında ve h2'ye uzanan çaprazda: tuzağın ilk parçası.} 7. Qe2 {Sibirya Tuzağı'ndan farklı bir sıra.} 7... a6 {...b5 hazırlığı.} 8. O-O Bd6 {Larsen: Fil e5'i kontrol eder ve h2'ye bakar.} *
+
+[Event "Açmaz Savunması: 6...Bb4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Açmaz Savunması: 6...Bb4"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... Bb4 {Siyah c3 atını açmaza alır; e4'ü zayıflatmak ister.} 7. O-O {Şah güvenliği.} 7... Nge7 {Gelişim.} 8. Qe2 {e4'ü korur.} 8... O-O 9. Rd1 {d7 ve d hattı baskısı.} *
+
+[Event "Gecikmeli Morphy Savunması: ...b5 ve ...Bc5"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Gecikmeli Morphy Savunması: ...b5 ve ...Bc5"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... a6 {...b5 hazırlığı; Bb5 ve Nb5 fikirlerini de önler.} 7. O-O {Şah güvenliği.} 7... b5 {Siyah vezir kanadında yer kazanır.} 8. Bb3 {Fil e6'ya baskı.} 8... Bc5 {Fil aktif, f2'ye bakıyor.} 9. e5 {Beyaz alan kazanır; d6 karesi zayıf.} 9... f5 {Siyah e5'i geçerken almaz; şah kanadını kapatır. (9...Nge7? 10.Ne4 gibi hamlelerle beyaz çok güçlü bir saldırı kazanır.)} 10. a4 {b5'e vurur.} 10... b4 {At kovalanır.} 11. Nd5 {At güçlü merkez karesinde.} 11... Nge7 {d5 atına meydan okur; siyah piyon fazlasını korur.} *
+
 [Event "Ret: 3...e5"]
 [Site "?"]
 [Date "????.??.??"]
@@ -141,6 +141,18 @@
 [Opening "Ret: 3...e5"]
 
 1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... e5 {Siyah d4 piyonunu korur.} 4. Nf3 {e5'e saldırı.} 4... Nc6 5. Bc4 {f7'ye baskı.} 5... Bc5 {Siyah d4'ü korur.} 6. cxd4 {Beyaz değişir.} 6... exd4 7. O-O {Beyazın gelişim avantajı; İskoç Gambiti tarzı bir konum.} *
+
+[Event "Chicago Savunması: ...b5 ve ...Ra7"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B21"]
+[Opening "Chicago Savunması: ...b5 ve ...Ra7"]
+
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Bc4 e6 6. Nf3 d6 7. O-O a6 8. Qe2 b5 {Siyah vezir kanadında yer kazanır.} 9. Bb3 {Fil e6'ya baskı.} 9... Ra7 {Chicago: Kale yan taraftan d7'ye gelerek d6'yı savunacak.} 10. Rd1 {d6'ya baskı.} 10... Rd7 {Kale d6'yı korur; orijinal bir savunma.} *
 
 [Event "Tuzak: Sibirya Tuzağı"]
 [Site "?"]
@@ -154,7 +166,7 @@
 
 1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... e6 {Kan düzeni: Siyah d5 ve f5 karelerini kontrol eder.} 6. Bc4 {Fil f7'yi hedefler.} 6... Qc7 {Vezir c hattında ve h2'ye uzanan çaprazda: tuzağın ilk parçası.} 7. O-O {Şah güvenliği.} 7... Nf6 {Gelişim.} 8. Qe2 {Beyaz kaleleri d hattına getirmek ister. Doğal ama dikkat gerekir.} 8... Ng4 {At h2'ye bakıyor: vezir ve at aynı kareyi hedefliyor.} 9. h3?? {Atı kovalamak doğal görünür ama ölümcül hatadır.} 9... Nd4! {Sibirya Tuzağı! At e2'deki veziri saldırır ve f3 atını h2'nin savunmasından uzaklaştırmayı hedefler.} 10. Nxd4 {Veziri kurtarmak için atı alırsa...} 10... Qh2# {Mat! h2 karesini artık f3 atı savunmuyor. Ders: Vezir ve atın aynı kareye baktığı tehditleri her hamle kontrol et.} *
 
-[Event "Tuzak: e5 ve Bxf7+ ile vezir kaybı"]
+[Event "Finegold Savunması: ...Be7 ve ...Nf6"]
 [Site "?"]
 [Date "????.??.??"]
 [Round "-"]
@@ -162,18 +174,6 @@
 [Black "?"]
 [Result "*"]
 [ECO "B21"]
-[Opening "Tuzak: e5 ve Bxf7+ ile vezir kaybı"]
+[Opening "Finegold Savunması: ...Be7 ve ...Nf6"]
 
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... d6 {Doğal gelişim.} 5. Bc4 {Fil f7'yi hedefler.} 5... Nf6 {Doğal görünür ama e5 itişine açık bırakır.} 6. e5 {Beyaz atı kovalar.} 6... dxe5?? {Büyük hata! d hattı açılır ve d8'deki vezir yalnız kalır.} 7. Bxf7+ {Fil şah çekerek feda edilir.} 7... Kxf7 {Şah fili alır.} 8. Qxd8 {Beyaz veziri alır. Ders: Morra'da d hattının açılmasına ve f7 karesine her zaman dikkat et; 6...dxe5 yerine 6...Ng4 veya 6...Nfd7 oynanmalıydı.} *
-
-[Event "Tuzak: 7.e5 Nxe5?? 9.Bxf7+"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B21"]
-[Opening "Tuzak: 7.e5 Nxe5?? 9.Bxf7+"]
-
-1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... Nc6 {Gelişim; d4 karesini kontrol eder.} 5. Nf3 {Gelişim.} 5... d6 {e5 karesini kontrol eder ve c8 filine yol açar.} 6. Bc4 {Fil f7'yi hedefler.} 6... Nf6 {Doğal ama e5 itişine dikkat.} 7. e5 {Beyaz atı kovalar.} 7... Nxe5?? {Hata!} 8. Nxe5 {Beyaz alır.} 8... dxe5 {d hattı açılır.} 9. Bxf7+ {Fil fedası.} 9... Kxf7 {Şah alır.} 10. Qxd8 {Beyaz veziri kazanır.} *
+1. e4 {Beyaz merkezi tutar.} 1... c5 {Sicilya Savunması.} 2. d4 {Beyaz d4'ü hemen oynar.} 2... cxd4 {Siyah alır.} 3. c3 {Smith-Morra Gambiti: Beyaz d4 piyonunu geri almak yerine bir piyon daha teklif eder.} 3... dxc3 {Kabul: Siyah bir piyon kazanır ama gelişimde geri kalır.} 4. Nxc3 {Beyaz gelişimde önde; c ve d hatları açık.} 4... e6 {Siyah önce e6 ile f7'yi sağlamlaştırır.} 5. Nf3 d6 {Scheveningen yapısı.} 6. Bc4 a6 {...b5 hazırlığı.} 7. O-O Be7 {Sağlam gelişim.} 8. Qe2 Nf6 {Finegold: Siyah atını en son geliştirir, e5 tuzaklarından kaçınır.} 9. Rd1 {d6'ya baskı.} 9... Qc7 {Sağlam bir Scheveningen; beyazın aktifliği ile siyahın piyon fazlası.} *

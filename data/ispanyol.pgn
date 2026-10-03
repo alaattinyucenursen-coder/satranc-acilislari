@@ -1,3 +1,15 @@
+[Event "Modern Arkhangelsk: 5...b5 6.Bb3 Bc5"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C78"]
+[Opening "Modern Arkhangelsk: 5...b5 6.Bb3 Bc5"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... b5 {Arkhangelsk: Siyah fili hemen kovalar.} 6. Bb3 Bc5 {Fil aktif çaprazda, f2'ye bakıyor.} 7. a4 {b5'e baskı.} 7... Rb8 {b5'i korur.} 8. c3 {d4 hazırlığı.} 8... d6 9. d4 {Fili kovalar.} 9... Bb6 {Fil çaprazda kalır.} 10. axb5 axb5 11. Na3 {b5'e saldırı.} 11... O-O 12. Nxb5 {Beyaz piyonu alır.} 12... Bg4 {Siyah f3 atını açmaza alır; piyon karşılığında aktif taşlar ve d4'e baskı.} *
+
 [Event "Kapalı İspanyol: Chigorin Varyantı"]
 [Site "?"]
 [Date "????.??.??"]
@@ -9,6 +21,78 @@
 [Opening "Kapalı İspanyol: Chigorin Varyantı"]
 
 1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... d6 {e5'i sağlamlaştırır.} 8. c3 {d4'ü hazırlar ve fil için c2 karesini açar.} 8... O-O {Siyah rok yapar.} 9. h3 {Bg4 açmazını önler; beyaz d4'ü rahatça oynamak ister.} 9... Na5 {Chigorin: At b3 filine saldırır ve ...c5 ile vezir kanadında yer açar.} 10. Bc2 {Fil iyi bir çapraza çekilir; şah kanadını hedefler.} 10... c5 {Siyah d4'ü kontrol eder ve vezir kanadında alan kazanır.} 11. d4 {Beyaz merkezi kurar.} 11... Qc7 {e5'i destekler; c hattında baskı.} 12. Nbd2 {At f1–g3 yoluyla şah kanadına gidecek: İspanyol'un tipik manevrası.} 12... cxd4 {Siyah c hattını açar.} 13. cxd4 {Klasik İspanyol yapısı. Beyaz şah kanadında yer kazanır; siyah c hattından ve ...Nc6 ile d4'e baskı yapar.} *
+
+[Event "Schliemann (Jaenisch) Gambiti"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C63"]
+[Opening "Schliemann (Jaenisch) Gambiti"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... f5 {Schliemann: Siyah e4'e saldırır ve f hattını açmak ister. Keskin ve riskli.} 4. Nc3 {En güçlü yanıt: e4'ü korur ve gelişir.} 4... fxe4 {Siyah alır.} 5. Nxe4 {At merkezde.} 5... d5 {Atı kovalar.} 6. Nxe5 {Beyaz karşı saldırıya geçer.} 6... dxe4 {Siyah atı alır.} 7. Nxc6 {Beyaz c6'yı alır ve vezire saldırır.} 7... Qg5 {Siyah g2'ye saldırır ve karşı saldırı yapar.} 8. Qe2 {e4'e baskı ve savunma.} 8... Nf6 {e4'ü korur.} 9. f4 {Veziri kovalar.} 9... Qxf4 {Vezir piyonu alır.} 10. Ne5+ {Açılmış şah!} 10... c6 {Araya piyon koyar.} 11. d4 {Merkez ve tempo.} 11... Qh4+ {Vezir şah çeker.} 12. g3 {Araya piyon koyar.} 12... Qh3 {Vezir şah kanadında kalır.} 13. Bc4 {Fil aktif çapraza.} 13... Be6 {Gelişim ve c4'e karşı.} 14. Bg5 {Beyazın gelişimi üstün; teori beyazı biraz önde görür.} *
+
+[Event "Klasik (Cordel) Savunma: 3...Bc5"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C64"]
+[Opening "Klasik (Cordel) Savunma: 3...Bc5"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Bc5 {Klasik Savunma: Fil aktif çaprazda, f2'ye bakıyor.} 4. c3 {d4 ile fili kovalamaya hazırlanır.} 4... Nf6 {e4'e saldırı.} 5. O-O {Beyaz e4'ü umursamaz; 5...Nxe4 sonrası Qe2 veya d4 güçlü.} 5... O-O 6. d4 {Merkez ve fili kovalar.} 6... Bb6 {Fil çaprazda.} 7. Re1 {e4'ü korur.} 7... d6 8. h3 {Bg4'ü önler. Beyazın merkezi daha güçlü.} *
+
+[Event "Değişim Varyantı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C69"]
+[Opening "Değişim Varyantı"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Bxc6 {Değişim: Beyaz fili ata verir ve siyahın piyon yapısını bozar.} 4... dxc6 {Siyahın d hattı açılır ve fil çifti olur; karşılığında vezir kanadında ikiz piyonlar.} 5. O-O {Şimdi Nxe5 bir tehdit (5.Nxe5? Qd4 ile piyon geri alınırdı).} 5... f6 {e5'i korur.} 6. d4 {Merkezi açar.} 6... exd4 {Siyah alır.} 7. Nxd4 {At merkezde.} 7... c5 {At kovalanır.} 8. Nb3 {At çekilir ve vezirleri değiştirmeyi önerir.} 8... Qxd1 {Vezirler değişir.} 9. Rxd1 {Kale d hattında.} 9... Bg4 {Kaleye saldırır.} 10. f3 {Fili kovalar.} 10... Be6 {Uzun bir oyunsonu: Beyazın şah kanadında sağlam piyon çoğunluğu var; siyahın fil çifti dengeler. Fischer'in sevdiği bir yapı.} *
+
+[Event "Berlin Savunması: Berlin Duvarı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C67"]
+[Opening "Berlin Savunması: Berlin Duvarı"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Nf6 {Berlin: Siyah hemen e4'e saldırır. Kramnik 2000'de Kasparov'a karşı Dünya Şampiyonluğu'nu bu savunmayla kazandı.} 4. O-O {Beyaz e4'ü korumaz, rok yapar.} 4... Nxe4 {Siyah piyonu alır.} 5. d4 {Beyaz merkezi açar; e hattında Re1 tehdidi var.} 5... Nd6 {At c4'ü ve b5 filini gözetir.} 6. Bxc6 {Fil c6'yı alır.} 6... dxc6 {Siyahın d hattı açılır.} 7. dxe5 {Piyon d6 atını kovalar.} 7... Nf5 {At güvenli bir kareye.} 8. Qxd8+ {Vezirler erkenden değişir: ünlü Berlin Oyunsonu.} 8... Kxd8 {Siyah şah merkezde kalır ve rok hakkını kaybeder, ama vezirler gittiği için bu çok önemli değil.} 9. Nc3 {Gelişim.} 9... Ke8 {Şah e8'e döner; d hattından uzaklaşır.} 10. h3 {g4 karesini kontrol eder; beyaz g4 ile f5 atını kovalamak isteyebilir.} 10... h5 {Siyah g4'ü engeller. Beyazın şah kanadında piyon çoğunluğu var, siyahın fil çifti. Son derece sağlam bir savunma.} *
+
+[Event "Anti-Marshall: 8.a4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C88"]
+[Opening "Anti-Marshall: 8.a4"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... O-O {Siyah ...d6 oynamadan rok yapar: Marshall Saldırısı'na davet.} 8. a4 {Anti-Marshall: Beyaz ...d5 gambitine izin vermeden siyahın vezir kanadına baskı yapar.} 8... b4 {Siyah piyonu ilerletir, a hattını kapatır.} 9. d3 {Beyaz sakin oynar; Marshall fikirlerine yer yok.} 9... d6 {Siyah e5'i sağlamlaştırır.} 10. a5 {Piyon siyahın vezir kanadını sabitler.} 10... Be6 {b3 filine karşı çıkar. Manevra ağırlıklı bir orta oyun.} *
+
+[Event "Kapalı İspanyol: Zaitsev Varyantı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C92"]
+[Opening "Kapalı İspanyol: Zaitsev Varyantı"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... d6 {e5'i sağlamlaştırır.} 8. c3 {d4'ü hazırlar ve fil için c2 karesini açar.} 8... O-O {Siyah rok yapar.} 9. h3 {Bg4 açmazını önler; beyaz d4'ü rahatça oynamak ister.} 9... Bb7 {Zaitsev: Fil e4'e baskı yapar; siyah e5'i tutmak yerine e4'ü hedef alır. Karpov'un en sevdiği savunmalardan.} 10. d4 {Merkez.} 10... Re8 {e hattında baskı.} 11. Nbd2 {At e4'ü destekler.} 11... Bf8 {Fil savunmada.} 12. a4 {Beyaz siyahın vezir kanadına saldırır.} 12... h6 {Atın g5 karesine sıçramasını önler; siyah taşlarını rahatça yerleştirebilir.} 13. Bc2 {Fil e4'ü korur.} 13... exd4 {Siyah merkezi açar.} 14. cxd4 {Beyazın güçlü merkezi.} 14... Nb4 {At c2 filine saldırır.} 15. Bb1 {Fil e4'ü korumaya devam eder.} 15... c5 {Siyah d4'e vurur: keskin ve dinamik bir orta oyun.} *
 
 [Event "Kapalı İspanyol: Breyer Varyantı"]
 [Site "?"]
@@ -22,17 +106,101 @@
 
 1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... d6 {e5'i sağlamlaştırır.} 8. c3 {d4'ü hazırlar ve fil için c2 karesini açar.} 8... O-O {Siyah rok yapar.} 9. h3 {Bg4 açmazını önler; beyaz d4'ü rahatça oynamak ister.} 9... Nb8 {Breyer: At geri döner ve d7'ye gelecek. c piyonunun önü açılır, e5 ekstra korunur. Zaman kaybı gibi görünür ama çok sağlam bir kuruluştur.} 10. d4 {Merkez.} 10... Nbd7 {At e5'i destekler.} 11. Nbd2 {Tipik İspanyol manevrası başlar.} 11... Bb7 {Fil uzun çaprazda e4'e baskı yapar.} 12. Bc2 {Fil e4'ü korur.} 12... Re8 {e hattında baskı ve fil için f8 karesini boşaltır.} 13. Nf1 {At g3'e gidecek.} 13... Bf8 {Fil savunmada ve g7'ye gidebilir.} 14. Ng3 {At f5 karesine bakıyor.} 14... g6 {f5'i kontrol eder; fil g7'ye gelecek. Siyahın sağlam ama esnek konumu.} *
 
-[Event "Kapalı İspanyol: Zaitsev Varyantı"]
+[Event "Gecikmeli Steinitz Savunması: 4...d6 5.c3"]
 [Site "?"]
 [Date "????.??.??"]
 [Round "-"]
 [White "?"]
 [Black "?"]
 [Result "*"]
-[ECO "C92"]
-[Opening "Kapalı İspanyol: Zaitsev Varyantı"]
+[ECO "C74"]
+[Opening "Gecikmeli Steinitz Savunması: 4...d6 5.c3"]
 
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... d6 {e5'i sağlamlaştırır.} 8. c3 {d4'ü hazırlar ve fil için c2 karesini açar.} 8... O-O {Siyah rok yapar.} 9. h3 {Bg4 açmazını önler; beyaz d4'ü rahatça oynamak ister.} 9... Bb7 {Zaitsev: Fil e4'e baskı yapar; siyah e5'i tutmak yerine e4'ü hedef alır. Karpov'un en sevdiği savunmalardan.} 10. d4 {Merkez.} 10... Re8 {e hattında baskı.} 11. Nbd2 {At e4'ü destekler.} 11... Bf8 {Fil savunmada.} 12. a4 {Beyaz siyahın vezir kanadına saldırır.} 12... h6 {Atın g5 karesine sıçramasını önler; siyah taşlarını rahatça yerleştirebilir.} 13. Bc2 {Fil e4'ü korur.} 13... exd4 {Siyah merkezi açar.} 14. cxd4 {Beyazın güçlü merkezi.} 14... Nb4 {At c2 filine saldırır.} 15. Bb1 {Fil e4'ü korumaya devam eder.} 15... c5 {Siyah d4'e vurur: keskin ve dinamik bir orta oyun.} *
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... d6 {Steinitz Savunması: e5'i sağlamlaştırır.} 5. c3 {Beyaz d4 ile güçlü merkez kurmak ister.} 5... Bd7 {c6 atını korur ve açmazı kaldırır.} 6. d4 {Merkez.} 6... Nf6 {Gelişim.} 7. O-O {Şah güvenliği.} 7... Be7 {Sağlam gelişim.} 8. Re1 {e4'ü destekler.} 8... O-O 9. Nbd2 {Beyazın alan avantajı var; siyah sağlam ama biraz pasif.} *
+
+[Event "Anti-Berlin: 4.d3"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C65"]
+[Opening "Anti-Berlin: 4.d3"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Nf6 {Berlin: Siyah hemen e4'e saldırır. Kramnik 2000'de Kasparov'a karşı Dünya Şampiyonluğu'nu bu savunmayla kazandı.} 4. d3 {Anti-Berlin: Beyaz Berlin Duvarı'ndan kaçınır, e4'ü sağlamlaştırır ve uzun bir manevra oyunu ister.} 4... Bc5 {Fil aktif çaprazda.} 5. c3 {d4 hazırlığı ve fil için c2 karesi.} 5... O-O 6. O-O d6 {Sağlam yapı.} 7. h3 {Bg4 açmazını önler.} 7... a6 8. Ba4 {Fil çapraza.} 8... Ba7 {Fil d4 itişinden güvende.} 9. Re1 {Modern elit seviyenin en popüler yapılarından; sabırlı bir oyun.} *
+
+[Event "Bird Savunması: 3...Nd4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C61"]
+[Opening "Bird Savunması: 3...Nd4"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Nd4 {Bird: Siyah atları değiştirir; alışılmadık ama tuzaklarla dolu.} 4. Nxd4 {Beyaz değişir.} 4... exd4 {d4 piyonu beyazın gelişimini biraz kısıtlar.} 5. O-O {Şah güvenliği.} 5... c6 {Fili kovalar.} 6. Ba4 {Fil çapraza çekilir.} 6... Nf6 7. Re1 {e hattında baskı.} 7... d6 8. d3 {Beyaz sağlam ve gelişimde önde.} *
+
+[Event "Anti-Marshall: 8.h3"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C88"]
+[Opening "Anti-Marshall: 8.h3"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... O-O {Siyah ...d6 oynamadan rok yapar: Marshall Saldırısı'na davet.} 8. h3 {Beyaz Bg4'ü önler ve d3 ile sakin bir yapı kurmayı planlar.} 8... Bb7 {Fil uzun çaprazda e4'e baskı.} 9. d3 {Beyaz Marshall'dan kaçınır.} 9... d6 10. a3 {Fil için a2 karesini hazırlar.} 10... Na5 {At fili kovalar.} 11. Ba2 {Fil güvende; çapraz açık kalır.} 11... c5 {Siyah vezir kanadında alan kazanır.} 12. Nbd2 {İspanyol'un tipik at manevrası f1–g3 başlar.} *
+
+[Event "Marshall Saldırısı: Ana Hat"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C89"]
+[Opening "Marshall Saldırısı: Ana Hat"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... O-O {Siyah ...d6 oynamadan rok yapar: Marshall Saldırısı'na davet.} 8. c3 {Beyaz d4'ü hazırlar.} 8... d5 {Marshall Saldırısı: Siyah bir piyon feda eder; karşılığında hızlı gelişim ve beyaz şaha saldırı.} 9. exd5 {Beyaz feda edilen piyonu alır.} 9... Nxd5 {At merkezde.} 10. Nxe5 {Beyaz bir piyon daha alır.} 10... Nxe5 {Siyah değişir.} 11. Rxe5 {Beyaz kalesi merkezde, ama bir piyon fazlası var.} 11... c6 {d5 atını sağlamlaştırır; ...Bd6 ve ...Qh4 ile saldırı hazırlanır.} 12. d4 {Merkezi kapatır ve c1 filine yol açar.} 12... Bd6 {Kaleyi kovalar ve h2'ye bakar.} 13. Re1 {Kale geri çekilir.} 13... Qh4 {Saldırı başlar: h2'ye baskı.} 14. g3 {Veziri kovalar.} 14... Qh3 {Vezir şahın yanında, g2 ve h2'ye baskı yapıyor.} 15. Be3 {Gelişim ve savunma.} 15... Bg4 {Vezire saldırı ve f3 karesine baskı.} 16. Qd3 {Vezir savunmaya ve e4 karesine.} 16... Rae8 {Siyahın bütün taşları saldırıda. Beyaz bir piyon fazlası; siyahın güçlü inisiyatifi var. Teoride eşitlik kabul edilir.} *
+
+[Event "Değişim Varyantı: 5...Bg4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C69"]
+[Opening "Değişim Varyantı: 5...Bg4"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Bxc6 {Değişim: Beyaz fili ata verir ve siyahın piyon yapısını bozar.} 4... dxc6 {Siyahın d hattı açılır ve fil çifti olur; karşılığında vezir kanadında ikiz piyonlar.} 5. O-O {Şimdi Nxe5 bir tehdit (5.Nxe5? Qd4 ile piyon geri alınırdı).} 5... Bg4 {Siyah f3 atını açmaza alır.} 6. h3 {Fili sorar.} 6... h5 {Siyah fili feda etmeye hazır: 7.hxg4? hxg4 sonrası h hattı açılır ve siyah saldırır.} 7. d3 {Beyaz fili almaz, sağlam oynar.} 7... Qf6 {Vezir f3'e baskı.} 8. Nbd2 {Gelişim.} 8... Ne7 {At g6'ya gidecek.} 9. Re1 {e hattı.} 9... Ng6 {Siyahın taşları şah kanadında aktif; dengeli ve keskin.} *
+
+[Event "Açık İspanyol: Karpov'un 11.Ng5 hamlesi"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C82"]
+[Opening "Açık İspanyol: Karpov'un 11.Ng5 hamlesi"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Nxe4 {Açık İspanyol: Siyah piyonu alır. Taşları serbest ve aktif olur, ama merkezde bazı zayıflıklar doğar.} 6. d4 {Beyaz merkezi açar.} 6... b5 {Fili kovalar.} 7. Bb3 {Fil çapraza.} 7... d5 {Siyah e4 atını destekler ve merkezi tutar.} 8. dxe5 {Beyaz e5 piyonunu alır.} 8... Be6 {d5'i korur.} 9. Nbd2 {e4 atına meydan okur.} 9... Nc5 {At geri çekilir ve b3 filine bakar.} 10. c3 {d4 karesini kontrol eder ve file b3'ten c2'ye yol açar.} 10... d4 {Siyah merkezde ilerler.} 11. Ng5 {Karpov–Korchnoi, 1978 Dünya Şampiyonası: şaşırtıcı bir at fedası!} 11... Qxg5 {Siyah atı alır.} 12. Qf3 {c6 atına ve e6 filine saldırı.} 12... O-O-O {Siyah rok yaparak c6'yı korumaya çalışır.} 13. Bxe6+ {Fil değişimi şahla.} 13... fxe6 {Piyon geri alır.} 14. Qxc6 {Vezir c6'yı alır; malzeme dengelendi.} 14... Qxe5 {Siyah piyonu geri alır.} 15. b4 {c5 atını kovalar.} 15... Qd5 {Siyah vezir değişimi önerir.} 16. Qxd5 {Vezirler değişir.} 16... exd5 {Karşılıklı şansları olan bir oyunsonu; Karpov bu oyunu sonunda kazandı.} *
+
+[Event "Worrall Saldırısı: 6.Qe2"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C86"]
+[Opening "Worrall Saldırısı: 6.Qe2"]
+
+1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Qe2 {Worrall: Vezir e4'ü korur, kale d1'e gidecek.} 6... b5 {Fili kovalar.} 7. Bb3 {Fil çapraza.} 7... O-O 8. c3 {d4 hazırlığı.} 8... d5 {Siyah merkeze vurur; Marshall benzeri fikirler.} 9. d3 {Beyaz e4'ü korur, d5 değişimini zorlamaz.} 9... Bb7 {Gelişim; d5'i destekler.} 10. Rd1 {Kale d hattında.} 10... Re8 {Aktif ve dengeli bir konum.} *
 
 [Event "Kapalı İspanyol: Karpov (Keres) Varyantı 9...Nd7"]
 [Site "?"]
@@ -58,42 +226,6 @@
 
 1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... d6 {e5'i sağlamlaştırır.} 8. c3 {d4'ü hazırlar ve fil için c2 karesini açar.} 8... O-O {Siyah rok yapar.} 9. h3 {Bg4 açmazını önler; beyaz d4'ü rahatça oynamak ister.} 9... h6 {Smyslov: Ng5 fikirlerini önler; siyah ...Re8 ve ...Bf8 ile e5'i güçlendirecek.} 10. d4 {Merkez.} 10... Re8 {e5'e destek.} 11. Nbd2 {Tipik manevra.} 11... Bf8 {Fil savunmada.} 12. Nf1 {At g3'e gidiyor.} 12... Bd7 {Gelişim.} 13. Ng3 {At f5 karesine bakıyor.} 13... Na5 {Fili kovalar.} 14. Bc2 {Fil çekilir.} 14... c5 {Siyah vezir kanadında alan kazanır.} *
 
-[Event "Worrall Saldırısı: 6.Qe2"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C86"]
-[Opening "Worrall Saldırısı: 6.Qe2"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Qe2 {Worrall: Vezir e4'ü korur, kale d1'e gidecek.} 6... b5 {Fili kovalar.} 7. Bb3 {Fil çapraza.} 7... O-O 8. c3 {d4 hazırlığı.} 8... d5 {Siyah merkeze vurur; Marshall benzeri fikirler.} 9. d3 {Beyaz e4'ü korur, d5 değişimini zorlamaz.} 9... Bb7 {Gelişim; d5'i destekler.} 10. Rd1 {Kale d hattında.} 10... Re8 {Aktif ve dengeli bir konum.} *
-
-[Event "Marshall Saldırısı: Ana Hat"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C89"]
-[Opening "Marshall Saldırısı: Ana Hat"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... O-O {Siyah ...d6 oynamadan rok yapar: Marshall Saldırısı'na davet.} 8. c3 {Beyaz d4'ü hazırlar.} 8... d5 {Marshall Saldırısı: Siyah bir piyon feda eder; karşılığında hızlı gelişim ve beyaz şaha saldırı.} 9. exd5 {Beyaz feda edilen piyonu alır.} 9... Nxd5 {At merkezde.} 10. Nxe5 {Beyaz bir piyon daha alır.} 10... Nxe5 {Siyah değişir.} 11. Rxe5 {Beyaz kalesi merkezde, ama bir piyon fazlası var.} 11... c6 {d5 atını sağlamlaştırır; ...Bd6 ve ...Qh4 ile saldırı hazırlanır.} 12. d4 {Merkezi kapatır ve c1 filine yol açar.} 12... Bd6 {Kaleyi kovalar ve h2'ye bakar.} 13. Re1 {Kale geri çekilir.} 13... Qh4 {Saldırı başlar: h2'ye baskı.} 14. g3 {Veziri kovalar.} 14... Qh3 {Vezir şahın yanında, g2 ve h2'ye baskı yapıyor.} 15. Be3 {Gelişim ve savunma.} 15... Bg4 {Vezire saldırı ve f3 karesine baskı.} 16. Qd3 {Vezir savunmaya ve e4 karesine.} 16... Rae8 {Siyahın bütün taşları saldırıda. Beyaz bir piyon fazlası; siyahın güçlü inisiyatifi var. Teoride eşitlik kabul edilir.} *
-
-[Event "Açık İspanyol: Karpov'un 11.Ng5 hamlesi"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C82"]
-[Opening "Açık İspanyol: Karpov'un 11.Ng5 hamlesi"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Nxe4 {Açık İspanyol: Siyah piyonu alır. Taşları serbest ve aktif olur, ama merkezde bazı zayıflıklar doğar.} 6. d4 {Beyaz merkezi açar.} 6... b5 {Fili kovalar.} 7. Bb3 {Fil çapraza.} 7... d5 {Siyah e4 atını destekler ve merkezi tutar.} 8. dxe5 {Beyaz e5 piyonunu alır.} 8... Be6 {d5'i korur.} 9. Nbd2 {e4 atına meydan okur.} 9... Nc5 {At geri çekilir ve b3 filine bakar.} 10. c3 {d4 karesini kontrol eder ve file b3'ten c2'ye yol açar.} 10... d4 {Siyah merkezde ilerler.} 11. Ng5 {Karpov–Korchnoi, 1978 Dünya Şampiyonası: şaşırtıcı bir at fedası!} 11... Qxg5 {Siyah atı alır.} 12. Qf3 {c6 atına ve e6 filine saldırı.} 12... O-O-O {Siyah rok yaparak c6'yı korumaya çalışır.} 13. Bxe6+ {Fil değişimi şahla.} 13... fxe6 {Piyon geri alır.} 14. Qxc6 {Vezir c6'yı alır; malzeme dengelendi.} 14... Qxe5 {Siyah piyonu geri alır.} 15. b4 {c5 atını kovalar.} 15... Qd5 {Siyah vezir değişimi önerir.} 16. Qxd5 {Vezirler değişir.} 16... exd5 {Karşılıklı şansları olan bir oyunsonu; Karpov bu oyunu sonunda kazandı.} *
-
 [Event "Açık İspanyol: Dilworth Saldırısı"]
 [Site "?"]
 [Date "????.??.??"]
@@ -106,66 +238,6 @@
 
 1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Nxe4 {Açık İspanyol: Siyah piyonu alır. Taşları serbest ve aktif olur, ama merkezde bazı zayıflıklar doğar.} 6. d4 {Beyaz merkezi açar.} 6... b5 {Fili kovalar.} 7. Bb3 {Fil çapraza.} 7... d5 {Siyah e4 atını destekler ve merkezi tutar.} 8. dxe5 {Beyaz e5 piyonunu alır.} 8... Be6 {d5'i korur.} 9. c3 {Klasik devam: fil için c2 karesi.} 9... Bc5 {Fil aktif çaprazda.} 10. Nbd2 {e4 atına meydan okur.} 10... O-O 11. Bc2 {e4'e baskı.} 11... Nxf2 {Dilworth: Siyah atı feda eder!} 12. Rxf2 {Beyaz alır.} 12... f6 {f hattını açar.} 13. exf6 {Beyaz alır.} 13... Bxf2+ {Siyah kaleyi geri alır.} 14. Kxf2 {Şah alır.} 14... Qxf6 {Siyah iki piyon ve bir kale karşılığında iki hafif taş verdi; f hattı ve aktif taşlar. Keskin bir konum.} *
 
-[Event "Berlin Savunması: Berlin Duvarı"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C67"]
-[Opening "Berlin Savunması: Berlin Duvarı"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Nf6 {Berlin: Siyah hemen e4'e saldırır. Kramnik 2000'de Kasparov'a karşı Dünya Şampiyonluğu'nu bu savunmayla kazandı.} 4. O-O {Beyaz e4'ü korumaz, rok yapar.} 4... Nxe4 {Siyah piyonu alır.} 5. d4 {Beyaz merkezi açar; e hattında Re1 tehdidi var.} 5... Nd6 {At c4'ü ve b5 filini gözetir.} 6. Bxc6 {Fil c6'yı alır.} 6... dxc6 {Siyahın d hattı açılır.} 7. dxe5 {Piyon d6 atını kovalar.} 7... Nf5 {At güvenli bir kareye.} 8. Qxd8+ {Vezirler erkenden değişir: ünlü Berlin Oyunsonu.} 8... Kxd8 {Siyah şah merkezde kalır ve rok hakkını kaybeder, ama vezirler gittiği için bu çok önemli değil.} 9. Nc3 {Gelişim.} 9... Ke8 {Şah e8'e döner; d hattından uzaklaşır.} 10. h3 {g4 karesini kontrol eder; beyaz g4 ile f5 atını kovalamak isteyebilir.} 10... h5 {Siyah g4'ü engeller. Beyazın şah kanadında piyon çoğunluğu var, siyahın fil çifti. Son derece sağlam bir savunma.} *
-
-[Event "Anti-Berlin: 4.d3"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C65"]
-[Opening "Anti-Berlin: 4.d3"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Nf6 {Berlin: Siyah hemen e4'e saldırır. Kramnik 2000'de Kasparov'a karşı Dünya Şampiyonluğu'nu bu savunmayla kazandı.} 4. d3 {Anti-Berlin: Beyaz Berlin Duvarı'ndan kaçınır, e4'ü sağlamlaştırır ve uzun bir manevra oyunu ister.} 4... Bc5 {Fil aktif çaprazda.} 5. c3 {d4 hazırlığı ve fil için c2 karesi.} 5... O-O 6. O-O d6 {Sağlam yapı.} 7. h3 {Bg4 açmazını önler.} 7... a6 8. Ba4 {Fil çapraza.} 8... Ba7 {Fil d4 itişinden güvende.} 9. Re1 {Modern elit seviyenin en popüler yapılarından; sabırlı bir oyun.} *
-
-[Event "Değişim Varyantı"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C69"]
-[Opening "Değişim Varyantı"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Bxc6 {Değişim: Beyaz fili ata verir ve siyahın piyon yapısını bozar.} 4... dxc6 {Siyahın d hattı açılır ve fil çifti olur; karşılığında vezir kanadında ikiz piyonlar.} 5. O-O {Şimdi Nxe5 bir tehdit (5.Nxe5? Qd4 ile piyon geri alınırdı).} 5... f6 {e5'i korur.} 6. d4 {Merkezi açar.} 6... exd4 {Siyah alır.} 7. Nxd4 {At merkezde.} 7... c5 {At kovalanır.} 8. Nb3 {At çekilir ve vezirleri değiştirmeyi önerir.} 8... Qxd1 {Vezirler değişir.} 9. Rxd1 {Kale d hattında.} 9... Bg4 {Kaleye saldırır.} 10. f3 {Fili kovalar.} 10... Be6 {Uzun bir oyunsonu: Beyazın şah kanadında sağlam piyon çoğunluğu var; siyahın fil çifti dengeler. Fischer'in sevdiği bir yapı.} *
-
-[Event "Değişim Varyantı: 5...Bg4"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C69"]
-[Opening "Değişim Varyantı: 5...Bg4"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Bxc6 {Değişim: Beyaz fili ata verir ve siyahın piyon yapısını bozar.} 4... dxc6 {Siyahın d hattı açılır ve fil çifti olur; karşılığında vezir kanadında ikiz piyonlar.} 5. O-O {Şimdi Nxe5 bir tehdit (5.Nxe5? Qd4 ile piyon geri alınırdı).} 5... Bg4 {Siyah f3 atını açmaza alır.} 6. h3 {Fili sorar.} 6... h5 {Siyah fili feda etmeye hazır: 7.hxg4? hxg4 sonrası h hattı açılır ve siyah saldırır.} 7. d3 {Beyaz fili almaz, sağlam oynar.} 7... Qf6 {Vezir f3'e baskı.} 8. Nbd2 {Gelişim.} 8... Ne7 {At g6'ya gidecek.} 9. Re1 {e hattı.} 9... Ng6 {Siyahın taşları şah kanadında aktif; dengeli ve keskin.} *
-
-[Event "Schliemann (Jaenisch) Gambiti"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C63"]
-[Opening "Schliemann (Jaenisch) Gambiti"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... f5 {Schliemann: Siyah e4'e saldırır ve f hattını açmak ister. Keskin ve riskli.} 4. Nc3 {En güçlü yanıt: e4'ü korur ve gelişir.} 4... fxe4 {Siyah alır.} 5. Nxe4 {At merkezde.} 5... d5 {Atı kovalar.} 6. Nxe5 {Beyaz karşı saldırıya geçer.} 6... dxe4 {Siyah atı alır.} 7. Nxc6 {Beyaz c6'yı alır ve vezire saldırır.} 7... Qg5 {Siyah g2'ye saldırır ve karşı saldırı yapar.} 8. Qe2 {e4'e baskı ve savunma.} 8... Nf6 {e4'ü korur.} 9. f4 {Veziri kovalar.} 9... Qxf4 {Vezir piyonu alır.} 10. Ne5+ {Açılmış şah!} 10... c6 {Araya piyon koyar.} 11. d4 {Merkez ve tempo.} 11... Qh4+ {Vezir şah çeker.} 12. g3 {Araya piyon koyar.} 12... Qh3 {Vezir şah kanadında kalır.} 13. Bc4 {Fil aktif çapraza.} 13... Be6 {Gelişim ve c4'e karşı.} 14. Bg5 {Beyazın gelişimi üstün; teori beyazı biraz önde görür.} *
-
 [Event "Tuzak: Nuh'un Gemisi Tuzağı"]
 [Site "?"]
 [Date "????.??.??"]
@@ -177,75 +249,3 @@
 [Opening "Tuzak: Nuh'un Gemisi Tuzağı"]
 
 1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... d6 {Steinitz Savunması: e5'i sağlamlaştırır.} 5. d4 {Beyaz merkezi açar.} 5... b5 {Fili kovalar.} 6. Bb3 {Fil çapraza çekilir.} 6... Nxd4 {Siyah d4'ü alır.} 7. Nxd4 {Beyaz atı alır.} 7... exd4 {Siyah geri alır.} 8. Qxd4?? {Piyonu almak doğal görünür ama hatalıdır!} 8... c5 {Veziri kovalar; c4 ile fili hapsetme planı.} 9. Qd5 {Vezir a8 kalesine saldırır.} 9... Be6 {Veziri kovalar ve kaleyi savunur.} 10. Qc6+ {Vezir şah çeker.} 10... Bd7 {Araya fil koyar.} 11. Qd5 {Vezir geri döner.} 11... c4 {Nuh'un Gemisi: b3'teki fil a7, b5 ve c4 piyonları arasında hapsoldu ve kaybedilecek. Ders: İspanyol'da b3 filinin kaçış yolunu kontrol et.} *
-
-[Event "Anti-Marshall: 8.a4"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C88"]
-[Opening "Anti-Marshall: 8.a4"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... O-O {Siyah ...d6 oynamadan rok yapar: Marshall Saldırısı'na davet.} 8. a4 {Anti-Marshall: Beyaz ...d5 gambitine izin vermeden siyahın vezir kanadına baskı yapar.} 8... b4 {Siyah piyonu ilerletir, a hattını kapatır.} 9. d3 {Beyaz sakin oynar; Marshall fikirlerine yer yok.} 9... d6 {Siyah e5'i sağlamlaştırır.} 10. a5 {Piyon siyahın vezir kanadını sabitler.} 10... Be6 {b3 filine karşı çıkar. Manevra ağırlıklı bir orta oyun.} *
-
-[Event "Anti-Marshall: 8.h3"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C88"]
-[Opening "Anti-Marshall: 8.h3"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... Be7 {Kapalı İspanyol: Siyah e4'ü almaz, sakin gelişir.} 6. Re1 {e4'ü korur ve Bxc6 ile Nxe5 tehdidini yaratır.} 6... b5 {Fili kovalar ve tehdidi ortadan kaldırır.} 7. Bb3 {Fil a2–g8 çaprazında; f7'yi hedefler.} 7... O-O {Siyah ...d6 oynamadan rok yapar: Marshall Saldırısı'na davet.} 8. h3 {Beyaz Bg4'ü önler ve d3 ile sakin bir yapı kurmayı planlar.} 8... Bb7 {Fil uzun çaprazda e4'e baskı.} 9. d3 {Beyaz Marshall'dan kaçınır.} 9... d6 10. a3 {Fil için a2 karesini hazırlar.} 10... Na5 {At fili kovalar.} 11. Ba2 {Fil güvende; çapraz açık kalır.} 11... c5 {Siyah vezir kanadında alan kazanır.} 12. Nbd2 {İspanyol'un tipik at manevrası f1–g3 başlar.} *
-
-[Event "Modern Arkhangelsk: 5...b5 6.Bb3 Bc5"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C78"]
-[Opening "Modern Arkhangelsk: 5...b5 6.Bb3 Bc5"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... Nf6 {e4'e saldırı ve gelişim.} 5. O-O {Beyaz e4'ü korumak yerine rok yapar: 5...Nxe4 Açık İspanyol'a götürür.} 5... b5 {Arkhangelsk: Siyah fili hemen kovalar.} 6. Bb3 Bc5 {Fil aktif çaprazda, f2'ye bakıyor.} 7. a4 {b5'e baskı.} 7... Rb8 {b5'i korur.} 8. c3 {d4 hazırlığı.} 8... d6 9. d4 {Fili kovalar.} 9... Bb6 {Fil çaprazda kalır.} 10. axb5 axb5 11. Na3 {b5'e saldırı.} 11... O-O 12. Nxb5 {Beyaz piyonu alır.} 12... Bg4 {Siyah f3 atını açmaza alır; piyon karşılığında aktif taşlar ve d4'e baskı.} *
-
-[Event "Gecikmeli Steinitz Savunması: 4...d6 5.c3"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C74"]
-[Opening "Gecikmeli Steinitz Savunması: 4...d6 5.c3"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... a6 {Morphy Savunması: Filin niyetini sorar. Fil ya c6'yı alır ya da çekilir.} 4. Ba4 {Fil açmazı korur, b3 üzerinden uzun çapraza gidebilir.} 4... d6 {Steinitz Savunması: e5'i sağlamlaştırır.} 5. c3 {Beyaz d4 ile güçlü merkez kurmak ister.} 5... Bd7 {c6 atını korur ve açmazı kaldırır.} 6. d4 {Merkez.} 6... Nf6 {Gelişim.} 7. O-O {Şah güvenliği.} 7... Be7 {Sağlam gelişim.} 8. Re1 {e4'ü destekler.} 8... O-O 9. Nbd2 {Beyazın alan avantajı var; siyah sağlam ama biraz pasif.} *
-
-[Event "Bird Savunması: 3...Nd4"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C61"]
-[Opening "Bird Savunması: 3...Nd4"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Nd4 {Bird: Siyah atları değiştirir; alışılmadık ama tuzaklarla dolu.} 4. Nxd4 {Beyaz değişir.} 4... exd4 {d4 piyonu beyazın gelişimini biraz kısıtlar.} 5. O-O {Şah güvenliği.} 5... c6 {Fili kovalar.} 6. Ba4 {Fil çapraza çekilir.} 6... Nf6 7. Re1 {e hattında baskı.} 7... d6 8. d3 {Beyaz sağlam ve gelişimde önde.} *
-
-[Event "Klasik (Cordel) Savunma: 3...Bc5"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "C64"]
-[Opening "Klasik (Cordel) Savunma: 3...Bc5"]
-
-1. e4 {Beyaz merkezi tutar ve fil ile vezire yol açar.} 1... e5 {Siyah simetrik karşılık verir ve merkezde eşit pay ister.} 2. Nf3 {e5 piyonuna saldırır ve gelişir.} 2... Nc6 {e5'i korur.} 3. Bb5 {İspanyol: Fil e5'in savunucusu olan c6 atına baskı yapar. Doğrudan bir tehdit yok (4.Bxc6 dxc6 5.Nxe5 Qd4 ile piyon geri alınır), ama uzun vadeli bir baskı başlar.} 3... Bc5 {Klasik Savunma: Fil aktif çaprazda, f2'ye bakıyor.} 4. c3 {d4 ile fili kovalamaya hazırlanır.} 4... Nf6 {e4'e saldırı.} 5. O-O {Beyaz e4'ü umursamaz; 5...Nxe4 sonrası Qe2 veya d4 güçlü.} 5... O-O 6. d4 {Merkez ve fili kovalar.} 6... Bb6 {Fil çaprazda.} 7. Re1 {e4'ü korur.} 7... d6 8. h3 {Bg4'ü önler. Beyazın merkezi daha güçlü.} *

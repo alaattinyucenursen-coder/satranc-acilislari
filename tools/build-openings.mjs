@@ -3,7 +3,7 @@
 //   data/<id>.json  -> etkileşimli tahta ve antrenman modu için varyant ağacı
 //   data/<id>.pgn   -> her varyant ayrı bir oyun (Lichess çalışmasına aktarılabilir)
 // Kullanım: npm run build   (yalnızca doğrulamak için: npm run check)
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Chess } from 'chess.js';
@@ -12,6 +12,33 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const srcDir = join(root, 'data', 'kaynak');
 const outDir = join(root, 'data');
 const checkOnly = process.argv.includes('--check');
+
+// tools/oynanma-say.mjs ile üretilen oynanma sayıları (varsa). Varyantlar bu sayılara
+// göre sıralanır: önce "genel" veritabanı, eşitlikte "usta".
+const statsPath = join(outDir, 'oynanma.json');
+const stats = existsSync(statsPath) ? JSON.parse(readFileSync(statsPath, 'utf8')) : {};
+const DB_ORDER = ['genel', 'usta'];
+
+function lineStats(openingId, lineId) {
+  const out = {};
+  for (const [db, data] of Object.entries(stats)) {
+    const s = data.acilislar?.[openingId]?.varyantlar?.[lineId];
+    if (s) out[db] = s;
+  }
+  return Object.keys(out).length ? out : undefined;
+}
+
+function sortByPlayed(src) {
+  const key = (l) => DB_ORDER.map((db) => lineStats(src.id, l.id)?.[db]?.mac ?? -1);
+  const keys = new Map(src.lines.map((l) => [l.id, key(l)]));
+  const cmp = (a, b) => {
+    const ka = keys.get(a.id);
+    const kb = keys.get(b.id);
+    for (let i = 0; i < ka.length; i++) if (ka[i] !== kb[i]) return kb[i] - ka[i];
+    return 0;
+  };
+  return { ...src, lines: [...src.lines].sort(cmp) };
+}
 
 const START_FEN = new Chess().fen();
 const SYMBOL_RE = /(\?\?|\?!|!\?|!!|\?|!)$/;
@@ -106,6 +133,7 @@ function build(src) {
       trap: Boolean(line.trap),
       moves: sans,
       leaf: node.id,
+      played: lineStats(src.id, line.id),
     });
   }
 
@@ -114,6 +142,11 @@ function build(src) {
     name: src.name,
     eco: src.eco,
     description: src.description,
+    played: Object.keys(stats).length
+      ? Object.fromEntries(
+          Object.entries(stats).map(([db, d]) => [db, { source: d.kaynak, base: d.acilislar?.[src.id]?.taban }]),
+        )
+      : undefined,
     startFen: START_FEN,
     lines,
     tree,
@@ -168,7 +201,8 @@ const index = [];
 for (const file of readdirSync(srcDir).filter((f) => f.endsWith('.json'))) {
   try {
     const src = JSON.parse(readFileSync(join(srcDir, file), 'utf8'));
-    const opening = build(src);
+    // En çok oynanan varyant önce gelsin (ağaçta da ilk çocuk = en çok oynanan devam).
+    const opening = build(sortByPlayed(src));
     if (!checkOnly) {
       writeFileSync(join(outDir, `${opening.id}.json`), JSON.stringify(opening, null, 2) + '\n');
       writeFileSync(join(outDir, `${opening.id}.pgn`), toPgn(opening));
