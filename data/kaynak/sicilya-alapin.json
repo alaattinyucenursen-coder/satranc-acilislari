@@ -2,7 +2,7 @@
   "id": "sicilya-alapin",
   "name": "Sicilya Savunması: Alapin Varyantı",
   "eco": "B22",
-  "description": "1.e4 c5 2.c3 ile Beyaz, Sicilya'nın keskin ana hatlarına girmeden d4 ile güçlü bir piyon merkezi kurmayı hedefler. Siyahın en popüler yanıtları 2...d5 ve 2...Nf6; ikisi de merkeze hemen meydan okur. Sağlam, anlaşılır planlı ve az ezber isteyen bir sistemdir.",
+  "description": "1.e4 c5 2.c3 ile Beyaz, Sicilya'nın keskin ana hatlarına girmeden d4 ile güçlü bir piyon merkezi kurmayı hedefler. Siyahın en popüler yanıtları 2...d5 ve 2...Nf6; bunların yanında 2...e6, 2...Nc6, 2...e5, 2...d6 ve 2...g6 de oynanır. Sağlam, anlaşılır planlı ve az ezber isteyen bir sistemdir.",
   "lines": [
     {
       "id": "alapin-d5-bg4",
@@ -11,9 +11,18 @@
       "eco": "B22",
       "moves": "1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 Nf6 5.Nf3 Bg4 6.Be2 e6 7.h3 Bh5 8.O-O Nc6 9.Be3 cxd4 10.cxd4 Be7 11.Nc3 Qd6",
       "names": {
-        "1...c5": { "name": "Sicilya Savunması", "eco": "B20" },
-        "2.c3": { "name": "Sicilya: Alapin Varyantı", "eco": "B22" },
-        "2...d5": { "name": "Alapin: 2...d5", "eco": "B22" }
+        "1...c5": {
+          "name": "Sicilya Savunması",
+          "eco": "B20"
+        },
+        "2.c3": {
+          "name": "Sicilya: Alapin Varyantı",
+          "eco": "B22"
+        },
+        "2...d5": {
+          "name": "Alapin: 2...d5",
+          "eco": "B22"
+        }
       },
       "comments": {
         "1.e4": "Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.",
@@ -65,7 +74,10 @@
       "eco": "B22",
       "moves": "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.d4 cxd4 5.cxd4 d6 6.Nf3 Nc6 7.Bc4 Nb6 8.Bb5 dxe5 9.Nxe5 Bd7 10.Nxd7 Qxd7 11.Nc3 e6 12.O-O Be7",
       "names": {
-        "2...Nf6": { "name": "Alapin: 2...Nf6", "eco": "B22" }
+        "2...Nf6": {
+          "name": "Alapin: 2...Nf6",
+          "eco": "B22"
+        }
       },
       "comments": {
         "2...Nf6": "Siyah e4 piyonuna saldırır. c3 piyonu b1 atının c3'e gelişini engellediği için beyaz e4'ü atla koruyamaz.",
@@ -119,7 +131,10 @@
       "eco": "B22",
       "moves": "1.e4 c5 2.c3 e6 3.d4 d5 4.exd5 exd5 5.Nf3 Nc6 6.Bb5 Bd6 7.dxc5 Bxc5 8.O-O Ne7 9.Nbd2 O-O 10.Nb3 Bd6",
       "names": {
-        "2...e6": { "name": "Alapin: 2...e6", "eco": "B22" }
+        "2...e6": {
+          "name": "Alapin: 2...e6",
+          "eco": "B22"
+        }
       },
       "comments": {
         "2...e6": "Siyah ...d5 ile merkeze Fransız Savunması tarzında karşılık vermeyi hazırlar.",
@@ -139,6 +154,189 @@
         "9...O-O": "Siyah rok yapar.",
         "10.Nb3": "Hedef d4 karesi: izole piyonun önündeki ideal abluka karesi.",
         "10...Bd6": "Siyahın aktif taşları izole piyonun zayıflığını dengeler."
+      }
+    },
+    {
+      "id": "alapin-d5-nc6",
+      "group": "2...d5",
+      "name": "2...d5: 4...Nc6 ve 8...Qa5",
+      "eco": "B22",
+      "moves": "1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 Nc6 5.Nf3 Bg4 6.Be2 cxd4 7.cxd4 e6 8.h3 Bh5 9.Nc3 Qa5 10.O-O Nf6 11.Be3 Be7",
+      "comments": {
+        "4...Nc6": "Siyah d4'e hemen baskı kurar; at f6'dan önce c6'ya gelir.",
+        "5...Bg4": "f3 atını açmaza alarak d4 üzerindeki baskıyı artırır.",
+        "6...cxd4": "Siyah merkezi netleştirir.",
+        "7.cxd4": "İzole olmayan ama tek merkez piyonu: d4 hedef olabilir.",
+        "7...e6": "Sağlam yapı.",
+        "8.h3": "Filin niyetini sorar.",
+        "8...Bh5": "Fil açmazı korur.",
+        "9.Nc3": "Tempo kazanarak vezire saldırır.",
+        "9...Qa5": "Vezir a5'te güvenli; c3 atını ve a5–e1 çaprazını gözetir.",
+        "10.O-O": "Şah güvenliği.",
+        "10...Nf6": "Gelişim.",
+        "11.Be3": "d4'ü korur.",
+        "11...Be7": "Beyazın planı d5 kırılması veya Ne5 ile taş değişimi; siyah d4'e baskıyı sürdürür."
+      }
+    },
+    {
+      "id": "alapin-d5-nf6-gambit",
+      "group": "2...d5",
+      "name": "2...d5 3.exd5 Nf6: gambit fikri",
+      "eco": "B22",
+      "moves": "1.e4 c5 2.c3 d5 3.exd5 Nf6 4.Bb5+ Bd7 5.Bxd7+ Qxd7 6.c4 e6 7.Qe2 Bd6 8.dxe6 fxe6 9.d3 O-O 10.Nf3 Nc6",
+      "comments": {
+        "3...Nf6": "Siyah veziri hemen almaz: piyonu sonra geri almayı ya da gelişim karşılığında bırakmayı planlar.",
+        "4.Bb5+": "Şahla tempo; beyaz piyonu tutmaya çalışır.",
+        "4...Bd7": "Araya fil koyar.",
+        "5.Bxd7+": "Fil değişimi.",
+        "5...Qxd7": "Vezir geri alır ve d5'e baskı yapar.",
+        "6.c4": "Beyaz d5 piyonunu korur.",
+        "6...e6": "Siyah merkezi açar; d5 piyonunu söker.",
+        "7.Qe2": "Vezir e hattında, e6'yı baskı altına alır.",
+        "7...Bd6": "Gelişim.",
+        "8.dxe6": "Beyaz alır.",
+        "8...fxe6": "Siyah bir piyon eksik ama f hattı açık ve gelişimde önde.",
+        "9.d3": "Beyaz sağlamlaştırır.",
+        "9...O-O": "Siyah rok yapar; f hattından baskı başlar.",
+        "10.Nf3": "Gelişim.",
+        "10...Nc6": "Siyah gelişimini tamamlar; beyazın d3 piyonu ve geri kalmış gelişimi hedef. Piyon karşılığında güzel bir tazminat."
+      }
+    },
+    {
+      "id": "alapin-nf6-nf3",
+      "group": "2...Nf6",
+      "name": "2...Nf6: 4.Nf3 Nc6 5.Bc4 keskin hat",
+      "eco": "B22",
+      "moves": "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3 Nc6 5.Bc4 Nb6 6.Bb3 c4 7.Bc2 Qc7 8.Qe2 g5",
+      "comments": {
+        "4.Nf3": "Beyaz d4'ü erteler, önce gelişir.",
+        "4...Nc6": "e5'e baskı.",
+        "5.Bc4": "d5 atına saldırır.",
+        "5...Nb6": "At tempo kazanarak fili kovalar.",
+        "6.Bb3": "Fil uzun çaprazda.",
+        "6...c4": "Siyah fili kovalar ve vezir kanadında alan kazanır.",
+        "7.Bc2": "Fil b1–h7 çaprazında; h7'yi hedefler.",
+        "7...Qc7": "e5 piyonuna baskı.",
+        "8.Qe2": "e5'i korur.",
+        "8...g5": "Çok keskin! Siyah e5'i destekleyen f3 atını g4 ile kovalamak ister. Teorik ve iki taraf için de riskli."
+      }
+    },
+    {
+      "id": "alapin-nc6",
+      "group": "2...Nc6",
+      "name": "2...Nc6: 6...e5 hattı",
+      "eco": "B22",
+      "moves": "1.e4 c5 2.c3 Nc6 3.d4 cxd4 4.cxd4 d5 5.exd5 Qxd5 6.Nf3 e5 7.Nc3 Bb4 8.Bd2 Bxc3 9.Bxc3 e4 10.Ne5 Nxe5 11.dxe5 Ne7",
+      "names": {
+        "2...Nc6": {
+          "name": "Alapin: 2...Nc6",
+          "eco": "B22"
+        }
+      },
+      "comments": {
+        "2...Nc6": "Esnek: siyah d4'e baskı kurar ve hangi yapıya gireceğini beyaza göre seçer.",
+        "3.d4": "Beyaz planına devam eder.",
+        "3...cxd4": "Siyah değişir.",
+        "4.cxd4": "İki merkez piyonu.",
+        "4...d5": "Siyah merkeze vurur.",
+        "5.exd5": "Beyaz değişir.",
+        "5...Qxd5": "Vezir merkezde; d4'e baskı.",
+        "6.Nf3": "d4'ü korur.",
+        "6...e5": "Siyah d4'e bir daha vurur ve merkezi açar.",
+        "7.Nc3": "Tempo kazanarak vezire saldırır.",
+        "7...Bb4": "Fil c3 atını açmaza alır; vezir d5'te kalır.",
+        "8.Bd2": "Açmazı kırar.",
+        "8...Bxc3": "Siyah fil çiftini verir ama beyazın piyon yapısını bozmaya zorlar.",
+        "9.Bxc3": "Fil geri alır.",
+        "9...e4": "f3 atını kovalar.",
+        "10.Ne5": "At merkezde aktif.",
+        "10...Nxe5": "Siyah değişir.",
+        "11.dxe5": "Beyazın fil çifti var; siyah gelişimde rahat.",
+        "11...Ne7": "At c6 veya f5'e gidecek. Dengeli, açık bir konum."
+      }
+    },
+    {
+      "id": "alapin-e5",
+      "group": "2...e5",
+      "name": "2...e5: kapalı yapı",
+      "eco": "B22",
+      "moves": "1.e4 c5 2.c3 e5 3.Nf3 Nc6 4.Bc4 Be7 5.d3 d6 6.O-O Nf6 7.Re1 O-O 8.h3",
+      "names": {
+        "2...e5": {
+          "name": "Alapin: 2...e5",
+          "eco": "B22"
+        }
+      },
+      "comments": {
+        "2...e5": "Siyah d4'ü baştan engeller: d4 oynanırsa ...cxd4 ve ...exd4 ile merkez çözülür.",
+        "3.Nf3": "e5'e saldırı.",
+        "3...Nc6": "e5'i korur.",
+        "4.Bc4": "Fil f7'yi hedefler; İtalyan oyununu andıran bir yapı.",
+        "4...Be7": "Sağlam gelişim.",
+        "5.d3": "Beyaz yavaş oynar; d4 için uygun anı bekler.",
+        "5...d6": "e5'i sağlamlaştırır.",
+        "6.O-O": "Şah güvenliği.",
+        "6...Nf6": "Gelişim.",
+        "7.Re1": "e4'ü destekler ve d4 itişini hazırlar.",
+        "7...O-O": "Siyah rok yapar.",
+        "8.h3": "g4 karesini kontrol eder. Beyaz d4 ile merkezi açmayı planlar; siyahın d4 karesindeki kontrolü önemli."
+      }
+    },
+    {
+      "id": "alapin-d6",
+      "group": "2...d6",
+      "name": "2...d6: Ejderha tarzı kuruluş",
+      "eco": "B22",
+      "moves": "1.e4 c5 2.c3 d6 3.d4 Nf6 4.Bd3 g6 5.Nf3 Bg7 6.O-O O-O 7.h3 Nc6 8.Re1",
+      "names": {
+        "2...d6": {
+          "name": "Alapin: 2...d6",
+          "eco": "B22"
+        }
+      },
+      "comments": {
+        "2...d6": "Siyah e5 karesini kontrol eder ve esnek kalır.",
+        "3.d4": "Beyaz merkezi kurar.",
+        "3...Nf6": "e4'e baskı.",
+        "4.Bd3": "Fil e4'ü korur; beyaz klasik iki piyonlu merkezi korumak ister.",
+        "4...g6": "Ejderha tarzı: fil g7'de d4'e baskı yapacak.",
+        "5.Nf3": "Gelişim.",
+        "5...Bg7": "Fil uzun çaprazda.",
+        "6.O-O": "Şah güvenliği.",
+        "6...O-O": "Siyah rok yapar.",
+        "7.h3": "Bg4 açmazını önler.",
+        "7...Nc6": "d4'e baskı artar.",
+        "8.Re1": "Beyaz merkezini korur; siyah ...cxd4 ve ...e5 ile merkezi zorlamaya çalışacak."
+      }
+    },
+    {
+      "id": "alapin-g6",
+      "group": "2...g6",
+      "name": "2...g6: fiyanketto ve 4...d5",
+      "eco": "B22",
+      "moves": "1.e4 c5 2.c3 g6 3.d4 cxd4 4.cxd4 d5 5.e5 Nc6 6.Nc3 Bg7 7.Bb5 Nh6 8.Nf3 O-O 9.O-O Bg4",
+      "names": {
+        "2...g6": {
+          "name": "Alapin: 2...g6",
+          "eco": "B22"
+        }
+      },
+      "comments": {
+        "2...g6": "Fil g7'den d4'e baskı yapacak; siyah beyazın merkezini uzaktan hedef alır.",
+        "3.d4": "Beyaz merkezi kurar.",
+        "3...cxd4": "Siyah değişir.",
+        "4.cxd4": "İki merkez piyonu.",
+        "4...d5": "Siyah e4'e saldırır.",
+        "5.e5": "Beyaz alan kazanır; yapı kapalı.",
+        "5...Nc6": "d4'e baskı.",
+        "6.Nc3": "d5'e baskı.",
+        "6...Bg7": "Fil d4'ü hedefliyor ama e5 piyonu çaprazı kısmen kapatıyor.",
+        "7.Bb5": "c6 atını açmaza alır, d4 üzerindeki baskıyı azaltır.",
+        "7...Nh6": "At f5'e gidecek ve d4'e baskı yapacak.",
+        "8.Nf3": "d4'ü korur.",
+        "8...O-O": "Siyah rok yapar.",
+        "9.O-O": "Beyaz rok yapar.",
+        "9...Bg4": "f3 atını açmaza alır; d4 piyonu üzerindeki baskı artıyor."
       }
     }
   ]

@@ -2,7 +2,7 @@
   "id": "sicilya-alapin",
   "name": "Sicilya Savunması: Alapin Varyantı",
   "eco": "B22",
-  "description": "1.e4 c5 2.c3 ile Beyaz, Sicilya'nın keskin ana hatlarına girmeden d4 ile güçlü bir piyon merkezi kurmayı hedefler. Siyahın en popüler yanıtları 2...d5 ve 2...Nf6; ikisi de merkeze hemen meydan okur. Sağlam, anlaşılır planlı ve az ezber isteyen bir sistemdir.",
+  "description": "1.e4 c5 2.c3 ile Beyaz, Sicilya'nın keskin ana hatlarına girmeden d4 ile güçlü bir piyon merkezi kurmayı hedefler. Siyahın en popüler yanıtları 2...d5 ve 2...Nf6; bunların yanında 2...e6, 2...Nc6, 2...e5, 2...d6 ve 2...g6 de oynanır. Sağlam, anlaşılır planlı ve az ezber isteyen bir sistemdir.",
   "startFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
   "lines": [
     {
@@ -158,6 +158,204 @@
         "Bd6"
       ],
       "leaf": "e2e4.c7c5.c2c3.e7e6.d2d4.d7d5.e4d5.e6d5.g1f3.b8c6.f1b5.f8d6.d4c5.d6c5.e1g1.g8e7.b1d2.e8g8.d2b3.c5d6"
+    },
+    {
+      "id": "alapin-d5-nc6",
+      "group": "2...d5",
+      "name": "2...d5: 4...Nc6 ve 8...Qa5",
+      "eco": "B22",
+      "trap": false,
+      "moves": [
+        "e4",
+        "c5",
+        "c3",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "d4",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "Be2",
+        "cxd4",
+        "cxd4",
+        "e6",
+        "h3",
+        "Bh5",
+        "Nc3",
+        "Qa5",
+        "O-O",
+        "Nf6",
+        "Be3",
+        "Be7"
+      ],
+      "leaf": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5.b1c3.d5a5.e1g1.g8f6.c1e3.f8e7"
+    },
+    {
+      "id": "alapin-d5-nf6-gambit",
+      "group": "2...d5",
+      "name": "2...d5 3.exd5 Nf6: gambit fikri",
+      "eco": "B22",
+      "trap": false,
+      "moves": [
+        "e4",
+        "c5",
+        "c3",
+        "d5",
+        "exd5",
+        "Nf6",
+        "Bb5+",
+        "Bd7",
+        "Bxd7+",
+        "Qxd7",
+        "c4",
+        "e6",
+        "Qe2",
+        "Bd6",
+        "dxe6",
+        "fxe6",
+        "d3",
+        "O-O",
+        "Nf3",
+        "Nc6"
+      ],
+      "leaf": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6.d5e6.f7e6.d2d3.e8g8.g1f3.b8c6"
+    },
+    {
+      "id": "alapin-nf6-nf3",
+      "group": "2...Nf6",
+      "name": "2...Nf6: 4.Nf3 Nc6 5.Bc4 keskin hat",
+      "eco": "B22",
+      "trap": false,
+      "moves": [
+        "e4",
+        "c5",
+        "c3",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Nb6",
+        "Bb3",
+        "c4",
+        "Bc2",
+        "Qc7",
+        "Qe2",
+        "g5"
+      ],
+      "leaf": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6.c4b3.c5c4.b3c2.d8c7.d1e2.g7g5"
+    },
+    {
+      "id": "alapin-nc6",
+      "group": "2...Nc6",
+      "name": "2...Nc6: 6...e5 hattı",
+      "eco": "B22",
+      "trap": false,
+      "moves": [
+        "e4",
+        "c5",
+        "c3",
+        "Nc6",
+        "d4",
+        "cxd4",
+        "cxd4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nf3",
+        "e5",
+        "Nc3",
+        "Bb4",
+        "Bd2",
+        "Bxc3",
+        "Bxc3",
+        "e4",
+        "Ne5",
+        "Nxe5",
+        "dxe5",
+        "Ne7"
+      ],
+      "leaf": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3.d2c3.e5e4.f3e5.c6e5.d4e5.g8e7"
+    },
+    {
+      "id": "alapin-e5",
+      "group": "2...e5",
+      "name": "2...e5: kapalı yapı",
+      "eco": "B22",
+      "trap": false,
+      "moves": [
+        "e4",
+        "c5",
+        "c3",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Be7",
+        "d3",
+        "d6",
+        "O-O",
+        "Nf6",
+        "Re1",
+        "O-O",
+        "h3"
+      ],
+      "leaf": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3.d7d6.e1g1.g8f6.f1e1.e8g8.h2h3"
+    },
+    {
+      "id": "alapin-d6",
+      "group": "2...d6",
+      "name": "2...d6: Ejderha tarzı kuruluş",
+      "eco": "B22",
+      "trap": false,
+      "moves": [
+        "e4",
+        "c5",
+        "c3",
+        "d6",
+        "d4",
+        "Nf6",
+        "Bd3",
+        "g6",
+        "Nf3",
+        "Bg7",
+        "O-O",
+        "O-O",
+        "h3",
+        "Nc6",
+        "Re1"
+      ],
+      "leaf": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3.f8g7.e1g1.e8g8.h2h3.b8c6.f1e1"
+    },
+    {
+      "id": "alapin-g6",
+      "group": "2...g6",
+      "name": "2...g6: fiyanketto ve 4...d5",
+      "eco": "B22",
+      "trap": false,
+      "moves": [
+        "e4",
+        "c5",
+        "c3",
+        "g6",
+        "d4",
+        "cxd4",
+        "cxd4",
+        "d5",
+        "e5",
+        "Nc6",
+        "Nc3",
+        "Bg7",
+        "Bb5",
+        "Nh6",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "Bg4"
+      ],
+      "leaf": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7.f1b5.g8h6.g1f3.e8g8.e1g1.c8g4"
     }
   ],
   "tree": {
@@ -512,12 +710,368 @@
                                       }
                                     ],
                                     "comment": "Gelişim ve e4 karesinin kontrolü."
+                                  },
+                                  {
+                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "Nc6",
+                                    "uci": "b8c6",
+                                    "fen": "r1b1kbnr/pp2pppp/2n5/2pq4/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 1 5",
+                                    "children": [
+                                      {
+                                        "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "Nf3",
+                                        "uci": "g1f3",
+                                        "fen": "r1b1kbnr/pp2pppp/2n5/2pq4/3P4/2P2N2/PP3PPP/RNBQKB1R b KQkq - 2 5",
+                                        "children": [
+                                          {
+                                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "Bg4",
+                                            "uci": "c8g4",
+                                            "fen": "r3kbnr/pp2pppp/2n5/2pq4/3P2b1/2P2N2/PP3PPP/RNBQKB1R w KQkq - 3 6",
+                                            "children": [
+                                              {
+                                                "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "Be2",
+                                                "uci": "f1e2",
+                                                "fen": "r3kbnr/pp2pppp/2n5/2pq4/3P2b1/2P2N2/PP2BPPP/RNBQK2R b KQkq - 4 6",
+                                                "children": [
+                                                  {
+                                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "cxd4",
+                                                    "uci": "c5d4",
+                                                    "fen": "r3kbnr/pp2pppp/2n5/3q4/3p2b1/2P2N2/PP2BPPP/RNBQK2R w KQkq - 0 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "cxd4",
+                                                        "uci": "c3d4",
+                                                        "fen": "r3kbnr/pp2pppp/2n5/3q4/3P2b1/5N2/PP2BPPP/RNBQK2R b KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "e6",
+                                                            "uci": "e7e6",
+                                                            "fen": "r3kbnr/pp3ppp/2n1p3/3q4/3P2b1/5N2/PP2BPPP/RNBQK2R w KQkq - 0 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "h3",
+                                                                "uci": "h2h3",
+                                                                "fen": "r3kbnr/pp3ppp/2n1p3/3q4/3P2b1/5N1P/PP2BPP1/RNBQK2R b KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5",
+                                                                    "ply": 16,
+                                                                    "moveNumber": 8,
+                                                                    "color": "b",
+                                                                    "san": "Bh5",
+                                                                    "uci": "g4h5",
+                                                                    "fen": "r3kbnr/pp3ppp/2n1p3/3q3b/3P4/5N1P/PP2BPP1/RNBQK2R w KQkq - 1 9",
+                                                                    "children": [
+                                                                      {
+                                                                        "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5.b1c3",
+                                                                        "ply": 17,
+                                                                        "moveNumber": 9,
+                                                                        "color": "w",
+                                                                        "san": "Nc3",
+                                                                        "uci": "b1c3",
+                                                                        "fen": "r3kbnr/pp3ppp/2n1p3/3q3b/3P4/2N2N1P/PP2BPP1/R1BQK2R b KQkq - 2 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5.b1c3.d5a5",
+                                                                            "ply": 18,
+                                                                            "moveNumber": 9,
+                                                                            "color": "b",
+                                                                            "san": "Qa5",
+                                                                            "uci": "d5a5",
+                                                                            "fen": "r3kbnr/pp3ppp/2n1p3/q6b/3P4/2N2N1P/PP2BPP1/R1BQK2R w KQkq - 3 10",
+                                                                            "children": [
+                                                                              {
+                                                                                "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5.b1c3.d5a5.e1g1",
+                                                                                "ply": 19,
+                                                                                "moveNumber": 10,
+                                                                                "color": "w",
+                                                                                "san": "O-O",
+                                                                                "uci": "e1g1",
+                                                                                "fen": "r3kbnr/pp3ppp/2n1p3/q6b/3P4/2N2N1P/PP2BPP1/R1BQ1RK1 b kq - 4 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5.b1c3.d5a5.e1g1.g8f6",
+                                                                                    "ply": 20,
+                                                                                    "moveNumber": 10,
+                                                                                    "color": "b",
+                                                                                    "san": "Nf6",
+                                                                                    "uci": "g8f6",
+                                                                                    "fen": "r3kb1r/pp3ppp/2n1pn2/q6b/3P4/2N2N1P/PP2BPP1/R1BQ1RK1 w kq - 5 11",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5.b1c3.d5a5.e1g1.g8f6.c1e3",
+                                                                                        "ply": 21,
+                                                                                        "moveNumber": 11,
+                                                                                        "color": "w",
+                                                                                        "san": "Be3",
+                                                                                        "uci": "c1e3",
+                                                                                        "fen": "r3kb1r/pp3ppp/2n1pn2/q6b/3P4/2N1BN1P/PP2BPP1/R2Q1RK1 b kq - 6 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.d8d5.d2d4.b8c6.g1f3.c8g4.f1e2.c5d4.c3d4.e7e6.h2h3.g4h5.b1c3.d5a5.e1g1.g8f6.c1e3.f8e7",
+                                                                                            "ply": 22,
+                                                                                            "moveNumber": 11,
+                                                                                            "color": "b",
+                                                                                            "san": "Be7",
+                                                                                            "uci": "f8e7",
+                                                                                            "fen": "r3k2r/pp2bppp/2n1pn2/q6b/3P4/2N1BN1P/PP2BPP1/R2Q1RK1 w kq - 7 12",
+                                                                                            "children": [],
+                                                                                            "comment": "Beyazın planı d5 kırılması veya Ne5 ile taş değişimi; siyah d4'e baskıyı sürdürür."
+                                                                                          }
+                                                                                        ],
+                                                                                        "comment": "d4'ü korur."
+                                                                                      }
+                                                                                    ],
+                                                                                    "comment": "Gelişim."
+                                                                                  }
+                                                                                ],
+                                                                                "comment": "Şah güvenliği."
+                                                                              }
+                                                                            ],
+                                                                            "comment": "Vezir a5'te güvenli; c3 atını ve a5–e1 çaprazını gözetir."
+                                                                          }
+                                                                        ],
+                                                                        "comment": "Tempo kazanarak vezire saldırır."
+                                                                      }
+                                                                    ],
+                                                                    "comment": "Fil açmazı korur."
+                                                                  }
+                                                                ],
+                                                                "comment": "Filin niyetini sorar."
+                                                              }
+                                                            ],
+                                                            "comment": "Sağlam yapı."
+                                                          }
+                                                        ],
+                                                        "comment": "İzole olmayan ama tek merkez piyonu: d4 hedef olabilir."
+                                                      }
+                                                    ],
+                                                    "comment": "Siyah merkezi netleştirir."
+                                                  }
+                                                ]
+                                              }
+                                            ],
+                                            "comment": "f3 atını açmaza alarak d4 üzerindeki baskıyı artırır."
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "comment": "Siyah d4'e hemen baskı kurar; at f6'dan önce c6'ya gelir."
                                   }
                                 ],
                                 "comment": "Beyaz planladığı d4'ü oynar."
                               }
                             ],
                             "comment": "Vezir merkezde ama kovalanması zor; normalde c3'te olacak at bu kareyi henüz tehdit edemez."
+                          },
+                          {
+                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6",
+                            "ply": 6,
+                            "moveNumber": 3,
+                            "color": "b",
+                            "san": "Nf6",
+                            "uci": "g8f6",
+                            "fen": "rnbqkb1r/pp2pppp/5n2/2pP4/8/2P5/PP1P1PPP/RNBQKBNR w KQkq - 1 4",
+                            "children": [
+                              {
+                                "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5",
+                                "ply": 7,
+                                "moveNumber": 4,
+                                "color": "w",
+                                "san": "Bb5+",
+                                "uci": "f1b5",
+                                "fen": "rnbqkb1r/pp2pppp/5n2/1BpP4/8/2P5/PP1P1PPP/RNBQK1NR b KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "Bd7",
+                                    "uci": "c8d7",
+                                    "fen": "rn1qkb1r/pp1bpppp/5n2/1BpP4/8/2P5/PP1P1PPP/RNBQK1NR w KQkq - 3 5",
+                                    "children": [
+                                      {
+                                        "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "Bxd7+",
+                                        "uci": "b5d7",
+                                        "fen": "rn1qkb1r/pp1Bpppp/5n2/2pP4/8/2P5/PP1P1PPP/RNBQK1NR b KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "Qxd7",
+                                            "uci": "d8d7",
+                                            "fen": "rn2kb1r/pp1qpppp/5n2/2pP4/8/2P5/PP1P1PPP/RNBQK1NR w KQkq - 0 6",
+                                            "children": [
+                                              {
+                                                "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "c4",
+                                                "uci": "c3c4",
+                                                "fen": "rn2kb1r/pp1qpppp/5n2/2pP4/2P5/8/PP1P1PPP/RNBQK1NR b KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "e6",
+                                                    "uci": "e7e6",
+                                                    "fen": "rn2kb1r/pp1q1ppp/4pn2/2pP4/2P5/8/PP1P1PPP/RNBQK1NR w KQkq - 0 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "Qe2",
+                                                        "uci": "d1e2",
+                                                        "fen": "rn2kb1r/pp1q1ppp/4pn2/2pP4/2P5/8/PP1PQPPP/RNB1K1NR b KQkq - 1 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "Bd6",
+                                                            "uci": "f8d6",
+                                                            "fen": "rn2k2r/pp1q1ppp/3bpn2/2pP4/2P5/8/PP1PQPPP/RNB1K1NR w KQkq - 2 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6.d5e6",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "dxe6",
+                                                                "uci": "d5e6",
+                                                                "fen": "rn2k2r/pp1q1ppp/3bPn2/2p5/2P5/8/PP1PQPPP/RNB1K1NR b KQkq - 0 8",
+                                                                "children": [
+                                                                  {
+                                                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6.d5e6.f7e6",
+                                                                    "ply": 16,
+                                                                    "moveNumber": 8,
+                                                                    "color": "b",
+                                                                    "san": "fxe6",
+                                                                    "uci": "f7e6",
+                                                                    "fen": "rn2k2r/pp1q2pp/3bpn2/2p5/2P5/8/PP1PQPPP/RNB1K1NR w KQkq - 0 9",
+                                                                    "children": [
+                                                                      {
+                                                                        "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6.d5e6.f7e6.d2d3",
+                                                                        "ply": 17,
+                                                                        "moveNumber": 9,
+                                                                        "color": "w",
+                                                                        "san": "d3",
+                                                                        "uci": "d2d3",
+                                                                        "fen": "rn2k2r/pp1q2pp/3bpn2/2p5/2P5/3P4/PP2QPPP/RNB1K1NR b KQkq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6.d5e6.f7e6.d2d3.e8g8",
+                                                                            "ply": 18,
+                                                                            "moveNumber": 9,
+                                                                            "color": "b",
+                                                                            "san": "O-O",
+                                                                            "uci": "e8g8",
+                                                                            "fen": "rn3rk1/pp1q2pp/3bpn2/2p5/2P5/3P4/PP2QPPP/RNB1K1NR w KQ - 1 10",
+                                                                            "children": [
+                                                                              {
+                                                                                "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6.d5e6.f7e6.d2d3.e8g8.g1f3",
+                                                                                "ply": 19,
+                                                                                "moveNumber": 10,
+                                                                                "color": "w",
+                                                                                "san": "Nf3",
+                                                                                "uci": "g1f3",
+                                                                                "fen": "rn3rk1/pp1q2pp/3bpn2/2p5/2P5/3P1N2/PP2QPPP/RNB1K2R b KQ - 2 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "id": "e2e4.c7c5.c2c3.d7d5.e4d5.g8f6.f1b5.c8d7.b5d7.d8d7.c3c4.e7e6.d1e2.f8d6.d5e6.f7e6.d2d3.e8g8.g1f3.b8c6",
+                                                                                    "ply": 20,
+                                                                                    "moveNumber": 10,
+                                                                                    "color": "b",
+                                                                                    "san": "Nc6",
+                                                                                    "uci": "b8c6",
+                                                                                    "fen": "r4rk1/pp1q2pp/2nbpn2/2p5/2P5/3P1N2/PP2QPPP/RNB1K2R w KQ - 3 11",
+                                                                                    "children": [],
+                                                                                    "comment": "Siyah gelişimini tamamlar; beyazın d3 piyonu ve geri kalmış gelişimi hedef. Piyon karşılığında güzel bir tazminat."
+                                                                                  }
+                                                                                ],
+                                                                                "comment": "Gelişim."
+                                                                              }
+                                                                            ],
+                                                                            "comment": "Siyah rok yapar; f hattından baskı başlar."
+                                                                          }
+                                                                        ],
+                                                                        "comment": "Beyaz sağlamlaştırır."
+                                                                      }
+                                                                    ],
+                                                                    "comment": "Siyah bir piyon eksik ama f hattı açık ve gelişimde önde."
+                                                                  }
+                                                                ],
+                                                                "comment": "Beyaz alır."
+                                                              }
+                                                            ],
+                                                            "comment": "Gelişim."
+                                                          }
+                                                        ],
+                                                        "comment": "Vezir e hattında, e6'yı baskı altına alır."
+                                                      }
+                                                    ],
+                                                    "comment": "Siyah merkezi açar; d5 piyonunu söker."
+                                                  }
+                                                ],
+                                                "comment": "Beyaz d5 piyonunu korur."
+                                              }
+                                            ],
+                                            "comment": "Vezir geri alır ve d5'e baskı yapar."
+                                          }
+                                        ],
+                                        "comment": "Fil değişimi."
+                                      }
+                                    ],
+                                    "comment": "Araya fil koyar."
+                                  }
+                                ],
+                                "comment": "Şahla tempo; beyaz piyonu tutmaya çalışır."
+                              }
+                            ],
+                            "comment": "Siyah veziri hemen almaz: piyonu sonra geri almayı ya da gelişim karşılığında bırakmayı planlar."
                           }
                         ],
                         "comment": "Beyaz değişir."
@@ -913,6 +1467,125 @@
                                   }
                                 ],
                                 "comment": "Beyaz merkezi kurar."
+                              },
+                              {
+                                "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3",
+                                "ply": 7,
+                                "moveNumber": 4,
+                                "color": "w",
+                                "san": "Nf3",
+                                "uci": "g1f3",
+                                "fen": "rnbqkb1r/pp1ppppp/8/2pnP3/8/2P2N2/PP1P1PPP/RNBQKB1R b KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "Nc6",
+                                    "uci": "b8c6",
+                                    "fen": "r1bqkb1r/pp1ppppp/2n5/2pnP3/8/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 3 5",
+                                    "children": [
+                                      {
+                                        "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "Bc4",
+                                        "uci": "f1c4",
+                                        "fen": "r1bqkb1r/pp1ppppp/2n5/2pnP3/2B5/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 4 5",
+                                        "children": [
+                                          {
+                                            "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "Nb6",
+                                            "uci": "d5b6",
+                                            "fen": "r1bqkb1r/pp1ppppp/1nn5/2p1P3/2B5/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 5 6",
+                                            "children": [
+                                              {
+                                                "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6.c4b3",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "Bb3",
+                                                "uci": "c4b3",
+                                                "fen": "r1bqkb1r/pp1ppppp/1nn5/2p1P3/8/1BP2N2/PP1P1PPP/RNBQK2R b KQkq - 6 6",
+                                                "children": [
+                                                  {
+                                                    "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6.c4b3.c5c4",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "c4",
+                                                    "uci": "c5c4",
+                                                    "fen": "r1bqkb1r/pp1ppppp/1nn5/4P3/2p5/1BP2N2/PP1P1PPP/RNBQK2R w KQkq - 0 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6.c4b3.c5c4.b3c2",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "Bc2",
+                                                        "uci": "b3c2",
+                                                        "fen": "r1bqkb1r/pp1ppppp/1nn5/4P3/2p5/2P2N2/PPBP1PPP/RNBQK2R b KQkq - 1 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6.c4b3.c5c4.b3c2.d8c7",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "Qc7",
+                                                            "uci": "d8c7",
+                                                            "fen": "r1b1kb1r/ppqppppp/1nn5/4P3/2p5/2P2N2/PPBP1PPP/RNBQK2R w KQkq - 2 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6.c4b3.c5c4.b3c2.d8c7.d1e2",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "Qe2",
+                                                                "uci": "d1e2",
+                                                                "fen": "r1b1kb1r/ppqppppp/1nn5/4P3/2p5/2P2N2/PPBPQPPP/RNB1K2R b KQkq - 3 8",
+                                                                "children": [
+                                                                  {
+                                                                    "id": "e2e4.c7c5.c2c3.g8f6.e4e5.f6d5.g1f3.b8c6.f1c4.d5b6.c4b3.c5c4.b3c2.d8c7.d1e2.g7g5",
+                                                                    "ply": 16,
+                                                                    "moveNumber": 8,
+                                                                    "color": "b",
+                                                                    "san": "g5",
+                                                                    "uci": "g7g5",
+                                                                    "fen": "r1b1kb1r/ppqppp1p/1nn5/4P1p1/2p5/2P2N2/PPBPQPPP/RNB1K2R w KQkq - 0 9",
+                                                                    "children": [],
+                                                                    "comment": "Çok keskin! Siyah e5'i destekleyen f3 atını g4 ile kovalamak ister. Teorik ve iki taraf için de riskli."
+                                                                  }
+                                                                ],
+                                                                "comment": "e5'i korur."
+                                                              }
+                                                            ],
+                                                            "comment": "e5 piyonuna baskı."
+                                                          }
+                                                        ],
+                                                        "comment": "Fil b1–h7 çaprazında; h7'yi hedefler."
+                                                      }
+                                                    ],
+                                                    "comment": "Siyah fili kovalar ve vezir kanadında alan kazanır."
+                                                  }
+                                                ],
+                                                "comment": "Fil uzun çaprazda."
+                                              }
+                                            ],
+                                            "comment": "At tempo kazanarak fili kovalar."
+                                          }
+                                        ],
+                                        "comment": "d5 atına saldırır."
+                                      }
+                                    ],
+                                    "comment": "e5'e baskı."
+                                  }
+                                ],
+                                "comment": "Beyaz d4'ü erteler, önce gelişir."
                               }
                             ],
                             "comment": "At merkezde güzel bir kareye yerleşir. Fransız Savunması'ndaki yapıya benzer konumlar doğar."
@@ -1131,6 +1804,714 @@
                     "comment": "Siyah ...d5 ile merkeze Fransız Savunması tarzında karşılık vermeyi hazırlar.",
                     "opening": {
                       "name": "Alapin: 2...e6",
+                      "eco": "B22"
+                    }
+                  },
+                  {
+                    "id": "e2e4.c7c5.c2c3.b8c6",
+                    "ply": 4,
+                    "moveNumber": 2,
+                    "color": "b",
+                    "san": "Nc6",
+                    "uci": "b8c6",
+                    "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 1 3",
+                    "children": [
+                      {
+                        "id": "e2e4.c7c5.c2c3.b8c6.d2d4",
+                        "ply": 5,
+                        "moveNumber": 3,
+                        "color": "w",
+                        "san": "d4",
+                        "uci": "d2d4",
+                        "fen": "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3",
+                        "children": [
+                          {
+                            "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4",
+                            "ply": 6,
+                            "moveNumber": 3,
+                            "color": "b",
+                            "san": "cxd4",
+                            "uci": "c5d4",
+                            "fen": "r1bqkbnr/pp1ppppp/2n5/8/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq - 0 4",
+                            "children": [
+                              {
+                                "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4",
+                                "ply": 7,
+                                "moveNumber": 4,
+                                "color": "w",
+                                "san": "cxd4",
+                                "uci": "c3d4",
+                                "fen": "r1bqkbnr/pp1ppppp/2n5/8/3PP3/8/PP3PPP/RNBQKBNR b KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "d5",
+                                    "uci": "d7d5",
+                                    "fen": "r1bqkbnr/pp2pppp/2n5/3p4/3PP3/8/PP3PPP/RNBQKBNR w KQkq - 0 5",
+                                    "children": [
+                                      {
+                                        "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "exd5",
+                                        "uci": "e4d5",
+                                        "fen": "r1bqkbnr/pp2pppp/2n5/3P4/3P4/8/PP3PPP/RNBQKBNR b KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "Qxd5",
+                                            "uci": "d8d5",
+                                            "fen": "r1b1kbnr/pp2pppp/2n5/3q4/3P4/8/PP3PPP/RNBQKBNR w KQkq - 0 6",
+                                            "children": [
+                                              {
+                                                "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "Nf3",
+                                                "uci": "g1f3",
+                                                "fen": "r1b1kbnr/pp2pppp/2n5/3q4/3P4/5N2/PP3PPP/RNBQKB1R b KQkq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "e5",
+                                                    "uci": "e7e5",
+                                                    "fen": "r1b1kbnr/pp3ppp/2n5/3qp3/3P4/5N2/PP3PPP/RNBQKB1R w KQkq - 0 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "Nc3",
+                                                        "uci": "b1c3",
+                                                        "fen": "r1b1kbnr/pp3ppp/2n5/3qp3/3P4/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "Bb4",
+                                                            "uci": "f8b4",
+                                                            "fen": "r1b1k1nr/pp3ppp/2n5/3qp3/1b1P4/2N2N2/PP3PPP/R1BQKB1R w KQkq - 2 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "Bd2",
+                                                                "uci": "c1d2",
+                                                                "fen": "r1b1k1nr/pp3ppp/2n5/3qp3/1b1P4/2N2N2/PP1B1PPP/R2QKB1R b KQkq - 3 8",
+                                                                "children": [
+                                                                  {
+                                                                    "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3",
+                                                                    "ply": 16,
+                                                                    "moveNumber": 8,
+                                                                    "color": "b",
+                                                                    "san": "Bxc3",
+                                                                    "uci": "b4c3",
+                                                                    "fen": "r1b1k1nr/pp3ppp/2n5/3qp3/3P4/2b2N2/PP1B1PPP/R2QKB1R w KQkq - 0 9",
+                                                                    "children": [
+                                                                      {
+                                                                        "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3.d2c3",
+                                                                        "ply": 17,
+                                                                        "moveNumber": 9,
+                                                                        "color": "w",
+                                                                        "san": "Bxc3",
+                                                                        "uci": "d2c3",
+                                                                        "fen": "r1b1k1nr/pp3ppp/2n5/3qp3/3P4/2B2N2/PP3PPP/R2QKB1R b KQkq - 0 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3.d2c3.e5e4",
+                                                                            "ply": 18,
+                                                                            "moveNumber": 9,
+                                                                            "color": "b",
+                                                                            "san": "e4",
+                                                                            "uci": "e5e4",
+                                                                            "fen": "r1b1k1nr/pp3ppp/2n5/3q4/3Pp3/2B2N2/PP3PPP/R2QKB1R w KQkq - 0 10",
+                                                                            "children": [
+                                                                              {
+                                                                                "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3.d2c3.e5e4.f3e5",
+                                                                                "ply": 19,
+                                                                                "moveNumber": 10,
+                                                                                "color": "w",
+                                                                                "san": "Ne5",
+                                                                                "uci": "f3e5",
+                                                                                "fen": "r1b1k1nr/pp3ppp/2n5/3qN3/3Pp3/2B5/PP3PPP/R2QKB1R b KQkq - 1 10",
+                                                                                "children": [
+                                                                                  {
+                                                                                    "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3.d2c3.e5e4.f3e5.c6e5",
+                                                                                    "ply": 20,
+                                                                                    "moveNumber": 10,
+                                                                                    "color": "b",
+                                                                                    "san": "Nxe5",
+                                                                                    "uci": "c6e5",
+                                                                                    "fen": "r1b1k1nr/pp3ppp/8/3qn3/3Pp3/2B5/PP3PPP/R2QKB1R w KQkq - 0 11",
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3.d2c3.e5e4.f3e5.c6e5.d4e5",
+                                                                                        "ply": 21,
+                                                                                        "moveNumber": 11,
+                                                                                        "color": "w",
+                                                                                        "san": "dxe5",
+                                                                                        "uci": "d4e5",
+                                                                                        "fen": "r1b1k1nr/pp3ppp/8/3qP3/4p3/2B5/PP3PPP/R2QKB1R b KQkq - 0 11",
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "id": "e2e4.c7c5.c2c3.b8c6.d2d4.c5d4.c3d4.d7d5.e4d5.d8d5.g1f3.e7e5.b1c3.f8b4.c1d2.b4c3.d2c3.e5e4.f3e5.c6e5.d4e5.g8e7",
+                                                                                            "ply": 22,
+                                                                                            "moveNumber": 11,
+                                                                                            "color": "b",
+                                                                                            "san": "Ne7",
+                                                                                            "uci": "g8e7",
+                                                                                            "fen": "r1b1k2r/pp2nppp/8/3qP3/4p3/2B5/PP3PPP/R2QKB1R w KQkq - 1 12",
+                                                                                            "children": [],
+                                                                                            "comment": "At c6 veya f5'e gidecek. Dengeli, açık bir konum."
+                                                                                          }
+                                                                                        ],
+                                                                                        "comment": "Beyazın fil çifti var; siyah gelişimde rahat."
+                                                                                      }
+                                                                                    ],
+                                                                                    "comment": "Siyah değişir."
+                                                                                  }
+                                                                                ],
+                                                                                "comment": "At merkezde aktif."
+                                                                              }
+                                                                            ],
+                                                                            "comment": "f3 atını kovalar."
+                                                                          }
+                                                                        ],
+                                                                        "comment": "Fil geri alır."
+                                                                      }
+                                                                    ],
+                                                                    "comment": "Siyah fil çiftini verir ama beyazın piyon yapısını bozmaya zorlar."
+                                                                  }
+                                                                ],
+                                                                "comment": "Açmazı kırar."
+                                                              }
+                                                            ],
+                                                            "comment": "Fil c3 atını açmaza alır; vezir d5'te kalır."
+                                                          }
+                                                        ],
+                                                        "comment": "Tempo kazanarak vezire saldırır."
+                                                      }
+                                                    ],
+                                                    "comment": "Siyah d4'e bir daha vurur ve merkezi açar."
+                                                  }
+                                                ],
+                                                "comment": "d4'ü korur."
+                                              }
+                                            ],
+                                            "comment": "Vezir merkezde; d4'e baskı."
+                                          }
+                                        ],
+                                        "comment": "Beyaz değişir."
+                                      }
+                                    ],
+                                    "comment": "Siyah merkeze vurur."
+                                  }
+                                ],
+                                "comment": "İki merkez piyonu."
+                              }
+                            ],
+                            "comment": "Siyah değişir."
+                          }
+                        ],
+                        "comment": "Beyaz planına devam eder."
+                      }
+                    ],
+                    "comment": "Esnek: siyah d4'e baskı kurar ve hangi yapıya gireceğini beyaza göre seçer.",
+                    "opening": {
+                      "name": "Alapin: 2...Nc6",
+                      "eco": "B22"
+                    }
+                  },
+                  {
+                    "id": "e2e4.c7c5.c2c3.e7e5",
+                    "ply": 4,
+                    "moveNumber": 2,
+                    "color": "b",
+                    "san": "e5",
+                    "uci": "e7e5",
+                    "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 0 3",
+                    "children": [
+                      {
+                        "id": "e2e4.c7c5.c2c3.e7e5.g1f3",
+                        "ply": 5,
+                        "moveNumber": 3,
+                        "color": "w",
+                        "san": "Nf3",
+                        "uci": "g1f3",
+                        "fen": "rnbqkbnr/pp1p1ppp/8/2p1p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R b KQkq - 1 3",
+                        "children": [
+                          {
+                            "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6",
+                            "ply": 6,
+                            "moveNumber": 3,
+                            "color": "b",
+                            "san": "Nc6",
+                            "uci": "b8c6",
+                            "fen": "r1bqkbnr/pp1p1ppp/2n5/2p1p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R w KQkq - 2 4",
+                            "children": [
+                              {
+                                "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4",
+                                "ply": 7,
+                                "moveNumber": 4,
+                                "color": "w",
+                                "san": "Bc4",
+                                "uci": "f1c4",
+                                "fen": "r1bqkbnr/pp1p1ppp/2n5/2p1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 3 4",
+                                "children": [
+                                  {
+                                    "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "Be7",
+                                    "uci": "f8e7",
+                                    "fen": "r1bqk1nr/pp1pbppp/2n5/2p1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 4 5",
+                                    "children": [
+                                      {
+                                        "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "d3",
+                                        "uci": "d2d3",
+                                        "fen": "r1bqk1nr/pp1pbppp/2n5/2p1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R b KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3.d7d6",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "d6",
+                                            "uci": "d7d6",
+                                            "fen": "r1bqk1nr/pp2bppp/2np4/2p1p3/2B1P3/2PP1N2/PP3PPP/RNBQK2R w KQkq - 0 6",
+                                            "children": [
+                                              {
+                                                "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3.d7d6.e1g1",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "O-O",
+                                                "uci": "e1g1",
+                                                "fen": "r1bqk1nr/pp2bppp/2np4/2p1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 b kq - 1 6",
+                                                "children": [
+                                                  {
+                                                    "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3.d7d6.e1g1.g8f6",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "Nf6",
+                                                    "uci": "g8f6",
+                                                    "fen": "r1bqk2r/pp2bppp/2np1n2/2p1p3/2B1P3/2PP1N2/PP3PPP/RNBQ1RK1 w kq - 2 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3.d7d6.e1g1.g8f6.f1e1",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "Re1",
+                                                        "uci": "f1e1",
+                                                        "fen": "r1bqk2r/pp2bppp/2np1n2/2p1p3/2B1P3/2PP1N2/PP3PPP/RNBQR1K1 b kq - 3 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3.d7d6.e1g1.g8f6.f1e1.e8g8",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "O-O",
+                                                            "uci": "e8g8",
+                                                            "fen": "r1bq1rk1/pp2bppp/2np1n2/2p1p3/2B1P3/2PP1N2/PP3PPP/RNBQR1K1 w - - 4 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "e2e4.c7c5.c2c3.e7e5.g1f3.b8c6.f1c4.f8e7.d2d3.d7d6.e1g1.g8f6.f1e1.e8g8.h2h3",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "h3",
+                                                                "uci": "h2h3",
+                                                                "fen": "r1bq1rk1/pp2bppp/2np1n2/2p1p3/2B1P3/2PP1N1P/PP3PP1/RNBQR1K1 b - - 0 8",
+                                                                "children": [],
+                                                                "comment": "g4 karesini kontrol eder. Beyaz d4 ile merkezi açmayı planlar; siyahın d4 karesindeki kontrolü önemli."
+                                                              }
+                                                            ],
+                                                            "comment": "Siyah rok yapar."
+                                                          }
+                                                        ],
+                                                        "comment": "e4'ü destekler ve d4 itişini hazırlar."
+                                                      }
+                                                    ],
+                                                    "comment": "Gelişim."
+                                                  }
+                                                ],
+                                                "comment": "Şah güvenliği."
+                                              }
+                                            ],
+                                            "comment": "e5'i sağlamlaştırır."
+                                          }
+                                        ],
+                                        "comment": "Beyaz yavaş oynar; d4 için uygun anı bekler."
+                                      }
+                                    ],
+                                    "comment": "Sağlam gelişim."
+                                  }
+                                ],
+                                "comment": "Fil f7'yi hedefler; İtalyan oyununu andıran bir yapı."
+                              }
+                            ],
+                            "comment": "e5'i korur."
+                          }
+                        ],
+                        "comment": "e5'e saldırı."
+                      }
+                    ],
+                    "comment": "Siyah d4'ü baştan engeller: d4 oynanırsa ...cxd4 ve ...exd4 ile merkez çözülür.",
+                    "opening": {
+                      "name": "Alapin: 2...e5",
+                      "eco": "B22"
+                    }
+                  },
+                  {
+                    "id": "e2e4.c7c5.c2c3.d7d6",
+                    "ply": 4,
+                    "moveNumber": 2,
+                    "color": "b",
+                    "san": "d6",
+                    "uci": "d7d6",
+                    "fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 0 3",
+                    "children": [
+                      {
+                        "id": "e2e4.c7c5.c2c3.d7d6.d2d4",
+                        "ply": 5,
+                        "moveNumber": 3,
+                        "color": "w",
+                        "san": "d4",
+                        "uci": "d2d4",
+                        "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3",
+                        "children": [
+                          {
+                            "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6",
+                            "ply": 6,
+                            "moveNumber": 3,
+                            "color": "b",
+                            "san": "Nf6",
+                            "uci": "g8f6",
+                            "fen": "rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2P5/PP3PPP/RNBQKBNR w KQkq - 1 4",
+                            "children": [
+                              {
+                                "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3",
+                                "ply": 7,
+                                "moveNumber": 4,
+                                "color": "w",
+                                "san": "Bd3",
+                                "uci": "f1d3",
+                                "fen": "rnbqkb1r/pp2pppp/3p1n2/2p5/3PP3/2PB4/PP3PPP/RNBQK1NR b KQkq - 2 4",
+                                "children": [
+                                  {
+                                    "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "g6",
+                                    "uci": "g7g6",
+                                    "fen": "rnbqkb1r/pp2pp1p/3p1np1/2p5/3PP3/2PB4/PP3PPP/RNBQK1NR w KQkq - 0 5",
+                                    "children": [
+                                      {
+                                        "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "Nf3",
+                                        "uci": "g1f3",
+                                        "fen": "rnbqkb1r/pp2pp1p/3p1np1/2p5/3PP3/2PB1N2/PP3PPP/RNBQK2R b KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3.f8g7",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "Bg7",
+                                            "uci": "f8g7",
+                                            "fen": "rnbqk2r/pp2ppbp/3p1np1/2p5/3PP3/2PB1N2/PP3PPP/RNBQK2R w KQkq - 2 6",
+                                            "children": [
+                                              {
+                                                "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3.f8g7.e1g1",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "O-O",
+                                                "uci": "e1g1",
+                                                "fen": "rnbqk2r/pp2ppbp/3p1np1/2p5/3PP3/2PB1N2/PP3PPP/RNBQ1RK1 b kq - 3 6",
+                                                "children": [
+                                                  {
+                                                    "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3.f8g7.e1g1.e8g8",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "O-O",
+                                                    "uci": "e8g8",
+                                                    "fen": "rnbq1rk1/pp2ppbp/3p1np1/2p5/3PP3/2PB1N2/PP3PPP/RNBQ1RK1 w - - 4 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3.f8g7.e1g1.e8g8.h2h3",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "h3",
+                                                        "uci": "h2h3",
+                                                        "fen": "rnbq1rk1/pp2ppbp/3p1np1/2p5/3PP3/2PB1N1P/PP3PP1/RNBQ1RK1 b - - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3.f8g7.e1g1.e8g8.h2h3.b8c6",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "Nc6",
+                                                            "uci": "b8c6",
+                                                            "fen": "r1bq1rk1/pp2ppbp/2np1np1/2p5/3PP3/2PB1N1P/PP3PP1/RNBQ1RK1 w - - 1 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "e2e4.c7c5.c2c3.d7d6.d2d4.g8f6.f1d3.g7g6.g1f3.f8g7.e1g1.e8g8.h2h3.b8c6.f1e1",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "Re1",
+                                                                "uci": "f1e1",
+                                                                "fen": "r1bq1rk1/pp2ppbp/2np1np1/2p5/3PP3/2PB1N1P/PP3PP1/RNBQR1K1 b - - 2 8",
+                                                                "children": [],
+                                                                "comment": "Beyaz merkezini korur; siyah ...cxd4 ve ...e5 ile merkezi zorlamaya çalışacak."
+                                                              }
+                                                            ],
+                                                            "comment": "d4'e baskı artar."
+                                                          }
+                                                        ],
+                                                        "comment": "Bg4 açmazını önler."
+                                                      }
+                                                    ],
+                                                    "comment": "Siyah rok yapar."
+                                                  }
+                                                ],
+                                                "comment": "Şah güvenliği."
+                                              }
+                                            ],
+                                            "comment": "Fil uzun çaprazda."
+                                          }
+                                        ],
+                                        "comment": "Gelişim."
+                                      }
+                                    ],
+                                    "comment": "Ejderha tarzı: fil g7'de d4'e baskı yapacak."
+                                  }
+                                ],
+                                "comment": "Fil e4'ü korur; beyaz klasik iki piyonlu merkezi korumak ister."
+                              }
+                            ],
+                            "comment": "e4'e baskı."
+                          }
+                        ],
+                        "comment": "Beyaz merkezi kurar."
+                      }
+                    ],
+                    "comment": "Siyah e5 karesini kontrol eder ve esnek kalır.",
+                    "opening": {
+                      "name": "Alapin: 2...d6",
+                      "eco": "B22"
+                    }
+                  },
+                  {
+                    "id": "e2e4.c7c5.c2c3.g7g6",
+                    "ply": 4,
+                    "moveNumber": 2,
+                    "color": "b",
+                    "san": "g6",
+                    "uci": "g7g6",
+                    "fen": "rnbqkbnr/pp1ppp1p/6p1/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR w KQkq - 0 3",
+                    "children": [
+                      {
+                        "id": "e2e4.c7c5.c2c3.g7g6.d2d4",
+                        "ply": 5,
+                        "moveNumber": 3,
+                        "color": "w",
+                        "san": "d4",
+                        "uci": "d2d4",
+                        "fen": "rnbqkbnr/pp1ppp1p/6p1/2p5/3PP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3",
+                        "children": [
+                          {
+                            "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4",
+                            "ply": 6,
+                            "moveNumber": 3,
+                            "color": "b",
+                            "san": "cxd4",
+                            "uci": "c5d4",
+                            "fen": "rnbqkbnr/pp1ppp1p/6p1/8/3pP3/2P5/PP3PPP/RNBQKBNR w KQkq - 0 4",
+                            "children": [
+                              {
+                                "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4",
+                                "ply": 7,
+                                "moveNumber": 4,
+                                "color": "w",
+                                "san": "cxd4",
+                                "uci": "c3d4",
+                                "fen": "rnbqkbnr/pp1ppp1p/6p1/8/3PP3/8/PP3PPP/RNBQKBNR b KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "d5",
+                                    "uci": "d7d5",
+                                    "fen": "rnbqkbnr/pp2pp1p/6p1/3p4/3PP3/8/PP3PPP/RNBQKBNR w KQkq - 0 5",
+                                    "children": [
+                                      {
+                                        "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "e5",
+                                        "uci": "e4e5",
+                                        "fen": "rnbqkbnr/pp2pp1p/6p1/3pP3/3P4/8/PP3PPP/RNBQKBNR b KQkq - 0 5",
+                                        "children": [
+                                          {
+                                            "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "Nc6",
+                                            "uci": "b8c6",
+                                            "fen": "r1bqkbnr/pp2pp1p/2n3p1/3pP3/3P4/8/PP3PPP/RNBQKBNR w KQkq - 1 6",
+                                            "children": [
+                                              {
+                                                "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "Nc3",
+                                                "uci": "b1c3",
+                                                "fen": "r1bqkbnr/pp2pp1p/2n3p1/3pP3/3P4/2N5/PP3PPP/R1BQKBNR b KQkq - 2 6",
+                                                "children": [
+                                                  {
+                                                    "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "Bg7",
+                                                    "uci": "f8g7",
+                                                    "fen": "r1bqk1nr/pp2ppbp/2n3p1/3pP3/3P4/2N5/PP3PPP/R1BQKBNR w KQkq - 3 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7.f1b5",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "Bb5",
+                                                        "uci": "f1b5",
+                                                        "fen": "r1bqk1nr/pp2ppbp/2n3p1/1B1pP3/3P4/2N5/PP3PPP/R1BQK1NR b KQkq - 4 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7.f1b5.g8h6",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "Nh6",
+                                                            "uci": "g8h6",
+                                                            "fen": "r1bqk2r/pp2ppbp/2n3pn/1B1pP3/3P4/2N5/PP3PPP/R1BQK1NR w KQkq - 5 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7.f1b5.g8h6.g1f3",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "Nf3",
+                                                                "uci": "g1f3",
+                                                                "fen": "r1bqk2r/pp2ppbp/2n3pn/1B1pP3/3P4/2N2N2/PP3PPP/R1BQK2R b KQkq - 6 8",
+                                                                "children": [
+                                                                  {
+                                                                    "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7.f1b5.g8h6.g1f3.e8g8",
+                                                                    "ply": 16,
+                                                                    "moveNumber": 8,
+                                                                    "color": "b",
+                                                                    "san": "O-O",
+                                                                    "uci": "e8g8",
+                                                                    "fen": "r1bq1rk1/pp2ppbp/2n3pn/1B1pP3/3P4/2N2N2/PP3PPP/R1BQK2R w KQ - 7 9",
+                                                                    "children": [
+                                                                      {
+                                                                        "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7.f1b5.g8h6.g1f3.e8g8.e1g1",
+                                                                        "ply": 17,
+                                                                        "moveNumber": 9,
+                                                                        "color": "w",
+                                                                        "san": "O-O",
+                                                                        "uci": "e1g1",
+                                                                        "fen": "r1bq1rk1/pp2ppbp/2n3pn/1B1pP3/3P4/2N2N2/PP3PPP/R1BQ1RK1 b - - 8 9",
+                                                                        "children": [
+                                                                          {
+                                                                            "id": "e2e4.c7c5.c2c3.g7g6.d2d4.c5d4.c3d4.d7d5.e4e5.b8c6.b1c3.f8g7.f1b5.g8h6.g1f3.e8g8.e1g1.c8g4",
+                                                                            "ply": 18,
+                                                                            "moveNumber": 9,
+                                                                            "color": "b",
+                                                                            "san": "Bg4",
+                                                                            "uci": "c8g4",
+                                                                            "fen": "r2q1rk1/pp2ppbp/2n3pn/1B1pP3/3P2b1/2N2N2/PP3PPP/R1BQ1RK1 w - - 9 10",
+                                                                            "children": [],
+                                                                            "comment": "f3 atını açmaza alır; d4 piyonu üzerindeki baskı artıyor."
+                                                                          }
+                                                                        ],
+                                                                        "comment": "Beyaz rok yapar."
+                                                                      }
+                                                                    ],
+                                                                    "comment": "Siyah rok yapar."
+                                                                  }
+                                                                ],
+                                                                "comment": "d4'ü korur."
+                                                              }
+                                                            ],
+                                                            "comment": "At f5'e gidecek ve d4'e baskı yapacak."
+                                                          }
+                                                        ],
+                                                        "comment": "c6 atını açmaza alır, d4 üzerindeki baskıyı azaltır."
+                                                      }
+                                                    ],
+                                                    "comment": "Fil d4'ü hedefliyor ama e5 piyonu çaprazı kısmen kapatıyor."
+                                                  }
+                                                ],
+                                                "comment": "d5'e baskı."
+                                              }
+                                            ],
+                                            "comment": "d4'e baskı."
+                                          }
+                                        ],
+                                        "comment": "Beyaz alan kazanır; yapı kapalı."
+                                      }
+                                    ],
+                                    "comment": "Siyah e4'e saldırır."
+                                  }
+                                ],
+                                "comment": "İki merkez piyonu."
+                              }
+                            ],
+                            "comment": "Siyah değişir."
+                          }
+                        ],
+                        "comment": "Beyaz merkezi kurar."
+                      }
+                    ],
+                    "comment": "Fil g7'den d4'e baskı yapacak; siyah beyazın merkezini uzaktan hedef alır.",
+                    "opening": {
+                      "name": "Alapin: 2...g6",
                       "eco": "B22"
                     }
                   }

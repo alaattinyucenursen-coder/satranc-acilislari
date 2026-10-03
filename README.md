@@ -31,22 +31,37 @@ Plan:
 
 ### Sicilya Savunması: Alapin Varyantı (`data/sicilya-alapin.json`, `data/sicilya-alapin.pgn`)
 
-| Varyant | ECO |
-|---|---|
-| 2...d5: 5...Bg4 ana hattı | B22 |
-| 2...d5: 5...e6 ve izole piyon | B22 |
-| 2...Nf6: 5.cxd4 d6 ana hattı | B22 |
-| 2...Nf6: 5.Nf3 Nc6 6.Bc4 | B22 |
-| 2...e6: Fransız tarzı yapı | B22 |
+| Varyant | ECO | Not |
+|---|---|---|
+| 2...d5: 5...Bg4 ana hattı | B22 |  |
+| 2...d5: 5...e6 ve izole piyon | B22 |  |
+| 2...Nf6: 5.cxd4 d6 ana hattı | B22 |  |
+| 2...Nf6: 5.Nf3 Nc6 6.Bc4 | B22 |  |
+| 2...e6: Fransız tarzı yapı | B22 |  |
+| 2...d5: 4...Nc6 ve 8...Qa5 | B22 |  |
+| 2...d5 3.exd5 Nf6: gambit fikri | B22 |  |
+| 2...Nf6: 4.Nf3 Nc6 5.Bc4 keskin hat | B22 |  |
+| 2...Nc6: 6...e5 hattı | B22 |  |
+| 2...e5: kapalı yapı | B22 |  |
+| 2...d6: Ejderha tarzı kuruluş | B22 |  |
+| 2...g6: fiyanketto ve 4...d5 | B22 |  |
 
 ### Sicilya Savunması: Kan Varyantı (`data/sicilya-kan.json`, `data/sicilya-kan.pgn`)
 
-| Varyant | ECO |
-|---|---|
-| 5.Bd3 Nf6 6.O-O Qc7: Maróczy yapısı | B42 |
-| 5.Bd3 Nc6 6.Nxc6 dxc6 | B42 |
-| 5.Nc3 Qc7: Klasik gelişim | B43 |
-| 5.c4: Kirpi (Hedgehog) yapısı | B41 |
+| Varyant | ECO | Not |
+|---|---|---|
+| 5.Bd3 Nf6 6.O-O Qc7: Maróczy yapısı | B42 |  |
+| 5.Bd3 Nc6 6.Nxc6 dxc6 | B42 |  |
+| 5.Nc3 Qc7: Klasik gelişim | B43 |  |
+| 5.c4: Kirpi (Hedgehog) yapısı | B41 |  |
+| 3.d3: Kral Hint Saldırısı düzeni | B40 |  |
+| 3.c3: Fransız ilerleme yapısı | B40 |  |
+| 3.Nc3 a6 4.g3: kapalı düzen | B40 |  |
+| 3.b3: fiyanketto | B40 |  |
+| 2.Nc3: Kapalı Sicilya | B23 |  |
+| 2.f4: Grand Prix Saldırısı | B21 |  |
+| 2.d4: Smith-Morra Gambiti | B21 |  |
+| Tuzak: Sibirya Tuzağı (Smith-Morra) | B21 | tuzak |
 
 ## Dosyalar
 
