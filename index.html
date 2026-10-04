@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vezir Gambiti Atölyesi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Symbols+2&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">♛&#xFE0E;</span>
+      <div>
+        <p class="eyebrow">Usta maçlarıyla açılış çalışması</p>
+        <h1 id="module-title">Vezir Gambiti</h1>
+      </div>
+    </div>
+    <p id="module-intro" class="module-intro"></p>
+  </header>
+
+  <div class="layout">
+    <nav class="games" aria-label="Maçlar">
+      <h2 class="label">Maçlar</h2>
+      <ol id="game-list"></ol>
+    </nav>
+
+    <main class="main">
+      <section class="game-head">
+        <p class="eyebrow" id="g-theme"></p>
+        <h2 id="g-title"></h2>
+        <p id="g-meta" class="meta"></p>
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" data-tab="review" id="tab-review">Maç incelemesi</button>
+          <button class="tab" role="tab" data-tab="ex" id="tab-ex">Alıştırmalar</button>
+        </div>
+      </section>
+
+      <!-- İnceleme sekmesi -->
+      <section id="panel-review" role="tabpanel" aria-labelledby="tab-review">
+        <p id="g-summary" class="summary"></p>
+        <div class="plans">
+          <article class="plan w" id="plan-white"></article>
+          <article class="plan b" id="plan-black"></article>
+        </div>
+
+        <div class="study">
+          <div class="board-col" id="review-board-slot">
+            <div id="board-wrap">
+              <div class="board-row">
+                <div class="evalbar" id="evalbar" aria-hidden="true"><i></i></div>
+                <div id="board"></div>
+              </div>
+              <div class="controls">
+                <button class="btn icon" id="nav-start" aria-label="Başa dön">⏮</button>
+                <button class="btn icon" id="nav-prev" aria-label="Geri">◀</button>
+                <span id="ply-pos" class="ply-pos"></span>
+                <button class="btn icon" id="nav-next" aria-label="İleri">▶</button>
+                <button class="btn icon" id="nav-end" aria-label="Sona git">⏭</button>
+                <button class="btn" id="flip">Tahtayı çevir</button>
+              </div>
+              <section class="engine off" id="engine" aria-live="polite">
+                <div class="engine-head">
+                  <h3 class="label">Motor <span id="eval-num" class="eval-num"></span></h3>
+                  <span id="engine-status" class="muted small"></span>
+                  <button class="btn" id="engine-toggle" aria-pressed="false">Motoru aç</button>
+                </div>
+                <div id="engine-lines"></div>
+              </section>
+            </div>
+          </div>
+
+          <div class="text-col">
+            <div id="comment" class="comment" aria-live="polite"></div>
+            <h3 class="label">Hamleler</h3>
+            <div id="move-list" class="move-list"></div>
+            <h3 class="label">Kritik anlar</h3>
+            <ol id="critical-list" class="critical-list"></ol>
+            <h3 class="label">Bu maçtan akılda kalacaklar</h3>
+            <ul id="lessons" class="lessons"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Alıştırma sekmesi -->
+      <section id="panel-ex" role="tabpanel" aria-labelledby="tab-ex" hidden>
+        <div class="study">
+          <div class="board-col" id="ex-board-slot"></div>
+          <div class="text-col">
+            <div id="ex-head" class="ex-head"></div>
+            <div id="ex-prompt" class="ex-prompt"></div>
+            <p id="ex-progress" class="ex-progress"></p>
+            <div id="ex-feedback" class="feedback" aria-live="polite"></div>
+            <div class="ex-actions">
+              <button class="btn" id="ex-hint">İpucu</button>
+              <button class="btn" id="ex-show">Çözümü göster</button>
+              <button class="btn" id="ex-reset">Baştan</button>
+              <button class="btn primary" id="ex-next" hidden>Sonraki alıştırma</button>
+            </div>
+            <p id="ex-engine-note" class="muted small">Hamlenizi tahtada taşa ve sonra gideceği kareye tıklayarak yapın.</p>
+            <h3 class="label">Bu maçın alıştırmaları</h3>
+            <ol id="ex-list" class="ex-list"></ol>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="foot">
+    <p>Maç kayıtları PgnMentor arşivinden alınmış ve hamle hamle doğrulanmıştır. Motor: Stockfish 19 (GPLv3), kurallar: chess.js.</p>
+  </footer>
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
