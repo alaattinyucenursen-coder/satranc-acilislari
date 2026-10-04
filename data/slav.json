@@ -9,14 +9,18 @@
       "base": {
         "hamleler": "d4 d5 c4 c6",
         "mac": 31589
-      }
+      },
+      "total": 10971,
+      "other": 20618
     },
     "usta": {
       "source": "İki oyuncusu da en az 2600 Elo olan maçlar (rozim/ChessData mega2600, 138 bin maç)",
       "base": {
         "hamleler": "d4 d5 c4 c6",
         "mac": 7756
-      }
+      },
+      "total": 2757,
+      "other": 4999
     }
   },
   "startFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
@@ -53,12 +57,12 @@
       "played": {
         "genel": {
           "mac": 2976,
-          "oran": 9.42,
+          "oran": 27.13,
           "hamle": "4...a6"
         },
         "usta": {
           "mac": 896,
-          "oran": 11.55,
+          "oran": 32.5,
           "hamle": "4...a6"
         }
       }
@@ -93,12 +97,12 @@
       "played": {
         "genel": {
           "mac": 1509,
-          "oran": 4.78,
+          "oran": 13.75,
           "hamle": "4.cxd5"
         },
         "usta": {
           "mac": 198,
-          "oran": 2.55,
+          "oran": 7.18,
           "hamle": "4.cxd5"
         }
       }
@@ -134,12 +138,12 @@
       "played": {
         "genel": {
           "mac": 1299,
-          "oran": 4.11,
+          "oran": 11.84,
           "hamle": "5.Nc3"
         },
         "usta": {
           "mac": 753,
-          "oran": 9.71,
+          "oran": 27.31,
           "hamle": "5.Nc3"
         }
       }
@@ -172,12 +176,12 @@
       "played": {
         "genel": {
           "mac": 922,
-          "oran": 2.92,
+          "oran": 8.4,
           "hamle": "5.Bf4"
         },
         "usta": {
           "mac": 264,
-          "oran": 3.4,
+          "oran": 9.58,
           "hamle": "5.Bf4"
         }
       }
@@ -216,12 +220,12 @@
       "played": {
         "genel": {
           "mac": 877,
-          "oran": 2.78,
+          "oran": 7.99,
           "hamle": "6...Nbd7"
         },
         "usta": {
           "mac": 331,
-          "oran": 4.27,
+          "oran": 12.01,
           "hamle": "6...Nbd7"
         }
       }
@@ -252,12 +256,12 @@
       "played": {
         "genel": {
           "mac": 615,
-          "oran": 1.95,
+          "oran": 5.61,
           "hamle": "4...g6"
         },
         "usta": {
           "mac": 15,
-          "oran": 0.19,
+          "oran": 0.54,
           "hamle": "4...g6"
         }
       }
@@ -290,12 +294,12 @@
       "played": {
         "genel": {
           "mac": 528,
-          "oran": 1.67,
+          "oran": 4.81,
           "hamle": "5...Bg4"
         },
         "usta": {
           "mac": 23,
-          "oran": 0.3,
+          "oran": 0.83,
           "hamle": "5...Bg4"
         }
       }
@@ -336,12 +340,12 @@
       "played": {
         "genel": {
           "mac": 466,
-          "oran": 1.48,
+          "oran": 4.25,
           "hamle": "5.e4"
         },
         "usta": {
           "mac": 56,
-          "oran": 0.72,
+          "oran": 2.03,
           "hamle": "5.e4"
         }
       }
@@ -376,12 +380,12 @@
       "played": {
         "genel": {
           "mac": 380,
-          "oran": 1.2,
+          "oran": 3.46,
           "hamle": "5.e3"
         },
         "usta": {
           "mac": 18,
-          "oran": 0.23,
+          "oran": 0.65,
           "hamle": "5.e3"
         }
       }
@@ -413,12 +417,12 @@
       "played": {
         "genel": {
           "mac": 369,
-          "oran": 1.17,
+          "oran": 3.36,
           "hamle": "5.cxd5"
         },
         "usta": {
           "mac": 34,
-          "oran": 0.44,
+          "oran": 1.23,
           "hamle": "5.cxd5"
         }
       }
@@ -464,12 +468,12 @@
       "played": {
         "genel": {
           "mac": 336,
-          "oran": 1.06,
+          "oran": 3.06,
           "hamle": "7...Bb4"
         },
         "usta": {
           "mac": 81,
-          "oran": 1.04,
+          "oran": 2.94,
           "hamle": "7...Bb4"
         }
       }
@@ -510,12 +514,12 @@
       "played": {
         "genel": {
           "mac": 238,
-          "oran": 0.75,
+          "oran": 2.17,
           "hamle": "9...Nbd7"
         },
         "usta": {
           "mac": 27,
-          "oran": 0.35,
+          "oran": 0.98,
           "hamle": "9...Nbd7"
         }
       }
@@ -548,12 +552,12 @@
       "played": {
         "genel": {
           "mac": 235,
-          "oran": 0.74,
+          "oran": 2.14,
           "hamle": "5...Na6"
         },
         "usta": {
           "mac": 15,
-          "oran": 0.19,
+          "oran": 0.54,
           "hamle": "5...Na6"
         }
       }
@@ -590,12 +594,12 @@
       "played": {
         "genel": {
           "mac": 101,
-          "oran": 0.32,
+          "oran": 0.92,
           "hamle": "9...Ne4"
         },
         "usta": {
           "mac": 18,
-          "oran": 0.23,
+          "oran": 0.65,
           "hamle": "9...Ne4"
         }
       }
@@ -634,12 +638,12 @@
       "played": {
         "genel": {
           "mac": 82,
-          "oran": 0.26,
+          "oran": 0.75,
           "hamle": "7...c5"
         },
         "usta": {
           "mac": 28,
-          "oran": 0.36,
+          "oran": 1.02,
           "hamle": "7...c5"
         }
       }
@@ -674,7 +678,7 @@
       "played": {
         "genel": {
           "mac": 38,
-          "oran": 0.12,
+          "oran": 0.35,
           "hamle": "6...Na6"
         },
         "usta": {

@@ -9,14 +9,18 @@
       "base": {
         "hamleler": "d4 d5 c4",
         "mac": 81075
-      }
+      },
+      "total": 35061,
+      "other": 46014
     },
     "usta": {
       "source": "İki oyuncusu da en az 2600 Elo olan maçlar (rozim/ChessData mega2600, 138 bin maç)",
       "base": {
         "hamleler": "d4 d5 c4",
         "mac": 17187
-      }
+      },
+      "total": 9225,
+      "other": 7962
     }
   },
   "startFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
@@ -57,12 +61,12 @@
       "played": {
         "genel": {
           "mac": 4593,
-          "oran": 5.67,
+          "oran": 13.1,
           "hamle": "5...Bf5"
         },
         "usta": {
           "mac": 914,
-          "oran": 5.32,
+          "oran": 9.91,
           "hamle": "5...Bf5"
         }
       }
@@ -101,50 +105,13 @@
       "played": {
         "genel": {
           "mac": 3349,
-          "oran": 4.13,
+          "oran": 9.55,
           "hamle": "7...b5"
         },
         "usta": {
           "mac": 551,
-          "oran": 3.21,
+          "oran": 5.97,
           "hamle": "7...b5"
-        }
-      }
-    },
-    {
-      "id": "ret-alatortsev",
-      "group": "Reddedilmiş Vezir Gambiti",
-      "name": "Alatortsev Varyantı (3...Be7) ve 7.g4",
-      "eco": "D35",
-      "trap": false,
-      "moves": [
-        "d4",
-        "d5",
-        "c4",
-        "e6",
-        "Nc3",
-        "Be7",
-        "cxd5",
-        "exd5",
-        "Bf4",
-        "c6",
-        "e3",
-        "Bf5",
-        "g4",
-        "Be6",
-        "h4"
-      ],
-      "leaf": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4.f5e6.h2h4",
-      "played": {
-        "genel": {
-          "mac": 2990,
-          "oran": 3.69,
-          "hamle": "3...Be7"
-        },
-        "usta": {
-          "mac": 659,
-          "oran": 3.83,
-          "hamle": "3...Be7"
         }
       }
     },
@@ -182,12 +149,12 @@
       "played": {
         "genel": {
           "mac": 2764,
-          "oran": 3.41,
+          "oran": 7.88,
           "hamle": "3...c5"
         },
         "usta": {
           "mac": 192,
-          "oran": 1.12,
+          "oran": 2.08,
           "hamle": "3...c5"
         }
       }
@@ -228,12 +195,12 @@
       "played": {
         "genel": {
           "mac": 2715,
-          "oran": 3.35,
+          "oran": 7.74,
           "hamle": "7...b6"
         },
         "usta": {
           "mac": 383,
-          "oran": 2.23,
+          "oran": 4.15,
           "hamle": "7...b6"
         }
       }
@@ -272,12 +239,12 @@
       "played": {
         "genel": {
           "mac": 2395,
-          "oran": 2.95,
+          "oran": 6.83,
           "hamle": "5.Bf4"
         },
         "usta": {
           "mac": 1117,
-          "oran": 6.5,
+          "oran": 12.11,
           "hamle": "5.Bf4"
         }
       }
@@ -316,13 +283,50 @@
       "played": {
         "genel": {
           "mac": 2219,
-          "oran": 2.74,
+          "oran": 6.33,
           "hamle": "4...Bb4"
         },
         "usta": {
           "mac": 1591,
-          "oran": 9.26,
+          "oran": 17.25,
           "hamle": "4...Bb4"
+        }
+      }
+    },
+    {
+      "id": "ret-alatortsev",
+      "group": "Reddedilmiş Vezir Gambiti",
+      "name": "Alatortsev Varyantı (3...Be7) ve 7.g4",
+      "eco": "D35",
+      "trap": false,
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Be7",
+        "cxd5",
+        "exd5",
+        "Bf4",
+        "c6",
+        "e3",
+        "Bf5",
+        "g4",
+        "Be6",
+        "h4"
+      ],
+      "leaf": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4.f5e6.h2h4",
+      "played": {
+        "genel": {
+          "mac": 1914,
+          "oran": 5.46,
+          "hamle": "3...Be7"
+        },
+        "usta": {
+          "mac": 445,
+          "oran": 4.82,
+          "hamle": "3...Be7"
         }
       }
     },
@@ -354,13 +358,13 @@
       "leaf": "d2d4.d7d5.c2c4.b8c6.g1f3.c8g4.c4d5.g4f3.g2f3.d8d5.e2e3.e7e5.b1c3.f8b4.c1d2.b4c3.b2c3",
       "played": {
         "genel": {
-          "mac": 1733,
-          "oran": 2.14,
+          "mac": 1729,
+          "oran": 4.93,
           "hamle": "2...Nc6"
         },
         "usta": {
           "mac": 60,
-          "oran": 0.35,
+          "oran": 0.65,
           "hamle": "2...Nc6"
         }
       }
@@ -395,12 +399,12 @@
       "played": {
         "genel": {
           "mac": 1604,
-          "oran": 1.98,
+          "oran": 4.57,
           "hamle": "6...Qa5"
         },
         "usta": {
           "mac": 197,
-          "oran": 1.15,
+          "oran": 2.14,
           "hamle": "6...Qa5"
         }
       }
@@ -437,12 +441,12 @@
       "played": {
         "genel": {
           "mac": 1598,
-          "oran": 1.97,
+          "oran": 4.56,
           "hamle": "5...h6"
         },
         "usta": {
           "mac": 693,
-          "oran": 4.03,
+          "oran": 7.51,
           "hamle": "5...h6"
         }
       }
@@ -483,12 +487,12 @@
       "played": {
         "genel": {
           "mac": 1458,
-          "oran": 1.8,
+          "oran": 4.16,
           "hamle": "4...c5"
         },
         "usta": {
           "mac": 779,
-          "oran": 4.53,
+          "oran": 8.44,
           "hamle": "4...c5"
         }
       }
@@ -530,12 +534,12 @@
       "played": {
         "genel": {
           "mac": 1346,
-          "oran": 1.66,
+          "oran": 3.84,
           "hamle": "5...dxc4"
         },
         "usta": {
           "mac": 168,
-          "oran": 0.98,
+          "oran": 1.82,
           "hamle": "5...dxc4"
         }
       }
@@ -576,12 +580,12 @@
       "played": {
         "genel": {
           "mac": 1099,
-          "oran": 1.36,
+          "oran": 3.13,
           "hamle": "4...dxc4"
         },
         "usta": {
           "mac": 623,
-          "oran": 3.62,
+          "oran": 6.75,
           "hamle": "4...dxc4"
         }
       }
@@ -614,12 +618,12 @@
       "played": {
         "genel": {
           "mac": 922,
-          "oran": 1.14,
+          "oran": 2.63,
           "hamle": "5.Bf4"
         },
         "usta": {
           "mac": 264,
-          "oran": 1.54,
+          "oran": 2.86,
           "hamle": "5.Bf4"
         }
       }
@@ -657,12 +661,12 @@
       "played": {
         "genel": {
           "mac": 854,
-          "oran": 1.05,
+          "oran": 2.44,
           "hamle": "6.e3"
         },
         "usta": {
           "mac": 546,
-          "oran": 3.18,
+          "oran": 5.92,
           "hamle": "6.e3"
         }
       }
@@ -700,12 +704,12 @@
       "played": {
         "genel": {
           "mac": 746,
-          "oran": 0.92,
+          "oran": 2.13,
           "hamle": "7.a4"
         },
         "usta": {
           "mac": 45,
-          "oran": 0.26,
+          "oran": 0.49,
           "hamle": "7.a4"
         }
       }
@@ -742,12 +746,12 @@
       "played": {
         "genel": {
           "mac": 724,
-          "oran": 0.89,
+          "oran": 2.06,
           "hamle": "7.Qe2"
         },
         "usta": {
           "mac": 46,
-          "oran": 0.27,
+          "oran": 0.5,
           "hamle": "7.Qe2"
         }
       }
@@ -790,12 +794,12 @@
       "played": {
         "genel": {
           "mac": 719,
-          "oran": 0.89,
+          "oran": 2.05,
           "hamle": "7...Ne4"
         },
         "usta": {
           "mac": 174,
-          "oran": 1.01,
+          "oran": 1.89,
           "hamle": "7...Ne4"
         }
       }
@@ -827,12 +831,12 @@
       "played": {
         "genel": {
           "mac": 617,
-          "oran": 0.76,
+          "oran": 1.76,
           "hamle": "5.g3"
         },
         "usta": {
           "mac": 6,
-          "oran": 0.03,
+          "oran": 0.07,
           "hamle": "5.g3"
         }
       }
@@ -869,12 +873,12 @@
       "played": {
         "genel": {
           "mac": 573,
-          "oran": 0.71,
+          "oran": 1.63,
           "hamle": "3...e5"
         },
         "usta": {
           "mac": 239,
-          "oran": 1.39,
+          "oran": 2.59,
           "hamle": "3...e5"
         }
       }
@@ -915,12 +919,12 @@
       "played": {
         "genel": {
           "mac": 560,
-          "oran": 0.69,
+          "oran": 1.6,
           "hamle": "9...Nd5"
         },
         "usta": {
           "mac": 14,
-          "oran": 0.08,
+          "oran": 0.15,
           "hamle": "9...Nd5"
         }
       }
@@ -958,12 +962,12 @@
       "played": {
         "genel": {
           "mac": 463,
-          "oran": 0.57,
+          "oran": 1.32,
           "hamle": "6.Qc2"
         },
         "usta": {
           "mac": 132,
-          "oran": 0.77,
+          "oran": 1.43,
           "hamle": "6.Qc2"
         }
       }
@@ -998,7 +1002,7 @@
       "played": {
         "genel": {
           "mac": 35,
-          "oran": 0.04,
+          "oran": 0.1,
           "hamle": "6.Nxd5"
         },
         "usta": {
@@ -1044,12 +1048,12 @@
       "played": {
         "genel": {
           "mac": 30,
-          "oran": 0.04,
+          "oran": 0.09,
           "hamle": "3...b5"
         },
         "usta": {
           "mac": 43,
-          "oran": 0.25,
+          "oran": 0.47,
           "hamle": "3...b5"
         }
       }
@@ -1082,7 +1086,7 @@
       "played": {
         "genel": {
           "mac": 20,
-          "oran": 0.02,
+          "oran": 0.06,
           "hamle": "4.e3"
         },
         "usta": {
@@ -1115,12 +1119,12 @@
       "played": {
         "genel": {
           "mac": 15,
-          "oran": 0.02,
+          "oran": 0.04,
           "hamle": "3...b5"
         },
         "usta": {
           "mac": 3,
-          "oran": 0.02,
+          "oran": 0.03,
           "hamle": "3...b5"
         }
       }
@@ -2122,127 +2126,6 @@
                         "uci": "b1c3",
                         "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
                         "children": [
-                          {
-                            "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7",
-                            "ply": 6,
-                            "moveNumber": 3,
-                            "color": "b",
-                            "san": "Be7",
-                            "uci": "f8e7",
-                            "fen": "rnbqk1nr/ppp1bppp/4p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
-                            "children": [
-                              {
-                                "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5",
-                                "ply": 7,
-                                "moveNumber": 4,
-                                "color": "w",
-                                "san": "cxd5",
-                                "uci": "c4d5",
-                                "fen": "rnbqk1nr/ppp1bppp/4p3/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
-                                "children": [
-                                  {
-                                    "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5",
-                                    "ply": 8,
-                                    "moveNumber": 4,
-                                    "color": "b",
-                                    "san": "exd5",
-                                    "uci": "e6d5",
-                                    "fen": "rnbqk1nr/ppp1bppp/8/3p4/3P4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5",
-                                    "children": [
-                                      {
-                                        "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4",
-                                        "ply": 9,
-                                        "moveNumber": 5,
-                                        "color": "w",
-                                        "san": "Bf4",
-                                        "uci": "c1f4",
-                                        "fen": "rnbqk1nr/ppp1bppp/8/3p4/3P1B2/2N5/PP2PPPP/R2QKBNR b KQkq - 1 5",
-                                        "children": [
-                                          {
-                                            "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6",
-                                            "ply": 10,
-                                            "moveNumber": 5,
-                                            "color": "b",
-                                            "san": "c6",
-                                            "uci": "c7c6",
-                                            "fen": "rnbqk1nr/pp2bppp/2p5/3p4/3P1B2/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
-                                            "children": [
-                                              {
-                                                "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3",
-                                                "ply": 11,
-                                                "moveNumber": 6,
-                                                "color": "w",
-                                                "san": "e3",
-                                                "uci": "e2e3",
-                                                "fen": "rnbqk1nr/pp2bppp/2p5/3p4/3P1B2/2N1P3/PP3PPP/R2QKBNR b KQkq - 0 6",
-                                                "children": [
-                                                  {
-                                                    "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5",
-                                                    "ply": 12,
-                                                    "moveNumber": 6,
-                                                    "color": "b",
-                                                    "san": "Bf5",
-                                                    "uci": "c8f5",
-                                                    "fen": "rn1qk1nr/pp2bppp/2p5/3p1b2/3P1B2/2N1P3/PP3PPP/R2QKBNR w KQkq - 1 7",
-                                                    "children": [
-                                                      {
-                                                        "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4",
-                                                        "ply": 13,
-                                                        "moveNumber": 7,
-                                                        "color": "w",
-                                                        "san": "g4",
-                                                        "uci": "g2g4",
-                                                        "fen": "rn1qk1nr/pp2bppp/2p5/3p1b2/3P1BP1/2N1P3/PP3P1P/R2QKBNR b KQkq - 0 7",
-                                                        "children": [
-                                                          {
-                                                            "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4.f5e6",
-                                                            "ply": 14,
-                                                            "moveNumber": 7,
-                                                            "color": "b",
-                                                            "san": "Be6",
-                                                            "uci": "f5e6",
-                                                            "fen": "rn1qk1nr/pp2bppp/2p1b3/3p4/3P1BP1/2N1P3/PP3P1P/R2QKBNR w KQkq - 1 8",
-                                                            "children": [
-                                                              {
-                                                                "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4.f5e6.h2h4",
-                                                                "ply": 15,
-                                                                "moveNumber": 8,
-                                                                "color": "w",
-                                                                "san": "h4",
-                                                                "uci": "h2h4",
-                                                                "fen": "rn1qk1nr/pp2bppp/2p1b3/3p4/3P1BPP/2N1P3/PP3P2/R2QKBNR b KQkq - 0 8",
-                                                                "children": [],
-                                                                "comment": "Beyaz şah kanadında agresif; Carlsen gibi oyuncuların da kullandığı modern bir plan."
-                                                              }
-                                                            ],
-                                                            "comment": "Fil çekilir."
-                                                          }
-                                                        ],
-                                                        "comment": "Botvinnik'in fikri: Beyaz filini kovalar ve şah kanadında yer kazanır."
-                                                      }
-                                                    ],
-                                                    "comment": "Siyah filini zincirin dışına çıkarır."
-                                                  }
-                                                ]
-                                              }
-                                            ],
-                                            "comment": "d5'i destekler."
-                                          }
-                                        ],
-                                        "comment": "Fil açmaz yerine aktif bir kareye."
-                                      }
-                                    ]
-                                  }
-                                ],
-                                "comment": "Değişim yapısı."
-                              }
-                            ],
-                            "comment": "Alatortsev: Siyah önce filini geliştirir; Bg5 açmazını önceden önler.",
-                            "opening": {
-                              "name": "Alatortsev Varyantı",
-                              "eco": "D31"
-                            }
-                          },
                           {
                             "id": "d2d4.d7d5.c2c4.e7e6.b1c3.c7c5",
                             "ply": 6,
@@ -4336,6 +4219,127 @@
                               }
                             ],
                             "comment": "Siyah da d5'i korur ve gelişir."
+                          },
+                          {
+                            "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7",
+                            "ply": 6,
+                            "moveNumber": 3,
+                            "color": "b",
+                            "san": "Be7",
+                            "uci": "f8e7",
+                            "fen": "rnbqk1nr/ppp1bppp/4p3/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+                            "children": [
+                              {
+                                "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5",
+                                "ply": 7,
+                                "moveNumber": 4,
+                                "color": "w",
+                                "san": "cxd5",
+                                "uci": "c4d5",
+                                "fen": "rnbqk1nr/ppp1bppp/4p3/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+                                "children": [
+                                  {
+                                    "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5",
+                                    "ply": 8,
+                                    "moveNumber": 4,
+                                    "color": "b",
+                                    "san": "exd5",
+                                    "uci": "e6d5",
+                                    "fen": "rnbqk1nr/ppp1bppp/8/3p4/3P4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5",
+                                    "children": [
+                                      {
+                                        "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4",
+                                        "ply": 9,
+                                        "moveNumber": 5,
+                                        "color": "w",
+                                        "san": "Bf4",
+                                        "uci": "c1f4",
+                                        "fen": "rnbqk1nr/ppp1bppp/8/3p4/3P1B2/2N5/PP2PPPP/R2QKBNR b KQkq - 1 5",
+                                        "children": [
+                                          {
+                                            "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6",
+                                            "ply": 10,
+                                            "moveNumber": 5,
+                                            "color": "b",
+                                            "san": "c6",
+                                            "uci": "c7c6",
+                                            "fen": "rnbqk1nr/pp2bppp/2p5/3p4/3P1B2/2N5/PP2PPPP/R2QKBNR w KQkq - 0 6",
+                                            "children": [
+                                              {
+                                                "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3",
+                                                "ply": 11,
+                                                "moveNumber": 6,
+                                                "color": "w",
+                                                "san": "e3",
+                                                "uci": "e2e3",
+                                                "fen": "rnbqk1nr/pp2bppp/2p5/3p4/3P1B2/2N1P3/PP3PPP/R2QKBNR b KQkq - 0 6",
+                                                "children": [
+                                                  {
+                                                    "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5",
+                                                    "ply": 12,
+                                                    "moveNumber": 6,
+                                                    "color": "b",
+                                                    "san": "Bf5",
+                                                    "uci": "c8f5",
+                                                    "fen": "rn1qk1nr/pp2bppp/2p5/3p1b2/3P1B2/2N1P3/PP3PPP/R2QKBNR w KQkq - 1 7",
+                                                    "children": [
+                                                      {
+                                                        "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4",
+                                                        "ply": 13,
+                                                        "moveNumber": 7,
+                                                        "color": "w",
+                                                        "san": "g4",
+                                                        "uci": "g2g4",
+                                                        "fen": "rn1qk1nr/pp2bppp/2p5/3p1b2/3P1BP1/2N1P3/PP3P1P/R2QKBNR b KQkq - 0 7",
+                                                        "children": [
+                                                          {
+                                                            "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4.f5e6",
+                                                            "ply": 14,
+                                                            "moveNumber": 7,
+                                                            "color": "b",
+                                                            "san": "Be6",
+                                                            "uci": "f5e6",
+                                                            "fen": "rn1qk1nr/pp2bppp/2p1b3/3p4/3P1BP1/2N1P3/PP3P1P/R2QKBNR w KQkq - 1 8",
+                                                            "children": [
+                                                              {
+                                                                "id": "d2d4.d7d5.c2c4.e7e6.b1c3.f8e7.c4d5.e6d5.c1f4.c7c6.e2e3.c8f5.g2g4.f5e6.h2h4",
+                                                                "ply": 15,
+                                                                "moveNumber": 8,
+                                                                "color": "w",
+                                                                "san": "h4",
+                                                                "uci": "h2h4",
+                                                                "fen": "rn1qk1nr/pp2bppp/2p1b3/3p4/3P1BPP/2N1P3/PP3P2/R2QKBNR b KQkq - 0 8",
+                                                                "children": [],
+                                                                "comment": "Beyaz şah kanadında agresif; Carlsen gibi oyuncuların da kullandığı modern bir plan."
+                                                              }
+                                                            ],
+                                                            "comment": "Fil çekilir."
+                                                          }
+                                                        ],
+                                                        "comment": "Botvinnik'in fikri: Beyaz filini kovalar ve şah kanadında yer kazanır."
+                                                      }
+                                                    ],
+                                                    "comment": "Siyah filini zincirin dışına çıkarır."
+                                                  }
+                                                ]
+                                              }
+                                            ],
+                                            "comment": "d5'i destekler."
+                                          }
+                                        ],
+                                        "comment": "Fil açmaz yerine aktif bir kareye."
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "comment": "Değişim yapısı."
+                              }
+                            ],
+                            "comment": "Alatortsev: Siyah önce filini geliştirir; Bg5 açmazını önceden önler.",
+                            "opening": {
+                              "name": "Alatortsev Varyantı",
+                              "eco": "D31"
+                            }
                           }
                         ],
                         "comment": "Gelişim ve d5'e baskı."

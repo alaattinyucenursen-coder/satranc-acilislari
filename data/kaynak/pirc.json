@@ -1,0 +1,402 @@
+{
+  "id": "pirc",
+  "name": "Pirc Savunması",
+  "eco": "B07-B09",
+  "description": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 ile Siyah merkezi Beyaza bırakıp fiyanketto filiyle sonradan saldırmayı planlar. Beyazın başlıca silahları agresif 150 Saldırısı (Be3, Qd2, Bh6, uzun rok) ve geniş merkezli Avusturya Saldırısı (4.f4); daha sakin oynamak isteyen için Klasik Sistem (4.Nf3 + Be2). Ayrıca Byrne (4.Bg5), 4.Bc4, Çek Pirc (3...c6) ve 3...e5 ile Philidor'a geçiş de ele alınır.",
+  "lines": [
+    {
+      "id": "150-c6-b5-f3",
+      "group": "150 Saldırısı (4.Be3 + Qd2)",
+      "name": "4...c6 5.Qd2 b5 6.f3: piyon yürüyüşü",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2 b5 6.f3 Nbd7 7.g4 Nb6 8.h4 h6 9.b3 Bg7 10.h5 g5 11.a4 bxa4",
+      "names": {
+        "1...d6": {
+          "name": "Pirc Savunması",
+          "eco": "B07"
+        },
+        "3...g6": {
+          "name": "Pirc: Ana Kuruluş",
+          "eco": "B07"
+        },
+        "4.Be3": {
+          "name": "Pirc: 150 Saldırısı",
+          "eco": "B07"
+        }
+      },
+      "comments": {
+        "1.e4": "Beyaz merkezi e4 piyonuyla tutar; fil ve vezire yol açar.",
+        "1...d6": "Pirc: Siyah merkezi hemen piyonlarla paylaşmak yerine önce taşlarını geliştirip beyaz merkezine sonra (…e5 veya …c5 ile) saldırmayı planlar.",
+        "2.d4": "Beyaz, Siyahın verdiği fırsatı kullanıp ideal iki piyonlu merkezi kurar.",
+        "2...Nf6": "e4 piyonuna baskı yapar; Beyazı bu piyonu korumaya zorlar.",
+        "3.Nc3": "En doğal koruma: at e4'ü savunur ve gelişir. (3.Bd3 ve 3.f3 gibi yan yollar da var ama ana hat budur.)",
+        "3...g6": "Fiyanketto hazırlığı: g7 fili uzun çaprazdan d4 ve beyaz merkezine bakacak. Pirc'in temel kuruluşu.",
+        "4.Be3": "150 Saldırısı: Be3 + Qd2 ile Bh6 tehdidi, ardından f3, uzun rok ve şah kanadında g4-h4-h5 ile saldırı. Adını kulüp oyuncularının (150 BCF puanlı) bile kolayca oynayabileceği basit planından alır.",
+        "4...c6": "Esnek hamle: Siyah …b5 ile vezir kanadında karşı oyun hazırlar ve Beyazın uzun rokunu tehlikeli hale getirmek ister.",
+        "5.Qd2": "Plan aynı: Bh6 ile g7 filini değişmek ve siyah şahı savunmasız bırakmak.",
+        "5...b5": "Siyah alan kazanır; …b4 ile c3 atını kovmak ve e4'e baskı yapmak ister.",
+        "6.f3": "e4'ü sağlamlaştırır ve g4 ile piyon yürüyüşüne hazırlar. b5 sonrası Beyaz uzun roku acele etmez.",
+        "6...Nbd7": "Gelişim; …e5 veya …Nb6 ile merkez/kanat oyunu.",
+        "7.g4": "Şah kanadında alan kazanır: g5 ile f6 atını kovmak tehdidi.",
+        "8.h4": "Piyonlar birlikte ilerler; h5 ile siyah fiyankettoyu açmak hedef.",
+        "8...h6": "Siyah g5'i engeller.",
+        "9.b3": "c4 karesini kontrol eder ve …b4 / …Nc4 gibi atlayışları önler.",
+        "10.h5": "Şah kanadını kilitler; siyah fil g7 ve şah için alan daralır.",
+        "11.a4": "Vezir kanadında da …b4'ü beklemeden piyon zincirini sorgular. Beyaz alan avantajıyla rahat; motor Beyazı biraz üstün görür."
+      }
+    },
+    {
+      "id": "150-c6-b5-bd3",
+      "group": "150 Saldırısı (4.Be3 + Qd2)",
+      "name": "4...c6 5.Qd2 b5 6.Bd3: sağlam kuruluş",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2 b5 6.Bd3 Nbd7 7.Nf3 e5 8.O-O Bg7 9.dxe5 dxe5 10.a4 b4 11.Ne2 a5",
+      "names": {},
+      "comments": {
+        "6.Bd3": "Daha sakin yol: Beyaz e4'ü filiyle korur, Nf3 ve kısa rokla sağlam ve hızlı gelişir.",
+        "7.Nf3": "Gelişim; d4 ve e5 karelerini kontrol eder.",
+        "7...e5": "Siyah merkezde klasik karşı vuruşu yapar.",
+        "8.O-O": "Şah güvenliği; ...e4 çatalı artık bir tehdit değil çünkü fil d3'te ve at f3 geri çekilebilir.",
+        "9.dxe5": "Beyaz merkezi açar; d6 karesinin zayıflığı ve daha iyi gelişim Beyazın lehine.",
+        "10.a4": "Siyahın b5 piyonunu sorgular; vezir kanadındaki siyah piyonlar zayıflayabilir.",
+        "11.Ne2": "At g3 üzerinden f5'e yönelebilir. Beyaz daha rahat; c6 ve a5 piyonları hedef."
+      }
+    },
+    {
+      "id": "150-bh6",
+      "group": "150 Saldırısı (4.Be3 + Qd2)",
+      "name": "4...Bg7 5.Qd2 c6 6.Bh6: fil değişimi",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 Bg7 5.Qd2 c6 6.Bh6 Bxh6 7.Qxh6 Qa5 8.Bd3 Qh5 9.Qd2 O-O 10.h3",
+      "names": {},
+      "comments": {
+        "4...Bg7": "En doğal hamle: fil fiyankettoya çıkar.",
+        "5.Qd2": "Bh6 hazırlığı: Siyahın en iyi taşı olan g7 filini değişmek 150 Saldırısının ana fikri.",
+        "6.Bh6": "Beyaz plana hemen geçer: g7 fili değişilince siyah şah kanadının kara kareleri zayıflar.",
+        "7.Qxh6": "Vezir h6'da tehditkar ama yalnız; Siyah hızlı karşı oyun arar.",
+        "7...Qa5": "Siyah veziri aktifleştirir ve …Qh5 ile vezir değişimini önerir.",
+        "8.Bd3": "Gelişim, e4'ü korur.",
+        "8...Qh5": "Siyah vezir değişimi teklif eder: şah kanadı zayıf olduğu için vezirlerin tahtadan gitmesi Siyahın işine gelir.",
+        "9.Qd2": "Beyaz vezir değişimini reddeder; vezirler tahtada kalınca siyah şahın kara kare zayıflıkları önemlidir.",
+        "10.h3": "…Ng4 ve …Bg4'ü önler; sonra Nge2 ve rok. Beyaz rahat ve biraz üstün."
+      }
+    },
+    {
+      "id": "150-uzun-rok",
+      "group": "150 Saldırısı (4.Be3 + Qd2)",
+      "name": "5...O-O 6.O-O-O: klasik saldırı",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 Bg7 5.Qd2 O-O 6.O-O-O c6 7.f3 b5 8.Bh6 Bxh6 9.Qxh6 b4 10.Nce2 Qa5 11.Kb1",
+      "names": {},
+      "comments": {
+        "5...O-O": "Siyah şahını hemen güvene alır, ama bu şah Beyazın saldırısının hedefi olur.",
+        "6.O-O-O": "Karşılıklı roklar: Beyaz şah kanadında, Siyah vezir kanadında saldıracak. Hız önemli.",
+        "7.f3": "e4'ü korur ve g4-h4-h5 yürüyüşüne hazırlar.",
+        "7...b5": "Siyahın karşı saldırısı: …b4 ile c3 atını kovup beyaz şaha ulaşmak.",
+        "8.Bh6": "Siyah şahın en önemli savunucusu g7 filini değişir.",
+        "9.Qxh6": "Şimdi h4-h5 ve g4 ile h hattını açmak gündemde; vezir h6'da hazır bekliyor.",
+        "9...b4": "At kovulur.",
+        "10.Nce2": "At şah kanadına (g3) gelebilir ve c3'ü boşaltır.",
+        "11.Kb1": "Önemli önlem: şah a2 ve a1 kareleriyle güvene alınır, …Qxa2 tehditleri azalır. Beyazın saldırısı daha hızlı, motor Beyazı üstün görür."
+      }
+    },
+    {
+      "id": "150-ng4",
+      "group": "150 Saldırısı (4.Be3 + Qd2)",
+      "name": "5...Ng4: filin peşine düşen at",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 Bg7 5.Qd2 Ng4 6.Bg5 h6 7.Bh4 c5 8.dxc5 dxc5 9.Bb5+ Bd7 10.O-O-O Nc6 11.Nd5",
+      "names": {},
+      "comments": {
+        "5...Ng4": "Siyah e3 filini değişmek ister; Beyazın kara kareli filini almak 150 planını boşa çıkarır.",
+        "6.Bg5": "Fil kaçar ve h6'yı zorlar; Siyahın şah kanadı zayıflar.",
+        "6...h6": "Fil kovulur ama g6 ve h6 piyonları hedef olur.",
+        "7.Bh4": "Fil d8-h4 çaprazında kalır; …g5 artık daha da zayıflatıcı olur.",
+        "7...c5": "Siyah merkezde karşı oyun arar.",
+        "8.dxc5": "Beyaz d hattını açar; Siyahın şahı henüz merkezde.",
+        "9.Bb5+": "Gelişim tempoyla; siyah fil d7'ye gelmek zorunda.",
+        "10.O-O-O": "Kale d hattına gelir; d7 filine baskı.",
+        "11.Nd5": "Güçlü merkez atı: e7'ye ve f6'ya baskı. Beyaz açıkça daha iyi; gelişim üstünlüğü ve siyah şahın merkezde kalması belirleyici."
+      }
+    },
+    {
+      "id": "avusturya-na6",
+      "group": "Avusturya Saldırısı (4.f4)",
+      "name": "5...O-O 6.Bd3 Na6: …c5 hazırlığı",
+      "eco": "B09",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.Bd3 Na6 7.O-O c5 8.d5 Rb8 9.Kh1 Nc7 10.a4 a6 11.Qe1 b5",
+      "names": {
+        "4.f4": {
+          "name": "Pirc: Avusturya Saldırısı",
+          "eco": "B09"
+        }
+      },
+      "comments": {
+        "4.f4": "Avusturya Saldırısı: Beyaz üç piyonla (d4-e4-f4) en geniş merkezi kurar. Hedef e5 ilerleyişi ve şah kanadında saldırı; risk, merkezin aşırı uzaması.",
+        "4...Bg7": "Siyah merkezin altını oymaya hazırlanır; g7 fili d4'e baskı yapar.",
+        "5.Nf3": "Gelişim, d4 ve e5'i destekler.",
+        "5...O-O": "En popüler: önce şah güvenliği.",
+        "6.Bd3": "Ana hat: fil e4'ü korur ve siyah şahı hedef alır. Plan: kısa rok, Qe1-h4, f5 ile saldırı.",
+        "6...Na6": "Modern yol: at c5'i destekleyecek ve c7'den b5'e yardım edecek.",
+        "7.O-O": "Şah güvenliği.",
+        "7...c5": "Merkeze karşı vuruş.",
+        "8.d5": "Beyaz merkezi kapatır, alan kazanır. Siyah vezir kanadında b5 ile oynar.",
+        "8...Rb8": "…b5 hazırlığı.",
+        "9.Kh1": "Şah a7-g1 çaprazından ve olası çeklerden uzaklaşır.",
+        "10.a4": "…b5'i yavaşlatır.",
+        "11.Qe1": "Vezir Qh4 üzerinden şah kanadı saldırısına katılır; f5 planı gündemde. Keskin ve dengeli bir pozisyon."
+      }
+    },
+    {
+      "id": "avusturya-nc6",
+      "group": "Avusturya Saldırısı (4.f4)",
+      "name": "6.Bd3 Nc6 7.e5: merkez ilerleyişi",
+      "eco": "B09",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.Bd3 Nc6 7.e5 dxe5 8.fxe5 Nh5 9.Be3 Bg4 10.Be2 f6 11.exf6 exf6 12.Qd2",
+      "names": {},
+      "comments": {
+        "6...Nc6": "At d4'e baskı yapar, …Nb4 veya …e5 fikirleri var.",
+        "7.e5": "Tipik Avusturya fikri: at f6'dan kovulur, Beyaz alan kazanır.",
+        "8.fxe5": "f hattı açılır; e5 piyonu siyah atı kenara iter.",
+        "8...Nh5": "At kenarda ama f4'e ve g3'e bakar.",
+        "9.Be3": "Gelişim, d4'ü korur.",
+        "9...Bg4": "Siyah f3 atını açmaza alarak d4'e baskı yapar.",
+        "10.Be2": "Açmazı kırar.",
+        "10...f6": "Siyah e5 piyonunu sorgular.",
+        "12.Qd2": "Uzun rok hazırlığı; Pozisyon dengeli; Beyaz uzun rok ve d hattıyla aktif oyun arar."
+      }
+    },
+    {
+      "id": "avusturya-c5",
+      "group": "Avusturya Saldırısı (4.f4)",
+      "name": "5...c5 6.Bb5+: keskin ana hat",
+      "eco": "B09",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 c5 6.Bb5+ Bd7 7.e5 Ng4 8.e6 Bxb5 9.exf7+ Kf8 10.Nxb5 Qa5+ 11.Nc3 cxd4 12.Nxd4 Nc6 13.Ne6+ Kxf7 14.Nxg7 h5 15.h3 Nf6 16.Be3 Kxg7",
+      "names": {},
+      "comments": {
+        "5...c5": "Siyah rok yapmadan merkeze hemen saldırır. Keskin ve teorik.",
+        "6.Bb5+": "En iddialı yanıt: çekle siyah fili d7'ye çeker, ardından e5 ile f6 atını kovar.",
+        "7.e5": "At kovulur.",
+        "7...Ng4": "At e5'e baskı için ileri sıçrar.",
+        "8.e6": "Taktik vuruş: f7'ye saldırı ve d7 filine tehdit.",
+        "8...Bxb5": "Siyah fili değişir.",
+        "9.exf7+": "Çek; siyah şah rok hakkını kaybeder.",
+        "10.Nxb5": "Taş geri alınır.",
+        "10...Qa5+": "Çek, ardından b5 atına saldırı.",
+        "12.Nxd4": "At merkeze; e6 karesine sıçrama tehdidi.",
+        "13.Ne6+": "Çatal çeki: at g7 filini almaya gelir.",
+        "14.Nxg7": "Beyaz siyahın en iyi filini alır.",
+        "14...h5": "Dikkat: g4 atı açıkta olduğu için Siyah hemen …Kxg7 oynayamaz (Qxg4); önce atı korur.",
+        "15.h3": "Atı kovar.",
+        "16.Be3": "Gelişim ve uzun rok hazırlığı. Siyah şah açıkta, kara kareler zayıf; Beyaz biraz üstün."
+      }
+    },
+    {
+      "id": "klasik-c6-a4",
+      "group": "Klasik Sistem (4.Nf3 + Be2)",
+      "name": "6...c6 7.a4: vezir kanadını kısıtlama",
+      "eco": "B08",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O c6 7.a4 a5 8.h3 Na6 9.Be3 Nb4 10.Qd2 Be6 11.Rfd1",
+      "names": {
+        "4.Nf3": {
+          "name": "Pirc: Klasik Sistem",
+          "eco": "B08"
+        }
+      },
+      "comments": {
+        "4.Nf3": "Klasik Sistem: sakin gelişim, keskin teorisi az. Beyaz Be2 ve kısa rokla merkez avantajını korumayı hedefler.",
+        "5.Be2": "Fil e2'de güvenli; f3 atının arkasını korur.",
+        "6.O-O": "Şah güvende; şimdi h3, Be3, Qd2 ve Rfd1/Rad1 ile merkezi güçlendirme.",
+        "6...c6": "Siyah …b5 hazırlar.",
+        "7.a4": "…b5'i önler; vezir kanadında alan.",
+        "8.h3": "…Bg4 ve …Ng4'ü önleyen faydalı hamle.",
+        "8...Na6": "At b4 karesine gidecek.",
+        "9.Be3": "Gelişim; d4'ü korur.",
+        "9...Nb4": "At b4'te iyi yerleşti; a4 piyonunun bıraktığı delik.",
+        "10.Qd2": "Kaleleri birleştirir; Bh6 fikri de gündemde.",
+        "11.Rfd1": "Kale d hattına: merkez gerginliği Beyazın lehine. Beyaz alan avantajıyla rahat."
+      }
+    },
+    {
+      "id": "klasik-bg4",
+      "group": "Klasik Sistem (4.Nf3 + Be2)",
+      "name": "6...Bg4 7.Be3 Nc6: …e5 planı",
+      "eco": "B08",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O Bg4 7.Be3 Nc6 8.Qd2 e5 9.d5 Ne7 10.Rad1 Bd7 11.Ne1",
+      "names": {},
+      "comments": {
+        "6...Bg4": "Siyah f3 atını açmaza alır ve d4'e baskıyı artırır.",
+        "7.Be3": "d4'ü korur; Qd2 ile gelişim tamamlanacak.",
+        "7...Nc6": "d4'e daha fazla baskı ve …e5 hazırlığı.",
+        "8.Qd2": "Kaleleri birleştirir.",
+        "8...e5": "Merkezde karşı vuruş.",
+        "9.d5": "Beyaz merkezi kapatıp tempo kazanır ve alan alır.",
+        "9...Ne7": "At …f5 ilerleyişini destekleyecek.",
+        "10.Rad1": "Kale merkeze.",
+        "11.Ne1": "At geri çekilir; f3 ve c4 sonra Nd3 planları. Beyaz alan avantajını korur; pozisyon dengeli ve manevra ağırlıklı."
+      }
+    },
+    {
+      "id": "byrne-bg5",
+      "group": "Byrne Varyantı (4.Bg5)",
+      "name": "4.Bg5 Bg7 5.Qd2: uzun rok planı",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5 Bg7 5.Qd2 h6 6.Bh4 g5 7.Bg3 Nh5 8.O-O-O Nd7 9.Nge2 c5 10.Kb1 O-O 11.f3",
+      "names": {
+        "4.Bg5": {
+          "name": "Pirc: Byrne Varyantı",
+          "eco": "B07"
+        }
+      },
+      "comments": {
+        "4.Bg5": "Byrne: fil f6 atına baskı yapar ve Qd2 ile uzun rok hazırlanır. Siyahın …e5 ve …c5 kırmalarını zorlaştırır.",
+        "5.Qd2": "Bh6 fikri ve uzun rok.",
+        "5...h6": "Siyah filin niyetini sorar.",
+        "6.Bh4": "Fil çaprazda kalır.",
+        "6...g5": "Fil g3'e kovulur ama siyah şah kanadı zayıflar.",
+        "7.Bg3": "Fil b8-h2 çaprazında güçlü.",
+        "7...Nh5": "At g3 filini değişmek ister.",
+        "8.O-O-O": "Beyaz uzun rok yapar; merkez ve d hattı önemli.",
+        "9.Nge2": "At gelişir, f3 ile e4 sağlamlaşacak.",
+        "10.Kb1": "Şah güvenliği.",
+        "11.f3": "Beyaz merkezini sağlamlaştırdı; zayıf siyah şah kanadı (f5, h5 kareleri) uzun vadede Beyaza avantaj veriyor."
+      }
+    },
+    {
+      "id": "bc4-qe2",
+      "group": "4.Bc4 Sistemi",
+      "name": "4.Bc4 Bg7 5.Qe2: e5 ilerleyişi",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bc4 Bg7 5.Qe2 c6 6.e5 dxe5 7.dxe5 Nd5 8.Bd2 Nd7 9.f4 N7b6 10.Bb3 O-O 11.Nf3",
+      "names": {
+        "4.Bc4": {
+          "name": "Pirc: 4.Bc4",
+          "eco": "B07"
+        }
+      },
+      "comments": {
+        "4.Bc4": "Fil f7'ye bakar; Qe2 ve e5 ile hızlı merkez ilerleyişi planlanır.",
+        "5.Qe2": "e5 ilerleyişini hazırlar ve e4'ü korur.",
+        "5...c6": "…d5 ve …b5 hazırlığı; en sağlam yanıt.",
+        "6.e5": "At kovulur; Beyaz alan kazanır.",
+        "7.dxe5": "e5 piyonu siyahın f6 karesini kontrol eder.",
+        "7...Nd5": "At merkezde güçlü.",
+        "8.Bd2": "Uzun rok hazırlığı ve c3 karesini korur.",
+        "9.f4": "e5 piyonunu destekler.",
+        "10.Bb3": "Fil güvende; d5 atına baskı devam eder.",
+        "11.Nf3": "Gelişim. Pozisyon dengeli; Beyaz alan avantajını rok sonrası değerlendirmeye çalışır."
+      }
+    },
+    {
+      "id": "tuzak-bc4-nxe4",
+      "group": "Tuzaklar",
+      "name": "Tuzak: 5...Nxe4? çatal hilesi işe yaramaz",
+      "eco": "B07",
+      "trap": true,
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bc4 Bg7 5.Qe2 Nxe4? 6.Qxe4! d5 7.Bxd5 c6 8.Bb3 Qxd4 9.Qxd4 Bxd4 10.Nf3 Bg7",
+      "names": {},
+      "comments": {
+        "5...Nxe4": "Hata! Siyah 'çatal hilesi' oynar: at e4'ü alır, …d5 ile vezir ve file çatal atarak taşı geri almayı umar.",
+        "6.Qxe4": "Doğru alış! (6.Nxe4? d5 ile Siyah taşı gerçekten geri alır ve denge kurulur.) Vezirle almak d5 karesini kontrol altında tutar.",
+        "6...d5": "Siyah planladığı çatalı oynar...",
+        "7.Bxd5": "...ama fil d5'i alır ve vezir tarafından korunur. Çatal işe yaramadı.",
+        "7...c6": "Fil kovulur.",
+        "8.Bb3": "Fil güvende.",
+        "8...Qxd4": "Siyah bir piyon geri alır.",
+        "9.Qxd4": "Vezirler değişir.",
+        "10.Nf3": "Beyaz tempoyla gelişir. Sonuç: Beyaz bir taş fazlası (at karşılığı iki piyon) ile kazanmaya yakın."
+      }
+    },
+    {
+      "id": "cek-f4-qa5",
+      "group": "Çek Pirc (3...c6)",
+      "name": "3...c6 4.f4 Qa5: e4 üzerinde baskı",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 c6 4.f4 Qa5 5.Bd3 e5 6.Nf3 exd4 7.Nxd4 g6 8.h3 Bg7 9.Be3 Qc7 10.O-O O-O",
+      "names": {
+        "3...c6": {
+          "name": "Pirc: Çek Savunması",
+          "eco": "B07"
+        }
+      },
+      "comments": {
+        "3...c6": "Çek Pirc: Siyah fiyanketto yerine esnek …c6 ile …Qa5, …e5 veya …b5 fikirlerini hazırlar.",
+        "4.f4": "En aktif yanıt: geniş merkez ve e5 tehdidi.",
+        "4...Qa5": "Vezir c3 atını açmaza alır ve e4'e baskı yapar.",
+        "5.Bd3": "e4'ü korur.",
+        "5...e5": "Siyah merkeze karşı vuruş yapar.",
+        "6.Nf3": "Gelişim; e5'e baskı.",
+        "6...exd4": "Siyah merkezde değişir.",
+        "7.Nxd4": "At merkezde güçlü; Beyaz alan ve gelişim avantajına sahip.",
+        "8.h3": "…Ng4 ve …Bg4'ü önler.",
+        "9.Be3": "d4 atını korur.",
+        "10.O-O": "Beyaz gelişimini tamamladı; f5 ve e5 fikirleriyle hafif üstün."
+      }
+    },
+    {
+      "id": "cek-nf3-bg4",
+      "group": "Çek Pirc (3...c6)",
+      "name": "3...c6 4.Nf3 Bg4: sakin yol",
+      "eco": "B07",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 c6 4.Nf3 Bg4 5.Be2 e6 6.O-O Be7 7.h3 Bh5 8.Be3 O-O 9.g4 Bg6 10.Nh4",
+      "names": {},
+      "comments": {
+        "4.Nf3": "Sakin gelişim; Beyaz basit, sağlam bir kuruluşla merkez avantajını korur.",
+        "4...Bg4": "Siyah beyaz kareli filini piyon zincirinin dışına çıkarır.",
+        "5.Be2": "Açmazı kırar.",
+        "5...e6": "Sağlam yapı: Siyah Fransız/Caro-Kann benzeri bir kuruluşa geçer.",
+        "7.h3": "Filin niyetini sorar.",
+        "9.g4": "Alan kazanır ve fili g6'ya iter.",
+        "10.Nh4": "Fili değişmeye gelir: iki fil avantajı. Beyaz alan avantajıyla hafif üstün."
+      }
+    },
+    {
+      "id": "philidor-dxe5",
+      "group": "3...e5: Philidor'a Geçiş",
+      "name": "4.dxe5: vezirsiz oyun",
+      "eco": "C41",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.dxe5 dxe5 5.Qxd8+ Kxd8 6.Bc4 Be6 7.Bxe6 fxe6 8.Be3 Bb4 9.O-O-O+ Ke7 10.Nge2",
+      "names": {
+        "3...e5": {
+          "name": "Pirc: Philidor'a Geçiş",
+          "eco": "C41"
+        }
+      },
+      "comments": {
+        "3...e5": "Siyah fiyanketto yerine …e5 oynayarak Philidor Savunmasına benzer bir yapıya geçer.",
+        "4.dxe5": "Basit ve etkili: değişimler sonucu siyah şah rok hakkını kaybeder.",
+        "5.Qxd8+": "Vezirler değişir; siyah şah merkezde kalır.",
+        "6.Bc4": "Fil f7'ye bakar.",
+        "7.Bxe6": "Siyahın piyon yapısı bozulur: e6'da çift piyon.",
+        "8.Be3": "Gelişim ve uzun rok hazırlığı.",
+        "9.O-O-O+": "Tempoyla rok; d hattı Beyazın.",
+        "10.Nge2": "Açmazı önceden kırar. Beyaz daha iyi gelişim ve sağlam yapıyla rahat bir oyunsonuna sahip."
+      }
+    },
+    {
+      "id": "philidor-nf3",
+      "group": "3...e5: Philidor'a Geçiş",
+      "name": "4.Nf3 Nbd7: Hanham kuruluşu",
+      "eco": "C41",
+      "moves": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.O-O O-O 7.Re1 c6 8.a4 exd4 9.Nxd4 Ne5 10.Ba2 Re8 11.h3 Bf8 12.Bf4",
+      "names": {
+        "4...Nbd7": {
+          "name": "Philidor: Hanham Varyantı",
+          "eco": "C41"
+        }
+      },
+      "comments": {
+        "4.Nf3": "Gelişim; vezirli oyunu tercih eden Beyaz için normal yol.",
+        "4...Nbd7": "Hanham kuruluşu: Siyah e5'i sağlam tutar.",
+        "5.Bc4": "Fil f7'ye bakar.",
+        "6.O-O": "Şah güvenliği.",
+        "7.Re1": "e4'ü güçlendirir.",
+        "8.a4": "…b5'i önler.",
+        "8...exd4": "Siyah merkezde değişir.",
+        "9.Nxd4": "At merkezde.",
+        "10.Ba2": "Fil güvende ve f7'ye bakmaya devam eder.",
+        "12.Bf4": "Gelişim tamam; d6 piyonuna baskı. Beyaz alan avantajıyla hafif üstün."
+      }
+    }
+  ]
+}

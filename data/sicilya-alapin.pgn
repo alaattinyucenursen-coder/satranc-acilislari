@@ -154,18 +154,6 @@
 
 1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah simetrik 1...e5 yerine yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. c3 {Alapin: Beyaz d4 ile merkezi kurmak ister ve cxd4'e c3 piyonuyla geri alarak iki merkez piyonu tutmayı planlar. Sicilya'nın en keskin teorisinden kaçınmanın sağlam bir yolu.} 2... d6 {Siyah e5 karesini kontrol eder ve esnek kalır.} 3. d4 {Beyaz merkezi kurar.} 3... Nf6 {e4'e baskı.} 4. dxc5 {Beyaz piyonu alır.} 4... Nc6 {Siyah e4'ü bırakır, gelişir.} 5. cxd6 {Beyaz bir piyon daha alır.} 5... Nxe4 {Siyah e4'ü alır; d6'ya baskı.} 6. dxe7 {Beyaz piyonu ilerletir.} 6... Qxd1+ {Vezirler değişir.} 7. Kxd1 {Şah alır.} 7... Nxf2+ {Çatal!} 8. Ke1 {Şah kaçar.} 8... Nxh1 {Siyah kaleyi alır.} 9. exf8=Q+ {Piyon terfi eder.} 9... Kxf8 {Çılgın bir konum: h1'deki siyah at hapsoldu ama motor siyahı biraz önde görüyor. Karmaşık ve dengesiz.} *
 
-[Event "2...Nc6: 6...e5 hattı"]
-[Site "?"]
-[Date "????.??.??"]
-[Round "-"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[ECO "B22"]
-[Opening "2...Nc6: 6...e5 hattı"]
-
-1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah simetrik 1...e5 yerine yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. c3 {Alapin: Beyaz d4 ile merkezi kurmak ister ve cxd4'e c3 piyonuyla geri alarak iki merkez piyonu tutmayı planlar. Sicilya'nın en keskin teorisinden kaçınmanın sağlam bir yolu.} 2... Nc6 {Esnek: siyah d4'e baskı kurar ve hangi yapıya gireceğini beyaza göre seçer.} 3. d4 {Beyaz planına devam eder.} 3... cxd4 {Siyah değişir.} 4. cxd4 {İki merkez piyonu.} 4... d5 {Siyah merkeze vurur.} 5. exd5 {Beyaz değişir.} 5... Qxd5 {Vezir merkezde; d4'e baskı.} 6. Nf3 {d4'ü korur.} 6... e5 {Siyah d4'e bir daha vurur ve merkezi açar.} 7. Nc3 {Tempo kazanarak vezire saldırır.} 7... Bb4 {Fil c3 atını açmaza alır; vezir d5'te kalır.} 8. Bd2 {Açmazı kırar.} 8... Bxc3 {Siyah fil çiftini verir ama beyazın piyon yapısını bozmaya zorlar.} 9. Bxc3 {Fil geri alır.} 9... e4 {f3 atını kovalar.} 10. Ne5 {At merkezde aktif.} 10... Nxe5 {Siyah değişir.} 11. dxe5 {Beyazın fil çifti var; siyah gelişimde rahat.} 11... Ne7 {At c6 veya f5'e gidecek. Dengeli, açık bir konum.} *
-
 [Event "2...d5: 4...g6 (Barmen)"]
 [Site "?"]
 [Date "????.??.??"]
@@ -177,6 +165,18 @@
 [Opening "2...d5: 4...g6 (Barmen)"]
 
 1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah simetrik 1...e5 yerine yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. c3 {Alapin: Beyaz d4 ile merkezi kurmak ister ve cxd4'e c3 piyonuyla geri alarak iki merkez piyonu tutmayı planlar. Sicilya'nın en keskin teorisinden kaçınmanın sağlam bir yolu.} 2... d5 {En doğrudan yanıt: Siyah merkezi hemen açar. c3 piyonu b1 atının doğal karesini kapattığı için siyah vezir merkezde rahatça durabilir.} 3. exd5 {Beyaz değişir.} 3... Qxd5 {Vezir merkezde ama kovalanması zor; normalde c3'te olacak at bu kareyi henüz tehdit edemez.} 4. d4 {Beyaz planladığı d4'ü oynar.} 4... g6 {Barmen: Fil g7'den d4'e baskı yapacak.} 5. Nf3 {Gelişim.} 5... Bg7 6. Na3 {At b5'e gidecek; c7 ve d6'ya bakar.} 6... cxd4 {Siyah değişir.} 7. Nb5 {At aktif.} 7... Na6 {c7'yi korur.} 8. Nbxd4 {At merkeze döner.} 8... Nf6 {Dengeli; siyahın fil fiyankettosu d4'e baskıda.} *
+
+[Event "2...Nc6: 6...e5 hattı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B22"]
+[Opening "2...Nc6: 6...e5 hattı"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar ve fil ile vezire yol açar.} 1... c5 {Sicilya: Siyah simetrik 1...e5 yerine yandan, c piyonuyla d4 karesini kontrol eder. Dengesiz ve kazanmaya yönelik bir savunma.} 2. c3 {Alapin: Beyaz d4 ile merkezi kurmak ister ve cxd4'e c3 piyonuyla geri alarak iki merkez piyonu tutmayı planlar. Sicilya'nın en keskin teorisinden kaçınmanın sağlam bir yolu.} 2... Nc6 {Esnek: siyah d4'e baskı kurar ve hangi yapıya gireceğini beyaza göre seçer.} 3. d4 {Beyaz planına devam eder.} 3... cxd4 {Siyah değişir.} 4. cxd4 {İki merkez piyonu.} 4... d5 {Siyah merkeze vurur.} 5. exd5 {Beyaz değişir.} 5... Qxd5 {Vezir merkezde; d4'e baskı.} 6. Nf3 {d4'ü korur.} 6... e5 {Siyah d4'e bir daha vurur ve merkezi açar.} 7. Nc3 {Tempo kazanarak vezire saldırır.} 7... Bb4 {Fil c3 atını açmaza alır; vezir d5'te kalır.} 8. Bd2 {Açmazı kırar.} 8... Bxc3 {Siyah fil çiftini verir ama beyazın piyon yapısını bozmaya zorlar.} 9. Bxc3 {Fil geri alır.} 9... e4 {f3 atını kovalar.} 10. Ne5 {At merkezde aktif.} 10... Nxe5 {Siyah değişir.} 11. dxe5 {Beyazın fil çifti var; siyah gelişimde rahat.} 11... Ne7 {At c6 veya f5'e gidecek. Dengeli, açık bir konum.} *
 
 [Event "2...d5: 4...Nc6 5.Nf3 cxd4 6.cxd4 e5 (Milner-Barry)"]
 [Site "?"]

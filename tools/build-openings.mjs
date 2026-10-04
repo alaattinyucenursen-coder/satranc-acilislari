@@ -144,7 +144,7 @@ function build(src) {
     description: src.description,
     played: Object.keys(stats).length
       ? Object.fromEntries(
-          Object.entries(stats).map(([db, d]) => [db, { source: d.kaynak, base: d.acilislar?.[src.id]?.taban }]),
+          Object.entries(stats).map(([db, d]) => [db, { source: d.kaynak, base: d.acilislar?.[src.id]?.taban, total: d.acilislar?.[src.id]?.toplam, other: d.acilislar?.[src.id]?.diger }]),
         )
       : undefined,
     startFen: START_FEN,

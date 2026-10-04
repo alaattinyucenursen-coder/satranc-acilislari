@@ -13,8 +13,12 @@
 //   geçtiyse sayılır. Böylece hamle sırası farklı olan maçlar da sayılır (ör. 1.d4 Nf6 2.c4 e6
 //   3.Nf3 d5 4.Nc3 Bb4 bir Ragozin'dir), ama başka bir açılıştan aynı konuma düşen maçlar
 //   (ör. Fransız Savunması'ndan Alapin'e geçiş) yalnızca o hamle gerçekten oynandıysa sayılır.
-// - Açılışın maç sayısı (taban) = bütün varyantların ortak başlangıç konumuna ulaşan ya da
-//   varyantlardan birine giren maçlar. Oran = varyantın maçı / taban.
+// - Her maç en fazla bir varyanta sayılır: birden çok varyantın belirleyici hamlesinden
+//   geçtiyse (hamle sırası değişikliğiyle), en derindeki varyanta yazılır.
+// - Oran = varyantın maçı / açılıştaki varyantların toplam maçı; böylece bir açılışın
+//   varyant oranlarının toplamı %100 olur.
+// - "taban": bütün varyantların ortak başlangıç konumuna ulaşan ya da varyantlardan birine
+//   giren maçlar; "diger": bunlardan listedeki hiçbir varyanta girmeyenler (bilgi için).
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -140,14 +144,12 @@ for (const file of files) {
     if (keys.length === 0) continue;
     const seen = new Set(keys);
     for (const p of plan) {
-      let inOpening = !p.baseKey || seen.has(p.baseKey);
+      let best = null;
       for (const l of p.lines) {
-        if (seen.has(l.key) && seen.has(l.prevKey)) {
-          p.counts.set(l.id, (p.counts.get(l.id) ?? 0) + 1);
-          inOpening = true;
-        }
+        if (seen.has(l.key) && seen.has(l.prevKey) && (!best || l.node.ply > best.node.ply)) best = l;
       }
-      if (inOpening) p.baseGames++;
+      if (best) p.counts.set(best.id, (p.counts.get(best.id) ?? 0) + 1);
+      if (best || !p.baseKey || seen.has(p.baseKey)) p.baseGames++;
     }
   }
   console.error(`${file}: toplam ${total} maç tarandı`);
@@ -157,16 +159,19 @@ const out = existsSync(outPath) ? JSON.parse(readFileSync(outPath, 'utf8')) : {}
 out[dbName] = { kaynak: sourceLabel, macSayisi: total, acilislar: {} };
 for (const p of plan) {
   const baseMoves = p.base ? p.base.id.split('.').length : 0;
+  const assigned = [...p.counts.values()].reduce((a, b) => a + b, 0);
   out[dbName].acilislar[p.op.id] = {
     taban: { hamleler: p.op.lines[0].moves.slice(0, baseMoves).join(' '), mac: p.baseGames },
+    toplam: assigned,
+    diger: p.baseGames - assigned,
     varyantlar: Object.fromEntries(
       p.lines.map(({ id, node }) => {
         const games = p.counts.get(id) ?? 0;
-        return [id, { mac: games, oran: p.baseGames ? Math.round((games / p.baseGames) * 10000) / 100 : 0, hamle: label(node) }];
+        return [id, { mac: games, oran: assigned ? Math.round((games / assigned) * 10000) / 100 : 0, hamle: label(node) }];
       }),
     ),
   };
-  console.error(`${p.op.id}: taban ${p.baseGames} maç`);
+  console.error(`${p.op.id}: ${assigned} maç varyantlarda, taban ${p.baseGames}`);
 }
 writeFileSync(outPath, JSON.stringify(out, null, 2) + '\n');
 console.error(`${outPath} yazıldı (${dbName})`);
