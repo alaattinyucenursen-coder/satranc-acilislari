@@ -6,9 +6,17 @@
   "type": "module",
   "scripts": {
     "build": "node tools/build-openings.mjs",
-    "check": "node tools/build-openings.mjs --check"
+    "check": "node tools/build-openings.mjs --check",
+    "app": "node tools/build-app.mjs"
   },
   "devDependencies": {
-    "chess.js": "^1.4.0"
+    "@capacitor/cli": "^7.6.9",
+    "chess.js": "^1.4.0",
+    "stockfish.js": "^10.0.2"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/core": "^7.6.9"
   }
 }

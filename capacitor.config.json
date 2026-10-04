@@ -1,0 +1,9 @@
+{
+  "appId": "com.alaattin.acilisdefteri",
+  "appName": "Açılış Defteri",
+  "webDir": "app/dist",
+  "android": {
+    "adjustMarginsForEdgeToEdge": "auto",
+    "backgroundColor": "#1f3b2f"
+  }
+}
