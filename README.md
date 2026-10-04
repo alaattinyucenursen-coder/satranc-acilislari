@@ -18,9 +18,15 @@ Belirli açılışları usta maçları üzerinden çalışmak için tarayıcıda
 | Tema | Maç | Alıştırma kaynakları |
 | --- | --- | --- |
 | Pillsbury atağı (Ne5, f4-f5) | Pillsbury – Tarrasch, Hastings 1895 | Pillsbury – Marco, Paris 1900 |
+| Slav değişim yapısı: at fedası ve geçer piyonlar | Capablanca – Lasker, New York 1924 | Botvinnik – Tal, 1961, 11. oyun |
 | Azınlık saldırısı (b4-b5) | Smislov – Keres, Moskova 1948 | Petrosyan – Furman, 1959 |
 | Merkez kırılması (Nge2, f3, e4) | Botvinnik – Keres, Moskova 1952 | Kasparov – Andersson, Belfort 1988 |
+| Piyon merkezi ve h7 fedası | Polugayevski – Tal, Moskova 1969 | Spasski – Petrosyan, 1969, 5. oyun |
+| Kabul edilmiş gambit: d5 kırılması | Petrosyan – Spasski, Moskova 1971 | Smislov – Karpov, 1971 |
+| Asılı piyonlar ve f-hattı | Fischer – Spasski, Reykjavik 1972, 6. oyun | Karpov – Spasski, 1974 |
+| Meran: e4-d5 ile merkez patlaması | Karpov – Tal, Bugojno 1980 | Karpov – Kramnik, 1994 |
 | Tek kalmış piyona baskı (Tarrasch Savunması) | Karpov – Kasparov, 1984, 7. oyun | Karpov – Illescas, Leon 1993 |
+| Cambridge Springs: asılı piyonlarla ilerleme | Kasparov – Smislov, Vilnius 1984, 3. oyun | Capablanca – Alekhine, 1927, 7. oyun |
 
 Maç kayıtları [PgnMentor](https://www.pgnmentor.com/) oyuncu arşivlerinden alındı. Açıklamalardaki motor değerlendirmeleri ve alıştırma çözümleri Stockfish ile kontrol edildi.
 
