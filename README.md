@@ -1,6 +1,6 @@
 # Satranç Açılışları: Usta Maçlarıyla Çalışma
 
-Belirli açılışları usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
+Belirli açılışları (şimdilik Vezir Gambiti ve Nimzo-Hint Savunması) usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
 
 - iki tarafın genel planı,
 - hamle hamle açıklama (Beyaz ve Siyah için ayrı ayrı),
@@ -27,6 +27,21 @@ Belirli açılışları usta maçları üzerinden çalışmak için tarayıcıda
 | Meran: e4-d5 ile merkez patlaması | Karpov – Tal, Bugojno 1980 | Karpov – Kramnik, 1994 |
 | Tek kalmış piyona baskı (Tarrasch Savunması) | Karpov – Kasparov, 1984, 7. oyun | Karpov – Illescas, Leon 1993 |
 | Cambridge Springs: asılı piyonlarla ilerleme | Kasparov – Smislov, Vilnius 1984, 3. oyun | Capablanca – Alekhine, 1927, 7. oyun |
+
+### Nimzo-Hint Savunması (Beyazın kazandığı maçlar)
+
+| Tema | Maç | Alıştırma kaynakları |
+| --- | --- | --- |
+| Kapalı merkez ve f4 kırılması (4.Qc2) | Rubinstein – Nimzowitsch, Berlin 1928 | Alekhine – Nimzowitsch, New York 1927; Mikenas – Tal, Erivan 1962 |
+| Fil çifti ve merkezde kalan şah | Alekhine – Euwe, 1937, 8. oyun | Rubinstein – Nimzowitsch, Bad Kissingen 1928; Alekhine – Nimzowitsch, New York 1927 |
+| İkiye katlanmış piyonlar ve e4 ilerleyişi | Botvinnik – Capablanca, AVRO 1938 | Lilienthal – Smislov, Pärnu 1947 |
+| Fil çifti, c5 kırılması ve şah saldırısı | Botvinnik – Keres, Moskova 1948 | Carlsen – Ivanchuk, 2011 |
+| Leningrad sistemi: d5 alanı ve e5 kırılması | Spasski – Smislov, Bükreş 1953 | Spasski – Keres, Riga 1965 |
+| Rubinstein ana hattı: b-hattı ve fil çifti | Petrosyan – Spasski, 1966, 20. oyun | Bondarevski – Botvinnik, Moskova 1940; Petrosyan – Spasski, 1969, 10. oyun |
+| Tek kalmış piyon: d5 kırılması | Kasparov – Karpov, 1985, 11. oyun | Polugayevski – Petrosyan, Leningrad 1960; Spasski – Petrosyan, 1975 |
+| Tek kalmış piyonla saldırı: e6’da fil fedası | Kramnik – Kasparov, Londra 2000 | Polugayevski – Petrosyan, Leningrad 1960; Geller – Smislov, Moskova 1961 |
+| Zayıf vezir kanadı piyonları ve yedinci yatay | Kramnik – Anand, Bonn 2008 | Kasparov – Karpov, 1985, 1. oyun |
+| e4 ve d5 kırılmalarıyla merkezi açmak | Carlsen – Anand, Moskova 2013 | Spasski – Petrosyan, 1975; Aronian – Karpov, Hoogeveen 2003 |
 
 Maç kayıtları [PgnMentor](https://www.pgnmentor.com/) oyuncu arşivlerinden alındı. Açıklamalardaki motor değerlendirmeleri ve alıştırma çözümleri Stockfish ile kontrol edildi.
 
