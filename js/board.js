@@ -1,6 +1,7 @@
 // Tıklayarak (ya da sürükleyerek değil, iki tıkla) hamle yapılabilen sade bir satranç tahtası.
 
-const GLYPH = { k: '♚', q: '♛', r: '♜', b: '♝', n: '♞', p: '♟' };
+// Lichess cburnett taş seti (GPLv2+, Colin M.L. Burnett)
+const PIECE_DIR = 'assets/pieces/cburnett/';
 const FILES = 'abcdefgh';
 
 export class Board {
@@ -88,7 +89,7 @@ export class Board {
       const col = i % 8, row = Math.floor(i / 8);
       const coordF = row === 7 ? `<span class="cf">${sq[0]}</span>` : '';
       const coordR = col === 0 ? `<span class="cr">${sq[1]}</span>` : '';
-      const piece = p ? `<span class="pc ${p.color}" aria-hidden="true">${GLYPH[p.type]}&#xFE0E;</span>` : '';
+      const piece = p ? `<img class="pc" src="${PIECE_DIR}${p.color}${p.type.toUpperCase()}.svg" alt="" draggable="false">` : '';
       const label = p ? `${sq} ${p.color === 'w' ? 'beyaz' : 'siyah'} ${p.type}` : sq;
       return `<div class="${cls.join(' ')}" data-sq="${sq}" role="gridcell" aria-label="${label}">${piece}${coordF}${coordR}</div>`;
     }).join('');

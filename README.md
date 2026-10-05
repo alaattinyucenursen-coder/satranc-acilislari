@@ -57,3 +57,4 @@ Her PGN'in geçerli olduğunu, her yarım hamlenin açıklaması bulunduğunu, k
 
 - Stockfish.js 19 (`vendor/stockfish/`): GPLv3, `vendor/stockfish/COPYING.txt`
 - chess.js (`vendor/chess.js`): BSD-2, `vendor/chess.js.LICENSE`
+- Taş görselleri (`assets/pieces/cburnett/`): Lichess'in cburnett seti, Colin M.L. Burnett, GPLv2+

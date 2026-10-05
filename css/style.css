@@ -13,10 +13,11 @@
   --ok-soft: #e1f1e6;
   --bad: #a8402f;
   --bad-soft: #f8e4df;
-  --sq-light: #e4e6d9;
-  --sq-dark: #86998b;
-  --sq-last: rgba(214, 178, 72, 0.55);
-  --sq-sel: rgba(31, 93, 116, 0.45);
+  /* Lichess kahverengi tahta */
+  --sq-light: #f0d9b5;
+  --sq-dark: #b58863;
+  --sq-last: rgba(155, 199, 0, 0.41);
+  --sq-sel: rgba(20, 85, 30, 0.5);
   --piece-w: #fbfbf7;
   --piece-b: #1d2421;
   --white-side: #f7f7f2;
@@ -32,7 +33,7 @@
     --bg: #141917; --surface: #1c2320; --ink: #e6ebe7; --muted: #9aa8a0; --line: #2f3a35;
     --accent: #7fbdd3; --accent-soft: #1d3540; --critical: #e0a948; --critical-soft: #3a2f1a;
     --ok: #7fcf9b; --ok-soft: #1c3426; --bad: #ef8f7d; --bad-soft: #3d2420;
-    --sq-light: #b9bfae; --sq-dark: #6c8073; --white-side: #e9ebe4; --black-side: #0f1412;
+    --white-side: #e9ebe4; --black-side: #0f1412;
     color-scheme: dark;
   }
 }
@@ -40,7 +41,7 @@
   --bg: #141917; --surface: #1c2320; --ink: #e6ebe7; --muted: #9aa8a0; --line: #2f3a35;
   --accent: #7fbdd3; --accent-soft: #1d3540; --critical: #e0a948; --critical-soft: #3a2f1a;
   --ok: #7fcf9b; --ok-soft: #1c3426; --bad: #ef8f7d; --bad-soft: #3d2420;
-  --sq-light: #b9bfae; --sq-dark: #6c8073; --white-side: #e9ebe4; --black-side: #0f1412;
+  --white-side: #e9ebe4; --black-side: #0f1412;
   color-scheme: dark;
 }
 
@@ -112,22 +113,20 @@ h1, h2, h3, h4 { text-wrap: balance; }
 .sq.dark { background: var(--sq-dark); }
 .sq.last::after { content: ''; position: absolute; inset: 0; background: var(--sq-last); }
 .sq.sel::after { content: ''; position: absolute; inset: 0; background: var(--sq-sel); }
-.sq.check { background: radial-gradient(circle, #e0523b 0%, rgba(224, 82, 59, .35) 55%, transparent 75%), var(--sq-dark); }
-.sq.target::before { content: ''; position: absolute; width: 28%; height: 28%; border-radius: 50%; background: rgba(31, 93, 116, .45); z-index: 2; }
-.sq.capture::before { content: ''; position: absolute; inset: 4%; border-radius: 50%; border: 4px solid rgba(31, 93, 116, .45); z-index: 2; }
+.sq.check { background: radial-gradient(ellipse at center, #ff0000 0%, #e70000 25%, rgba(169, 0, 0, 0) 89%), var(--sq-dark); }
+.sq.light.check { background: radial-gradient(ellipse at center, #ff0000 0%, #e70000 25%, rgba(169, 0, 0, 0) 89%), var(--sq-light); }
+.sq.target::before { content: ''; position: absolute; width: 26%; height: 26%; border-radius: 50%; background: rgba(20, 85, 30, .5); z-index: 2; }
+.sq.capture::before { content: ''; position: absolute; inset: 0; background: radial-gradient(transparent 0%, transparent 79%, rgba(20, 85, 30, .3) 80%); z-index: 2; }
 .board.interactive .sq { cursor: pointer; }
-.pc { position: relative; z-index: 1; font: clamp(26px, 8.6vw, 54px)/1 var(--f-piece); }
-@media (min-width: 900px) { .pc { font-size: clamp(30px, 4.3vw, 54px); } }
-.pc.w { color: var(--piece-w); -webkit-text-stroke: 1.4px #222a26; paint-order: stroke fill; text-shadow: 0 1px 1px rgba(0,0,0,.25); }
-.pc.b { color: var(--piece-b); -webkit-text-stroke: .6px #000; text-shadow: 0 1px 1px rgba(255,255,255,.2); }
-.cf, .cr { position: absolute; font: 600 10px/1 var(--f-ui); opacity: .75; z-index: 1; }
+.pc { position: relative; z-index: 1; width: 100%; height: 100%; display: block; user-select: none; -webkit-user-drag: none; }
+.cf, .cr { position: absolute; font: 700 10px/1 var(--f-ui); opacity: 1; z-index: 1; }
 .cf { right: 3px; bottom: 2px; }
 .cr { left: 3px; top: 3px; }
-.sq.light .cf, .sq.light .cr { color: #5f7466; }
-.sq.dark .cf, .sq.dark .cr { color: #eef0e6; }
+.sq.light .cf, .sq.light .cr { color: #b58863; }
+.sq.dark .cf, .sq.dark .cr { color: #f0d9b5; }
 .arrows { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 3; }
-.arrow line { stroke: rgba(31, 93, 116, .78); stroke-width: .15; stroke-linecap: round; }
-.arrow polygon { fill: rgba(31, 93, 116, .78); }
+.arrow line { stroke: rgba(21, 120, 27, .8); stroke-width: .15; stroke-linecap: round; }
+.arrow polygon { fill: rgba(21, 120, 27, .8); }
 
 .controls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 10px 0 0 22px; }
 .ply-pos { font: 13px var(--f-mono); color: var(--muted); min-width: 64px; text-align: center; font-variant-numeric: tabular-nums; }
