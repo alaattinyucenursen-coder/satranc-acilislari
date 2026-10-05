@@ -64,6 +64,11 @@ h1, h2, h3, h4 { text-wrap: balance; }
 .brand-mark { font: 44px/1 var(--f-piece); color: var(--accent); }
 .brand h1 { font: 700 30px/1.1 var(--f-display); margin: 2px 0 0; }
 .module-intro { margin: 0; max-width: 70ch; color: var(--muted); font-size: 14.5px; }
+.module-side { display: grid; gap: 10px; min-width: 0; }
+.module-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+.module-pick { font: 600 13px/1 var(--f-ui); padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--ink); cursor: pointer; }
+.module-pick:hover { border-color: var(--accent); }
+.module-pick.active { background: var(--accent); border-color: var(--accent); color: var(--bg); }
 
 .layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 28px; padding-top: 22px; }
 

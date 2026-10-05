@@ -1,7 +1,7 @@
 import { Chess } from '../vendor/chess.js';
 import { Board } from './board.js';
 import { Engine } from './engine.js';
-import MODULE from '../data/vezir-gambiti.js';
+import MODULES from '../data/modules.js';
 
 const $ = (s, el = document) => el.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -29,11 +29,22 @@ function prepareGame(g) {
   if (missing.length) console.warn(g.id, 'açıklaması eksik hamleler:', missing.join(' '));
   return { ...g, plies, startFen: history[0].before };
 }
-const games = MODULE.games.map(prepareGame);
+// Açılış modülleri: her biri kendi maç listesini taşır; seçili modül ve maç hatırlanır.
+let MODULE = null;
+let games = [];
+const prepared = new Map();
+function useModule(i) {
+  MODULE = MODULES[i];
+  if (!prepared.has(MODULE.id)) prepared.set(MODULE.id, MODULE.games.map(prepareGame));
+  games = prepared.get(MODULE.id);
+}
+const savedModule = MODULES.findIndex((m) => m.id === store.get('module', MODULES[0].id));
+useModule(Math.max(0, savedModule));
+const gameKey = () => 'game:' + MODULE.id;
 
 // ---------- Durum ----------
 const state = {
-  gameIdx: Math.min(store.get('game', 0), games.length - 1),
+  gameIdx: Math.min(store.get(gameKey(), store.get('game', 0)), games.length - 1),
   tab: store.get('tab', 'review'),
   ply: 0,
   trial: null,          // { baseply, chess, moves: [] } maç dışı deneme hamleleri
@@ -49,6 +60,8 @@ let engineFen = null;
 
 // ---------- Ana iskelet ----------
 function renderShell() {
+  $('#module-tabs').innerHTML = MODULES.map((m) =>
+    `<button class="module-pick${m === MODULE ? ' active' : ''}" data-id="${esc(m.id)}" aria-pressed="${m === MODULE}">${esc(m.name)}</button>`).join('');
   $('#module-title').textContent = MODULE.name;
   $('#module-intro').innerHTML = rich(MODULE.intro);
   $('#game-list').innerHTML = games.map((g, i) => {
@@ -65,8 +78,15 @@ function renderShell() {
 
 function selectGame(i) {
   state.gameIdx = i; state.ply = 0; state.trial = null; state.exIdx = 0; state.ex = null;
-  store.set('game', i);
+  store.set(gameKey(), i);
   renderShell(); renderGame();
+}
+
+function selectModule(id) {
+  const i = MODULES.findIndex((m) => m.id === id);
+  if (i < 0 || MODULES[i] === MODULE) return;
+  useModule(i); store.set('module', id);
+  selectGame(Math.min(store.get(gameKey(), 0), games.length - 1));
 }
 
 function renderGame() {
@@ -381,6 +401,7 @@ document.addEventListener('click', (e) => {
   const t = e.target.closest('button');
   if (!t) return;
   if (t.matches('.game-pick')) selectGame(+t.dataset.i);
+  else if (t.matches('.module-pick')) selectModule(t.dataset.id);
   else if (t.matches('.tab')) setTab(t.dataset.tab);
   else if (t.matches('#move-list .mv, .crit-jump')) { if (state.tab !== 'review') setTab('review'); go(+t.dataset.ply); }
   else if (t.matches('.ex-pick')) loadExercise(+t.dataset.i);

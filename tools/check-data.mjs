@@ -1,12 +1,13 @@
 // Veri doğrulama: PGN'ler geçerli mi, her hamlenin açıklaması var mı, alıştırma hatları yasal mı?
 // Çalıştırma: node tools/check-data.mjs
 import { Chess } from '../vendor/chess.js';
-import MODULE from '../data/vezir-gambiti.js';
+import MODULES from '../data/modules.js';
 
 let errors = 0;
 const fail = (msg) => { errors++; console.error('HATA:', msg); };
 
-for (const g of MODULE.games) {
+const ids = new Set();
+for (const MODULE of MODULES) for (const g of MODULE.games) {
   const c = new Chess();
   try { c.loadPgn(g.pgn); } catch (e) { fail(`${g.id}: PGN okunamadı: ${e.message}`); continue; }
   const hist = c.history();
@@ -18,6 +19,8 @@ for (const g of MODULE.games) {
   if (result !== g.result) fail(`${g.id}: sonuç uyuşmuyor`);
   if (g.result !== '1-0') fail(`${g.id}: Beyaz kazanmamış`);
   for (const e of g.exercises) {
+    if (ids.has(e.id)) fail(`${e.id}: alıştırma kimliği tekrar ediyor`);
+    ids.add(e.id);
     const x = new Chess(e.fen);
     for (const san of e.line) {
       try { x.move(san); } catch { fail(`${e.id}: ${san} yasal değil`); break; }
