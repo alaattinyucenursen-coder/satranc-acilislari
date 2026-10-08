@@ -17,7 +17,8 @@ for (const MODULE of MODULES) for (const g of MODULE.games) {
   for (const cr of g.critical) if (!keys.includes(cr.move)) fail(`${g.id}: kritik an ${cr.move} maçta yok`);
   const result = g.pgn.trim().split(/\s+/).pop();
   if (result !== g.result) fail(`${g.id}: sonuç uyuşmuyor`);
-  if (g.result !== '1-0') fail(`${g.id}: Beyaz kazanmamış`);
+  const want = MODULE.side === 'b' ? '0-1' : '1-0';
+  if (g.result !== want) fail(`${g.id}: sonuç ${want} olmalı (${MODULE.name})`);
   for (const e of g.exercises) {
     if (ids.has(e.id)) fail(`${e.id}: alıştırma kimliği tekrar ediyor`);
     ids.add(e.id);

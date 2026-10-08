@@ -117,7 +117,11 @@ function setTab(tab) {
   $('#panel-ex').hidden = tab !== 'ex';
   // Hamle gezinme düğmeleri yalnızca maç incelemesinde anlamlı.
   ['#nav-start', '#nav-prev', '#nav-next', '#nav-end', '#ply-pos'].forEach((s) => { $(s).hidden = tab !== 'review'; });
-  if (tab === 'review') { mountBoard('#review-board-slot'); showPly(); }
+  if (tab === 'review') {
+    // Siyahın kazandığı modüllerde maçlar Siyahın tarafından izlenir.
+    board.orientation = MODULE.side === 'b' ? 'b' : 'w';
+    mountBoard('#review-board-slot'); showPly();
+  }
   else { mountBoard('#ex-board-slot'); renderExList(); loadExercise(state.exIdx); }
 }
 
