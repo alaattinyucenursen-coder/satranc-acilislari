@@ -30,6 +30,12 @@
     "file": "ispanyol.json"
   },
   {
+    "id": "kapali-sicilya",
+    "name": "Kapalı Sicilya",
+    "eco": "B23-B26",
+    "file": "kapali-sicilya.json"
+  },
+  {
     "id": "modern",
     "name": "Modern Savunma",
     "eco": "B06",

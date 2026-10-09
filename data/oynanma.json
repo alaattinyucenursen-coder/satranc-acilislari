@@ -11,55 +11,15 @@
         "toplam": 9204,
         "diger": 4472,
         "varyantlar": {
-          "modern-bg4-h3": {
-            "mac": 200,
-            "oran": 2.17,
-            "hamle": "7.h3"
-          },
-          "modern-bg4-c4": {
-            "mac": 548,
-            "oran": 5.95,
-            "hamle": "7.c4"
-          },
-          "modern-bg4-c6": {
-            "mac": 712,
-            "oran": 7.74,
-            "hamle": "5...c6"
+          "nc3-d5": {
+            "mac": 1899,
+            "oran": 20.63,
+            "hamle": "2...d5"
           },
           "alburt": {
             "mac": 1251,
             "oran": 13.59,
             "hamle": "4...g6"
-          },
-          "modern-dxe5-c6": {
-            "mac": 216,
-            "oran": 2.35,
-            "hamle": "5...c6"
-          },
-          "modern-nb6": {
-            "mac": 277,
-            "oran": 3.01,
-            "hamle": "4...Nb6"
-          },
-          "modern-nc6": {
-            "mac": 246,
-            "oran": 2.67,
-            "hamle": "4...Nc6"
-          },
-          "dort-piyon-nc6": {
-            "mac": 607,
-            "oran": 6.59,
-            "hamle": "6...Nc6"
-          },
-          "dort-piyon-bf5": {
-            "mac": 157,
-            "oran": 1.71,
-            "hamle": "6...Bf5"
-          },
-          "dort-piyon-g6": {
-            "mac": 89,
-            "oran": 0.97,
-            "hamle": "5...g6"
           },
           "degisim-cxd6": {
             "mac": 1010,
@@ -71,35 +31,75 @@
             "oran": 8.94,
             "hamle": "5...exd6"
           },
-          "kovalamaca-bc4": {
-            "mac": 288,
-            "oran": 3.13,
-            "hamle": "5.Bc4"
+          "modern-bg4-c6": {
+            "mac": 712,
+            "oran": 7.74,
+            "hamle": "5...c6"
           },
-          "kovalamaca-nc3": {
-            "mac": 214,
-            "oran": 2.33,
-            "hamle": "5.Nc3"
+          "dort-piyon-nc6": {
+            "mac": 607,
+            "oran": 6.59,
+            "hamle": "6...Nc6"
           },
-          "nc3-d5": {
-            "mac": 1899,
-            "oran": 20.63,
-            "hamle": "2...d5"
+          "modern-bg4-c4": {
+            "mac": 548,
+            "oran": 5.95,
+            "hamle": "7.c4"
           },
           "nc3-e5": {
             "mac": 524,
             "oran": 5.69,
             "hamle": "2...e5"
           },
-          "tuzak-ne4": {
-            "mac": 27,
-            "oran": 0.29,
-            "hamle": "2...Ne4"
+          "kovalamaca-bc4": {
+            "mac": 288,
+            "oran": 3.13,
+            "hamle": "5.Bc4"
+          },
+          "modern-nb6": {
+            "mac": 277,
+            "oran": 3.01,
+            "hamle": "4...Nb6"
+          },
+          "modern-nc6": {
+            "mac": 246,
+            "oran": 2.67,
+            "hamle": "4...Nc6"
+          },
+          "modern-dxe5-c6": {
+            "mac": 216,
+            "oran": 2.35,
+            "hamle": "5...c6"
+          },
+          "kovalamaca-nc3": {
+            "mac": 214,
+            "oran": 2.33,
+            "hamle": "5.Nc3"
+          },
+          "modern-bg4-h3": {
+            "mac": 200,
+            "oran": 2.17,
+            "hamle": "7.h3"
+          },
+          "dort-piyon-bf5": {
+            "mac": 157,
+            "oran": 1.71,
+            "hamle": "6...Bf5"
           },
           "tuzak-nxf7": {
             "mac": 116,
             "oran": 1.26,
             "hamle": "5...Nd7"
+          },
+          "dort-piyon-g6": {
+            "mac": 89,
+            "oran": 0.97,
+            "hamle": "5...g6"
+          },
+          "tuzak-ne4": {
+            "mac": 27,
+            "oran": 0.29,
+            "hamle": "2...Ne4"
           }
         }
       },
@@ -111,85 +111,85 @@
         "toplam": 18315,
         "diger": 19033,
         "varyantlar": {
-          "ilerleme-short": {
-            "mac": 542,
-            "oran": 2.96,
-            "hamle": "5...Nd7"
-          },
-          "ilerleme-short-c5": {
-            "mac": 456,
-            "oran": 2.49,
-            "hamle": "5...c5"
-          },
-          "ilerleme-bayonet": {
-            "mac": 1053,
-            "oran": 5.75,
-            "hamle": "5.g4"
-          },
-          "ilerleme-c5": {
-            "mac": 615,
-            "oran": 3.36,
-            "hamle": "3...c5"
-          },
-          "klasik-ana": {
-            "mac": 1463,
-            "oran": 7.99,
-            "hamle": "10...e6"
-          },
-          "klasik-qc7": {
-            "mac": 540,
-            "oran": 2.95,
-            "hamle": "10...Qc7"
-          },
-          "karpov-ng5": {
-            "mac": 907,
-            "oran": 4.95,
-            "hamle": "5.Ng5"
-          },
-          "karpov-bc4": {
-            "mac": 1210,
-            "oran": 6.61,
-            "hamle": "5.Bc4"
-          },
-          "karpov-tuzak": {
-            "mac": 43,
-            "oran": 0.23,
-            "hamle": "5.Qe2"
-          },
-          "nf6-gxf6": {
-            "mac": 1669,
-            "oran": 9.11,
-            "hamle": "5...gxf6"
-          },
-          "nf6-exf6": {
-            "mac": 769,
-            "oran": 4.2,
-            "hamle": "5...exf6"
-          },
           "panov-e6": {
             "mac": 2998,
             "oran": 16.37,
             "hamle": "5...e6"
-          },
-          "panov-bg4": {
-            "mac": 1432,
-            "oran": 7.82,
-            "hamle": "5...Nc6"
           },
           "degisim-bd3": {
             "mac": 2228,
             "oran": 12.16,
             "hamle": "4.Bd3"
           },
+          "nf6-gxf6": {
+            "mac": 1669,
+            "oran": 9.11,
+            "hamle": "5...gxf6"
+          },
           "iki-at": {
             "mac": 1612,
             "oran": 8.8,
             "hamle": "3.Nf3"
           },
+          "klasik-ana": {
+            "mac": 1463,
+            "oran": 7.99,
+            "hamle": "10...e6"
+          },
+          "panov-bg4": {
+            "mac": 1432,
+            "oran": 7.82,
+            "hamle": "5...Nc6"
+          },
+          "karpov-bc4": {
+            "mac": 1210,
+            "oran": 6.61,
+            "hamle": "5.Bc4"
+          },
+          "ilerleme-bayonet": {
+            "mac": 1053,
+            "oran": 5.75,
+            "hamle": "5.g4"
+          },
+          "karpov-ng5": {
+            "mac": 907,
+            "oran": 4.95,
+            "hamle": "5.Ng5"
+          },
           "fantezi-f3": {
             "mac": 778,
             "oran": 4.25,
             "hamle": "3.f3"
+          },
+          "nf6-exf6": {
+            "mac": 769,
+            "oran": 4.2,
+            "hamle": "5...exf6"
+          },
+          "ilerleme-c5": {
+            "mac": 615,
+            "oran": 3.36,
+            "hamle": "3...c5"
+          },
+          "ilerleme-short": {
+            "mac": 542,
+            "oran": 2.96,
+            "hamle": "5...Nd7"
+          },
+          "klasik-qc7": {
+            "mac": 540,
+            "oran": 2.95,
+            "hamle": "10...Qc7"
+          },
+          "ilerleme-short-c5": {
+            "mac": 456,
+            "oran": 2.49,
+            "hamle": "5...c5"
+          },
+          "karpov-tuzak": {
+            "mac": 43,
+            "oran": 0.23,
+            "hamle": "5.Qe2"
           }
         }
       },
@@ -201,50 +201,70 @@
         "toplam": 39846,
         "diger": 33257,
         "varyantlar": {
+          "tarrasch-nf6": {
+            "mac": 7636,
+            "oran": 19.16,
+            "hamle": "3...Nf6"
+          },
+          "degisim": {
+            "mac": 5188,
+            "oran": 13.02,
+            "hamle": "3.exd5"
+          },
+          "sah-hint-atagi": {
+            "mac": 5014,
+            "oran": 12.58,
+            "hamle": "2.d3"
+          },
+          "klasik-steinitz": {
+            "mac": 2639,
+            "oran": 6.62,
+            "hamle": "5.f4"
+          },
+          "rubinstein": {
+            "mac": 2556,
+            "oran": 6.41,
+            "hamle": "3...dxe4"
+          },
           "ilerleme-qb6": {
             "mac": 2152,
             "oran": 5.4,
             "hamle": "6.a3"
-          },
-          "ilerleme-bd7": {
-            "mac": 1792,
-            "oran": 4.5,
-            "hamle": "5...Bd7"
-          },
-          "ilerleme-milner-barry": {
-            "mac": 298,
-            "oran": 0.75,
-            "hamle": "8.O-O"
-          },
-          "tuzak-ilerleme-bb5": {
-            "mac": 1,
-            "oran": 0.0,
-            "hamle": "7...Nxd4"
-          },
-          "tarrasch-c5-qxd5": {
-            "mac": 1499,
-            "oran": 3.76,
-            "hamle": "4...Qxd5"
           },
           "tarrasch-c5-exd5": {
             "mac": 2029,
             "oran": 5.09,
             "hamle": "4...exd5"
           },
-          "tarrasch-nf6": {
-            "mac": 7636,
-            "oran": 19.16,
-            "hamle": "3...Nf6"
+          "klasik-burn": {
+            "mac": 2028,
+            "oran": 5.09,
+            "hamle": "4...dxe4"
+          },
+          "ilerleme-bd7": {
+            "mac": 1792,
+            "oran": 4.5,
+            "hamle": "5...Bd7"
+          },
+          "klasik-mccutcheon": {
+            "mac": 1611,
+            "oran": 4.04,
+            "hamle": "4...Bb4"
+          },
+          "winawer-4-ne7": {
+            "mac": 1605,
+            "oran": 4.03,
+            "hamle": "4...Ne7"
+          },
+          "tarrasch-c5-qxd5": {
+            "mac": 1499,
+            "oran": 3.76,
+            "hamle": "4...Qxd5"
           },
           "tarrasch-be7": {
             "mac": 1106,
             "oran": 2.78,
             "hamle": "3...Be7"
-          },
-          "winawer-zehirli-piyon": {
-            "mac": 778,
-            "oran": 1.95,
-            "hamle": "8.Qxg7"
           },
           "winawer-7-oo": {
             "mac": 980,
@@ -256,40 +276,20 @@
             "oran": 2.34,
             "hamle": "5...Ba5"
           },
-          "winawer-4-ne7": {
-            "mac": 1605,
-            "oran": 4.03,
-            "hamle": "4...Ne7"
+          "winawer-zehirli-piyon": {
+            "mac": 778,
+            "oran": 1.95,
+            "hamle": "8.Qxg7"
           },
-          "klasik-steinitz": {
-            "mac": 2639,
-            "oran": 6.62,
-            "hamle": "5.f4"
+          "ilerleme-milner-barry": {
+            "mac": 298,
+            "oran": 0.75,
+            "hamle": "8.O-O"
           },
-          "klasik-burn": {
-            "mac": 2028,
-            "oran": 5.09,
-            "hamle": "4...dxe4"
-          },
-          "klasik-mccutcheon": {
-            "mac": 1611,
-            "oran": 4.04,
-            "hamle": "4...Bb4"
-          },
-          "rubinstein": {
-            "mac": 2556,
-            "oran": 6.41,
-            "hamle": "3...dxe4"
-          },
-          "degisim": {
-            "mac": 5188,
-            "oran": 13.02,
-            "hamle": "3.exd5"
-          },
-          "sah-hint-atagi": {
-            "mac": 5014,
-            "oran": 12.58,
-            "hamle": "2.d3"
+          "tuzak-ilerleme-bb5": {
+            "mac": 1,
+            "oran": 0.0,
+            "hamle": "7...Nxd4"
           }
         }
       },
@@ -301,75 +301,75 @@
         "toplam": 4925,
         "diger": 9112,
         "varyantlar": {
-          "qa5-bf5-bc4": {
-            "mac": 192,
-            "oran": 3.9,
-            "hamle": "6.Bc4"
-          },
-          "qa5-bf5-bd2": {
-            "mac": 126,
-            "oran": 2.56,
-            "hamle": "6.Bd2"
+          "modern-g6": {
+            "mac": 702,
+            "oran": 14.25,
+            "hamle": "4...g6"
           },
           "qa5-c6-bc4": {
             "mac": 689,
             "oran": 13.99,
             "hamle": "5...c6"
           },
-          "qa5-bg4": {
-            "mac": 567,
-            "oran": 11.51,
-            "hamle": "5...Bg4"
-          },
           "qd6-a6": {
             "mac": 629,
             "oran": 12.77,
             "hamle": "5...a6"
           },
-          "qd6-c6": {
-            "mac": 127,
-            "oran": 2.58,
-            "hamle": "5...c6"
-          },
-          "qd8-ne5": {
-            "mac": 44,
-            "oran": 0.89,
-            "hamle": "5...c6"
-          },
-          "qe5": {
-            "mac": 59,
-            "oran": 1.2,
-            "hamle": "3...Qe5+"
+          "qa5-bg4": {
+            "mac": 567,
+            "oran": 11.51,
+            "hamle": "5...Bg4"
           },
           "modern-bg4": {
             "mac": 527,
             "oran": 10.7,
             "hamle": "4...Bg4"
           },
-          "modern-g6": {
-            "mac": 702,
-            "oran": 14.25,
-            "hamle": "4...g6"
-          },
-          "portekiz-be2": {
-            "mac": 197,
-            "oran": 4.0,
-            "hamle": "4.Be2"
-          },
-          "portekiz-f3": {
-            "mac": 160,
-            "oran": 3.25,
-            "hamle": "4.f3"
+          "c4-c6": {
+            "mac": 526,
+            "oran": 10.68,
+            "hamle": "3...c6"
           },
           "izlanda": {
             "mac": 336,
             "oran": 6.82,
             "hamle": "3...e6"
           },
-          "c4-c6": {
-            "mac": 526,
-            "oran": 10.68,
-            "hamle": "3...c6"
+          "portekiz-be2": {
+            "mac": 197,
+            "oran": 4.0,
+            "hamle": "4.Be2"
+          },
+          "qa5-bf5-bc4": {
+            "mac": 192,
+            "oran": 3.9,
+            "hamle": "6.Bc4"
+          },
+          "portekiz-f3": {
+            "mac": 160,
+            "oran": 3.25,
+            "hamle": "4.f3"
+          },
+          "qd6-c6": {
+            "mac": 127,
+            "oran": 2.58,
+            "hamle": "5...c6"
+          },
+          "qa5-bf5-bd2": {
+            "mac": 126,
+            "oran": 2.56,
+            "hamle": "6.Bd2"
+          },
+          "qe5": {
+            "mac": 59,
+            "oran": 1.2,
+            "hamle": "3...Qe5+"
+          },
+          "qd8-ne5": {
+            "mac": 44,
+            "oran": 0.89,
+            "hamle": "5...c6"
           },
           "tuzak-qd8-qxd4": {
             "mac": 44,
@@ -386,20 +386,90 @@
         "toplam": 23006,
         "diger": 25180,
         "varyantlar": {
+          "isp-arkangelsk": {
+            "mac": 3027,
+            "oran": 13.16,
+            "hamle": "5...b5"
+          },
           "isp-chigorin": {
             "mac": 2707,
             "oran": 11.77,
             "hamle": "9...Na5"
+          },
+          "isp-schliemann": {
+            "mac": 2379,
+            "oran": 10.34,
+            "hamle": "3...f5"
+          },
+          "isp-klasik": {
+            "mac": 1732,
+            "oran": 7.53,
+            "hamle": "3...Bc5"
+          },
+          "isp-degisim": {
+            "mac": 1258,
+            "oran": 5.47,
+            "hamle": "5...f6"
+          },
+          "isp-berlin": {
+            "mac": 1189,
+            "oran": 5.17,
+            "hamle": "8.Qxd8+"
+          },
+          "isp-anti-marshall-a4": {
+            "mac": 1162,
+            "oran": 5.05,
+            "hamle": "8.a4"
+          },
+          "isp-zaitsev": {
+            "mac": 1138,
+            "oran": 4.95,
+            "hamle": "9...Bb7"
           },
           "isp-breyer": {
             "mac": 1128,
             "oran": 4.9,
             "hamle": "9...Nb8"
           },
-          "isp-zaitsev": {
-            "mac": 1138,
-            "oran": 4.95,
-            "hamle": "9...Bb7"
+          "isp-steinitz-gecikmeli": {
+            "mac": 1082,
+            "oran": 4.7,
+            "hamle": "5.c3"
+          },
+          "isp-anti-berlin": {
+            "mac": 966,
+            "oran": 4.2,
+            "hamle": "4.d3"
+          },
+          "isp-bird": {
+            "mac": 936,
+            "oran": 4.07,
+            "hamle": "3...Nd4"
+          },
+          "isp-marshall": {
+            "mac": 787,
+            "oran": 3.42,
+            "hamle": "8...d5"
+          },
+          "isp-degisim-bg4": {
+            "mac": 734,
+            "oran": 3.19,
+            "hamle": "5...Bg4"
+          },
+          "isp-acik": {
+            "mac": 713,
+            "oran": 3.1,
+            "hamle": "9.Nbd2"
+          },
+          "isp-anti-marshall-h3": {
+            "mac": 598,
+            "oran": 2.6,
+            "hamle": "8.h3"
+          },
+          "isp-worrall": {
+            "mac": 598,
+            "oran": 2.6,
+            "hamle": "6.Qe2"
           },
           "isp-karpov": {
             "mac": 439,
@@ -411,85 +481,120 @@
             "oran": 1.6,
             "hamle": "9...h6"
           },
-          "isp-worrall": {
-            "mac": 598,
-            "oran": 2.6,
-            "hamle": "6.Qe2"
-          },
-          "isp-marshall": {
-            "mac": 787,
-            "oran": 3.42,
-            "hamle": "8...d5"
-          },
-          "isp-acik": {
-            "mac": 713,
-            "oran": 3.1,
-            "hamle": "9.Nbd2"
-          },
           "isp-dilworth": {
             "mac": 52,
             "oran": 0.23,
             "hamle": "11...Nxf2"
           },
-          "isp-berlin": {
-            "mac": 1189,
-            "oran": 5.17,
-            "hamle": "8.Qxd8+"
-          },
-          "isp-anti-berlin": {
-            "mac": 966,
-            "oran": 4.2,
-            "hamle": "4.d3"
-          },
-          "isp-degisim": {
-            "mac": 1258,
-            "oran": 5.47,
-            "hamle": "5...f6"
-          },
-          "isp-degisim-bg4": {
-            "mac": 734,
-            "oran": 3.19,
-            "hamle": "5...Bg4"
-          },
-          "isp-schliemann": {
-            "mac": 2379,
-            "oran": 10.34,
-            "hamle": "3...f5"
-          },
           "isp-nuh-tuzagi": {
             "mac": 12,
             "oran": 0.05,
             "hamle": "8.Qxd4"
+          }
+        }
+      },
+      "kapali-sicilya": {
+        "taban": {
+          "hamleler": "e4 c5 Nc3",
+          "mac": 22561
+        },
+        "toplam": 11532,
+        "diger": 11029,
+        "varyantlar": {
+          "e6-a6-b5": {
+            "mac": 17,
+            "oran": 0.15,
+            "hamle": "4...b5"
           },
-          "isp-anti-marshall-a4": {
-            "mac": 1162,
-            "oran": 5.05,
-            "hamle": "8.a4"
+          "e6-a6-nc6": {
+            "mac": 17,
+            "oran": 0.15,
+            "hamle": "4...Nc6"
           },
-          "isp-anti-marshall-h3": {
-            "mac": 598,
-            "oran": 2.6,
-            "hamle": "8.h3"
+          "e6-a6-d6": {
+            "mac": 1,
+            "oran": 0.01,
+            "hamle": "4...d6"
           },
-          "isp-arkangelsk": {
-            "mac": 3027,
-            "oran": 13.16,
-            "hamle": "5...b5"
+          "e6-a6-d5": {
+            "mac": 0,
+            "oran": 0.0,
+            "hamle": "4...d5"
           },
-          "isp-steinitz-gecikmeli": {
-            "mac": 1082,
-            "oran": 4.7,
-            "hamle": "5.c3"
+          "e6-a6-ne7": {
+            "mac": 1,
+            "oran": 0.01,
+            "hamle": "4...Ne7"
           },
-          "isp-bird": {
-            "mac": 936,
-            "oran": 4.07,
-            "hamle": "3...Nd4"
+          "e6-d5-dxe4": {
+            "mac": 25,
+            "oran": 0.22,
+            "hamle": "4...dxe4"
           },
-          "isp-klasik": {
-            "mac": 1732,
-            "oran": 7.53,
-            "hamle": "3...Bc5"
+          "e6-d5-d4": {
+            "mac": 50,
+            "oran": 0.43,
+            "hamle": "4...d4"
+          },
+          "e6-d5-nf6": {
+            "mac": 70,
+            "oran": 0.61,
+            "hamle": "4...Nf6"
+          },
+          "e6-d5-nc6": {
+            "mac": 0,
+            "oran": 0.0,
+            "hamle": "4...Nc6"
+          },
+          "klasik-be3-e5": {
+            "mac": 403,
+            "oran": 3.49,
+            "hamle": "6...e5"
+          },
+          "klasik-be3-rb8": {
+            "mac": 477,
+            "oran": 4.14,
+            "hamle": "6...Rb8"
+          },
+          "klasik-f4-e6": {
+            "mac": 1688,
+            "oran": 14.64,
+            "hamle": "6.f4"
+          },
+          "klasik-nge2-e5": {
+            "mac": 390,
+            "oran": 3.38,
+            "hamle": "6.Nge2"
+          },
+          "klasik-e6": {
+            "mac": 1180,
+            "oran": 10.23,
+            "hamle": "5...e6"
+          },
+          "klasik-e5-f4": {
+            "mac": 91,
+            "oran": 0.79,
+            "hamle": "5...e5"
+          },
+          "d6-g6": {
+            "mac": 2712,
+            "oran": 23.52,
+            "hamle": "2...d6"
+          },
+          "a6-b5": {
+            "mac": 687,
+            "oran": 5.96,
+            "hamle": "2...a6"
+          },
+          "e6-nc6-nf6": {
+            "mac": 451,
+            "oran": 3.91,
+            "hamle": "3...Nc6"
+          },
+          "grand-prix": {
+            "mac": 3272,
+            "oran": 28.37,
+            "hamle": "3.f4"
           }
         }
       },
@@ -501,20 +606,40 @@
         "toplam": 10495,
         "diger": 10485,
         "varyantlar": {
-          "kaplan-modern-f3": {
-            "mac": 320,
-            "oran": 3.05,
-            "hamle": "5...b5"
+          "gurgenidze-bg7": {
+            "mac": 2838,
+            "oran": 27.04,
+            "hamle": "3...c6"
           },
-          "kaplan-modern-f4": {
-            "mac": 223,
-            "oran": 2.12,
-            "hamle": "5...Nd7"
+          "modern-nf3-klasik": {
+            "mac": 1304,
+            "oran": 12.42,
+            "hamle": "4.Nf3"
+          },
+          "averbakh-nc6-d5": {
+            "mac": 1227,
+            "oran": 11.69,
+            "hamle": "4...Nc6"
+          },
+          "modern-2d6-c6-qb6": {
+            "mac": 1176,
+            "oran": 11.21,
+            "hamle": "2...d6"
           },
           "modern-be3-c6": {
             "mac": 899,
             "oran": 8.57,
             "hamle": "4...c6"
+          },
+          "averbakh-e5-takas": {
+            "mac": 764,
+            "oran": 7.28,
+            "hamle": "4...e5"
+          },
+          "gurgenidze-2c6-h3": {
+            "mac": 689,
+            "oran": 6.57,
+            "hamle": "2...c6"
           },
           "modern-be3-nf6-150": {
             "mac": 667,
@@ -526,50 +651,30 @@
             "oran": 3.19,
             "hamle": "4...a6"
           },
-          "modern-f4-c5": {
-            "mac": 25,
-            "oran": 0.24,
-            "hamle": "4...c5"
+          "kaplan-modern-f3": {
+            "mac": 320,
+            "oran": 3.05,
+            "hamle": "5...b5"
           },
-          "modern-nf3-klasik": {
-            "mac": 1304,
-            "oran": 12.42,
-            "hamle": "4.Nf3"
+          "kaplan-modern-f4": {
+            "mac": 223,
+            "oran": 2.12,
+            "hamle": "5...Nd7"
           },
           "pterodactyl-dxc5": {
             "mac": 27,
             "oran": 0.26,
             "hamle": "6...Na6"
           },
+          "modern-f4-c5": {
+            "mac": 25,
+            "oran": 0.24,
+            "hamle": "4...c5"
+          },
           "tuzak-pterodactyl-bxb2": {
             "mac": 1,
             "oran": 0.01,
             "hamle": "6...Bxb2"
-          },
-          "gurgenidze-bg7": {
-            "mac": 2838,
-            "oran": 27.04,
-            "hamle": "3...c6"
-          },
-          "gurgenidze-2c6-h3": {
-            "mac": 689,
-            "oran": 6.57,
-            "hamle": "2...c6"
-          },
-          "modern-2d6-c6-qb6": {
-            "mac": 1176,
-            "oran": 11.21,
-            "hamle": "2...d6"
-          },
-          "averbakh-e5-takas": {
-            "mac": 764,
-            "oran": 7.28,
-            "hamle": "4...e5"
-          },
-          "averbakh-nc6-d5": {
-            "mac": 1227,
-            "oran": 11.69,
-            "hamle": "4...Nc6"
           }
         }
       },
@@ -581,80 +686,80 @@
         "toplam": 15753,
         "diger": 12892,
         "varyantlar": {
-          "klasik-a3-b6": {
-            "mac": 1899,
-            "oran": 12.05,
-            "hamle": "6...b6"
-          },
-          "klasik-a3-d5": {
-            "mac": 37,
-            "oran": 0.23,
-            "hamle": "6...d5"
-          },
-          "klasik-d5": {
-            "mac": 541,
-            "oran": 3.43,
-            "hamle": "5...exd5"
-          },
           "klasik-c5": {
             "mac": 2599,
             "oran": 16.5,
             "hamle": "4...c5"
-          },
-          "rubinstein-ana": {
-            "mac": 994,
-            "oran": 6.31,
-            "hamle": "7...Nc6"
-          },
-          "rubinstein-karpov": {
-            "mac": 553,
-            "oran": 3.51,
-            "hamle": "9...b6"
           },
           "rubinstein-b6": {
             "mac": 2084,
             "oran": 13.23,
             "hamle": "4...b6"
           },
-          "rubinstein-hubner": {
-            "mac": 504,
-            "oran": 3.2,
-            "hamle": "7...d6"
+          "klasik-a3-b6": {
+            "mac": 1899,
+            "oran": 12.05,
+            "hamle": "6...b6"
           },
           "kmoch-f3": {
             "mac": 1546,
             "oran": 9.81,
             "hamle": "4.f3"
           },
-          "samisch-a3": {
-            "mac": 1303,
-            "oran": 8.27,
-            "hamle": "4.a3"
-          },
           "leningrad": {
             "mac": 1435,
             "oran": 9.11,
             "hamle": "4.Bg5"
           },
-          "nf3-romanishin": {
-            "mac": 642,
-            "oran": 4.08,
-            "hamle": "5.g3"
+          "samisch-a3": {
+            "mac": 1303,
+            "oran": 8.27,
+            "hamle": "4.a3"
+          },
+          "rubinstein-ana": {
+            "mac": 994,
+            "oran": 6.31,
+            "hamle": "7...Nc6"
           },
           "nf3-b6-bg5": {
             "mac": 771,
             "oran": 4.89,
             "hamle": "4...b6"
           },
-          "spielmann-qb3": {
-            "mac": 315,
-            "oran": 2.0,
-            "hamle": "4.Qb3"
+          "nf3-romanishin": {
+            "mac": 642,
+            "oran": 4.08,
+            "hamle": "5.g3"
+          },
+          "rubinstein-karpov": {
+            "mac": 553,
+            "oran": 3.51,
+            "hamle": "9...b6"
+          },
+          "klasik-d5": {
+            "mac": 541,
+            "oran": 3.43,
+            "hamle": "5...exd5"
           },
           "kasparov-g3": {
             "mac": 530,
             "oran": 3.36,
             "hamle": "4.g3"
+          },
+          "rubinstein-hubner": {
+            "mac": 504,
+            "oran": 3.2,
+            "hamle": "7...d6"
+          },
+          "spielmann-qb3": {
+            "mac": 315,
+            "oran": 2.0,
+            "hamle": "4.Qb3"
+          },
+          "klasik-a3-d5": {
+            "mac": 37,
+            "oran": 0.23,
+            "hamle": "6...d5"
           }
         }
       },
@@ -666,60 +771,80 @@
         "toplam": 7992,
         "diger": 4451,
         "varyantlar": {
-          "klasik-jaenisch": {
-            "mac": 708,
-            "oran": 8.86,
-            "hamle": "8...Nb4"
+          "steinitz-nxe4": {
+            "mac": 1516,
+            "oran": 18.97,
+            "hamle": "3...Nxe4"
           },
-          "klasik-c4-nf6": {
-            "mac": 190,
-            "oran": 2.38,
-            "hamle": "8...Nf6"
-          },
-          "klasik-re1-bg4": {
-            "mac": 442,
-            "oran": 5.53,
-            "hamle": "8.Re1"
-          },
-          "klasik-be7": {
-            "mac": 452,
-            "oran": 5.66,
-            "hamle": "6...Be7"
+          "uc-at-dort-at": {
+            "mac": 1245,
+            "oran": 15.58,
+            "hamle": "4...Bb4"
           },
           "klasik-bd6": {
             "mac": 851,
             "oran": 10.65,
             "hamle": "6...Bd6"
           },
+          "cozio-qe2": {
+            "mac": 827,
+            "oran": 10.35,
+            "hamle": "5.Qe2"
+          },
           "nimzowitsch-be7": {
             "mac": 748,
             "oran": 9.36,
             "hamle": "6...Be7"
           },
-          "nimzowitsch-nc6": {
-            "mac": 67,
-            "oran": 0.84,
-            "hamle": "6...Nc6"
+          "klasik-jaenisch": {
+            "mac": 708,
+            "oran": 8.86,
+            "hamle": "8...Nb4"
           },
-          "cozio-qe2": {
-            "mac": 827,
-            "oran": 10.35,
-            "hamle": "5.Qe2"
+          "klasik-be7": {
+            "mac": 452,
+            "oran": 5.66,
+            "hamle": "6...Be7"
+          },
+          "klasik-re1-bg4": {
+            "mac": 442,
+            "oran": 5.53,
+            "hamle": "8.Re1"
+          },
+          "steinitz-exd4": {
+            "mac": 439,
+            "oran": 5.49,
+            "hamle": "3...exd4"
           },
           "kaufmann-c4": {
             "mac": 234,
             "oran": 2.93,
             "hamle": "5.c4"
           },
-          "tuzak-nxe4-qe2": {
-            "mac": 5,
-            "oran": 0.06,
-            "hamle": "4...Nf6"
+          "klasik-c4-nf6": {
+            "mac": 190,
+            "oran": 2.38,
+            "hamle": "8...Nf6"
+          },
+          "cochrane-gambiti": {
+            "mac": 185,
+            "oran": 2.31,
+            "hamle": "4.Nxf7"
           },
           "nxe4-qe7": {
             "mac": 79,
             "oran": 0.99,
             "hamle": "4...Qe7"
+          },
+          "nimzowitsch-nc6": {
+            "mac": 67,
+            "oran": 0.84,
+            "hamle": "6...Nc6"
+          },
+          "tuzak-nxe4-qe2": {
+            "mac": 5,
+            "oran": 0.06,
+            "hamle": "4...Nf6"
           },
           "stafford-be2": {
             "mac": 3,
@@ -730,26 +855,6 @@
             "mac": 1,
             "oran": 0.01,
             "hamle": "6.Bg5"
-          },
-          "steinitz-nxe4": {
-            "mac": 1516,
-            "oran": 18.97,
-            "hamle": "3...Nxe4"
-          },
-          "steinitz-exd4": {
-            "mac": 439,
-            "oran": 5.49,
-            "hamle": "3...exd4"
-          },
-          "uc-at-dort-at": {
-            "mac": 1245,
-            "oran": 15.58,
-            "hamle": "4...Bb4"
-          },
-          "cochrane-gambiti": {
-            "mac": 185,
-            "oran": 2.31,
-            "hamle": "4.Nxf7"
           }
         }
       },
@@ -761,40 +866,15 @@
         "toplam": 11013,
         "diger": 9469,
         "varyantlar": {
-          "150-c6-b5-f3": {
-            "mac": 143,
-            "oran": 1.3,
-            "hamle": "6.f3"
+          "philidor-nf3": {
+            "mac": 2126,
+            "oran": 19.3,
+            "hamle": "4...Nbd7"
           },
-          "150-c6-b5-bd3": {
-            "mac": 213,
-            "oran": 1.93,
-            "hamle": "6.Bd3"
-          },
-          "150-bh6": {
-            "mac": 242,
-            "oran": 2.2,
-            "hamle": "5...c6"
-          },
-          "150-uzun-rok": {
-            "mac": 118,
-            "oran": 1.07,
-            "hamle": "5...O-O"
-          },
-          "150-ng4": {
-            "mac": 92,
-            "oran": 0.84,
-            "hamle": "5...Ng4"
-          },
-          "avusturya-na6": {
-            "mac": 582,
-            "oran": 5.28,
-            "hamle": "6...Na6"
-          },
-          "avusturya-nc6": {
-            "mac": 730,
-            "oran": 6.63,
-            "hamle": "6...Nc6"
+          "byrne-bg5": {
+            "mac": 1236,
+            "oran": 11.22,
+            "hamle": "4.Bg5"
           },
           "avusturya-c5": {
             "mac": 1188,
@@ -811,10 +891,55 @@
             "oran": 8.18,
             "hamle": "6...Bg4"
           },
-          "byrne-bg5": {
-            "mac": 1236,
-            "oran": 11.22,
-            "hamle": "4.Bg5"
+          "cek-f4-qa5": {
+            "mac": 891,
+            "oran": 8.09,
+            "hamle": "4.f4"
+          },
+          "philidor-dxe5": {
+            "mac": 732,
+            "oran": 6.65,
+            "hamle": "4.dxe5"
+          },
+          "avusturya-nc6": {
+            "mac": 730,
+            "oran": 6.63,
+            "hamle": "6...Nc6"
+          },
+          "avusturya-na6": {
+            "mac": 582,
+            "oran": 5.28,
+            "hamle": "6...Na6"
+          },
+          "cek-nf3-bg4": {
+            "mac": 554,
+            "oran": 5.03,
+            "hamle": "4.Nf3"
+          },
+          "150-bh6": {
+            "mac": 242,
+            "oran": 2.2,
+            "hamle": "5...c6"
+          },
+          "150-c6-b5-bd3": {
+            "mac": 213,
+            "oran": 1.93,
+            "hamle": "6.Bd3"
+          },
+          "150-c6-b5-f3": {
+            "mac": 143,
+            "oran": 1.3,
+            "hamle": "6.f3"
+          },
+          "150-uzun-rok": {
+            "mac": 118,
+            "oran": 1.07,
+            "hamle": "5...O-O"
+          },
+          "150-ng4": {
+            "mac": 92,
+            "oran": 0.84,
+            "hamle": "5...Ng4"
           },
           "bc4-qe2": {
             "mac": 85,
@@ -825,26 +950,6 @@
             "mac": 0,
             "oran": 0.0,
             "hamle": "5...Nxe4"
-          },
-          "cek-f4-qa5": {
-            "mac": 891,
-            "oran": 8.09,
-            "hamle": "4.f4"
-          },
-          "cek-nf3-bg4": {
-            "mac": 554,
-            "oran": 5.03,
-            "hamle": "4.Nf3"
-          },
-          "philidor-dxe5": {
-            "mac": 732,
-            "oran": 6.65,
-            "hamle": "4.dxe5"
-          },
-          "philidor-nf3": {
-            "mac": 2126,
-            "oran": 19.3,
-            "hamle": "4...Nbd7"
           }
         }
       },
@@ -856,100 +961,100 @@
         "toplam": 11826,
         "diger": 5797,
         "varyantlar": {
+          "alapin-nf6-bc4": {
+            "mac": 2683,
+            "oran": 22.69,
+            "hamle": "5.Nf3"
+          },
           "alapin-d5-bg4": {
             "mac": 1190,
             "oran": 10.06,
             "hamle": "5...Bg4"
-          },
-          "alapin-d5-e6": {
-            "mac": 955,
-            "oran": 8.08,
-            "hamle": "5...e6"
-          },
-          "alapin-d5-nc6": {
-            "mac": 733,
-            "oran": 6.2,
-            "hamle": "5...Bg4"
-          },
-          "alapin-d5-nf6-gambit": {
-            "mac": 75,
-            "oran": 0.63,
-            "hamle": "3...Nf6"
-          },
-          "alapin-barmen-g6": {
-            "mac": 265,
-            "oran": 2.24,
-            "hamle": "4...g6"
-          },
-          "alapin-oyunsonu": {
-            "mac": 411,
-            "oran": 3.48,
-            "hamle": "4...cxd4"
-          },
-          "alapin-milner-barry": {
-            "mac": 229,
-            "oran": 1.94,
-            "hamle": "5...cxd4"
-          },
-          "alapin-d5-e5": {
-            "mac": 50,
-            "oran": 0.42,
-            "hamle": "3.e5"
           },
           "alapin-nf6-ana": {
             "mac": 1187,
             "oran": 10.04,
             "hamle": "5.cxd4"
           },
-          "alapin-nf6-bc4": {
-            "mac": 2683,
-            "oran": 22.69,
-            "hamle": "5.Nf3"
-          },
-          "alapin-nf6-nf3": {
-            "mac": 425,
-            "oran": 3.59,
-            "hamle": "5.Bc4"
-          },
-          "alapin-heidenfeld": {
-            "mac": 33,
-            "oran": 0.28,
-            "hamle": "5.Na3"
+          "alapin-d5-e6": {
+            "mac": 955,
+            "oran": 8.08,
+            "hamle": "5...e6"
           },
           "alapin-e6": {
             "mac": 894,
             "oran": 7.56,
             "hamle": "4.exd5"
           },
-          "alapin-e6-e5": {
-            "mac": 511,
-            "oran": 4.32,
-            "hamle": "4.e5"
-          },
-          "alapin-nc6": {
-            "mac": 248,
-            "oran": 2.1,
-            "hamle": "2...Nc6"
-          },
-          "alapin-e5": {
-            "mac": 368,
-            "oran": 3.11,
-            "hamle": "2...e5"
+          "alapin-d5-nc6": {
+            "mac": 733,
+            "oran": 6.2,
+            "hamle": "5...Bg4"
           },
           "alapin-d6": {
             "mac": 678,
             "oran": 5.73,
             "hamle": "4.Bd3"
           },
+          "alapin-g6": {
+            "mac": 623,
+            "oran": 5.27,
+            "hamle": "2...g6"
+          },
+          "alapin-e6-e5": {
+            "mac": 511,
+            "oran": 4.32,
+            "hamle": "4.e5"
+          },
+          "alapin-nf6-nf3": {
+            "mac": 425,
+            "oran": 3.59,
+            "hamle": "5.Bc4"
+          },
+          "alapin-oyunsonu": {
+            "mac": 411,
+            "oran": 3.48,
+            "hamle": "4...cxd4"
+          },
+          "alapin-e5": {
+            "mac": 368,
+            "oran": 3.11,
+            "hamle": "2...e5"
+          },
           "alapin-d6-gambit": {
             "mac": 268,
             "oran": 2.27,
             "hamle": "4.dxc5"
           },
-          "alapin-g6": {
-            "mac": 623,
-            "oran": 5.27,
-            "hamle": "2...g6"
+          "alapin-barmen-g6": {
+            "mac": 265,
+            "oran": 2.24,
+            "hamle": "4...g6"
+          },
+          "alapin-nc6": {
+            "mac": 248,
+            "oran": 2.1,
+            "hamle": "2...Nc6"
+          },
+          "alapin-milner-barry": {
+            "mac": 229,
+            "oran": 1.94,
+            "hamle": "5...cxd4"
+          },
+          "alapin-d5-nf6-gambit": {
+            "mac": 75,
+            "oran": 0.63,
+            "hamle": "3...Nf6"
+          },
+          "alapin-d5-e5": {
+            "mac": 50,
+            "oran": 0.42,
+            "hamle": "3.e5"
+          },
+          "alapin-heidenfeld": {
+            "mac": 33,
+            "oran": 0.28,
+            "hamle": "5.Na3"
           }
         }
       },
@@ -961,6 +1066,41 @@
         "toplam": 39471,
         "diger": 185224,
         "varyantlar": {
+          "kan-yan-kapali": {
+            "mac": 21929,
+            "oran": 55.56,
+            "hamle": "2.Nc3"
+          },
+          "kan-nc3-qc7": {
+            "mac": 4049,
+            "oran": 10.26,
+            "hamle": "5...Qc7"
+          },
+          "kan-yan-d3": {
+            "mac": 2603,
+            "oran": 6.59,
+            "hamle": "3.d3"
+          },
+          "kan-yan-nc3": {
+            "mac": 2514,
+            "oran": 6.37,
+            "hamle": "3.Nc3"
+          },
+          "kan-yan-grandprix": {
+            "mac": 2454,
+            "oran": 6.22,
+            "hamle": "2.f4"
+          },
+          "kan-polugaevsky": {
+            "mac": 1667,
+            "oran": 4.22,
+            "hamle": "5...Bc5"
+          },
+          "kan-yan-b3": {
+            "mac": 1241,
+            "oran": 3.14,
+            "hamle": "3.b3"
+          },
           "kan-bd3-qc7": {
             "mac": 934,
             "oran": 2.37,
@@ -971,80 +1111,45 @@
             "oran": 1.49,
             "hamle": "5...Nc6"
           },
-          "kan-polugaevsky": {
-            "mac": 1667,
-            "oran": 4.22,
-            "hamle": "5...Bc5"
-          },
-          "kan-gipslis": {
-            "mac": 130,
-            "oran": 0.33,
-            "hamle": "7...g6"
-          },
-          "kan-nc3-qc7": {
-            "mac": 4049,
-            "oran": 10.26,
-            "hamle": "5...Qc7"
+          "kan-bronstein": {
+            "mac": 407,
+            "oran": 1.03,
+            "hamle": "6...Bb4"
           },
           "kan-kanat-saldirisi": {
             "mac": 224,
             "oran": 0.57,
             "hamle": "7.Nb3"
           },
-          "kan-christiansen": {
-            "mac": 74,
-            "oran": 0.19,
-            "hamle": "7.Be3"
+          "kan-yan-c3": {
+            "mac": 203,
+            "oran": 0.51,
+            "hamle": "5.d4"
           },
-          "kan-at-varyanti": {
-            "mac": 101,
-            "oran": 0.26,
-            "hamle": "6.g3"
+          "kan-yan-morra": {
+            "mac": 190,
+            "oran": 0.48,
+            "hamle": "6...a6"
           },
           "kan-c4-kirpi": {
             "mac": 157,
             "oran": 0.4,
             "hamle": "7...b6"
           },
-          "kan-bronstein": {
-            "mac": 407,
-            "oran": 1.03,
-            "hamle": "6...Bb4"
+          "kan-gipslis": {
+            "mac": 130,
+            "oran": 0.33,
+            "hamle": "7...g6"
           },
-          "kan-yan-d3": {
-            "mac": 2603,
-            "oran": 6.59,
-            "hamle": "3.d3"
+          "kan-at-varyanti": {
+            "mac": 101,
+            "oran": 0.26,
+            "hamle": "6.g3"
           },
-          "kan-yan-c3": {
-            "mac": 203,
-            "oran": 0.51,
-            "hamle": "5.d4"
-          },
-          "kan-yan-nc3": {
-            "mac": 2514,
-            "oran": 6.37,
-            "hamle": "3.Nc3"
-          },
-          "kan-yan-b3": {
-            "mac": 1241,
-            "oran": 3.14,
-            "hamle": "3.b3"
-          },
-          "kan-yan-kapali": {
-            "mac": 21929,
-            "oran": 55.56,
-            "hamle": "2.Nc3"
-          },
-          "kan-yan-grandprix": {
-            "mac": 2454,
-            "oran": 6.22,
-            "hamle": "2.f4"
-          },
-          "kan-yan-morra": {
-            "mac": 190,
-            "oran": 0.48,
-            "hamle": "6...a6"
+          "kan-christiansen": {
+            "mac": 74,
+            "oran": 0.19,
+            "hamle": "7.Be3"
           },
           "kan-yan-sibirya": {
             "mac": 7,
@@ -1061,45 +1166,40 @@
         "toplam": 10971,
         "diger": 20618,
         "varyantlar": {
-          "slav-cek": {
-            "mac": 238,
-            "oran": 2.17,
-            "hamle": "9...Nbd7"
+          "slav-chebanenko": {
+            "mac": 2976,
+            "oran": 27.13,
+            "hamle": "4...a6"
           },
-          "slav-krause": {
-            "mac": 82,
-            "oran": 0.75,
-            "hamle": "7...c5"
+          "slav-trifunovic": {
+            "mac": 1509,
+            "oran": 13.75,
+            "hamle": "4.cxd5"
           },
-          "slav-lasker": {
-            "mac": 38,
-            "oran": 0.35,
-            "hamle": "6...Na6"
+          "slav-sakin": {
+            "mac": 1299,
+            "oran": 11.84,
+            "hamle": "5.Nc3"
+          },
+          "slav-degisim": {
+            "mac": 922,
+            "oran": 8.4,
+            "hamle": "5.Bf4"
           },
           "slav-carlsbad": {
             "mac": 877,
             "oran": 7.99,
             "hamle": "6...Nbd7"
           },
-          "slav-wiesbaden": {
-            "mac": 336,
-            "oran": 3.06,
-            "hamle": "7...Bb4"
-          },
-          "slav-samisch": {
-            "mac": 101,
-            "oran": 0.92,
-            "hamle": "9...Ne4"
+          "slav-schlechter": {
+            "mac": 615,
+            "oran": 5.61,
+            "hamle": "4...g6"
           },
           "slav-steiner": {
             "mac": 528,
             "oran": 4.81,
             "hamle": "5...Bg4"
-          },
-          "slav-smyslov": {
-            "mac": 235,
-            "oran": 2.14,
-            "hamle": "5...Na6"
           },
           "slav-geller": {
             "mac": 466,
@@ -1111,35 +1211,40 @@
             "oran": 3.46,
             "hamle": "5.e3"
           },
-          "slav-chebanenko": {
-            "mac": 2976,
-            "oran": 27.13,
-            "hamle": "4...a6"
-          },
-          "slav-sakin": {
-            "mac": 1299,
-            "oran": 11.84,
-            "hamle": "5.Nc3"
-          },
           "slav-landau": {
             "mac": 369,
             "oran": 3.36,
             "hamle": "5.cxd5"
           },
-          "slav-degisim": {
-            "mac": 922,
-            "oran": 8.4,
-            "hamle": "5.Bf4"
+          "slav-wiesbaden": {
+            "mac": 336,
+            "oran": 3.06,
+            "hamle": "7...Bb4"
           },
-          "slav-trifunovic": {
-            "mac": 1509,
-            "oran": 13.75,
-            "hamle": "4.cxd5"
+          "slav-cek": {
+            "mac": 238,
+            "oran": 2.17,
+            "hamle": "9...Nbd7"
           },
-          "slav-schlechter": {
-            "mac": 615,
-            "oran": 5.61,
-            "hamle": "4...g6"
+          "slav-smyslov": {
+            "mac": 235,
+            "oran": 2.14,
+            "hamle": "5...Na6"
+          },
+          "slav-samisch": {
+            "mac": 101,
+            "oran": 0.92,
+            "hamle": "9...Ne4"
+          },
+          "slav-krause": {
+            "mac": 82,
+            "oran": 0.75,
+            "hamle": "7...c5"
+          },
+          "slav-lasker": {
+            "mac": 38,
+            "oran": 0.35,
+            "hamle": "6...Na6"
           }
         }
       },
@@ -1151,50 +1256,15 @@
         "toplam": 2494,
         "diger": 1030,
         "varyantlar": {
-          "morra-klasik": {
-            "mac": 565,
-            "oran": 22.65,
-            "hamle": "6...e6"
-          },
-          "morra-kan-duzeni": {
-            "mac": 89,
-            "oran": 3.57,
-            "hamle": "7...Nge7"
-          },
-          "morra-chicago": {
-            "mac": 22,
-            "oran": 0.88,
-            "hamle": "9...Ra7"
-          },
-          "morra-finegold": {
-            "mac": 3,
-            "oran": 0.12,
-            "hamle": "8...Nf6"
-          },
-          "morra-fianchetto": {
-            "mac": 110,
-            "oran": 4.41,
-            "hamle": "5...g6"
-          },
-          "morra-morphy": {
-            "mac": 27,
-            "oran": 1.08,
-            "hamle": "7...b5"
-          },
-          "morra-acmaz": {
-            "mac": 40,
-            "oran": 1.6,
-            "hamle": "6...Bb4"
-          },
-          "morra-larsen": {
-            "mac": 59,
-            "oran": 2.37,
-            "hamle": "7.Qe2"
-          },
           "morra-ret-nf6": {
             "mac": 636,
             "oran": 25.5,
             "hamle": "3...Nf6"
+          },
+          "morra-klasik": {
+            "mac": 565,
+            "oran": 22.65,
+            "hamle": "6...e6"
           },
           "morra-ret-d3": {
             "mac": 364,
@@ -1206,25 +1276,60 @@
             "oran": 11.63,
             "hamle": "3...d5"
           },
+          "morra-f7-tuzagi": {
+            "mac": 158,
+            "oran": 6.34,
+            "hamle": "4...d6"
+          },
+          "morra-fianchetto": {
+            "mac": 110,
+            "oran": 4.41,
+            "hamle": "5...g6"
+          },
+          "morra-tuzak-2": {
+            "mac": 101,
+            "oran": 4.05,
+            "hamle": "6...Nf6"
+          },
+          "morra-kan-duzeni": {
+            "mac": 89,
+            "oran": 3.57,
+            "hamle": "7...Nge7"
+          },
+          "morra-larsen": {
+            "mac": 59,
+            "oran": 2.37,
+            "hamle": "7.Qe2"
+          },
+          "morra-acmaz": {
+            "mac": 40,
+            "oran": 1.6,
+            "hamle": "6...Bb4"
+          },
+          "morra-morphy": {
+            "mac": 27,
+            "oran": 1.08,
+            "hamle": "7...b5"
+          },
           "morra-ret-e5": {
             "mac": 23,
             "oran": 0.92,
             "hamle": "3...e5"
+          },
+          "morra-chicago": {
+            "mac": 22,
+            "oran": 0.88,
+            "hamle": "9...Ra7"
           },
           "morra-sibirya": {
             "mac": 7,
             "oran": 0.28,
             "hamle": "9.h3"
           },
-          "morra-f7-tuzagi": {
-            "mac": 158,
-            "oran": 6.34,
-            "hamle": "4...d6"
-          },
-          "morra-tuzak-2": {
-            "mac": 101,
-            "oran": 4.05,
-            "hamle": "6...Nf6"
+          "morra-finegold": {
+            "mac": 3,
+            "oran": 0.12,
+            "hamle": "8...Nf6"
           }
         }
       },
@@ -1236,20 +1341,110 @@
         "toplam": 35061,
         "diger": 46014,
         "varyantlar": {
-          "ret-ortodoks": {
-            "mac": 560,
-            "oran": 1.6,
-            "hamle": "9...Nd5"
+          "slav-cek": {
+            "mac": 4593,
+            "oran": 13.1,
+            "hamle": "5...Bf5"
+          },
+          "yari-slav-meran": {
+            "mac": 3349,
+            "oran": 9.55,
+            "hamle": "7...b5"
+          },
+          "ret-tarrasch": {
+            "mac": 2764,
+            "oran": 7.88,
+            "hamle": "3...c5"
           },
           "ret-tartakower": {
             "mac": 2715,
             "oran": 7.74,
             "hamle": "7...b6"
           },
+          "ret-harrwitz": {
+            "mac": 2395,
+            "oran": 6.83,
+            "hamle": "5.Bf4"
+          },
+          "ret-ragozin": {
+            "mac": 2219,
+            "oran": 6.33,
+            "hamle": "4...Bb4"
+          },
+          "ret-alatortsev": {
+            "mac": 1914,
+            "oran": 5.46,
+            "hamle": "3...Be7"
+          },
+          "chigorin": {
+            "mac": 1729,
+            "oran": 4.93,
+            "hamle": "2...Nc6"
+          },
+          "ret-cambridge": {
+            "mac": 1604,
+            "oran": 4.57,
+            "hamle": "6...Qa5"
+          },
+          "yari-slav-moskova": {
+            "mac": 1598,
+            "oran": 4.56,
+            "hamle": "5...h6"
+          },
+          "ret-yari-tarrasch": {
+            "mac": 1458,
+            "oran": 4.16,
+            "hamle": "4...c5"
+          },
+          "yari-slav-botvinnik": {
+            "mac": 1346,
+            "oran": 3.84,
+            "hamle": "5...dxc4"
+          },
+          "ret-viyana": {
+            "mac": 1099,
+            "oran": 3.13,
+            "hamle": "4...dxc4"
+          },
+          "slav-degisim": {
+            "mac": 922,
+            "oran": 2.63,
+            "hamle": "5.Bf4"
+          },
+          "ret-degisim-nge2": {
+            "mac": 854,
+            "oran": 2.44,
+            "hamle": "6.e3"
+          },
+          "kabul-klasik": {
+            "mac": 746,
+            "oran": 2.13,
+            "hamle": "7.a4"
+          },
+          "kabul-smyslov": {
+            "mac": 724,
+            "oran": 2.06,
+            "hamle": "7.Qe2"
+          },
           "ret-lasker": {
             "mac": 719,
             "oran": 2.05,
             "hamle": "7...Ne4"
+          },
+          "albin": {
+            "mac": 617,
+            "oran": 1.76,
+            "hamle": "5.g3"
+          },
+          "kabul-merkez": {
+            "mac": 573,
+            "oran": 1.63,
+            "hamle": "3...e5"
+          },
+          "ret-ortodoks": {
+            "mac": 560,
+            "oran": 1.6,
+            "hamle": "9...Nd5"
           },
           "ret-degisim": {
             "mac": 463,
@@ -1261,110 +1456,20 @@
             "oran": 0.1,
             "hamle": "6.Nxd5"
           },
-          "ret-ragozin": {
-            "mac": 2219,
-            "oran": 6.33,
-            "hamle": "4...Bb4"
-          },
-          "ret-viyana": {
-            "mac": 1099,
-            "oran": 3.13,
-            "hamle": "4...dxc4"
-          },
-          "ret-cambridge": {
-            "mac": 1604,
-            "oran": 4.57,
-            "hamle": "6...Qa5"
-          },
-          "ret-yari-tarrasch": {
-            "mac": 1458,
-            "oran": 4.16,
-            "hamle": "4...c5"
-          },
-          "ret-tarrasch": {
-            "mac": 2764,
-            "oran": 7.88,
-            "hamle": "3...c5"
-          },
-          "ret-harrwitz": {
-            "mac": 2395,
-            "oran": 6.83,
-            "hamle": "5.Bf4"
-          },
-          "ret-alatortsev": {
-            "mac": 1914,
-            "oran": 5.46,
-            "hamle": "3...Be7"
-          },
-          "ret-degisim-nge2": {
-            "mac": 854,
-            "oran": 2.44,
-            "hamle": "6.e3"
-          },
-          "slav-cek": {
-            "mac": 4593,
-            "oran": 13.1,
-            "hamle": "5...Bf5"
-          },
-          "slav-degisim": {
-            "mac": 922,
-            "oran": 2.63,
-            "hamle": "5.Bf4"
-          },
-          "yari-slav-meran": {
-            "mac": 3349,
-            "oran": 9.55,
-            "hamle": "7...b5"
-          },
-          "yari-slav-botvinnik": {
-            "mac": 1346,
-            "oran": 3.84,
-            "hamle": "5...dxc4"
-          },
-          "yari-slav-moskova": {
-            "mac": 1598,
-            "oran": 4.56,
-            "hamle": "5...h6"
-          },
-          "kabul-klasik": {
-            "mac": 746,
-            "oran": 2.13,
-            "hamle": "7.a4"
-          },
-          "kabul-merkez": {
-            "mac": 573,
-            "oran": 1.63,
-            "hamle": "3...e5"
-          },
-          "kabul-tuzak": {
-            "mac": 15,
-            "oran": 0.04,
-            "hamle": "3...b5"
-          },
-          "kabul-smyslov": {
-            "mac": 724,
-            "oran": 2.06,
-            "hamle": "7.Qe2"
-          },
           "kabul-e4-b5": {
             "mac": 30,
             "oran": 0.09,
             "hamle": "3...b5"
-          },
-          "albin": {
-            "mac": 617,
-            "oran": 1.76,
-            "hamle": "5.g3"
           },
           "albin-lasker-tuzagi": {
             "mac": 20,
             "oran": 0.06,
             "hamle": "4.e3"
           },
-          "chigorin": {
-            "mac": 1729,
-            "oran": 4.93,
-            "hamle": "2...Nc6"
+          "kabul-tuzak": {
+            "mac": 15,
+            "oran": 0.04,
+            "hamle": "3...b5"
           }
         }
       },
@@ -1376,30 +1481,65 @@
         "toplam": 9194,
         "diger": 23916,
         "varyantlar": {
-          "yari-slav-meran": {
-            "mac": 580,
-            "oran": 6.31,
-            "hamle": "9.O-O"
+          "yari-cambridge": {
+            "mac": 1344,
+            "oran": 14.62,
+            "hamle": "5...Nbd7"
+          },
+          "yari-noteboom": {
+            "mac": 1087,
+            "oran": 11.82,
+            "hamle": "4...dxc4"
+          },
+          "yari-slav-moskova": {
+            "mac": 805,
+            "oran": 8.76,
+            "hamle": "7.e3"
+          },
+          "yari-slav-botvinnik": {
+            "mac": 741,
+            "oran": 8.06,
+            "hamle": "9...hxg5"
           },
           "yari-anti-meran": {
             "mac": 696,
             "oran": 7.57,
             "hamle": "7.Bd3"
           },
+          "yari-shabalov": {
+            "mac": 675,
+            "oran": 7.34,
+            "hamle": "7.g4"
+          },
+          "yari-marshall-gambit": {
+            "mac": 631,
+            "oran": 6.86,
+            "hamle": "4.e4"
+          },
+          "yari-slav-meran": {
+            "mac": 580,
+            "oran": 6.31,
+            "hamle": "9.O-O"
+          },
+          "yari-anti-moskova": {
+            "mac": 561,
+            "oran": 6.1,
+            "hamle": "6.Bh4"
+          },
           "yari-reynolds": {
             "mac": 425,
             "oran": 4.62,
             "hamle": "10.d5"
           },
-          "yari-rellstab": {
-            "mac": 346,
-            "oran": 3.76,
-            "hamle": "11.Nxb5"
-          },
           "yari-wade-kaidanov": {
             "mac": 415,
             "oran": 4.51,
             "hamle": "9.e4"
+          },
+          "yari-rellstab": {
+            "mac": 346,
+            "oran": 3.76,
+            "hamle": "11.Nxb5"
           },
           "yari-lundin": {
             "mac": 276,
@@ -1411,60 +1551,25 @@
             "oran": 1.82,
             "hamle": "8...Bd6"
           },
-          "yari-shabalov": {
-            "mac": 675,
-            "oran": 7.34,
-            "hamle": "7.g4"
-          },
-          "yari-stoltz-merkez": {
-            "mac": 118,
-            "oran": 1.28,
-            "hamle": "7.e4"
-          },
-          "yari-slav-botvinnik": {
-            "mac": 741,
-            "oran": 8.06,
-            "hamle": "9...hxg5"
-          },
-          "yari-slav-moskova": {
-            "mac": 805,
-            "oran": 8.76,
-            "hamle": "7.e3"
-          },
-          "yari-anti-moskova": {
-            "mac": 561,
-            "oran": 6.1,
-            "hamle": "6.Bh4"
-          },
-          "yari-cambridge": {
-            "mac": 1344,
-            "oran": 14.62,
-            "hamle": "5...Nbd7"
+          "yari-botvinnik-ekstrom": {
+            "mac": 149,
+            "oran": 1.62,
+            "hamle": "9.exf6"
           },
           "yari-hastings": {
             "mac": 123,
             "oran": 1.34,
             "hamle": "7.Qb3"
           },
+          "yari-stoltz-merkez": {
+            "mac": 118,
+            "oran": 1.28,
+            "hamle": "7.e4"
+          },
           "yari-botvinnik-nd5": {
             "mac": 55,
             "oran": 0.6,
             "hamle": "9...Nd5"
-          },
-          "yari-botvinnik-ekstrom": {
-            "mac": 149,
-            "oran": 1.62,
-            "hamle": "9.exf6"
-          },
-          "yari-noteboom": {
-            "mac": 1087,
-            "oran": 11.82,
-            "hamle": "4...dxc4"
-          },
-          "yari-marshall-gambit": {
-            "mac": 631,
-            "oran": 6.86,
-            "hamle": "4.e4"
           }
         }
       }
@@ -1482,55 +1587,15 @@
         "toplam": 430,
         "diger": 131,
         "varyantlar": {
-          "modern-bg4-h3": {
-            "mac": 6,
-            "oran": 1.4,
-            "hamle": "7.h3"
-          },
-          "modern-bg4-c4": {
-            "mac": 7,
-            "oran": 1.63,
-            "hamle": "7.c4"
-          },
-          "modern-bg4-c6": {
-            "mac": 1,
-            "oran": 0.23,
-            "hamle": "5...c6"
+          "nc3-d5": {
+            "mac": 38,
+            "oran": 8.84,
+            "hamle": "2...d5"
           },
           "alburt": {
             "mac": 50,
             "oran": 11.63,
             "hamle": "4...g6"
-          },
-          "modern-dxe5-c6": {
-            "mac": 170,
-            "oran": 39.53,
-            "hamle": "5...c6"
-          },
-          "modern-nb6": {
-            "mac": 2,
-            "oran": 0.47,
-            "hamle": "4...Nb6"
-          },
-          "modern-nc6": {
-            "mac": 4,
-            "oran": 0.93,
-            "hamle": "4...Nc6"
-          },
-          "dort-piyon-nc6": {
-            "mac": 10,
-            "oran": 2.33,
-            "hamle": "6...Nc6"
-          },
-          "dort-piyon-bf5": {
-            "mac": 41,
-            "oran": 9.53,
-            "hamle": "6...Bf5"
-          },
-          "dort-piyon-g6": {
-            "mac": 3,
-            "oran": 0.7,
-            "hamle": "5...g6"
           },
           "degisim-cxd6": {
             "mac": 13,
@@ -1542,35 +1607,75 @@
             "oran": 13.72,
             "hamle": "5...exd6"
           },
-          "kovalamaca-bc4": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "5.Bc4"
-          },
-          "kovalamaca-nc3": {
+          "modern-bg4-c6": {
             "mac": 1,
             "oran": 0.23,
-            "hamle": "5.Nc3"
+            "hamle": "5...c6"
           },
-          "nc3-d5": {
-            "mac": 38,
-            "oran": 8.84,
-            "hamle": "2...d5"
+          "dort-piyon-nc6": {
+            "mac": 10,
+            "oran": 2.33,
+            "hamle": "6...Nc6"
+          },
+          "modern-bg4-c4": {
+            "mac": 7,
+            "oran": 1.63,
+            "hamle": "7.c4"
           },
           "nc3-e5": {
             "mac": 23,
             "oran": 5.35,
             "hamle": "2...e5"
           },
-          "tuzak-ne4": {
+          "kovalamaca-bc4": {
             "mac": 0,
             "oran": 0,
-            "hamle": "2...Ne4"
+            "hamle": "5.Bc4"
+          },
+          "modern-nb6": {
+            "mac": 2,
+            "oran": 0.47,
+            "hamle": "4...Nb6"
+          },
+          "modern-nc6": {
+            "mac": 4,
+            "oran": 0.93,
+            "hamle": "4...Nc6"
+          },
+          "modern-dxe5-c6": {
+            "mac": 170,
+            "oran": 39.53,
+            "hamle": "5...c6"
+          },
+          "kovalamaca-nc3": {
+            "mac": 1,
+            "oran": 0.23,
+            "hamle": "5.Nc3"
+          },
+          "modern-bg4-h3": {
+            "mac": 6,
+            "oran": 1.4,
+            "hamle": "7.h3"
+          },
+          "dort-piyon-bf5": {
+            "mac": 41,
+            "oran": 9.53,
+            "hamle": "6...Bf5"
           },
           "tuzak-nxf7": {
             "mac": 2,
             "oran": 0.47,
             "hamle": "5...Nd7"
+          },
+          "dort-piyon-g6": {
+            "mac": 3,
+            "oran": 0.7,
+            "hamle": "5...g6"
+          },
+          "tuzak-ne4": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "2...Ne4"
           }
         }
       },
@@ -1582,85 +1687,85 @@
         "toplam": 2585,
         "diger": 2706,
         "varyantlar": {
-          "ilerleme-short": {
-            "mac": 204,
-            "oran": 7.89,
-            "hamle": "5...Nd7"
-          },
-          "ilerleme-short-c5": {
-            "mac": 305,
-            "oran": 11.8,
-            "hamle": "5...c5"
-          },
-          "ilerleme-bayonet": {
-            "mac": 88,
-            "oran": 3.4,
-            "hamle": "5.g4"
-          },
-          "ilerleme-c5": {
-            "mac": 239,
-            "oran": 9.25,
-            "hamle": "3...c5"
-          },
-          "klasik-ana": {
-            "mac": 288,
-            "oran": 11.14,
-            "hamle": "10...e6"
-          },
-          "klasik-qc7": {
-            "mac": 9,
-            "oran": 0.35,
-            "hamle": "10...Qc7"
-          },
-          "karpov-ng5": {
-            "mac": 138,
-            "oran": 5.34,
-            "hamle": "5.Ng5"
-          },
-          "karpov-bc4": {
-            "mac": 83,
-            "oran": 3.21,
-            "hamle": "5.Bc4"
-          },
-          "karpov-tuzak": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "5.Qe2"
-          },
-          "nf6-gxf6": {
-            "mac": 26,
-            "oran": 1.01,
-            "hamle": "5...gxf6"
-          },
-          "nf6-exf6": {
-            "mac": 155,
-            "oran": 6,
-            "hamle": "5...exf6"
-          },
           "panov-e6": {
             "mac": 160,
             "oran": 6.19,
             "hamle": "5...e6"
-          },
-          "panov-bg4": {
-            "mac": 162,
-            "oran": 6.27,
-            "hamle": "5...Nc6"
           },
           "degisim-bd3": {
             "mac": 312,
             "oran": 12.07,
             "hamle": "4.Bd3"
           },
+          "nf6-gxf6": {
+            "mac": 26,
+            "oran": 1.01,
+            "hamle": "5...gxf6"
+          },
           "iki-at": {
             "mac": 303,
             "oran": 11.72,
             "hamle": "3.Nf3"
           },
+          "klasik-ana": {
+            "mac": 288,
+            "oran": 11.14,
+            "hamle": "10...e6"
+          },
+          "panov-bg4": {
+            "mac": 162,
+            "oran": 6.27,
+            "hamle": "5...Nc6"
+          },
+          "karpov-bc4": {
+            "mac": 83,
+            "oran": 3.21,
+            "hamle": "5.Bc4"
+          },
+          "ilerleme-bayonet": {
+            "mac": 88,
+            "oran": 3.4,
+            "hamle": "5.g4"
+          },
+          "karpov-ng5": {
+            "mac": 138,
+            "oran": 5.34,
+            "hamle": "5.Ng5"
+          },
           "fantezi-f3": {
             "mac": 113,
             "oran": 4.37,
             "hamle": "3.f3"
+          },
+          "nf6-exf6": {
+            "mac": 155,
+            "oran": 6,
+            "hamle": "5...exf6"
+          },
+          "ilerleme-c5": {
+            "mac": 239,
+            "oran": 9.25,
+            "hamle": "3...c5"
+          },
+          "ilerleme-short": {
+            "mac": 204,
+            "oran": 7.89,
+            "hamle": "5...Nd7"
+          },
+          "klasik-qc7": {
+            "mac": 9,
+            "oran": 0.35,
+            "hamle": "10...Qc7"
+          },
+          "ilerleme-short-c5": {
+            "mac": 305,
+            "oran": 11.8,
+            "hamle": "5...c5"
+          },
+          "karpov-tuzak": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "5.Qe2"
           }
         }
       },
@@ -1672,50 +1777,70 @@
         "toplam": 3108,
         "diger": 1751,
         "varyantlar": {
+          "tarrasch-nf6": {
+            "mac": 102,
+            "oran": 3.28,
+            "hamle": "3...Nf6"
+          },
+          "degisim": {
+            "mac": 257,
+            "oran": 8.27,
+            "hamle": "3.exd5"
+          },
+          "sah-hint-atagi": {
+            "mac": 163,
+            "oran": 5.24,
+            "hamle": "2.d3"
+          },
+          "klasik-steinitz": {
+            "mac": 709,
+            "oran": 22.81,
+            "hamle": "5.f4"
+          },
+          "rubinstein": {
+            "mac": 348,
+            "oran": 11.2,
+            "hamle": "3...dxe4"
+          },
           "ilerleme-qb6": {
             "mac": 140,
             "oran": 4.5,
             "hamle": "6.a3"
-          },
-          "ilerleme-bd7": {
-            "mac": 199,
-            "oran": 6.4,
-            "hamle": "5...Bd7"
-          },
-          "ilerleme-milner-barry": {
-            "mac": 5,
-            "oran": 0.16,
-            "hamle": "8.O-O"
-          },
-          "tuzak-ilerleme-bb5": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "7...Nxd4"
-          },
-          "tarrasch-c5-qxd5": {
-            "mac": 216,
-            "oran": 6.95,
-            "hamle": "4...Qxd5"
           },
           "tarrasch-c5-exd5": {
             "mac": 128,
             "oran": 4.12,
             "hamle": "4...exd5"
           },
-          "tarrasch-nf6": {
-            "mac": 102,
-            "oran": 3.28,
-            "hamle": "3...Nf6"
+          "klasik-burn": {
+            "mac": 392,
+            "oran": 12.61,
+            "hamle": "4...dxe4"
+          },
+          "ilerleme-bd7": {
+            "mac": 199,
+            "oran": 6.4,
+            "hamle": "5...Bd7"
+          },
+          "klasik-mccutcheon": {
+            "mac": 69,
+            "oran": 2.22,
+            "hamle": "4...Bb4"
+          },
+          "winawer-4-ne7": {
+            "mac": 83,
+            "oran": 2.67,
+            "hamle": "4...Ne7"
+          },
+          "tarrasch-c5-qxd5": {
+            "mac": 216,
+            "oran": 6.95,
+            "hamle": "4...Qxd5"
           },
           "tarrasch-be7": {
             "mac": 114,
             "oran": 3.67,
             "hamle": "3...Be7"
-          },
-          "winawer-zehirli-piyon": {
-            "mac": 29,
-            "oran": 0.93,
-            "hamle": "8.Qxg7"
           },
           "winawer-7-oo": {
             "mac": 71,
@@ -1727,40 +1852,20 @@
             "oran": 2.67,
             "hamle": "5...Ba5"
           },
-          "winawer-4-ne7": {
-            "mac": 83,
-            "oran": 2.67,
-            "hamle": "4...Ne7"
+          "winawer-zehirli-piyon": {
+            "mac": 29,
+            "oran": 0.93,
+            "hamle": "8.Qxg7"
           },
-          "klasik-steinitz": {
-            "mac": 709,
-            "oran": 22.81,
-            "hamle": "5.f4"
+          "ilerleme-milner-barry": {
+            "mac": 5,
+            "oran": 0.16,
+            "hamle": "8.O-O"
           },
-          "klasik-burn": {
-            "mac": 392,
-            "oran": 12.61,
-            "hamle": "4...dxe4"
-          },
-          "klasik-mccutcheon": {
-            "mac": 69,
-            "oran": 2.22,
-            "hamle": "4...Bb4"
-          },
-          "rubinstein": {
-            "mac": 348,
-            "oran": 11.2,
-            "hamle": "3...dxe4"
-          },
-          "degisim": {
-            "mac": 257,
-            "oran": 8.27,
-            "hamle": "3.exd5"
-          },
-          "sah-hint-atagi": {
-            "mac": 163,
-            "oran": 5.24,
-            "hamle": "2.d3"
+          "tuzak-ilerleme-bb5": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "7...Nxd4"
           }
         }
       },
@@ -1772,75 +1877,75 @@
         "toplam": 189,
         "diger": 341,
         "varyantlar": {
-          "qa5-bf5-bc4": {
-            "mac": 25,
-            "oran": 13.23,
-            "hamle": "6.Bc4"
-          },
-          "qa5-bf5-bd2": {
-            "mac": 12,
-            "oran": 6.35,
-            "hamle": "6.Bd2"
+          "modern-g6": {
+            "mac": 2,
+            "oran": 1.06,
+            "hamle": "4...g6"
           },
           "qa5-c6-bc4": {
             "mac": 41,
             "oran": 21.69,
             "hamle": "5...c6"
           },
-          "qa5-bg4": {
-            "mac": 5,
-            "oran": 2.65,
-            "hamle": "5...Bg4"
-          },
           "qd6-a6": {
             "mac": 19,
             "oran": 10.05,
             "hamle": "5...a6"
           },
-          "qd6-c6": {
-            "mac": 55,
-            "oran": 29.1,
-            "hamle": "5...c6"
-          },
-          "qd8-ne5": {
-            "mac": 7,
-            "oran": 3.7,
-            "hamle": "5...c6"
-          },
-          "qe5": {
-            "mac": 1,
-            "oran": 0.53,
-            "hamle": "3...Qe5+"
+          "qa5-bg4": {
+            "mac": 5,
+            "oran": 2.65,
+            "hamle": "5...Bg4"
           },
           "modern-bg4": {
             "mac": 6,
             "oran": 3.17,
             "hamle": "4...Bg4"
           },
-          "modern-g6": {
-            "mac": 2,
-            "oran": 1.06,
-            "hamle": "4...g6"
-          },
-          "portekiz-be2": {
-            "mac": 5,
-            "oran": 2.65,
-            "hamle": "4.Be2"
-          },
-          "portekiz-f3": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "4.f3"
+          "c4-c6": {
+            "mac": 3,
+            "oran": 1.59,
+            "hamle": "3...c6"
           },
           "izlanda": {
             "mac": 1,
             "oran": 0.53,
             "hamle": "3...e6"
           },
-          "c4-c6": {
-            "mac": 3,
-            "oran": 1.59,
-            "hamle": "3...c6"
+          "portekiz-be2": {
+            "mac": 5,
+            "oran": 2.65,
+            "hamle": "4.Be2"
+          },
+          "qa5-bf5-bc4": {
+            "mac": 25,
+            "oran": 13.23,
+            "hamle": "6.Bc4"
+          },
+          "portekiz-f3": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4.f3"
+          },
+          "qd6-c6": {
+            "mac": 55,
+            "oran": 29.1,
+            "hamle": "5...c6"
+          },
+          "qa5-bf5-bd2": {
+            "mac": 12,
+            "oran": 6.35,
+            "hamle": "6.Bd2"
+          },
+          "qe5": {
+            "mac": 1,
+            "oran": 0.53,
+            "hamle": "3...Qe5+"
+          },
+          "qd8-ne5": {
+            "mac": 7,
+            "oran": 3.7,
+            "hamle": "5...c6"
           },
           "tuzak-qd8-qxd4": {
             "mac": 7,
@@ -1857,20 +1962,90 @@
         "toplam": 7474,
         "diger": 6111,
         "varyantlar": {
+          "isp-arkangelsk": {
+            "mac": 614,
+            "oran": 8.22,
+            "hamle": "5...b5"
+          },
           "isp-chigorin": {
             "mac": 361,
             "oran": 4.83,
             "hamle": "9...Na5"
+          },
+          "isp-schliemann": {
+            "mac": 130,
+            "oran": 1.74,
+            "hamle": "3...f5"
+          },
+          "isp-klasik": {
+            "mac": 71,
+            "oran": 0.95,
+            "hamle": "3...Bc5"
+          },
+          "isp-degisim": {
+            "mac": 97,
+            "oran": 1.3,
+            "hamle": "5...f6"
+          },
+          "isp-berlin": {
+            "mac": 1162,
+            "oran": 15.55,
+            "hamle": "8.Qxd8+"
+          },
+          "isp-anti-marshall-a4": {
+            "mac": 491,
+            "oran": 6.57,
+            "hamle": "8.a4"
+          },
+          "isp-zaitsev": {
+            "mac": 346,
+            "oran": 4.63,
+            "hamle": "9...Bb7"
           },
           "isp-breyer": {
             "mac": 479,
             "oran": 6.41,
             "hamle": "9...Nb8"
           },
-          "isp-zaitsev": {
-            "mac": 346,
-            "oran": 4.63,
-            "hamle": "9...Bb7"
+          "isp-steinitz-gecikmeli": {
+            "mac": 150,
+            "oran": 2.01,
+            "hamle": "5.c3"
+          },
+          "isp-anti-berlin": {
+            "mac": 2212,
+            "oran": 29.6,
+            "hamle": "4.d3"
+          },
+          "isp-bird": {
+            "mac": 21,
+            "oran": 0.28,
+            "hamle": "3...Nd4"
+          },
+          "isp-marshall": {
+            "mac": 390,
+            "oran": 5.22,
+            "hamle": "8...d5"
+          },
+          "isp-degisim-bg4": {
+            "mac": 74,
+            "oran": 0.99,
+            "hamle": "5...Bg4"
+          },
+          "isp-acik": {
+            "mac": 284,
+            "oran": 3.8,
+            "hamle": "9.Nbd2"
+          },
+          "isp-anti-marshall-h3": {
+            "mac": 424,
+            "oran": 5.67,
+            "hamle": "8.h3"
+          },
+          "isp-worrall": {
+            "mac": 42,
+            "oran": 0.56,
+            "hamle": "6.Qe2"
           },
           "isp-karpov": {
             "mac": 73,
@@ -1882,85 +2057,120 @@
             "oran": 0.31,
             "hamle": "9...h6"
           },
-          "isp-worrall": {
-            "mac": 42,
-            "oran": 0.56,
-            "hamle": "6.Qe2"
-          },
-          "isp-marshall": {
-            "mac": 390,
-            "oran": 5.22,
-            "hamle": "8...d5"
-          },
-          "isp-acik": {
-            "mac": 284,
-            "oran": 3.8,
-            "hamle": "9.Nbd2"
-          },
           "isp-dilworth": {
             "mac": 29,
             "oran": 0.39,
             "hamle": "11...Nxf2"
           },
-          "isp-berlin": {
-            "mac": 1162,
-            "oran": 15.55,
-            "hamle": "8.Qxd8+"
-          },
-          "isp-anti-berlin": {
-            "mac": 2212,
-            "oran": 29.6,
-            "hamle": "4.d3"
-          },
-          "isp-degisim": {
-            "mac": 97,
-            "oran": 1.3,
-            "hamle": "5...f6"
-          },
-          "isp-degisim-bg4": {
-            "mac": 74,
-            "oran": 0.99,
-            "hamle": "5...Bg4"
-          },
-          "isp-schliemann": {
-            "mac": 130,
-            "oran": 1.74,
-            "hamle": "3...f5"
-          },
           "isp-nuh-tuzagi": {
             "mac": 1,
             "oran": 0.01,
             "hamle": "8.Qxd4"
+          }
+        }
+      },
+      "kapali-sicilya": {
+        "taban": {
+          "hamleler": "e4 c5 Nc3",
+          "mac": 1295
+        },
+        "toplam": 673,
+        "diger": 622,
+        "varyantlar": {
+          "e6-a6-b5": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...b5"
           },
-          "isp-anti-marshall-a4": {
-            "mac": 491,
-            "oran": 6.57,
-            "hamle": "8.a4"
+          "e6-a6-nc6": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...Nc6"
           },
-          "isp-anti-marshall-h3": {
-            "mac": 424,
-            "oran": 5.67,
-            "hamle": "8.h3"
+          "e6-a6-d6": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...d6"
           },
-          "isp-arkangelsk": {
-            "mac": 614,
-            "oran": 8.22,
-            "hamle": "5...b5"
+          "e6-a6-d5": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...d5"
           },
-          "isp-steinitz-gecikmeli": {
-            "mac": 150,
-            "oran": 2.01,
-            "hamle": "5.c3"
+          "e6-a6-ne7": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...Ne7"
           },
-          "isp-bird": {
-            "mac": 21,
-            "oran": 0.28,
-            "hamle": "3...Nd4"
+          "e6-d5-dxe4": {
+            "mac": 3,
+            "oran": 0.45,
+            "hamle": "4...dxe4"
           },
-          "isp-klasik": {
-            "mac": 71,
-            "oran": 0.95,
-            "hamle": "3...Bc5"
+          "e6-d5-d4": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...d4"
+          },
+          "e6-d5-nf6": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...Nf6"
+          },
+          "e6-d5-nc6": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...Nc6"
+          },
+          "klasik-be3-e5": {
+            "mac": 10,
+            "oran": 1.49,
+            "hamle": "6...e5"
+          },
+          "klasik-be3-rb8": {
+            "mac": 15,
+            "oran": 2.23,
+            "hamle": "6...Rb8"
+          },
+          "klasik-f4-e6": {
+            "mac": 18,
+            "oran": 2.67,
+            "hamle": "6.f4"
+          },
+          "klasik-nge2-e5": {
+            "mac": 16,
+            "oran": 2.38,
+            "hamle": "6.Nge2"
+          },
+          "klasik-e6": {
+            "mac": 10,
+            "oran": 1.49,
+            "hamle": "5...e6"
+          },
+          "klasik-e5-f4": {
+            "mac": 1,
+            "oran": 0.15,
+            "hamle": "5...e5"
+          },
+          "d6-g6": {
+            "mac": 463,
+            "oran": 68.8,
+            "hamle": "2...d6"
+          },
+          "a6-b5": {
+            "mac": 89,
+            "oran": 13.22,
+            "hamle": "2...a6"
+          },
+          "e6-nc6-nf6": {
+            "mac": 11,
+            "oran": 1.63,
+            "hamle": "3...Nc6"
+          },
+          "grand-prix": {
+            "mac": 37,
+            "oran": 5.5,
+            "hamle": "3.f4"
           }
         }
       },
@@ -1972,20 +2182,40 @@
         "toplam": 540,
         "diger": 677,
         "varyantlar": {
-          "kaplan-modern-f3": {
-            "mac": 50,
-            "oran": 9.26,
-            "hamle": "5...b5"
+          "gurgenidze-bg7": {
+            "mac": 133,
+            "oran": 24.63,
+            "hamle": "3...c6"
           },
-          "kaplan-modern-f4": {
-            "mac": 14,
-            "oran": 2.59,
-            "hamle": "5...Nd7"
+          "modern-nf3-klasik": {
+            "mac": 69,
+            "oran": 12.78,
+            "hamle": "4.Nf3"
+          },
+          "averbakh-nc6-d5": {
+            "mac": 45,
+            "oran": 8.33,
+            "hamle": "4...Nc6"
+          },
+          "modern-2d6-c6-qb6": {
+            "mac": 88,
+            "oran": 16.3,
+            "hamle": "2...d6"
           },
           "modern-be3-c6": {
             "mac": 36,
             "oran": 6.67,
             "hamle": "4...c6"
+          },
+          "averbakh-e5-takas": {
+            "mac": 43,
+            "oran": 7.96,
+            "hamle": "4...e5"
+          },
+          "gurgenidze-2c6-h3": {
+            "mac": 15,
+            "oran": 2.78,
+            "hamle": "2...c6"
           },
           "modern-be3-nf6-150": {
             "mac": 18,
@@ -1997,50 +2227,30 @@
             "oran": 5.37,
             "hamle": "4...a6"
           },
-          "modern-f4-c5": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "4...c5"
+          "kaplan-modern-f3": {
+            "mac": 50,
+            "oran": 9.26,
+            "hamle": "5...b5"
           },
-          "modern-nf3-klasik": {
-            "mac": 69,
-            "oran": 12.78,
-            "hamle": "4.Nf3"
+          "kaplan-modern-f4": {
+            "mac": 14,
+            "oran": 2.59,
+            "hamle": "5...Nd7"
           },
           "pterodactyl-dxc5": {
             "mac": 0,
             "oran": 0,
             "hamle": "6...Na6"
           },
+          "modern-f4-c5": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...c5"
+          },
           "tuzak-pterodactyl-bxb2": {
             "mac": 0,
             "oran": 0,
             "hamle": "6...Bxb2"
-          },
-          "gurgenidze-bg7": {
-            "mac": 133,
-            "oran": 24.63,
-            "hamle": "3...c6"
-          },
-          "gurgenidze-2c6-h3": {
-            "mac": 15,
-            "oran": 2.78,
-            "hamle": "2...c6"
-          },
-          "modern-2d6-c6-qb6": {
-            "mac": 88,
-            "oran": 16.3,
-            "hamle": "2...d6"
-          },
-          "averbakh-e5-takas": {
-            "mac": 43,
-            "oran": 7.96,
-            "hamle": "4...e5"
-          },
-          "averbakh-nc6-d5": {
-            "mac": 45,
-            "oran": 8.33,
-            "hamle": "4...Nc6"
           }
         }
       },
@@ -2052,80 +2262,80 @@
         "toplam": 2572,
         "diger": 3220,
         "varyantlar": {
-          "klasik-a3-b6": {
-            "mac": 372,
-            "oran": 14.46,
-            "hamle": "6...b6"
-          },
-          "klasik-a3-d5": {
-            "mac": 233,
-            "oran": 9.06,
-            "hamle": "6...d5"
-          },
-          "klasik-d5": {
-            "mac": 172,
-            "oran": 6.69,
-            "hamle": "5...exd5"
-          },
           "klasik-c5": {
             "mac": 193,
             "oran": 7.5,
             "hamle": "4...c5"
-          },
-          "rubinstein-ana": {
-            "mac": 110,
-            "oran": 4.28,
-            "hamle": "7...Nc6"
-          },
-          "rubinstein-karpov": {
-            "mac": 201,
-            "oran": 7.81,
-            "hamle": "9...b6"
           },
           "rubinstein-b6": {
             "mac": 145,
             "oran": 5.64,
             "hamle": "4...b6"
           },
-          "rubinstein-hubner": {
-            "mac": 35,
-            "oran": 1.36,
-            "hamle": "7...d6"
+          "klasik-a3-b6": {
+            "mac": 372,
+            "oran": 14.46,
+            "hamle": "6...b6"
           },
           "kmoch-f3": {
             "mac": 345,
             "oran": 13.41,
             "hamle": "4.f3"
           },
-          "samisch-a3": {
-            "mac": 104,
-            "oran": 4.04,
-            "hamle": "4.a3"
-          },
           "leningrad": {
             "mac": 40,
             "oran": 1.56,
             "hamle": "4.Bg5"
           },
-          "nf3-romanishin": {
-            "mac": 221,
-            "oran": 8.59,
-            "hamle": "5.g3"
+          "samisch-a3": {
+            "mac": 104,
+            "oran": 4.04,
+            "hamle": "4.a3"
+          },
+          "rubinstein-ana": {
+            "mac": 110,
+            "oran": 4.28,
+            "hamle": "7...Nc6"
           },
           "nf3-b6-bg5": {
             "mac": 302,
             "oran": 11.74,
             "hamle": "4...b6"
           },
-          "spielmann-qb3": {
-            "mac": 11,
-            "oran": 0.43,
-            "hamle": "4.Qb3"
+          "nf3-romanishin": {
+            "mac": 221,
+            "oran": 8.59,
+            "hamle": "5.g3"
+          },
+          "rubinstein-karpov": {
+            "mac": 201,
+            "oran": 7.81,
+            "hamle": "9...b6"
+          },
+          "klasik-d5": {
+            "mac": 172,
+            "oran": 6.69,
+            "hamle": "5...exd5"
           },
           "kasparov-g3": {
             "mac": 88,
             "oran": 3.42,
             "hamle": "4.g3"
+          },
+          "rubinstein-hubner": {
+            "mac": 35,
+            "oran": 1.36,
+            "hamle": "7...d6"
+          },
+          "spielmann-qb3": {
+            "mac": 11,
+            "oran": 0.43,
+            "hamle": "4.Qb3"
+          },
+          "klasik-a3-d5": {
+            "mac": 233,
+            "oran": 9.06,
+            "hamle": "6...d5"
           }
         }
       },
@@ -2137,60 +2347,80 @@
         "toplam": 2217,
         "diger": 925,
         "varyantlar": {
-          "klasik-jaenisch": {
-            "mac": 294,
-            "oran": 13.26,
-            "hamle": "8...Nb4"
+          "steinitz-nxe4": {
+            "mac": 497,
+            "oran": 22.42,
+            "hamle": "3...Nxe4"
           },
-          "klasik-c4-nf6": {
-            "mac": 42,
-            "oran": 1.89,
-            "hamle": "8...Nf6"
-          },
-          "klasik-re1-bg4": {
-            "mac": 107,
-            "oran": 4.83,
-            "hamle": "8.Re1"
-          },
-          "klasik-be7": {
-            "mac": 99,
-            "oran": 4.47,
-            "hamle": "6...Be7"
+          "uc-at-dort-at": {
+            "mac": 164,
+            "oran": 7.4,
+            "hamle": "4...Bb4"
           },
           "klasik-bd6": {
             "mac": 320,
             "oran": 14.43,
             "hamle": "6...Bd6"
           },
+          "cozio-qe2": {
+            "mac": 97,
+            "oran": 4.38,
+            "hamle": "5.Qe2"
+          },
           "nimzowitsch-be7": {
             "mac": 481,
             "oran": 21.7,
             "hamle": "6...Be7"
           },
-          "nimzowitsch-nc6": {
-            "mac": 25,
-            "oran": 1.13,
-            "hamle": "6...Nc6"
+          "klasik-jaenisch": {
+            "mac": 294,
+            "oran": 13.26,
+            "hamle": "8...Nb4"
           },
-          "cozio-qe2": {
-            "mac": 97,
-            "oran": 4.38,
-            "hamle": "5.Qe2"
+          "klasik-be7": {
+            "mac": 99,
+            "oran": 4.47,
+            "hamle": "6...Be7"
+          },
+          "klasik-re1-bg4": {
+            "mac": 107,
+            "oran": 4.83,
+            "hamle": "8.Re1"
+          },
+          "steinitz-exd4": {
+            "mac": 30,
+            "oran": 1.35,
+            "hamle": "3...exd4"
           },
           "kaufmann-c4": {
             "mac": 28,
             "oran": 1.26,
             "hamle": "5.c4"
           },
-          "tuzak-nxe4-qe2": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "4...Nf6"
+          "klasik-c4-nf6": {
+            "mac": 42,
+            "oran": 1.89,
+            "hamle": "8...Nf6"
+          },
+          "cochrane-gambiti": {
+            "mac": 5,
+            "oran": 0.23,
+            "hamle": "4.Nxf7"
           },
           "nxe4-qe7": {
             "mac": 27,
             "oran": 1.22,
             "hamle": "4...Qe7"
+          },
+          "nimzowitsch-nc6": {
+            "mac": 25,
+            "oran": 1.13,
+            "hamle": "6...Nc6"
+          },
+          "tuzak-nxe4-qe2": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "4...Nf6"
           },
           "stafford-be2": {
             "mac": 1,
@@ -2201,26 +2431,6 @@
             "mac": 0,
             "oran": 0,
             "hamle": "6.Bg5"
-          },
-          "steinitz-nxe4": {
-            "mac": 497,
-            "oran": 22.42,
-            "hamle": "3...Nxe4"
-          },
-          "steinitz-exd4": {
-            "mac": 30,
-            "oran": 1.35,
-            "hamle": "3...exd4"
-          },
-          "uc-at-dort-at": {
-            "mac": 164,
-            "oran": 7.4,
-            "hamle": "4...Bb4"
-          },
-          "cochrane-gambiti": {
-            "mac": 5,
-            "oran": 0.23,
-            "hamle": "4.Nxf7"
           }
         }
       },
@@ -2232,40 +2442,15 @@
         "toplam": 647,
         "diger": 402,
         "varyantlar": {
-          "150-c6-b5-f3": {
-            "mac": 2,
-            "oran": 0.31,
-            "hamle": "6.f3"
+          "philidor-nf3": {
+            "mac": 289,
+            "oran": 44.67,
+            "hamle": "4...Nbd7"
           },
-          "150-c6-b5-bd3": {
-            "mac": 5,
-            "oran": 0.77,
-            "hamle": "6.Bd3"
-          },
-          "150-bh6": {
-            "mac": 14,
-            "oran": 2.16,
-            "hamle": "5...c6"
-          },
-          "150-uzun-rok": {
-            "mac": 3,
-            "oran": 0.46,
-            "hamle": "5...O-O"
-          },
-          "150-ng4": {
-            "mac": 3,
-            "oran": 0.46,
-            "hamle": "5...Ng4"
-          },
-          "avusturya-na6": {
-            "mac": 35,
-            "oran": 5.41,
-            "hamle": "6...Na6"
-          },
-          "avusturya-nc6": {
-            "mac": 20,
-            "oran": 3.09,
-            "hamle": "6...Nc6"
+          "byrne-bg5": {
+            "mac": 56,
+            "oran": 8.66,
+            "hamle": "4.Bg5"
           },
           "avusturya-c5": {
             "mac": 52,
@@ -2282,10 +2467,55 @@
             "oran": 4.33,
             "hamle": "6...Bg4"
           },
-          "byrne-bg5": {
-            "mac": 56,
-            "oran": 8.66,
-            "hamle": "4.Bg5"
+          "cek-f4-qa5": {
+            "mac": 11,
+            "oran": 1.7,
+            "hamle": "4.f4"
+          },
+          "philidor-dxe5": {
+            "mac": 61,
+            "oran": 9.43,
+            "hamle": "4.dxe5"
+          },
+          "avusturya-nc6": {
+            "mac": 20,
+            "oran": 3.09,
+            "hamle": "6...Nc6"
+          },
+          "avusturya-na6": {
+            "mac": 35,
+            "oran": 5.41,
+            "hamle": "6...Na6"
+          },
+          "cek-nf3-bg4": {
+            "mac": 10,
+            "oran": 1.55,
+            "hamle": "4.Nf3"
+          },
+          "150-bh6": {
+            "mac": 14,
+            "oran": 2.16,
+            "hamle": "5...c6"
+          },
+          "150-c6-b5-bd3": {
+            "mac": 5,
+            "oran": 0.77,
+            "hamle": "6.Bd3"
+          },
+          "150-c6-b5-f3": {
+            "mac": 2,
+            "oran": 0.31,
+            "hamle": "6.f3"
+          },
+          "150-uzun-rok": {
+            "mac": 3,
+            "oran": 0.46,
+            "hamle": "5...O-O"
+          },
+          "150-ng4": {
+            "mac": 3,
+            "oran": 0.46,
+            "hamle": "5...Ng4"
           },
           "bc4-qe2": {
             "mac": 0,
@@ -2296,26 +2526,6 @@
             "mac": 0,
             "oran": 0,
             "hamle": "5...Nxe4"
-          },
-          "cek-f4-qa5": {
-            "mac": 11,
-            "oran": 1.7,
-            "hamle": "4.f4"
-          },
-          "cek-nf3-bg4": {
-            "mac": 10,
-            "oran": 1.55,
-            "hamle": "4.Nf3"
-          },
-          "philidor-dxe5": {
-            "mac": 61,
-            "oran": 9.43,
-            "hamle": "4.dxe5"
-          },
-          "philidor-nf3": {
-            "mac": 289,
-            "oran": 44.67,
-            "hamle": "4...Nbd7"
           }
         }
       },
@@ -2327,100 +2537,100 @@
         "toplam": 405,
         "diger": 277,
         "varyantlar": {
+          "alapin-nf6-bc4": {
+            "mac": 49,
+            "oran": 12.1,
+            "hamle": "5.Nf3"
+          },
           "alapin-d5-bg4": {
             "mac": 26,
             "oran": 6.42,
             "hamle": "5...Bg4"
-          },
-          "alapin-d5-e6": {
-            "mac": 69,
-            "oran": 17.04,
-            "hamle": "5...e6"
-          },
-          "alapin-d5-nc6": {
-            "mac": 8,
-            "oran": 1.98,
-            "hamle": "5...Bg4"
-          },
-          "alapin-d5-nf6-gambit": {
-            "mac": 23,
-            "oran": 5.68,
-            "hamle": "3...Nf6"
-          },
-          "alapin-barmen-g6": {
-            "mac": 14,
-            "oran": 3.46,
-            "hamle": "4...g6"
-          },
-          "alapin-oyunsonu": {
-            "mac": 4,
-            "oran": 0.99,
-            "hamle": "4...cxd4"
-          },
-          "alapin-milner-barry": {
-            "mac": 5,
-            "oran": 1.23,
-            "hamle": "5...cxd4"
-          },
-          "alapin-d5-e5": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "3.e5"
           },
           "alapin-nf6-ana": {
             "mac": 10,
             "oran": 2.47,
             "hamle": "5.cxd4"
           },
-          "alapin-nf6-bc4": {
-            "mac": 49,
-            "oran": 12.1,
-            "hamle": "5.Nf3"
-          },
-          "alapin-nf6-nf3": {
-            "mac": 129,
-            "oran": 31.85,
-            "hamle": "5.Bc4"
-          },
-          "alapin-heidenfeld": {
-            "mac": 2,
-            "oran": 0.49,
-            "hamle": "5.Na3"
+          "alapin-d5-e6": {
+            "mac": 69,
+            "oran": 17.04,
+            "hamle": "5...e6"
           },
           "alapin-e6": {
             "mac": 24,
             "oran": 5.93,
             "hamle": "4.exd5"
           },
-          "alapin-e6-e5": {
-            "mac": 7,
-            "oran": 1.73,
-            "hamle": "4.e5"
-          },
-          "alapin-nc6": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "2...Nc6"
-          },
-          "alapin-e5": {
+          "alapin-d5-nc6": {
             "mac": 8,
             "oran": 1.98,
-            "hamle": "2...e5"
+            "hamle": "5...Bg4"
           },
           "alapin-d6": {
             "mac": 19,
             "oran": 4.69,
             "hamle": "4.Bd3"
           },
+          "alapin-g6": {
+            "mac": 5,
+            "oran": 1.23,
+            "hamle": "2...g6"
+          },
+          "alapin-e6-e5": {
+            "mac": 7,
+            "oran": 1.73,
+            "hamle": "4.e5"
+          },
+          "alapin-nf6-nf3": {
+            "mac": 129,
+            "oran": 31.85,
+            "hamle": "5.Bc4"
+          },
+          "alapin-oyunsonu": {
+            "mac": 4,
+            "oran": 0.99,
+            "hamle": "4...cxd4"
+          },
+          "alapin-e5": {
+            "mac": 8,
+            "oran": 1.98,
+            "hamle": "2...e5"
+          },
           "alapin-d6-gambit": {
             "mac": 3,
             "oran": 0.74,
             "hamle": "4.dxc5"
           },
-          "alapin-g6": {
+          "alapin-barmen-g6": {
+            "mac": 14,
+            "oran": 3.46,
+            "hamle": "4...g6"
+          },
+          "alapin-nc6": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "2...Nc6"
+          },
+          "alapin-milner-barry": {
             "mac": 5,
             "oran": 1.23,
-            "hamle": "2...g6"
+            "hamle": "5...cxd4"
+          },
+          "alapin-d5-nf6-gambit": {
+            "mac": 23,
+            "oran": 5.68,
+            "hamle": "3...Nf6"
+          },
+          "alapin-d5-e5": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "3.e5"
+          },
+          "alapin-heidenfeld": {
+            "mac": 2,
+            "oran": 0.49,
+            "hamle": "5.Na3"
           }
         }
       },
@@ -2432,6 +2642,41 @@
         "toplam": 2350,
         "diger": 18093,
         "varyantlar": {
+          "kan-yan-kapali": {
+            "mac": 1266,
+            "oran": 53.87,
+            "hamle": "2.Nc3"
+          },
+          "kan-nc3-qc7": {
+            "mac": 155,
+            "oran": 6.6,
+            "hamle": "5...Qc7"
+          },
+          "kan-yan-d3": {
+            "mac": 145,
+            "oran": 6.17,
+            "hamle": "3.d3"
+          },
+          "kan-yan-nc3": {
+            "mac": 157,
+            "oran": 6.68,
+            "hamle": "3.Nc3"
+          },
+          "kan-yan-grandprix": {
+            "mac": 19,
+            "oran": 0.81,
+            "hamle": "2.f4"
+          },
+          "kan-polugaevsky": {
+            "mac": 246,
+            "oran": 10.47,
+            "hamle": "5...Bc5"
+          },
+          "kan-yan-b3": {
+            "mac": 142,
+            "oran": 6.04,
+            "hamle": "3.b3"
+          },
           "kan-bd3-qc7": {
             "mac": 49,
             "oran": 2.09,
@@ -2442,80 +2687,45 @@
             "oran": 0.17,
             "hamle": "5...Nc6"
           },
-          "kan-polugaevsky": {
-            "mac": 246,
-            "oran": 10.47,
-            "hamle": "5...Bc5"
-          },
-          "kan-gipslis": {
-            "mac": 4,
-            "oran": 0.17,
-            "hamle": "7...g6"
-          },
-          "kan-nc3-qc7": {
-            "mac": 155,
-            "oran": 6.6,
-            "hamle": "5...Qc7"
+          "kan-bronstein": {
+            "mac": 72,
+            "oran": 3.06,
+            "hamle": "6...Bb4"
           },
           "kan-kanat-saldirisi": {
             "mac": 12,
             "oran": 0.51,
             "hamle": "7.Nb3"
           },
-          "kan-christiansen": {
-            "mac": 5,
-            "oran": 0.21,
-            "hamle": "7.Be3"
+          "kan-yan-c3": {
+            "mac": 22,
+            "oran": 0.94,
+            "hamle": "5.d4"
           },
-          "kan-at-varyanti": {
-            "mac": 3,
-            "oran": 0.13,
-            "hamle": "6.g3"
+          "kan-yan-morra": {
+            "mac": 1,
+            "oran": 0.04,
+            "hamle": "6...a6"
           },
           "kan-c4-kirpi": {
             "mac": 48,
             "oran": 2.04,
             "hamle": "7...b6"
           },
-          "kan-bronstein": {
-            "mac": 72,
-            "oran": 3.06,
-            "hamle": "6...Bb4"
+          "kan-gipslis": {
+            "mac": 4,
+            "oran": 0.17,
+            "hamle": "7...g6"
           },
-          "kan-yan-d3": {
-            "mac": 145,
-            "oran": 6.17,
-            "hamle": "3.d3"
+          "kan-at-varyanti": {
+            "mac": 3,
+            "oran": 0.13,
+            "hamle": "6.g3"
           },
-          "kan-yan-c3": {
-            "mac": 22,
-            "oran": 0.94,
-            "hamle": "5.d4"
-          },
-          "kan-yan-nc3": {
-            "mac": 157,
-            "oran": 6.68,
-            "hamle": "3.Nc3"
-          },
-          "kan-yan-b3": {
-            "mac": 142,
-            "oran": 6.04,
-            "hamle": "3.b3"
-          },
-          "kan-yan-kapali": {
-            "mac": 1266,
-            "oran": 53.87,
-            "hamle": "2.Nc3"
-          },
-          "kan-yan-grandprix": {
-            "mac": 19,
-            "oran": 0.81,
-            "hamle": "2.f4"
-          },
-          "kan-yan-morra": {
-            "mac": 1,
-            "oran": 0.04,
-            "hamle": "6...a6"
+          "kan-christiansen": {
+            "mac": 5,
+            "oran": 0.21,
+            "hamle": "7.Be3"
           },
           "kan-yan-sibirya": {
             "mac": 0,
@@ -2532,45 +2742,40 @@
         "toplam": 2757,
         "diger": 4999,
         "varyantlar": {
-          "slav-cek": {
-            "mac": 27,
-            "oran": 0.98,
-            "hamle": "9...Nbd7"
+          "slav-chebanenko": {
+            "mac": 896,
+            "oran": 32.5,
+            "hamle": "4...a6"
           },
-          "slav-krause": {
-            "mac": 28,
-            "oran": 1.02,
-            "hamle": "7...c5"
+          "slav-trifunovic": {
+            "mac": 198,
+            "oran": 7.18,
+            "hamle": "4.cxd5"
           },
-          "slav-lasker": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "6...Na6"
+          "slav-sakin": {
+            "mac": 753,
+            "oran": 27.31,
+            "hamle": "5.Nc3"
+          },
+          "slav-degisim": {
+            "mac": 264,
+            "oran": 9.58,
+            "hamle": "5.Bf4"
           },
           "slav-carlsbad": {
             "mac": 331,
             "oran": 12.01,
             "hamle": "6...Nbd7"
           },
-          "slav-wiesbaden": {
-            "mac": 81,
-            "oran": 2.94,
-            "hamle": "7...Bb4"
-          },
-          "slav-samisch": {
-            "mac": 18,
-            "oran": 0.65,
-            "hamle": "9...Ne4"
+          "slav-schlechter": {
+            "mac": 15,
+            "oran": 0.54,
+            "hamle": "4...g6"
           },
           "slav-steiner": {
             "mac": 23,
             "oran": 0.83,
             "hamle": "5...Bg4"
-          },
-          "slav-smyslov": {
-            "mac": 15,
-            "oran": 0.54,
-            "hamle": "5...Na6"
           },
           "slav-geller": {
             "mac": 56,
@@ -2582,35 +2787,40 @@
             "oran": 0.65,
             "hamle": "5.e3"
           },
-          "slav-chebanenko": {
-            "mac": 896,
-            "oran": 32.5,
-            "hamle": "4...a6"
-          },
-          "slav-sakin": {
-            "mac": 753,
-            "oran": 27.31,
-            "hamle": "5.Nc3"
-          },
           "slav-landau": {
             "mac": 34,
             "oran": 1.23,
             "hamle": "5.cxd5"
           },
-          "slav-degisim": {
-            "mac": 264,
-            "oran": 9.58,
-            "hamle": "5.Bf4"
+          "slav-wiesbaden": {
+            "mac": 81,
+            "oran": 2.94,
+            "hamle": "7...Bb4"
           },
-          "slav-trifunovic": {
-            "mac": 198,
-            "oran": 7.18,
-            "hamle": "4.cxd5"
+          "slav-cek": {
+            "mac": 27,
+            "oran": 0.98,
+            "hamle": "9...Nbd7"
           },
-          "slav-schlechter": {
+          "slav-smyslov": {
             "mac": 15,
             "oran": 0.54,
-            "hamle": "4...g6"
+            "hamle": "5...Na6"
+          },
+          "slav-samisch": {
+            "mac": 18,
+            "oran": 0.65,
+            "hamle": "9...Ne4"
+          },
+          "slav-krause": {
+            "mac": 28,
+            "oran": 1.02,
+            "hamle": "7...c5"
+          },
+          "slav-lasker": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "6...Na6"
           }
         }
       },
@@ -2622,50 +2832,15 @@
         "toplam": 22,
         "diger": 8,
         "varyantlar": {
-          "morra-klasik": {
-            "mac": 4,
-            "oran": 18.18,
-            "hamle": "6...e6"
-          },
-          "morra-kan-duzeni": {
-            "mac": 1,
-            "oran": 4.55,
-            "hamle": "7...Nge7"
-          },
-          "morra-chicago": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "9...Ra7"
-          },
-          "morra-finegold": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "8...Nf6"
-          },
-          "morra-fianchetto": {
-            "mac": 1,
-            "oran": 4.55,
-            "hamle": "5...g6"
-          },
-          "morra-morphy": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "7...b5"
-          },
-          "morra-acmaz": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "6...Bb4"
-          },
-          "morra-larsen": {
-            "mac": 0,
-            "oran": 0,
-            "hamle": "7.Qe2"
-          },
           "morra-ret-nf6": {
             "mac": 8,
             "oran": 36.36,
             "hamle": "3...Nf6"
+          },
+          "morra-klasik": {
+            "mac": 4,
+            "oran": 18.18,
+            "hamle": "6...e6"
           },
           "morra-ret-d3": {
             "mac": 6,
@@ -2677,25 +2852,60 @@
             "oran": 4.55,
             "hamle": "3...d5"
           },
+          "morra-f7-tuzagi": {
+            "mac": 1,
+            "oran": 4.55,
+            "hamle": "4...d6"
+          },
+          "morra-fianchetto": {
+            "mac": 1,
+            "oran": 4.55,
+            "hamle": "5...g6"
+          },
+          "morra-tuzak-2": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "6...Nf6"
+          },
+          "morra-kan-duzeni": {
+            "mac": 1,
+            "oran": 4.55,
+            "hamle": "7...Nge7"
+          },
+          "morra-larsen": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "7.Qe2"
+          },
+          "morra-acmaz": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "6...Bb4"
+          },
+          "morra-morphy": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "7...b5"
+          },
           "morra-ret-e5": {
             "mac": 0,
             "oran": 0,
             "hamle": "3...e5"
+          },
+          "morra-chicago": {
+            "mac": 0,
+            "oran": 0,
+            "hamle": "9...Ra7"
           },
           "morra-sibirya": {
             "mac": 0,
             "oran": 0,
             "hamle": "9.h3"
           },
-          "morra-f7-tuzagi": {
-            "mac": 1,
-            "oran": 4.55,
-            "hamle": "4...d6"
-          },
-          "morra-tuzak-2": {
+          "morra-finegold": {
             "mac": 0,
             "oran": 0,
-            "hamle": "6...Nf6"
+            "hamle": "8...Nf6"
           }
         }
       },
@@ -2707,20 +2917,110 @@
         "toplam": 9225,
         "diger": 7962,
         "varyantlar": {
-          "ret-ortodoks": {
-            "mac": 14,
-            "oran": 0.15,
-            "hamle": "9...Nd5"
+          "slav-cek": {
+            "mac": 914,
+            "oran": 9.91,
+            "hamle": "5...Bf5"
+          },
+          "yari-slav-meran": {
+            "mac": 551,
+            "oran": 5.97,
+            "hamle": "7...b5"
+          },
+          "ret-tarrasch": {
+            "mac": 192,
+            "oran": 2.08,
+            "hamle": "3...c5"
           },
           "ret-tartakower": {
             "mac": 383,
             "oran": 4.15,
             "hamle": "7...b6"
           },
+          "ret-harrwitz": {
+            "mac": 1117,
+            "oran": 12.11,
+            "hamle": "5.Bf4"
+          },
+          "ret-ragozin": {
+            "mac": 1591,
+            "oran": 17.25,
+            "hamle": "4...Bb4"
+          },
+          "ret-alatortsev": {
+            "mac": 445,
+            "oran": 4.82,
+            "hamle": "3...Be7"
+          },
+          "chigorin": {
+            "mac": 60,
+            "oran": 0.65,
+            "hamle": "2...Nc6"
+          },
+          "ret-cambridge": {
+            "mac": 197,
+            "oran": 2.14,
+            "hamle": "6...Qa5"
+          },
+          "yari-slav-moskova": {
+            "mac": 693,
+            "oran": 7.51,
+            "hamle": "5...h6"
+          },
+          "ret-yari-tarrasch": {
+            "mac": 779,
+            "oran": 8.44,
+            "hamle": "4...c5"
+          },
+          "yari-slav-botvinnik": {
+            "mac": 168,
+            "oran": 1.82,
+            "hamle": "5...dxc4"
+          },
+          "ret-viyana": {
+            "mac": 623,
+            "oran": 6.75,
+            "hamle": "4...dxc4"
+          },
+          "slav-degisim": {
+            "mac": 264,
+            "oran": 2.86,
+            "hamle": "5.Bf4"
+          },
+          "ret-degisim-nge2": {
+            "mac": 546,
+            "oran": 5.92,
+            "hamle": "6.e3"
+          },
+          "kabul-klasik": {
+            "mac": 45,
+            "oran": 0.49,
+            "hamle": "7.a4"
+          },
+          "kabul-smyslov": {
+            "mac": 46,
+            "oran": 0.5,
+            "hamle": "7.Qe2"
+          },
           "ret-lasker": {
             "mac": 174,
             "oran": 1.89,
             "hamle": "7...Ne4"
+          },
+          "albin": {
+            "mac": 6,
+            "oran": 0.07,
+            "hamle": "5.g3"
+          },
+          "kabul-merkez": {
+            "mac": 239,
+            "oran": 2.59,
+            "hamle": "3...e5"
+          },
+          "ret-ortodoks": {
+            "mac": 14,
+            "oran": 0.15,
+            "hamle": "9...Nd5"
           },
           "ret-degisim": {
             "mac": 132,
@@ -2732,110 +3032,20 @@
             "oran": 0,
             "hamle": "6.Nxd5"
           },
-          "ret-ragozin": {
-            "mac": 1591,
-            "oran": 17.25,
-            "hamle": "4...Bb4"
-          },
-          "ret-viyana": {
-            "mac": 623,
-            "oran": 6.75,
-            "hamle": "4...dxc4"
-          },
-          "ret-cambridge": {
-            "mac": 197,
-            "oran": 2.14,
-            "hamle": "6...Qa5"
-          },
-          "ret-yari-tarrasch": {
-            "mac": 779,
-            "oran": 8.44,
-            "hamle": "4...c5"
-          },
-          "ret-tarrasch": {
-            "mac": 192,
-            "oran": 2.08,
-            "hamle": "3...c5"
-          },
-          "ret-harrwitz": {
-            "mac": 1117,
-            "oran": 12.11,
-            "hamle": "5.Bf4"
-          },
-          "ret-alatortsev": {
-            "mac": 445,
-            "oran": 4.82,
-            "hamle": "3...Be7"
-          },
-          "ret-degisim-nge2": {
-            "mac": 546,
-            "oran": 5.92,
-            "hamle": "6.e3"
-          },
-          "slav-cek": {
-            "mac": 914,
-            "oran": 9.91,
-            "hamle": "5...Bf5"
-          },
-          "slav-degisim": {
-            "mac": 264,
-            "oran": 2.86,
-            "hamle": "5.Bf4"
-          },
-          "yari-slav-meran": {
-            "mac": 551,
-            "oran": 5.97,
-            "hamle": "7...b5"
-          },
-          "yari-slav-botvinnik": {
-            "mac": 168,
-            "oran": 1.82,
-            "hamle": "5...dxc4"
-          },
-          "yari-slav-moskova": {
-            "mac": 693,
-            "oran": 7.51,
-            "hamle": "5...h6"
-          },
-          "kabul-klasik": {
-            "mac": 45,
-            "oran": 0.49,
-            "hamle": "7.a4"
-          },
-          "kabul-merkez": {
-            "mac": 239,
-            "oran": 2.59,
-            "hamle": "3...e5"
-          },
-          "kabul-tuzak": {
-            "mac": 3,
-            "oran": 0.03,
-            "hamle": "3...b5"
-          },
-          "kabul-smyslov": {
-            "mac": 46,
-            "oran": 0.5,
-            "hamle": "7.Qe2"
-          },
           "kabul-e4-b5": {
             "mac": 43,
             "oran": 0.47,
             "hamle": "3...b5"
-          },
-          "albin": {
-            "mac": 6,
-            "oran": 0.07,
-            "hamle": "5.g3"
           },
           "albin-lasker-tuzagi": {
             "mac": 0,
             "oran": 0,
             "hamle": "4.e3"
           },
-          "chigorin": {
-            "mac": 60,
-            "oran": 0.65,
-            "hamle": "2...Nc6"
+          "kabul-tuzak": {
+            "mac": 3,
+            "oran": 0.03,
+            "hamle": "3...b5"
           }
         }
       },
@@ -2847,30 +3057,65 @@
         "toplam": 2166,
         "diger": 5749,
         "varyantlar": {
-          "yari-slav-meran": {
-            "mac": 112,
-            "oran": 5.17,
-            "hamle": "9.O-O"
+          "yari-cambridge": {
+            "mac": 349,
+            "oran": 16.11,
+            "hamle": "5...Nbd7"
+          },
+          "yari-noteboom": {
+            "mac": 34,
+            "oran": 1.57,
+            "hamle": "4...dxc4"
+          },
+          "yari-slav-moskova": {
+            "mac": 326,
+            "oran": 15.05,
+            "hamle": "7.e3"
+          },
+          "yari-slav-botvinnik": {
+            "mac": 142,
+            "oran": 6.56,
+            "hamle": "9...hxg5"
           },
           "yari-anti-meran": {
             "mac": 370,
             "oran": 17.08,
             "hamle": "7.Bd3"
           },
+          "yari-shabalov": {
+            "mac": 109,
+            "oran": 5.03,
+            "hamle": "7.g4"
+          },
+          "yari-marshall-gambit": {
+            "mac": 72,
+            "oran": 3.32,
+            "hamle": "4.e4"
+          },
+          "yari-slav-meran": {
+            "mac": 112,
+            "oran": 5.17,
+            "hamle": "9.O-O"
+          },
+          "yari-anti-moskova": {
+            "mac": 287,
+            "oran": 13.25,
+            "hamle": "6.Bh4"
+          },
           "yari-reynolds": {
             "mac": 35,
             "oran": 1.62,
             "hamle": "10.d5"
           },
-          "yari-rellstab": {
-            "mac": 40,
-            "oran": 1.85,
-            "hamle": "11.Nxb5"
-          },
           "yari-wade-kaidanov": {
             "mac": 67,
             "oran": 3.09,
             "hamle": "9.e4"
+          },
+          "yari-rellstab": {
+            "mac": 40,
+            "oran": 1.85,
+            "hamle": "11.Nxb5"
           },
           "yari-lundin": {
             "mac": 61,
@@ -2882,60 +3127,25 @@
             "oran": 4.48,
             "hamle": "8...Bd6"
           },
-          "yari-shabalov": {
-            "mac": 109,
-            "oran": 5.03,
-            "hamle": "7.g4"
-          },
-          "yari-stoltz-merkez": {
-            "mac": 11,
-            "oran": 0.51,
-            "hamle": "7.e4"
-          },
-          "yari-slav-botvinnik": {
-            "mac": 142,
-            "oran": 6.56,
-            "hamle": "9...hxg5"
-          },
-          "yari-slav-moskova": {
-            "mac": 326,
-            "oran": 15.05,
-            "hamle": "7.e3"
-          },
-          "yari-anti-moskova": {
-            "mac": 287,
-            "oran": 13.25,
-            "hamle": "6.Bh4"
-          },
-          "yari-cambridge": {
-            "mac": 349,
-            "oran": 16.11,
-            "hamle": "5...Nbd7"
+          "yari-botvinnik-ekstrom": {
+            "mac": 4,
+            "oran": 0.18,
+            "hamle": "9.exf6"
           },
           "yari-hastings": {
             "mac": 49,
             "oran": 2.26,
             "hamle": "7.Qb3"
           },
+          "yari-stoltz-merkez": {
+            "mac": 11,
+            "oran": 0.51,
+            "hamle": "7.e4"
+          },
           "yari-botvinnik-nd5": {
             "mac": 1,
             "oran": 0.05,
             "hamle": "9...Nd5"
-          },
-          "yari-botvinnik-ekstrom": {
-            "mac": 4,
-            "oran": 0.18,
-            "hamle": "9.exf6"
-          },
-          "yari-noteboom": {
-            "mac": 34,
-            "oran": 1.57,
-            "hamle": "4...dxc4"
-          },
-          "yari-marshall-gambit": {
-            "mac": 72,
-            "oran": 3.32,
-            "hamle": "4.e4"
           }
         }
       }

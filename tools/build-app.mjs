@@ -11,7 +11,7 @@ const data = join(root, 'data');
 
 // Ana sayfadaki bölümler. Listede olmayan açılışlar "Diğer" bölümüne düşer.
 const CATEGORIES = [
-  { title: '1.e4: Beyazın sistemleri', ids: ['ispanyol', 'sicilya-alapin', 'smith-morra'] },
+  { title: '1.e4: Beyazın sistemleri', ids: ['ispanyol', 'sicilya-alapin', 'kapali-sicilya', 'smith-morra'] },
   { title: "1.e4'e karşı savunmalar", ids: ['sicilya-kan', 'fransiz', 'caro-kann', 'iskandinav', 'pirc', 'modern', 'alekhine', 'petrov'] },
   { title: '1.d4', ids: ['vezir-gambiti', 'slav', 'yari-slav', 'nimzo-hint'] },
 ];
