@@ -1,6 +1,6 @@
 # Satranç Açılışları: Usta Maçlarıyla Çalışma
 
-Belirli açılışları (şimdilik Vezir Gambiti ve Nimzo-Hint Savunması) usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
+Belirli açılışları (Vezir Gambiti, Nimzo-Hint, Sicilya Alapin, Sicilya 2.Nc3 e6 3.g3 a6, Sicilya Kan ve Slav) usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
 
 - iki tarafın genel planı,
 - hamle hamle açıklama (Beyaz ve Siyah için ayrı ayrı),
@@ -42,6 +42,21 @@ Belirli açılışları (şimdilik Vezir Gambiti ve Nimzo-Hint Savunması) usta 
 | Tek kalmış piyonla saldırı: e6’da fil fedası | Kramnik – Kasparov, Londra 2000 | Polugayevski – Petrosyan, Leningrad 1960; Geller – Smislov, Moskova 1961 |
 | Zayıf vezir kanadı piyonları ve yedinci yatay | Kramnik – Anand, Bonn 2008 | Kasparov – Karpov, 1985, 1. oyun |
 | e4 ve d5 kırılmalarıyla merkezi açmak | Carlsen – Anand, Moskova 2013 | Spasski – Petrosyan, 1975; Aronian – Karpov, Hoogeveen 2003 |
+
+### Sicilya Alapin (Beyazın kazandığı maçlar)
+
+| Tema | Maç | Alıştırma kaynakları |
+| --- | --- | --- |
+| a3 ve d5 ile köşeye giden veziri kapatmak | Alekhine – Podgorny, Prag 1943 | Petrosyan – Kelendzheridze, Tiflis 1945; Kasimdzhanov – Wohl, Groningen 1997 |
+| Kapalı vezir kanadı, f-hattından saldırı | Bronstein – Mestel, Londra 1976 | Nakamura – Radomskyj, Parsippany 2005; Panarin – Nepomniachtchi, Rusya Gençler Şampiyonası, Vladimir 2002 |
+| Simetrik d-piyonları: d6’da at ve e-piyonunun koşusu | Adams – Tiviakov, New York 1994 | Deep Blue – Kasparov, Philadelphia 1996, 1. oyun; Polgar – Tiviakov, Madrid 1994 |
+| a4-a5 ile vezir kanadını açmak ve c5 zayıflığı | Karpov – Polgar, Dos Hermanas 1994 | Tiviakov – Odendahl, Vlissingen 2004; Tiviakov – Cao Sang, Avrupa Bireysel Şampiyonası, Varşova 2005 |
+| Şah çekerek piyon toplamak: Qd4+ ve kale şahları | Adams – Dzindzichashvili, New York 1994 | Parma – Stein, SSCB – Yugoslavya maçı 1965; Smislov – Jimenez, Alekhine Anma turnuvası, Moskova 1963 |
+| d5 kırılması ve d7’ye yürüyen piyon | Adams – Hübner, Wijk aan Zee 1996 | Motwani – Tiviakov, Gausdal 1992; Blatny – Ljubojevic, Antwerpen 1994 |
+| Merkezde kalan şaha karşı dxe5 ve a2-g8 çaprazı | Adams – McShane, İngiltere 1997 | Godena – Bacrot, Cannes 1995; Fischer – Stephans, ABD Açık 1957 |
+| Erken vezir değişimi ve vezir kanadı çoğunluğu | Tiviakov – Carlsen, Gausdal 2005 | Adams – Batchuluun, Dünya Kupası, Tiflis 2017; Kramnik – Goganov, Rusya Şampiyonası 2013 |
+| Merkezde kalan şaha karşı d5–f6 atı | Tiviakov – Timman, Hilversum 2006 | Keres – Kluger, Macaristan–SSCB maçı, Budapeşte 1955; Short – Seirawan, Manila Bölgelerarası turnuvası 1990 |
+| Rok hakkını almak ve savunan kaleye saldırmak | Nakamura – Nepomniachtchi, Bakü 2015 | Leko – Shirov, Linares turnuvası 2004; Benko – Smislov, Adaylar turnuvası 1959 |
 
 Maç kayıtları [PgnMentor](https://www.pgnmentor.com/) oyuncu arşivlerinden alındı. Açıklamalardaki motor değerlendirmeleri ve alıştırma çözümleri Stockfish ile kontrol edildi.
 
