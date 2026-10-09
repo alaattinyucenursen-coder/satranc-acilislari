@@ -1,6 +1,6 @@
 # Satranç Açılışları: Usta Maçlarıyla Çalışma
 
-Belirli açılışları (Vezir Gambiti, Nimzo-Hint, Sicilya Alapin, Sicilya 2.Nc3 e6 3.g3 a6, Sicilya Kan ve Slav) usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
+Belirli açılışları (Vezir Gambiti, Nimzo-Hint, Sicilya Alapin, Sicilya 2.Nc3 e6 3.g3 a6, Sicilya 2.Nc3 e6 3.g3 d5, Sicilya Kan ve Slav) usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
 
 - iki tarafın genel planı,
 - hamle hamle açıklama (Beyaz ve Siyah için ayrı ayrı),
@@ -64,14 +64,31 @@ Belirli açılışları (Vezir Gambiti, Nimzo-Hint, Sicilya Alapin, Sicilya 2.Nc
 | --- | --- | --- |
 | Taktik fırsatı beklemek: ...Nc2 çatalı ve ...Rxe3 fedası | Timman – Popov, Wijk aan Zee 1975 | Leko – Rotstein, Werfen açık turnuvası 1989; Bastian – Karpov, Hannover turnuvası 1983 |
 | ...b4 ile c3 atını kovmak, sonra uzun oyun sonunda ...h4 ile şah kanadını açmak | Franzoni – Polugayevski, Luzern 1985 | Short – Nepomniachtchi, Capablanca Anısı, Havana 2010; Carlier – Timman, Hollanda Şampiyonası, Leeuwarden 1980 |
-| ...d5 ve ...c4 kırılmalarıyla vezir kanadından karşı oyun | Romero Holmes – Lautier, Salamanca 1998 | Short – Sokolov, Avrupa Bireysel Şampiyonası, Ohrid 2001; Woloch – Wojtaszek, Dziedzic Anma Turnuvası, Trzcianka 2015 |
+| ...d5 ve ...c4 kırılmalarıyla vezir kanadından karşı oyun | Romero Holmes – Lautier, Salamanca 1998 | Seirawan – Andersson, Amerika – Avrupa maçı, Mar del Plata 1981; Woloch – Wojtaszek, Dziedzic Anma Turnuvası, Trzcianka 2015 |
 | ...b4 ile e4’ü kazanmak, sonra açık şaha vezir baskını | Galliamova – Portisch, Amsterdam 2001 | Vasiukov – Tal, SSCB Şampiyonası, Tiflis 1959; Spasski – Sunye Neto, Solingen turnuvası, Solingen 1986 |
 | Uzun çaprazda e4 baskısı ve zayıflamış g3’e ...Nxg3 | Tseshkovsky – Karjakin, Hastings 2003 | Shamkovich – Tal, SSCB Şampiyonası, Bakü 1961; Ehlvest – Kasparov, Linares turnuvası 1991 |
 | ...d5 kırılması ve altıncı yataydaki kale | Ehlvest – Kamsky, Saint Louis 2011 | Schneider – Nakamura, New York Masters 2004; Galego – Gulko, Olimpiyat, Bled 2002 |
 | ...b4 ile c3 atını kovmak ve h-piyonunu sonuna kadar itmek | Persson – Kamsky, Eilat 2012 | Sigurjonsson – Portisch, Las Palmas 1976; Henneberger – Alekhine, Zürih 1934 |
 | a6 fili ve a7 veziri: ...Bxd3 ile ...c4+ açarak şah | Radjabov – Svidler, Riga 2013 | Kotov – Tal, SSCB Şampiyonası, Riga 1958; Burehall – Keres, Stockholm 1961 |
-| Vezir kanadında piyon hücumu ve geçer a-piyonu | Narciso – Morozevich, Barselona 2015 | Hug – Korçnoy, Biel 1986; Sopkov – Taimanov, SSCB Şampiyonası yarı finali, Leningrad 1952 |
+| Vezir kanadında piyon hücumu ve geçer a-piyonu | Narciso – Morozevich, Barselona 2015 | Gulko – Kramnik, Novgorod turnuvası 1995; Sopkov – Taimanov, SSCB Şampiyonası yarı finali, Leningrad 1952 |
 | ...b4 ve ...exf5 ile şah kanadı hamlesini karşılamak | Zherebukh – Caruana, Saint Louis 2018 | Balinas – Najdorf, Olimpiyat, Nice 1974; Raicevic – Andersson, Hastings turnuvası 1979/80 |
+
+### Sicilya: 2.Nc3 e6 3.g3 d5 yapısı (Siyahın kazandığı maçlar)
+
+Tam 1.e4 c5 2.Nc3 e6 3.g3 d5 4.Bg2 sırasıyla Siyahın kazandığı yalnızca dört usta maçı bulundu (Lawrence–Schlechter, Narodizki–Tal, Klimenko–Milov, Konsek–Suetin); diğer altı maç aynı yapıya Bg2’yi bir iki hamle sonra oynayarak ulaşır.
+
+| Tema | Maç | Alıştırma kaynakları |
+| --- | --- | --- |
+| ...d4 ve ...e5 ile alan, sonra g-hattından şaha saldırı | Lawrence – Schlechter, Cambridge Springs 1904 | Smislov – Szabo, Budapeşte–Moskova maçı 1949; Ljubojevic – Van der Wiel, Tilburg turnuvası 1983 |
+| ...d4 ile alan, g-hattı ve uzun çaprazda bağ | Çigorin – Tarrasch, Ostende 1907 | Rabinovich – Alekhine, Rusya Şampiyonası, Vilnius 1912; Mikalsen – Carlsen, Barents Bölgesi Şampiyonası, Alta 2003 |
+| ...d4 ile alan, ...c4-c3 ile vezir kanadında ilerleme | Lein – Tal, Tiflis 1969 | Van der Wiel – Timman, Hollanda Şampiyonası, Rotterdam 1998; Lutikov – Petrosyan, SSCB Şampiyonası 1969 |
+| ...d4 ile alan kazanmak ve fil çiftiyle oyun sonu | Suttles – Tal, Hastings 1973 | Mieses – Rubinstein, Lahey turnuvası 1921; Riemann – Paulsen, DSB Kongresi, Leipzig 1879 |
+| ...d4 ile alan, beyaz kareler ve at akını | Hug – Korçnoy, Biel 1986 | Medina – Portisch, Wijk aan Zee 1969; Tiviakov – Kotronias, Fransa Takımlar Şampiyonası, Clichy 2007 |
+| g2 fili gidince uzun çapraz ve ...f5-f4 yürüyüşü | Narodizki – Tal, Moskova 1991 | Carlsen – Lie, Gausdal 2002; Short – Nepomniachtchi, Capablanca Anıt turnuvası, Havana 2010 |
+| Vezirsiz oyunda c2 çatalı: ...Nb4 ve ...Ng4! | Klimenko – Milov, Simferopol 1991 | Hübner – Karpov, Tilburg turnuvası 1977; Ciric – Keres, Yugoslavya-SSCB maçı, Belgrad 1961 |
+| ...d4 ve ...e5 ile alan, ...h5-h4 ile şah kanadını kilitlemek | Konsek – Suetin, Würzburg 1991 | Kramnik – Meier, Dortmund turnuvası 2014; Atako – Adams, Britanya Şampiyonası, Sheffield 2011 |
+| ...d4 ile alan, ...c4 kırılmasıyla geçer d-piyonu | Belotti – Portisch, Reggio Emilia 1992 | Rossetto – Najdorf, Arjantin Şampiyonası, Buenos Aires 1955; Wantola – Tiviakov, Leiden açık turnuvası 2011 |
+| Uzun çapraz, kalite fedası ve zayıflamış beyaz şah | Short – Sokolov, Ohri 2001 | Ivanchuk – Shirov, M-Tel Masters, Sofya 2009; Tosan – Christiansen, Buenos Aires 1975 |
 
 ### Sicilya Kan (Siyahın kazandığı maçlar)
 
