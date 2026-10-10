@@ -1,0 +1,407 @@
+{
+  "id": "nimzo-hint",
+  "name": "Nimzo-Hint Savunması",
+  "eco": "E20-E59",
+  "description": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 ile Siyah c3 atını açmaza alır, e4'ü engeller ve gerekirse filini verip beyazın piyon yapısını bozar. Beyazın ana sistemleri 4.Qc2 (Klasik) ve 4.e3 (Rubinstein); 4.f3/4.a3 (Sämisch), 4.Bg5 (Leningrad), 4.Nf3 ve 4.g3 de iyi seçeneklerdir. Beyazın genel fikri iki fil ve merkez karşılığında yapısal tavizleri en aza indirmektir.",
+  "lines": [
+    {
+      "id": "klasik-a3-b6",
+      "group": "4.Qc2 Klasik Varyant",
+      "name": "4...O-O 5.a3 Bxc3+ 6.Qxc3 b6: 7.Bg5 ve 8.f3",
+      "eco": "E32",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 b6 7.Bg5 Bb7 8.f3 h6 9.Bh4 d5 10.e3 Nbd7 11.cxd5 Nxd5 12.Bxd8 Nxc3 13.Bh4 Nd5 14.Bf2",
+      "names": {
+        "1...Nf6": {
+          "name": "Hint Savunmaları",
+          "eco": "A45"
+        },
+        "3...Bb4": {
+          "name": "Nimzo-Hint Savunması",
+          "eco": "E20"
+        },
+        "4.Qc2": {
+          "name": "Nimzo-Hint: Klasik (Capablanca) Varyant",
+          "eco": "E32"
+        }
+      },
+      "comments": {
+        "1.d4": "Beyaz merkezi d4 piyonuyla tutar; d4 vezir tarafından korunduğu için sağlam bir başlangıç.",
+        "1...Nf6": "Siyah e4 karesini kontrol eder ve merkezde esnek kalır.",
+        "2.c4": "Beyaz d5 karesine baskı yapar ve vezir kanadında alan kazanır.",
+        "2...e6": "f8 filine yol açar; ...d5 ya da ...Bb4 seçeneklerini açık tutar.",
+        "3.Nc3": "Beyaz e4 hamlesini hazırlar; büyük merkez kurmak ister.",
+        "3...Bb4": "Nimzo-Hint: Siyah c3 atını açmaza alır ve e4'ü engeller. Gerekirse filini ata verip beyazın piyon yapısını bozmaya hazırdır.",
+        "4.Qc2": "Klasik sistem: vezir e4'ü kontrol eder ve ...Bxc3 gelirse vezirle geri alarak piyon yapısını bozdurmaz. Bedeli: gelişimde biraz zaman kaybı.",
+        "4...O-O": "En esnek yanıt: Siyah önce şahını güvene alır, planını beyazın kuruluşuna göre seçer.",
+        "5.a3": "Beyaz fili sorar; iki fil avantajını almak ister.",
+        "5...Bxc3+": "Fil geri çekilmez, atla değişilir.",
+        "6.Qxc3": "Vezir c3'te hem e5'e hem de g7'ye bakar; beyazın iki fili var. Siyah gelişim farkını kullanmalıdır.",
+        "6...b6": "Siyah fili b7'ye fiyanketto ederek e4 ve beyaz şah kanadını hedefler.",
+        "7.Bg5": "Atı açmaza alır; f3 ile birlikte e4'ü kontrol etmek ister.",
+        "8.f3": "Beyaz siyah filin e4 karesini kullanmasını engeller ve e4 ile merkez kurmayı hedefler. Şah gelişimi gecikir ama merkez güçlüdür.",
+        "9...d5": "Siyah merkezde karşı oyun açar; beyaz geride kalmışken açılmak ister.",
+        "11...Nxd5": "Siyah vezirleri değiştirmeye razıdır; gelişim avantajıyla oyuncu bir oyunsonu arar.",
+        "12.Bxd8": "Vezirler değişir.",
+        "13.Bh4": "Fil kendini kurtarır; 13...Nd5 ile at geri döner.",
+        "14.Bf2": "Beyazın iki fili ve sağlam yapısı var; siyah ...f5, ...c5 ile aktif olur. Oyunsonu dengeli; beyaz şahını e2/d2'de merkeze getirir."
+      }
+    },
+    {
+      "id": "klasik-a3-d5",
+      "group": "4.Qc2 Klasik Varyant",
+      "name": "4...O-O 5.a3 Bxc3+ 6.Qxc3 d5",
+      "eco": "E36",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 d5 7.Bg5 dxc4 8.Qxc4 h6 9.Bxf6 Qxf6 10.Nf3 Nd7 11.e3 c5 12.Bd3",
+      "names": {
+        "6...d5": {
+          "name": "Klasik: 6...d5",
+          "eco": "E36"
+        }
+      },
+      "comments": {
+        "6...d5": "Siyah merkezde doğrudan karşılık verir ve gelişim farkından yararlanıp oyunu açmak ister.",
+        "7.Bg5": "Beyaz gelişir ve f6 atına baskı yapar.",
+        "7...dxc4": "Siyah c4'te alır; beyaz vezir bir tempo daha harcar.",
+        "9.Bxf6": "Beyaz fili değişerek hızla gelişmeyi tercih eder; iki fil gider ama gelişim tamamlanır.",
+        "11...c5": "Siyah merkezi kırar.",
+        "12.Bd3": "Beyaz rok yapıp merkez piyonlarını sağlam tutar; konum dengeli, biraz alan beyazda."
+      }
+    },
+    {
+      "id": "klasik-d5",
+      "group": "4.Qc2 Klasik Varyant",
+      "name": "4...d5 5.cxd5 exd5: Azınlık saldırısı yapısı",
+      "eco": "E35",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.cxd5 exd5 6.Bg5 h6 7.Bxf6 Qxf6 8.a3 Bxc3+ 9.Qxc3 O-O 10.e3 c6 11.Nf3 Bf5 12.Be2 Nd7 13.O-O a5 14.b4",
+      "names": {
+        "4...d5": {
+          "name": "Klasik: 4...d5",
+          "eco": "E34"
+        },
+        "5...exd5": {
+          "name": "Klasik: 4...d5 5.cxd5 exd5",
+          "eco": "E35"
+        }
+      },
+      "comments": {
+        "4...d5": "Siyah merkezde hemen yer kapar ve Dama Gambiti benzeri bir yapı kurar.",
+        "5.cxd5": "Beyaz merkezi netleştirir; Karlsbad (değişim) yapısı oluşur.",
+        "5...exd5": "Siyah piyonla alır; c8 filinin yolu açılır.",
+        "6.Bg5": "Atı açmaza alır.",
+        "7.Bxf6": "Beyaz atı alır; siyahın iki fili var ama beyaz yapısı sağlam kalır.",
+        "8.a3": "Fili değişmeye zorlar.",
+        "10.e3": "Sağlam merkez; gelişim tamamlanacak.",
+        "13...a5": "Siyah b4'ü engellemeye çalışır.",
+        "14.b4": "Azınlık saldırısı: Beyaz b4-b5 ile siyahın c6 piyonuna saldırır ve vezir kanadında zayıflık yaratmayı amaçlar. Konum dengeli; beyazın planı net, siyah ise şah kanadında karşı oyun arar."
+      }
+    },
+    {
+      "id": "klasik-c5",
+      "group": "4.Qc2 Klasik Varyant",
+      "name": "4...c5 5.dxc5 O-O: Erken vezir değişimi",
+      "eco": "E39",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 O-O 6.a3 Bxc5 7.Nf3 Nc6 8.Bg5 Nd4 9.Nxd4 Bxd4 10.e3 Qa5 11.exd4 Qxg5 12.Qd2 Qxd2+ 13.Kxd2 b6",
+      "names": {
+        "4...c5": {
+          "name": "Klasik: 4...c5",
+          "eco": "E38"
+        }
+      },
+      "comments": {
+        "4...c5": "Siyah d4'e hemen baskı yapar.",
+        "5.dxc5": "Beyaz piyonu alır; siyah onu geri kazanırken taşlarını geliştirir.",
+        "6.a3": "Fili sorar; ...Bxc3 gelirse beyaz iki file sahip olur.",
+        "6...Bxc5": "Fil c5'te aktif durur.",
+        "8.Bg5": "Gelişim ve f6'ya baskı.",
+        "8...Nd4": "Siyah vezire saldırır ve taktik bir değişim zinciri başlatır.",
+        "10...Qa5": "Bxd4 sonrası g5 filine saldıran vezirle taşı geri kazanacak.",
+        "13.Kxd2": "Vezirsiz bir orta oyun: beyazın vezir kanadında piyon çoğunluğu ve iki fili var; şah merkezde iyi durur. Beyaz biraz daha iyi."
+      }
+    },
+    {
+      "id": "rubinstein-ana",
+      "group": "4.e3 Rubinstein Varyantı",
+      "name": "Ana hat: 7...Nc6 8.a3 Bxc3 9.bxc3",
+      "eco": "E59",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3 c5 7.O-O Nc6 8.a3 Bxc3 9.bxc3 dxc4 10.Bxc4 Qc7 11.Bd3 e5 12.Qc2 Re8 13.e4 cxd4 14.cxd4 exd4 15.e5",
+      "names": {
+        "4.e3": {
+          "name": "Nimzo-Hint: Rubinstein Varyantı",
+          "eco": "E40"
+        },
+        "5...d5": {
+          "name": "Rubinstein: Ana hat",
+          "eco": "E51"
+        },
+        "7...Nc6": {
+          "name": "Rubinstein: 7...Nc6",
+          "eco": "E56"
+        }
+      },
+      "comments": {
+        "4.e3": "Rubinstein sistemi: Beyaz sakin ama sağlam gelişir; Bd3, Ne2/Nf3 ve rok. En sağlam ve en çok oynanan yöntemlerden biri.",
+        "4...O-O": "Esnek: Siyah önce rok yapar.",
+        "5.Bd3": "Fil en iyi karesine gelişir, h7'ye bakar.",
+        "5...d5": "Siyah merkezde klasik yapı kurar.",
+        "6.Nf3": "Doğal gelişim.",
+        "6...c5": "d4 piyonuna baskı; Nimzo'nun tipik merkez darbesi.",
+        "7.O-O": "Beyaz şahını güvene alır.",
+        "7...Nc6": "Siyah baskıyı artırır.",
+        "8.a3": "Fili sorar: değişime zorlar ya da geri çekilmesini ister.",
+        "8...Bxc3": "Siyah değişir; beyaz çift c piyonu alır ama iki file ve merkeze sahip olur.",
+        "9.bxc3": "c3 piyonu d4'ü destekler; beyazın planı e4 ile merkezi ilerletmek.",
+        "10...Qc7": "Vezir e5 hamlesini hazırlar.",
+        "11...e5": "Siyah merkezi kırmaya çalışır.",
+        "12.Qc2": "Beyaz e4'ü hazırlar ve b1-h7 köşegeninde vezir-fil bataryası kurar.",
+        "13.e4": "Merkez ilerler; iki fil açık konumda güçlenir.",
+        "15.e5": "Beyaz atı f6'dan kovar; açılan köşegenlerde iki fil ve h7'ye yönelen saldırı fırsatları beyaza dinamik oyun verir."
+      }
+    },
+    {
+      "id": "rubinstein-karpov",
+      "group": "4.e3 Rubinstein Varyantı",
+      "name": "Karpov yapısı: 7...dxc4 8.Bxc4 cxd4 9.exd4 b6",
+      "eco": "E54",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3 c5 7.O-O dxc4 8.Bxc4 cxd4 9.exd4 b6 10.Bg5 Bb7 11.Re1 Nbd7 12.Rc1 Rc8 13.Bd3 Re8 14.Qe2 Bxc3 15.bxc3 Qc7",
+      "names": {
+        "9...b6": {
+          "name": "Rubinstein: Karpov Varyantı",
+          "eco": "E54"
+        }
+      },
+      "comments": {
+        "7...dxc4": "Siyah merkezi açar.",
+        "8.Bxc4": "Fil c4'e gelişerek tempo kazanmış olur.",
+        "8...cxd4": "Siyah beyaza izole d piyonu (IKP) bırakır.",
+        "9.exd4": "İzole d4 piyonu: Beyaza alan, açık e ve c hatları ve d5 ile kırma fikri verir; siyah ise d5 karesini blokaj için kullanır.",
+        "9...b6": "Karpov'un kuruluşu: fil b7'ye gelir ve d5 karesini kontrol eder.",
+        "10.Bg5": "Atı açmaza alarak d5 üzerindeki siyah kontrolünü zayıflatır.",
+        "11.Re1": "Kale açık e hattına; Ne5 ve d5 fikirleri.",
+        "14.Qe2": "Beyaz taşlarını şah kanadına yönelik toplar.",
+        "14...Bxc3": "Siyah c3 atını değişir; beyaz c3-d4 'asılı piyonlar' yerine sağlam bir zincir alır.",
+        "15...Qc7": "Beyazın Bb5, c4 ve şah kanadı saldırısı gibi fikirleri var; motor beyazı açıkça daha iyi buluyor."
+      }
+    },
+    {
+      "id": "rubinstein-b6",
+      "group": "4.e3 Rubinstein Varyantı",
+      "name": "4...b6: Fiyanketto kuruluşu",
+      "eco": "E43",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Bd3 Bb7 6.Nf3 O-O 7.O-O d5 8.cxd5 exd5 9.a3 Bd6 10.b4 Nbd7 11.Qb3 Re8",
+      "names": {
+        "4...b6": {
+          "name": "Rubinstein: 4...b6",
+          "eco": "E43"
+        }
+      },
+      "comments": {
+        "4...b6": "Siyah fili b7'ye fiyanketto eder ve e4 karesini hedefler.",
+        "6.Nf3": "Doğal gelişim; beyaz rok ve sonra merkez/vezir kanadı planı seçecek.",
+        "8.cxd5": "Beyaz merkezi netleştirir; b7 filinin köşegeni d5 piyonuyla kapanır.",
+        "9.a3": "Fili sorar ve b4 ile vezir kanadında alan kazanmaya hazırlanır.",
+        "10.b4": "Alan kazanır; plan Qb3, Bb2 ve uygun anda b5 ya da merkezde e3-e4.",
+        "11.Qb3": "Vezir d5'e baskı yapar ve b kanadını destekler. Konum dengeli, oyun stratejik."
+      }
+    },
+    {
+      "id": "rubinstein-hubner",
+      "group": "4.e3 Rubinstein Varyantı",
+      "name": "4...c5 Hübner Varyantı",
+      "eco": "E41",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.Nf3 Bxc3+ 7.bxc3 d6 8.e4 e5 9.d5 Ne7 10.Nh4 h6 11.f4 Ng6 12.Nxg6 fxg6 13.fxe5 dxe5 14.Be3 b6 15.O-O O-O 16.Bf2",
+      "names": {
+        "4...c5": {
+          "name": "Rubinstein: 4...c5",
+          "eco": "E41"
+        },
+        "7...d6": {
+          "name": "Rubinstein: Hübner Varyantı",
+          "eco": "E41"
+        }
+      },
+      "comments": {
+        "4...c5": "Siyah d4'e baskı yapar.",
+        "5.Bd3": "Gelişim.",
+        "6...Bxc3+": "Hübner fikri: Siyah fili hemen verir, beyaza çift c piyonu oluşturur.",
+        "7...d6": "Siyah piyonlarını kara karelere (c5, d6, e5) koyar; böylece beyazın kara kareli fili kısıtlanır ve beyazın c4 piyonu hedef olur.",
+        "8.e4": "Beyaz merkezi genişletir.",
+        "9.d5": "Merkez kapanır; at kovalanır. Beyazın planı f4 ile şah kanadını açmak.",
+        "10.Nh4": "At f4'ü hazırlar ve ...Ng6'yı engellemeye bakar (Spasski-Fischer, 1972, 5. oyun).",
+        "11.f4": "Beyaz f hattını açmaya çalışır; iki fil açık oyunda değer kazanır.",
+        "12.Nxg6": "Değişim; siyahın piyon yapısı bozulur.",
+        "13.fxe5": "f hattı açılır.",
+        "16.Bf2": "Kapalı merkez ve yarı açık f hattı: beyazın iki fili, siyahın ise c4 ve e4 hedefleri var. Konum yaklaşık dengeli; beyaz a4-a5 ile vezir kanadında da oynayabilir."
+      }
+    },
+    {
+      "id": "kmoch-f3",
+      "group": "4.f3 ve 4.a3 Sämisch",
+      "name": "4.f3 d5 5.a3: Sämisch'e geçiş",
+      "eco": "E20",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Bxc3+ 6.bxc3 c5 7.cxd5 exd5 8.e3 O-O 9.Bd3 c4 10.Bc2 Nc6 11.Ne2 Re8 12.O-O",
+      "names": {
+        "4.f3": {
+          "name": "Nimzo-Hint: Kmoch Varyantı",
+          "eco": "E20"
+        }
+      },
+      "comments": {
+        "4.f3": "Kmoch fikri: Beyaz hemen e4'ü hazırlar. Siyah ...Bxc3 yapsa bile beyaz büyük merkezi kurmayı hedefler.",
+        "4...d5": "En sağlam yanıt: Siyah e4'ü merkezde engeller.",
+        "5.a3": "Fili sorar; ...Bxc3 bxc3 ile Sämisch yapısı oluşur.",
+        "6...c5": "Siyah merkeze hemen baskı yapar.",
+        "7.cxd5": "Beyaz yapıyı netleştirir.",
+        "9...c4": "Siyah vezir kanadını kapatır; ama bu, beyaza merkezde serbestlik verir.",
+        "11.Ne2": "Botvinnik planı: At g3'e gelir, sonra e3-e4 ile merkez açılır ve f3 piyonu bu ilerlemeyi destekler.",
+        "12.O-O": "Beyazın planı Ng3 ve e4; siyah vezir kanadında ...Na5-b3 fikirleri arar. Dengeli ama beyazın merkezi daha dinamik."
+      }
+    },
+    {
+      "id": "samisch-a3",
+      "group": "4.f3 ve 4.a3 Sämisch",
+      "name": "4.a3 Sämisch: Capablanca kuruluşu",
+      "eco": "E29",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5 6.e3 Nc6 7.Bd3 O-O 8.Ne2 b6 9.e4 Ne8 10.O-O Ba6 11.f4 f5",
+      "names": {
+        "4.a3": {
+          "name": "Nimzo-Hint: Sämisch Varyantı",
+          "eco": "E24"
+        }
+      },
+      "comments": {
+        "4.a3": "Sämisch: Beyaz hemen iki fili alır, karşılığında çift c piyonunu kabul eder. Plan güçlü merkez ve şah kanadı saldırısıdır.",
+        "4...Bxc3+": "Siyah değişmek zorunda; geri çekilmek tempo kaybıdır.",
+        "5.bxc3": "Beyazın iki fili ve merkezi var; c4 piyonu ise siyahın baş hedefidir.",
+        "5...c5": "Siyah c4'e baskıya hazırlanır ve d4'ü sorar.",
+        "6.e3": "Merkezi destekler.",
+        "6...Nc6": "Gelişim ve d4 baskısı.",
+        "8.Ne2": "At e2'den g3'e gidebilir ve f3/f4 piyonunun önünü kapatmaz.",
+        "8...b6": "Siyah fili a6'ya getirip c4'e baskı yapmayı planlar.",
+        "9.e4": "Beyaz merkezi ilerletir; e5 ile at kovalanabilir.",
+        "9...Ne8": "Capablanca fikri: At kendini kovalanmaktan kurtarır, ...f5 ile beyazın şah kanadı saldırısını önceden durdurur.",
+        "11.f4": "Beyaz f5 ve f hattını açma fikriyle saldırır.",
+        "11...f5": "Siyah saldırıyı fiziksel olarak durdurur. Beyazın iki fili ve alanı biraz daha iyi bir konum verir."
+      }
+    },
+    {
+      "id": "leningrad",
+      "group": "4.Bg5 Leningrad Varyantı",
+      "name": "4.Bg5 h6 5.Bh4 c5 6.d5",
+      "eco": "E31",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 d6 7.e3 exd5 8.cxd5 Nbd7 9.Bd3 O-O 10.Ne2 Re8 11.O-O Ne5 12.Bb5 Bd7",
+      "names": {
+        "4.Bg5": {
+          "name": "Nimzo-Hint: Leningrad Varyantı",
+          "eco": "E30"
+        }
+      },
+      "comments": {
+        "4.Bg5": "Leningrad: Beyaz atı açmaza alır; plan d5 ile alan kazanmak ve siyahın ...e6 piyonunu sorun yapmaktır.",
+        "4...h6": "Fili sorar.",
+        "5.Bh4": "Açmaz korunur.",
+        "5...c5": "Siyah merkeze karşılık verir.",
+        "6.d5": "Beyaz alan kazanır; c3 atı açmazda olsa da merkez piyonları ilerler.",
+        "6...d6": "Sağlam; siyah Benoni benzeri bir yapı kurar.",
+        "8.cxd5": "Beyazın d5'te güçlü bir merkez piyonu var.",
+        "9.Bd3": "Fil gelişir; plan Nge2 ve rok.",
+        "10.Ne2": "At e2'den c3 atını destekler; açmaz tehlikesini azaltır.",
+        "12.Bb5": "Beyaz kare renkli filleri değiştirmeyi önerir; siyahın d7 karesindeki taşlarını sıkıştırır. Konum dengeli."
+      }
+    },
+    {
+      "id": "nf3-romanishin",
+      "group": "4.Nf3 Sistemleri",
+      "name": "4.Nf3 c5 5.g3: Romanishin Varyantı",
+      "eco": "E20",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4 6.Nxd4 O-O 7.Bg2 d5 8.cxd5 Nxd5 9.Qb3 Qa5 10.Bd2 Nc6 11.Nxc6 bxc6 12.O-O",
+      "names": {
+        "4.Nf3": {
+          "name": "Nimzo-Hint: Üç At Varyantı",
+          "eco": "E21"
+        },
+        "5.g3": {
+          "name": "Nimzo-Hint: Romanishin Varyantı",
+          "eco": "E20"
+        }
+      },
+      "comments": {
+        "4.Nf3": "Esnek gelişim: Beyaz hem Bg5, hem g3, hem de e3 ile farklı yapılara geçebilir.",
+        "4...c5": "Siyah d4'e baskı yapar.",
+        "5.g3": "Romanishin: Beyaz fili g2'ye fiyanketto eder; uzun köşegen ve d5 karesi önem kazanır.",
+        "5...cxd4": "Siyah merkezde değişir.",
+        "6.Nxd4": "At merkezde güçlü durur.",
+        "7...d5": "Siyah merkezi açar.",
+        "9.Qb3": "Beyaz b4 filine ve d5 atına baskı kurar.",
+        "11.Nxc6": "Beyaz siyaha c6'da zayıf piyon bırakır.",
+        "12.O-O": "g2 filinin c6 hedefi ve sağlam şah konumu; konum dengeli ama beyaz rahat."
+      }
+    },
+    {
+      "id": "nf3-b6-bg5",
+      "group": "4.Nf3 Sistemleri",
+      "name": "4.Nf3 b6 5.Bg5",
+      "eco": "E21",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5 Bb7 6.e3 h6 7.Bh4 g5 8.Bg3 Ne4 9.Qc2 Bxc3+ 10.bxc3 d6 11.Bd3 f5 12.d5 Nc5 13.h4 g4 14.Nd4 Qf6 15.O-O",
+      "names": {
+        "4...b6": {
+          "name": "Üç At: 4...b6",
+          "eco": "E21"
+        }
+      },
+      "comments": {
+        "4...b6": "Siyah fiyanketto ile e4'ü kontrol eder.",
+        "5.Bg5": "Atı açmaza alır ve siyahı ...h6/...g5 ile şah kanadını zayıflatmaya zorlar.",
+        "7...g5": "Siyah açmazdan kurtulur ama şah kanadını zayıflatır.",
+        "8...Ne4": "Siyah g3 filini değişmek ve e4'ü işgal etmek ister.",
+        "9.Qc2": "e4'e baskı.",
+        "12.d5": "Beyaz b7 filinin köşegenini kapatır ve e6'yı hedef alır.",
+        "13.h4": "Siyahın zayıflamış şah kanadına saldırı.",
+        "14.Nd4": "At e6 karesine bakar.",
+        "15.O-O": "Beyazın merkezi baskısı ve siyahın zayıf e6/f5 piyonları nedeniyle beyaz daha iyi (Kasparov'un oynadığı yapı)."
+      }
+    },
+    {
+      "id": "spielmann-qb3",
+      "group": "Diğer: 4.Qb3 ve 4.g3",
+      "name": "4.Qb3 Spielmann Varyantı",
+      "eco": "E23",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5 Nc6 6.Nf3 Ne4 7.Bd2 Nxd2 8.Nxd2 O-O 9.e3 Bxc5 10.Be2 b6 11.O-O Bb7",
+      "names": {
+        "4.Qb3": {
+          "name": "Nimzo-Hint: Spielmann Varyantı",
+          "eco": "E22"
+        }
+      },
+      "comments": {
+        "4.Qb3": "Spielmann: Vezir b4 filine saldırır ve ...Bxc3'ü vezirle almaya hazırlanır. 4.Qc2 kadar popüler değil.",
+        "4...c5": "Siyah c5 piyonunu verir gibi görünür ama hızla geri alır.",
+        "6...Ne4": "Siyah c3 atına baskı yapar.",
+        "7.Bd2": "Atı korur.",
+        "9...Bxc5": "Siyah piyonu geri aldı; gelişimi rahat.",
+        "11...Bb7": "Simetrik ve dengeli bir yapı; beyazın sakin bir oyunu var."
+      }
+    },
+    {
+      "id": "kasparov-g3",
+      "group": "Diğer: 4.Qb3 ve 4.g3",
+      "name": "4.g3 Kasparov Varyantı",
+      "eco": "E20",
+      "moves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.g3 O-O 5.Bg2 d5 6.Nf3 dxc4 7.O-O Nc6 8.a3 Bxc3 9.bxc3 Rb8 10.a4 b6",
+      "names": {
+        "4.g3": {
+          "name": "Nimzo-Hint: Kasparov Varyantı",
+          "eco": "E20"
+        }
+      },
+      "comments": {
+        "4.g3": "Beyaz fiyanketto ile Katalan tarzı bir oyun kurar; uzun köşegen siyahın vezir kanadına baskı yapar.",
+        "5.Bg2": "Fil uzun köşegende.",
+        "6...dxc4": "Siyah piyonu alır; beyaz Katalan gambiti tarzında taşlarını geliştirir.",
+        "7.O-O": "Beyaz piyonu hemen geri almak yerine gelişim önceliği verir.",
+        "8.a3": "Fili sorar.",
+        "9...Rb8": "Siyah fazla piyonu b5 ile korumayı hazırlar.",
+        "10.a4": "b5'i engeller. Beyazın piyon eksiğine karşı uzun köşegen ve merkez baskısı var; konum dengeli."
+      }
+    }
+  ]
+}

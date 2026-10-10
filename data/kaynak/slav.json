@@ -1,0 +1,394 @@
+{
+  "id": "slav",
+  "name": "Slav Savunması",
+  "eco": "D10-D19",
+  "description": "1.d4 d5 2.c4 c6 ile Siyah d5'i c piyonuyla korur. Böylece c8 fili e6 piyonunun arkasında hapsolmaz ve ...Bf5 ya da ...Bg4 ile dışarı çıkabilir. Sağlam, ama ...dxc4 ile dinamik oyunlara da açık bir savunma.",
+  "lines": [
+    {
+      "id": "slav-cek",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Ana Hat (Çek Varyantı)",
+      "eco": "D19",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.e3 e6 7.Bxc4 Bb4 8.O-O O-O 9.Qe2 Nbd7 10.e4 Bg6 11.Bd3 Bh5 12.e5 Nd5",
+      "names": {
+        "2...c6": {
+          "name": "Slav Savunması",
+          "eco": "D10"
+        },
+        "4...dxc4": {
+          "name": "Slav Savunması, kabul",
+          "eco": "D15"
+        },
+        "5...Bf5": {
+          "name": "Çek Varyantı",
+          "eco": "D17"
+        }
+      },
+      "comments": {
+        "1.d4": "Beyaz merkezi d4 piyonuyla tutar. Vezir piyonu açılışlarının başlangıcı.",
+        "1...d5": "Siyah simetrik karşılık verir: d5 piyonu e4 karesini kontrol eder ve beyazın merkezi tamamen kurmasını engeller.",
+        "2.c4": "Vezir Gambiti: Beyaz c4 piyonunu teklif ederek siyahın d5 piyonunu merkezden uzaklaştırmak ister. Gerçek bir kumar değildir; piyon çoğu zaman geri alınır.",
+        "2...c6": "Slav: d5'i c piyonuyla korur. Böylece c8 fili e6 piyonunun arkasında hapsolmaz; Ret'in ana sorunu baştan çözülür.",
+        "3.Nf3": "Esnek gelişim.",
+        "3...Nf6": "Siyah da gelişir.",
+        "4.Nc3": "d5'e baskıyı artırır.",
+        "4...dxc4": "Siyah şimdi piyonu alır, çünkü ...b5 ile onu tutma tehdidi vardır.",
+        "5.a4": "...b5'i engeller. Bedeli b4 karesinin zayıflamasıdır.",
+        "5...Bf5": "Fil piyon zincirinin dışına çıkar. Slav'ın amacı tam olarak budur.",
+        "6.e3": "Fil c4'ü geri almaya hazırlanır.",
+        "6...e6": "Siyah sağlam yapısını kurar.",
+        "7.Bxc4": "Piyon geri alındı.",
+        "7...Bb4": "b4 karesindeki zayıflıktan yararlanır ve c3 atını açmaza alır.",
+        "8.O-O": "Şah güvenliği.",
+        "8...O-O": "Siyah da rok yapar.",
+        "9.Qe2": "e4 ilerlemesini hazırlar.",
+        "9...Nbd7": "Gelişim; e5 karesini gözetir.",
+        "10.e4": "Merkez ilerlemesi f5 filini kovalar.",
+        "10...Bg6": "Fil çaprazda kalır.",
+        "11.Bd3": "Fil merkezi destekler.",
+        "11...Bh5": "Fil, f3 atını e2'deki vezire karşı açmaza alır.",
+        "12.e5": "f6 atını kovalar ve alan kazanır.",
+        "12...Nd5": "At güçlü d5 karesine yerleşir. Dengeli ve zengin bir orta oyun."
+      }
+    },
+    {
+      "id": "slav-krause",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Ana hat: 6.Ne5 (Krause Saldırısı)",
+      "eco": "D17",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.Ne5 e6 7.f3 c5 8.e4 Bg6 9.Be3 cxd4 10.Qxd4 Qxd4 11.Bxd4 Nfd7",
+      "names": {
+        "6.Ne5": {
+          "name": "Slav: Krause Saldırısı",
+          "eco": "D17"
+        }
+      },
+      "comments": {
+        "6.Ne5": "Beyaz c4 piyonunu at ile geri almak ve e4 ile merkezi kurmak ister.",
+        "6...e6": "Gelişim; f8 filine yol açar.",
+        "7.f3": "e4 itişini hazırlar.",
+        "7...c5": "Siyah d4'e hemen vurur; beyaz merkezi kurmadan önce karşı oyun.",
+        "8.e4": "Fili kovalar.",
+        "8...Bg6": "Fil çaprazda kalır.",
+        "9.Be3": "d4'ü korur.",
+        "9...cxd4": "Siyah değişir.",
+        "10.Qxd4": "Vezir değişimi önerilir.",
+        "10...Qxd4": "Siyah değişir.",
+        "11.Bxd4": "Fil merkezde.",
+        "11...Nfd7": "e5 atına meydan okur. Vezirsiz bir orta oyun: beyazın merkezi daha güçlü, siyahın yapısı sağlam."
+      }
+    },
+    {
+      "id": "slav-lasker",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Lasker Varyantı: 6.e3 Na6",
+      "eco": "D17",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.e3 Na6 7.Bxc4 Nb4 8.O-O e6 9.Qe2 Be7",
+      "comments": {
+        "6...Na6": "Lasker: At b4'e gidecek; beyazın a4 ile zayıflattığı kareyi kullanır.",
+        "7.Bxc4": "Piyon geri alındı.",
+        "7...Nb4": "At güçlü bir karede, d3 ve c2'ye bakıyor.",
+        "8.O-O": "Şah güvenliği.",
+        "8...e6": "Sağlam yapı.",
+        "9.Qe2": "e4 hazırlığı.",
+        "9...Be7": "Siyah rahat gelişti."
+      },
+      "names": {
+        "6...Na6": {
+          "name": "Slav: Lasker Varyantı",
+          "eco": "D17"
+        }
+      }
+    },
+    {
+      "id": "slav-carlsbad",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Krause: 6...Nbd7 (Carlsbad, Morozevich)",
+      "eco": "D17",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.Ne5 Nbd7 7.Nxc4 Qc7 8.g3 e5 9.dxe5 Nxe5 10.Bf4 Nfd7 11.Bg2 g5",
+      "comments": {
+        "6...Nbd7": "Carlsbad: Siyah e5 atına hemen meydan okur.",
+        "7.Nxc4": "Piyon geri alındı.",
+        "7...Qc7": "...e5 hazırlığı.",
+        "8.g3": "Fil g2'ye; e4 karesini kontrol.",
+        "8...e5": "Siyah merkezde serbestleşir.",
+        "9.dxe5": "Beyaz alır.",
+        "10.Bf4": "e5 atına açmaz.",
+        "10...Nfd7": "Açmazı destekler.",
+        "11.Bg2": "Gelişim.",
+        "11...g5": "Morozevich: Siyah fili kovalar; çok keskin."
+      },
+      "names": {
+        "6...Nbd7": {
+          "name": "Slav: Carlsbad Varyantı",
+          "eco": "D17"
+        }
+      }
+    },
+    {
+      "id": "slav-wiesbaden",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Krause: 7...Bb4 fedası (Wiesbaden)",
+      "eco": "D17",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.Ne5 e6 7.f3 Bb4 8.e4 Bxe4 9.fxe4 Nxe4 10.Bd2 Qxd4 11.Nxe4 Qxe4+ 12.Qe2 Bxd2+ 13.Kxd2 Qd5+ 14.Kc2 Na6 15.Nxc4",
+      "comments": {
+        "7...Bb4": "Siyah c3 atını açmaza alarak e4 itişini cezalandırmayı planlar.",
+        "8.e4": "Beyaz yine de oynar.",
+        "8...Bxe4": "Siyah filini feda eder!",
+        "9.fxe4": "Beyaz alır.",
+        "9...Nxe4": "Siyah iki piyon ve saldırı karşılığında bir taş verdi.",
+        "10.Bd2": "Açmazı kırmaya çalışır.",
+        "10...Qxd4": "Vezir merkeze.",
+        "11.Nxe4": "Beyaz alır.",
+        "11...Qxe4+": "Şah.",
+        "12.Qe2": "Araya vezir.",
+        "12...Bxd2+": "Değişim.",
+        "13.Kxd2": "Şah alır.",
+        "13...Qd5+": "Şah.",
+        "14.Kc2": "Şah kaçar.",
+        "14...Na6": "At gelişir.",
+        "15.Nxc4": "Beyaz bir taş fazlası; siyahın üç piyonu ve beyaz şahın güvensizliği tazminat."
+      }
+    },
+    {
+      "id": "slav-samisch",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Hollanda Varyantı: 9...Ne4 10.g4 (Sämisch)",
+      "eco": "D19",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.e3 e6 7.Bxc4 Bb4 8.O-O O-O 9.Qe2 Ne4 10.g4 Bg6",
+      "comments": {
+        "9...Ne4": "Siyah c3 atına baskıyı artırır.",
+        "10.g4": "Sämisch: Beyaz e4'teki atı desteklemeyi engellemek için fili kovalamaya hazırlanır; agresif.",
+        "10...Bg6": "Fil çaprazda kalır, e4 atını korur."
+      }
+    },
+    {
+      "id": "slav-steiner",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Steiner Varyantı: 5...Bg4",
+      "eco": "D16",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bg4 6.Ne5 Bh5 7.f3 Nfd7 8.Nxc4 e5",
+      "comments": {
+        "5...Bg4": "Steiner (Bronstein): Fil g4'e; f3 atını açmaza alır.",
+        "6.Ne5": "Beyaz açmazdan kurtulur ve c4'e gider.",
+        "6...Bh5": "Fil çaprazda kalır.",
+        "7.f3": "e4 hazırlığı.",
+        "7...Nfd7": "e5 atına meydan okur.",
+        "8.Nxc4": "Piyon geri alındı.",
+        "8...e5": "Siyah merkeze vurur; dinamik bir konum."
+      },
+      "names": {
+        "5...Bg4": {
+          "name": "Slav: Steiner Varyantı",
+          "eco": "D16"
+        }
+      }
+    },
+    {
+      "id": "slav-smyslov",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Smyslov Varyantı: 5...Na6",
+      "eco": "D16",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Na6 6.e4 Bg4 7.Bxc4 e6 8.Be3 Bb4",
+      "comments": {
+        "5...Na6": "Smyslov: At b4'e gidecek; fil sonra g4'e.",
+        "6.e4": "Beyaz merkezi kurar.",
+        "6...Bg4": "f3 atını açmaza alır, d4'e baskı.",
+        "7.Bxc4": "Piyon geri alındı.",
+        "8.Be3": "d4'ü korur.",
+        "8...Bb4": "c3'e baskı; beyazın merkezine karşı taşlarla mücadele."
+      },
+      "names": {
+        "5...Na6": {
+          "name": "Slav: Smyslov Varyantı",
+          "eco": "D16"
+        }
+      }
+    },
+    {
+      "id": "slav-geller",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Geller Gambiti: 5.e4 b5",
+      "eco": "D15",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e4 b5 6.e5 Nd5 7.a4 e6 8.axb5 Nxc3 9.bxc3 cxb5 10.Ng5 Bb7 11.Qh5 g6 12.Qg4 Be7",
+      "comments": {
+        "5.e4": "Geller Gambiti: Beyaz piyonu hemen geri almak yerine merkezi kurar.",
+        "5...b5": "Siyah c4'ü tutar.",
+        "6.e5": "Atı kovalar.",
+        "6...Nd5": "At merkezde.",
+        "7.a4": "b5'e baskı.",
+        "8.axb5": "Beyaz alır.",
+        "8...Nxc3": "Değişim.",
+        "9.bxc3": "Beyazın merkezi güçlü.",
+        "10.Ng5": "Şah kanadına saldırı.",
+        "11.Qh5": "h7 ve f7'ye baskı.",
+        "11...g6": "Savunma.",
+        "12.Qg4": "Vezir e6'ya baskı.",
+        "12...Be7": "Siyah iki piyon fazlası; beyazın saldırısı güçlü. Çok keskin."
+      },
+      "names": {
+        "5.e4": {
+          "name": "Slav: Geller Gambiti",
+          "eco": "D15"
+        }
+      }
+    },
+    {
+      "id": "slav-alekhine",
+      "group": "Ana hat (4...dxc4)",
+      "name": "Alekhine Varyantı: 5.e3 b5",
+      "eco": "D15",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e3 b5 6.a4 b4 7.Na2 e6 8.Bxc4 Be7 9.O-O O-O",
+      "comments": {
+        "5.e3": "Beyaz c4'ü filiyle almak ister.",
+        "5...b5": "Siyah piyonu tutmaya çalışır.",
+        "6.a4": "b5'e baskı.",
+        "6...b4": "At kovalanır.",
+        "7.Na2": "At b4'e baskı yapar.",
+        "8.Bxc4": "Piyon geri alındı.",
+        "9.O-O": "Sağlam bir konum; beyaz b4 piyonunu hedefler."
+      },
+      "names": {
+        "5.e3": {
+          "name": "Slav: Alekhine Varyantı",
+          "eco": "D15"
+        }
+      }
+    },
+    {
+      "id": "slav-chebanenko",
+      "group": "Chebanenko (4...a6)",
+      "name": "Chebanenko Varyantı: 4...a6",
+      "eco": "D15",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 a6 5.e3 b5 6.b3 Bg4 7.Be2 e6 8.O-O Nbd7 9.h3 Bh5 10.Bb2 Bd6",
+      "names": {
+        "4...a6": {
+          "name": "Slav: Chebanenko Varyantı",
+          "eco": "D15"
+        }
+      },
+      "comments": {
+        "4...a6": "Chebanenko: Siyah ...b5 ile vezir kanadında yer kazanmayı ve gerekirse ...dxc4 ile piyonu tutmayı hazırlar.",
+        "5.e3": "Sağlam devam.",
+        "5...b5": "Siyah c4'e baskı yapar.",
+        "6.b3": "Beyaz c4'ü destekler.",
+        "6...Bg4": "Fil zincirin dışına çıkar ve f3 atını açmaza alır.",
+        "7.Be2": "Açmazı kırar.",
+        "7...e6": "Sağlam yapı.",
+        "8.O-O": "Şah güvenliği.",
+        "8...Nbd7": "Gelişim.",
+        "9.h3": "Filin niyetini sorar.",
+        "9...Bh5": "Fil açmazı korur.",
+        "10.Bb2": "Fil uzun çaprazda.",
+        "10...Bd6": "Siyah gelişimini tamamlıyor; dengeli bir konum."
+      }
+    },
+    {
+      "id": "slav-sakin",
+      "group": "Sakin sistemler",
+      "name": "4.e3 Bf5 ve Nh4 ile fil avı",
+      "eco": "D11",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6 6.Nh4 Bg6 7.Nxg6 hxg6 8.Bd3 Nbd7 9.O-O Bd6 10.h3",
+      "names": {
+        "4.e3": {
+          "name": "Slav: 4.e3",
+          "eco": "D11"
+        }
+      },
+      "comments": {
+        "4.e3": "Sakin devam: Beyaz c4'ü korur ve ...dxc4 ile piyon kazanma fikrini ortadan kaldırır.",
+        "4...Bf5": "Siyah filini zincirin dışına çıkarır: Slav'ın amacı.",
+        "5.Nc3": "Gelişim.",
+        "5...e6": "Sağlam yapı.",
+        "6.Nh4": "Beyaz fil çiftini kazanmak için f5 filini kovalar.",
+        "6...Bg6": "Fil çaprazda kalır.",
+        "7.Nxg6": "Beyaz fili alır.",
+        "7...hxg6": "Siyahın h hattı açılır; bu ileride h2'ye baskı için faydalı olabilir.",
+        "8.Bd3": "Fil g6'ya bakıyor.",
+        "8...Nbd7": "Gelişim.",
+        "9.O-O": "Şah güvenliği.",
+        "9...Bd6": "Fil h2'ye bakıyor; açık h hattıyla birlikte saldırı fikirleri.",
+        "10.h3": "Beyaz şah kanadını sağlamlaştırır. Beyazın fil çifti var; siyahın yapısı çok sağlam."
+      }
+    },
+    {
+      "id": "slav-landau",
+      "group": "Sakin sistemler",
+      "name": "Sakin Varyant: 5.cxd5 ve 6.Qb3 (Landau)",
+      "eco": "D12",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Qb3 Qc8 7.Bd2 e6 8.Na3",
+      "comments": {
+        "5.cxd5": "Beyaz yapıyı netleştirir.",
+        "6.Qb3": "Siyahın f5 fili gittiği için b7 zayıf; vezir saldırır.",
+        "6...Qc8": "b7'yi korur.",
+        "7.Bd2": "Bb5+ fikri ve gelişim.",
+        "8.Na3": "At b5'e gidebilir; sakin ama keskin fikirler."
+      }
+    },
+    {
+      "id": "slav-degisim",
+      "group": "Değişim Varyantı",
+      "name": "Değişim Varyantı",
+      "eco": "D14",
+      "moves": "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Bf4 Nc6 6.e3 Bf5 7.Nf3 e6 8.Bb5 Nd7",
+      "names": {
+        "3.cxd5": {
+          "name": "Değişim Slav",
+          "eco": "D13"
+        },
+        "5.Bf4": {
+          "name": "Değişim Slav, ana hat",
+          "eco": "D14"
+        }
+      },
+      "comments": {
+        "3.cxd5": "Değişim: Simetrik bir yapı oluşur. Beyaz ilk hamle avantajıyla hafif bir üstünlük arar; konumlar beraberliğe yatkındır.",
+        "3...cxd5": "Simetri.",
+        "4.Nc3": "Gelişim.",
+        "4...Nf6": "Gelişim.",
+        "5.Bf4": "Fil piyon zincirinin dışında, aktif bir karede.",
+        "5...Nc6": "Siyah e5 karesini kontrol eder.",
+        "6.e3": "Sağlam yapı.",
+        "6...Bf5": "Siyah da filini zincirin dışına çıkarır.",
+        "7.Nf3": "Gelişim.",
+        "7...e6": "Siyah f8 filine yol açar.",
+        "8.Bb5": "c6 atını açmaza alır ve e5 karesine baskı yapar.",
+        "8...Nd7": "e5'i kontrol eder ve ...Be7 ya da ...Bb4 ile gelişimi tamamlamayı hazırlar."
+      }
+    },
+    {
+      "id": "slav-trifunovic",
+      "group": "Değişim Varyantı",
+      "name": "Değişim: 8.Qb3 Bb4 (Trifunovic)",
+      "eco": "D14",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5 5.Nc3 Nc6 6.Bf4 Bf5 7.e3 e6 8.Qb3 Bb4 9.Bb5 O-O",
+      "comments": {
+        "8.Qb3": "b7'ye baskı.",
+        "8...Bb4": "Siyah karşı açmaz kurar.",
+        "9.Bb5": "c6 atını açmaza alır.",
+        "9...O-O": "Simetrik ve dengeli; dikkatli oyun gerektirir."
+      }
+    },
+    {
+      "id": "slav-schlechter",
+      "group": "Diğer 4. hamleler",
+      "name": "Schlechter Slav: 4...g6",
+      "eco": "D15",
+      "moves": "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 g6 5.e3 Bg7 6.Bd3 O-O 7.O-O Bg4",
+      "comments": {
+        "4...g6": "Schlechter: Slav ile Grünfeld yapısının birleşimi.",
+        "5.e3": "Sağlam.",
+        "5...Bg7": "Fil uzun çaprazda.",
+        "6.Bd3": "Gelişim.",
+        "7.O-O": "Şah güvenliği.",
+        "7...Bg4": "Fil aktif; sağlam bir konum."
+      },
+      "names": {
+        "4...g6": {
+          "name": "Schlechter Slav",
+          "eco": "D15"
+        }
+      }
+    }
+  ]
+}

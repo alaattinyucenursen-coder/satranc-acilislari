@@ -1,0 +1,98 @@
+[
+  {
+    "id": "alekhine",
+    "name": "Alekhine Savunması",
+    "eco": "B02-B05",
+    "file": "alekhine.json"
+  },
+  {
+    "id": "caro-kann",
+    "name": "Caro-Kann Savunması",
+    "eco": "B10-B19",
+    "file": "caro-kann.json"
+  },
+  {
+    "id": "fransiz",
+    "name": "Fransız Savunması",
+    "eco": "C00-C19",
+    "file": "fransiz.json"
+  },
+  {
+    "id": "iskandinav",
+    "name": "İskandinav Savunması",
+    "eco": "B01",
+    "file": "iskandinav.json"
+  },
+  {
+    "id": "ispanyol",
+    "name": "İspanyol Açılışı (Ruy Lopez)",
+    "eco": "C60-C99",
+    "file": "ispanyol.json"
+  },
+  {
+    "id": "kapali-sicilya",
+    "name": "Kapalı Sicilya",
+    "eco": "B23-B26",
+    "file": "kapali-sicilya.json"
+  },
+  {
+    "id": "modern",
+    "name": "Modern Savunma",
+    "eco": "B06",
+    "file": "modern.json"
+  },
+  {
+    "id": "nimzo-hint",
+    "name": "Nimzo-Hint Savunması",
+    "eco": "E20-E59",
+    "file": "nimzo-hint.json"
+  },
+  {
+    "id": "petrov",
+    "name": "Petrov (Rus) Savunması",
+    "eco": "C42-C43",
+    "file": "petrov.json"
+  },
+  {
+    "id": "pirc",
+    "name": "Pirc Savunması",
+    "eco": "B07-B09",
+    "file": "pirc.json"
+  },
+  {
+    "id": "sicilya-alapin",
+    "name": "Sicilya Savunması: Alapin Varyantı",
+    "eco": "B22",
+    "file": "sicilya-alapin.json"
+  },
+  {
+    "id": "sicilya-kan",
+    "name": "Sicilya Savunması: Kan Varyantı",
+    "eco": "B41-B43",
+    "file": "sicilya-kan.json"
+  },
+  {
+    "id": "slav",
+    "name": "Slav Savunması",
+    "eco": "D10-D19",
+    "file": "slav.json"
+  },
+  {
+    "id": "smith-morra",
+    "name": "Smith-Morra Gambiti",
+    "eco": "B21",
+    "file": "smith-morra.json"
+  },
+  {
+    "id": "vezir-gambiti",
+    "name": "Vezir Gambiti",
+    "eco": "D06-D69",
+    "file": "vezir-gambiti.json"
+  },
+  {
+    "id": "yari-slav",
+    "name": "Yarı-Slav Savunması",
+    "eco": "D43-D49",
+    "file": "yari-slav.json"
+  }
+]

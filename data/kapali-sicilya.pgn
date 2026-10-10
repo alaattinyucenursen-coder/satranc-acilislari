@@ -1,0 +1,227 @@
+[Event "Grand Prix Saldırısı: 3.f4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "Grand Prix Saldırısı: 3.f4"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... Nc6 {Klasik cevap: Siyah d4'ü kontrol eder ve genellikle ...g6, ...Bg7 ile simetrik bir kuruluşa gider.} 3. f4 {Grand Prix Saldırısı: Beyaz fiyanketto yerine f4 ve Nf3 ile hızlı gelişip şah kanadında saldırı arar.} 3... g6 4. Nf3 {Gelişim.} 4... Bg7 5. Bb5 {Fil c6 atını açmaza alır; Bxc6 ile siyahın piyon yapısını bozmayı düşünür.} 5... Nd4 {Siyah atı merkeze getirir ve fil değişimini teklif eder.} 6. O-O {Beyaz rok yapar; d4 atı rahatsız etmez.} 6... a6 {Fil kovulur.} 7. Bd3 {Fil d3'te e4'ü destekler; sonra Nxd4 ile at değişilecek.} 7... d6 8. Nxd4 {Değişim.} 8... cxd4 {Siyah merkezde d4 piyonuyla alan kazanır.} 9. Ne2 {At d4 piyonuna baskı yapar; c3 ile merkez açılacak.} 9... Nf6 {Dengeli bir konum: beyaz c3 ve f5 ile oynar.} *
+
+[Event "2...d6 3.g3: Ejderha kuruluşu"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "2...d6 3.g3: Ejderha kuruluşu"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... d6 {Siyah Ejderha benzeri bir kuruluşa yönelir.} 3. g3 {Aynı fiyanketto planı.} 3... g6 4. Bg2 Bg7 5. d3 Nf6 {Siyah atını f6'ya getirir: e4'e baskı.} 6. f4 {Şah kanadında alan; f6 atının e4'e baskısına karşı e5 tehdidi de vardır.} 6... O-O {Şah güvenliği.} 7. Nf3 {Gelişim.} 7... Nc6 8. O-O {Şah güvenliği.} 8... Rb8 {Yine ...b5-b4 planı.} 9. h3 {g4 ve Be3 hazırlığı.} 9... b5 {Siyah vezir kanadında ilerler.} 10. a3 {...b4'e axb4 ile cevap verilecek, böylece a hattı açılır. Plan Be3, g4 ve f5. Motor siyahı hafifçe tercih ediyor; konum dengeli bir mücadele.} *
+
+[Event "6.f4 e6 ve ...Nge7"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B25"]
+[Opening "6.f4 e6 ve ...Nge7"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... Nc6 {Klasik cevap: Siyah d4'ü kontrol eder ve genellikle ...g6, ...Bg7 ile simetrik bir kuruluşa gider.} 3. g3 {Fiyanketto: Kapalı Sicilya'nın ana hattı.} 3... g6 {Siyah da fiyanketto ile karşılık verir.} 4. Bg2 {Fil uzun çaprazda.} 4... Bg7 {Siyah fili d4 ve b2'ye bakar.} 5. d3 {Ana konum. Beyazın planları: Be3-Qd2-Bh6 ile g7 filini değişmek, f4-f5 ile şah kanadında oynamak, Nge2 ile esnek kalmak.} 5... d6 {En yaygın hamle: sağlam ve esnek.} 6. f4 {Beyaz şah kanadında alan alır; f5 kırılması ana fikirdir.} 6... e6 {Siyah f5 karesini kontrol eder ve atını e7'ye getirir: f5 kırılmasına karşı en sağlam kuruluş.} 7. Nf3 {Gelişim; e5 ve g5 kontrol edilir.} 7... Nge7 {At e7'den f5 ve d5'i kontrol eder.} 8. O-O {Şah güvenliği.} 8... O-O 9. Be3 {Fil c5'e bakar.} 9... Nd4 {Tipik sıçrayış: at d4'te güçlü, siyah değişim yapmak ister.} 10. Qd2 {Taşlar bağlanır; Bh6 ve f5 fikirleri.} 10... b6 {Fil b7'ye gelecek.} 11. Rae1 {Kale e hattında, e5 veya f5 kırılmasını destekler. Siyah sağlam; konum dengeli, karşılıklı plan oyunu.} *
+
+[Event "5...e6: Be3 ve c3 ile merkez"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B25"]
+[Opening "5...e6: Be3 ve c3 ile merkez"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... Nc6 {Klasik cevap: Siyah d4'ü kontrol eder ve genellikle ...g6, ...Bg7 ile simetrik bir kuruluşa gider.} 3. g3 {Fiyanketto: Kapalı Sicilya'nın ana hattı.} 3... g6 {Siyah da fiyanketto ile karşılık verir.} 4. Bg2 {Fil uzun çaprazda.} 4... Bg7 {Siyah fili d4 ve b2'ye bakar.} 5. d3 {Ana konum. Beyazın planları: Be3-Qd2-Bh6 ile g7 filini değişmek, f4-f5 ile şah kanadında oynamak, Nge2 ile esnek kalmak.} 5... e6 {Siyah ...d6'yı ertelemek ve bazen ...d5 oynamak ister; at e7'ye gelecek.} 6. Be3 {Fil d4 ve c5'e bakar.} 6... Nd4 {Siyah atını hemen merkeze getirir.} 7. Nce2 {Beyaz d4 atına meydan okur: c3 ile atı kovmak ister.} 7... d6 {Gelişim.} 8. c3 {At kovulur.} 8... Nxe2 {Siyah değişir.} 9. Nxe2 {Beyaz atla geri alır ve d4'ü destekler.} 9... Ne7 {Gelişim.} 10. d4 {Beyaz merkezde iki piyonla güçlendi; d3-d4 ile ikinci tempo bile bu kapalı konumda sorun değil.} 10... b6 11. O-O {Şah güvenliği. Beyazın merkez üstünlüğü sayesinde hafif avantajı var.} *
+
+[Event "2...a6 3.g3 b5"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "2...a6 3.g3 b5"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... a6 {O'Kelly benzeri bir hamle: Siyah ...b5 ile hemen vezir kanadında genişlemek ister.} 3. g3 {Beyaz aynı planla devam eder.} 3... b5 {Alan kazanımı ve ...Bb7 hazırlığı.} 4. Bg2 {Fil b7 filine karşı.} 4... Bb7 {Uzun çaprazlarda fil düellosu.} 5. d3 {e4 sağlamlaştı.} 5... e6 {Sağlam yapı.} 6. Nge2 {Tipik gelişim.} 6... d6 {Scheveningen yapısı.} 7. O-O {Şah güvenliği.} 7... Nd7 8. a4 {Beyaz b5 piyonuna hemen saldırır.} 8... b4 {Siyah ilerler.} 9. Nb1 {At d2 üzerinden c4'e gelecek; ...b4 piyonu ileride a3 ve c3 ile hedef olabilir. Dengeli.} *
+
+[Event "6.Be3 Rb8: siyahın vezir kanadı saldırısı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B26"]
+[Opening "6.Be3 Rb8: siyahın vezir kanadı saldırısı"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... Nc6 {Klasik cevap: Siyah d4'ü kontrol eder ve genellikle ...g6, ...Bg7 ile simetrik bir kuruluşa gider.} 3. g3 {Fiyanketto: Kapalı Sicilya'nın ana hattı.} 3... g6 {Siyah da fiyanketto ile karşılık verir.} 4. Bg2 {Fil uzun çaprazda.} 4... Bg7 {Siyah fili d4 ve b2'ye bakar.} 5. d3 {Ana konum. Beyazın planları: Be3-Qd2-Bh6 ile g7 filini değişmek, f4-f5 ile şah kanadında oynamak, Nge2 ile esnek kalmak.} 5... d6 {En yaygın hamle: sağlam ve esnek.} 6. Be3 {Fil c5'e bakar ve Qd2-Bh6 planını hazırlar.} 6... Rb8 {Siyahın klasik planı: ...b5-b4 ile vezir kanadında piyon yürüyüşü.} 7. Qd2 {Beyaz Bh6 planına devam eder.} 7... b5 {Siyah alan kazanır.} 8. Nge2 {At e2'de: c3'ü korur ve f4 serbest kalır.} 8... b4 {c3 atı kovulur.} 9. Nd1 {At d1'e çekilir; buradan e3 veya c3'e (c3 piyonu ile) geçebilir. Bu geri çekilme Kapalı Sicilya'da çok tipiktir.} 9... e6 {Siyah d5 karesini kontrol eder ve atını e7'ye getirecek.} 10. O-O {Şah güvenliği.} 10... Nge7 11. Bh6 {Siyah henüz rok yapmamışken g7 filini değişmek iyidir: ...Bxh6 Qxh6'dan sonra siyah şah merkezde rahatsız kalır. Beyaz biraz daha rahat.} *
+
+[Event "2...e6 3.g3 Nc6 4.Bg2 Nf6"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "2...e6 3.g3 Nc6 4.Bg2 Nf6"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... Nc6 {Gelişim; siyah ...d5 veya ...g6 seçimini erteler.} 4. Bg2 Nf6 {e4'e baskı ve ...d5 hazırlığı.} 5. Nge2 {Esnek gelişim; d4 seçeneği korunur.} 5... d5 {Siyah merkezi açar.} 6. exd5 {Beyaz değişir.} 6... exd5 {Piyonla geri alır.} 7. d4 {d5'i izole etme planı.} 7... cxd4 {Siyah değişir.} 8. Nxd4 {Merkezde at.} 8... Bc5 {Fil d4 atına baskı.} 9. Nxc6 {Beyaz değişir: siyah c6-d5 'asılı piyonlarla' kalır.} 9... bxc6 {Siyahın merkezi güçlü görünür ama piyonlar hedeftir.} 10. O-O {Beyaz Na4, Bg5 ve c4 ile asılı piyonlara baskı kuracak. Konum dengeli.} 10... O-O *
+
+[Event "6.Be3 e5: Qd2 ve Bh6"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B26"]
+[Opening "6.Be3 e5: Qd2 ve Bh6"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... Nc6 {Klasik cevap: Siyah d4'ü kontrol eder ve genellikle ...g6, ...Bg7 ile simetrik bir kuruluşa gider.} 3. g3 {Fiyanketto: Kapalı Sicilya'nın ana hattı.} 3... g6 {Siyah da fiyanketto ile karşılık verir.} 4. Bg2 {Fil uzun çaprazda.} 4... Bg7 {Siyah fili d4 ve b2'ye bakar.} 5. d3 {Ana konum. Beyazın planları: Be3-Qd2-Bh6 ile g7 filini değişmek, f4-f5 ile şah kanadında oynamak, Nge2 ile esnek kalmak.} 5... d6 {En yaygın hamle: sağlam ve esnek.} 6. Be3 {Fil c5'e bakar ve Qd2-Bh6 planını hazırlar.} 6... e5 {Siyah d4 karesini sağlamlaştırır (Botvinnik yapısı).} 7. Qd2 {Bh6 hazırlığı.} 7... Nge7 {At e7'de: f5 kırılmasını desteklemez ama ...Nd4 ve ...f5 planlarıyla uyumludur.} 8. Bh6 {g7 filini değişme teklifi: siyah şahın en iyi savunucusu.} 8... O-O {Siyah rok yapar ve değişime izin verir.} 9. h4 {Beyaz h5 ile h hattını açmak ister: fiyanketto sonrası tipik saldırı.} 9... f6 {Siyah g6 ve e5'i sağlamlaştırır.} 10. Bxg7 {Kara kareli fil değişimi: siyah şahın çevresindeki kara kareler zayıfladı.} 10... Kxg7 11. h5 {h hattı açılmak üzere. Konum dengeli ama beyazın hücum şansları var; siyah ...g5 ile hattı kapatmayı dener.} *
+
+[Event "6.Nge2 e5: Botvinnik yapısı ve f4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B25"]
+[Opening "6.Nge2 e5: Botvinnik yapısı ve f4"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... Nc6 {Klasik cevap: Siyah d4'ü kontrol eder ve genellikle ...g6, ...Bg7 ile simetrik bir kuruluşa gider.} 3. g3 {Fiyanketto: Kapalı Sicilya'nın ana hattı.} 3... g6 {Siyah da fiyanketto ile karşılık verir.} 4. Bg2 {Fil uzun çaprazda.} 4... Bg7 {Siyah fili d4 ve b2'ye bakar.} 5. d3 {Ana konum. Beyazın planları: Be3-Qd2-Bh6 ile g7 filini değişmek, f4-f5 ile şah kanadında oynamak, Nge2 ile esnek kalmak.} 5... d6 {En yaygın hamle: sağlam ve esnek.} 6. Nge2 {Esnek kuruluş: f piyonu serbest, at c3'ü veya f4'ü destekleyebilir.} 6... e5 {Botvinnik yapısı: d4 karesi sağlamlaşır ama d5 ve d6 zayıflar.} 7. O-O {Şah güvenliği.} 7... Nge7 {At f5 kırılmasını destekleyebilir.} 8. f4 {Beyazın kırılması: e5'e baskı ve f hattı.} 8... O-O {Şah güvenliği.} 9. Be3 {Fil c5 ve d4'e bakar.} 9... Nd4 {At d4'te ileri karakol.} 10. Qd2 {Taşlar bağlanır.} 10... exf4 {Siyah değişir ve e5 karesini açar.} 11. Nxf4 {At f4'ten d5'e bakar; f hattı açıldı. Beyaz d6 zayıflığı ve d5 karesi sayesinde rahat oynar.} *
+
+[Event "5...e5: Botvinnik kuruluşu ve 6.f4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B25"]
+[Opening "5...e5: Botvinnik kuruluşu ve 6.f4"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... Nc6 {Klasik cevap: Siyah d4'ü kontrol eder ve genellikle ...g6, ...Bg7 ile simetrik bir kuruluşa gider.} 3. g3 {Fiyanketto: Kapalı Sicilya'nın ana hattı.} 3... g6 {Siyah da fiyanketto ile karşılık verir.} 4. Bg2 {Fil uzun çaprazda.} 4... Bg7 {Siyah fili d4 ve b2'ye bakar.} 5. d3 {Ana konum. Beyazın planları: Be3-Qd2-Bh6 ile g7 filini değişmek, f4-f5 ile şah kanadında oynamak, Nge2 ile esnek kalmak.} 5... e5 {Botvinnik kuruluşu: Siyah d4'ü kalıcı olarak kontrol eder ve ...Nge7 ile ...f5 planlar.} 6. f4 {e5'e hemen baskı.} 6... d6 7. Nf3 {e5 hedef.} 7... Nge7 {At e7'de, ...f5'i destekleyebilir.} 8. O-O {Şah güvenliği.} 8... O-O 9. Be3 {d4'e baskı.} 9... Nd4 {At ileri karakolda.} 10. Qd2 {Taşlar bağlanır; Bh6 fikri.} 10... exf4 {Siyah merkezi açar.} 11. Bxf4 {Fil d6'ya baskı yapar; f hattı açık. Konum dengeli; beyaz Bh6 ile g7 filini değişmeyi düşünür.} *
+
+[Event "4...Nf6 5.exd5 exd5 6.d4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...Nf6 5.exd5 exd5 6.d4"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... d5 {Siyahın en doğrudan cevabı: merkezde hemen hesap sorar.} 4. Bg2 {Beyaz e4'ü fil ile destekler; 4.exd5 de oynanır ama fiyanketto ile devam etmek planın doğal parçasıdır.} 4... Nf6 {Siyah e4'e baskıyı artırır.} 5. exd5 {Beyaz değişir: siyaha d5'te yalnız bir merkez piyonu kalacak.} 5... exd5 {Piyonla geri alır; 5...Nxd5 6.Nge2 de oynanır.} 6. d4 {c5'e saldırır; amaç d5'i izole bir hedef haline getirmek.} 6... Nc6 {d4'e baskı.} 7. Nge2 {d4 desteklenir.} 7... cxd4 {Siyah merkezi netleştirir ama izole d5 piyonuyla kalır.} 8. Nxd4 {At merkezde, d5 hedef.} 8... Bc5 {Fil d4 atına baskı yapar.} 9. Nb3 {At tempo kazanarak fili kovar ve d4'ten çekilir.} 9... Bb6 {Fil a7-g1 çaprazında kalır.} 10. O-O {Şah güvenliği.} 10... O-O 11. Bg5 {f6 atı açmazda: d5'in savunucusu zayıflıyor. Beyaz izole d5 piyonuna karşı hafif üstün.} *
+
+[Event "4...d4 5.Nce2: kapalı merkez"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...d4 5.Nce2: kapalı merkez"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... d5 {Siyahın en doğrudan cevabı: merkezde hemen hesap sorar.} 4. Bg2 {Beyaz e4'ü fil ile destekler; 4.exd5 de oynanır ama fiyanketto ile devam etmek planın doğal parçasıdır.} 4... d4 {Siyah alan kazanır ve c3 atını kovar.} 5. Nce2 {At e2'ye çekilir; buradan g3'teki fiyanketto ile birlikte f4'ü destekler veya Nf4 ile oyuna girer.} 5... Nc6 {Gelişim, d4 ve e5 korunur.} 6. d3 {Yapı kapanır: Kral Hint Savunması'nın renkleri değişmiş bir türü. Beyaz şah kanadında, siyah vezir kanadında oynar.} 6... e5 {Siyah merkezi sabitler.} 7. f4 {Beyazın tipik kırılması: e5'e baskı ve f hattının açılması.} 7... Bd6 {e5 desteklenir.} 8. Nf3 {e5'e baskı.} 8... Nge7 9. O-O {Şah güvenliği.} 9... O-O 10. Nh4 {At f5'e yönelir ve f piyonunu destekler.} 10... f6 {Siyah e5'i sağlamlaştırır.} 11. f5 {Kral Hint usulü saldırı: beyaz g4-g5 ile şah kanadında piyon yürüyüşü yapacak, siyah ise ...c4 ve ...b5 ile vezir kanadında karşılık verecek. Dengeli ve keskin.} *
+
+[Event "4...dxe4 5.Nxe4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...dxe4 5.Nxe4"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... d5 {Siyahın en doğrudan cevabı: merkezde hemen hesap sorar.} 4. Bg2 {Beyaz e4'ü fil ile destekler; 4.exd5 de oynanır ama fiyanketto ile devam etmek planın doğal parçasıdır.} 4... dxe4 {Siyah değişir ve merkezi açar.} 5. Nxe4 {At merkezde güçlü bir karede; g2 fili artık uzun çaprazda b7'ye kadar açık.} 5... Nf6 {Siyah e4 atına meydan okur.} 6. Nxf6+ {Taş değişimi; beyaz vezirin f6'ya gelmesine izin verir.} 6... Qxf6 {Vezir aktif ama ileride Bg5 veya Ne4 gibi hamlelerle tempo kaybedebilir.} 7. Nf3 {Gelişim ve kısa roka hazırlığı.} 7... Nc6 8. O-O {Şah güvenliği.} 8... Be7 9. d3 {c1 filine yol açılır.} 9... O-O 10. Be3 {c5 piyonuna baskı.} 10... b6 {c5 korunur ve fil b7'ye gelecek.} 11. Nd2 {At c4 veya e4'e yönelir; g2 filinin çaprazı açılır. Konum dengeli; beyazın daha iyi taş uyumu ve g2 filinin gücü var.} *
+
+[Event "4...b5: vezir kanadında genişleme"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...b5: vezir kanadında genişleme"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... a6 {Esnek bir hamle: Siyah ...b5 ile vezir kanadında yer kazanmak ve b7 filini g2 filine karşı yerleştirmek ister.} 4. Bg2 {Fil uzun çaprazda; e4'ü destekler ve ...d5 kırılmasını zorlaştırır.} 4... b5 {Siyah vezir kanadında yer alır; ...Bb7 ile e4'e baskı kurar ve ...b4 ile c3 atını kovmayı düşünür.} 5. d3 {Kapalı yapının temel hamlesi: e4 sağlamlaşır, c1 filine yol açılır.} 5... Bb7 {Fil uzun çaprazda e4'e baskı yapar.} 6. Nge2 {At e2'ye gelir ki f piyonu serbestçe f4'e ilerleyebilsin. Bu, Kapalı Sicilya'nın tipik at yerleşimidir.} 6... d6 {Siyah sağlam Scheveningen yapısını kurar.} 7. O-O {Şah güvenliği; artık f4 için her şey hazır.} 7... Nd7 8. a3 {...b4 hamlesini önler: siyah b4 oynarsa axb4 ile a hattı açılır ve c3 atı yerinde kalır.} 8... Ngf6 9. h3 {g4'ü hazırlar ve e3 filine ...Ng4 rahatsızlığını önler.} 9... Be7 10. f4 {Beyazın ana planı: f4 ve g4 ile şah kanadında piyon yürüyüşü.} 10... O-O 11. g4 {Beyaz g5 ile f6 atını kovmak ve f5 ile saldırıyı açmak ister. Konum dengeli ve karşılıklı şansa sahip; siyah merkezde ...d5 veya vezir kanadında ...b4 ile karşı oyun arar.} *
+
+[Event "4...Nc6 ve ...Rb8/...b5 planı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...Nc6 ve ...Rb8/...b5 planı"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... a6 {Esnek bir hamle: Siyah ...b5 ile vezir kanadında yer kazanmak ve b7 filini g2 filine karşı yerleştirmek ister.} 4. Bg2 {Fil uzun çaprazda; e4'ü destekler ve ...d5 kırılmasını zorlaştırır.} 4... Nc6 {Siyah d4 karesini kontrol eder; ...Nd4 sıçrayışı her zaman bir seçenektir.} 5. d3 d6 {Sağlam ve esnek yapı.} 6. Nge2 {At e2'de: f4 serbest kalır ve gerektiğinde c3'ü ya da d4'ü destekleyebilir.} 6... Nf6 7. O-O {Şah güvenliği.} 7... Be7 8. h3 {g4 ve f4 ilerleyişinin hazırlığı.} 8... O-O 9. f4 {Şah kanadında alan kazanımı.} 9... Rb8 {Siyah ...b5-b4 ile vezir kanadında piyon saldırısını hazırlar: iki taraf zıt kanatlarda oynar.} 10. g4 {Beyaz g5 ile f6 atını kovmak ister.} 10... b5 11. Ng3 {At f5 ve h5 karelerine yönelir; şah kanadı saldırısına katılır. Siyah ...b4 ile c3 atını kovacak; mücadele dengeli ve hızlıdır.} *
+
+[Event "4...d6: f4 ve g4 ile saldırı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...d6: f4 ve g4 ile saldırı"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... a6 {Esnek bir hamle: Siyah ...b5 ile vezir kanadında yer kazanmak ve b7 filini g2 filine karşı yerleştirmek ister.} 4. Bg2 {Fil uzun çaprazda; e4'ü destekler ve ...d5 kırılmasını zorlaştırır.} 4... d6 {Scheveningen tarzı sağlam yapı.} 5. d3 Nc6 6. f4 {Bu sefer beyaz f piyonunu önce ilerletir ve atını f3'e getirir: Grand Prix fikriyle karışık bir kuruluş.} 6... Nf6 7. Nf3 {At e5 ve g5'i kontrol eder; e5 kırılması bir fikir olabilir.} 7... Be7 8. O-O {Şah güvenliği.} 8... O-O 9. h3 {g4 hazırlığı ve ...Bg4 / ...Ng4'ün önlenmesi.} 9... b5 {Siyah vezir kanadında hızla yer kazanır.} 10. Be3 {Fil c5'e bakar ve vezirle Qd2 bağlantısı kurulur. Plan g4 ve f5; siyah ...b4 ve ...Bb7 ile karşı oyun arar. Motor siyahı hafifçe tercih ediyor; beyaz saldırıyı sabırla hazırlamalı.} *
+
+[Event "4...Ne7 ve ...g6 kuruluşu"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...Ne7 ve ...g6 kuruluşu"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... a6 {Esnek bir hamle: Siyah ...b5 ile vezir kanadında yer kazanmak ve b7 filini g2 filine karşı yerleştirmek ister.} 4. Bg2 {Fil uzun çaprazda; e4'ü destekler ve ...d5 kırılmasını zorlaştırır.} 4... Ne7 {Siyah atını e7'ye getirir: ...Nbc6 ve ...g6 ile çift fiyanketto benzeri bir kuruluş hedefler; at gerektiğinde d5'i de destekler.} 5. Nge2 {Simetrik ve sağlam gelişim; f4 seçeneği açık kalır.} 5... Nbc6 6. d3 {e4 sağlamlaşır.} 6... d6 7. O-O g6 {Siyah filini g7'ye getirir.} 8. Be3 {Fil c5'e bakar ve Qd2 ile Bh6 planını hazırlar.} 8... Bg7 9. Qd2 {Vezir ve fil aynı çaprazda: Bh6 ile siyahın güçlü g7 filini değişmek ister.} 9... O-O 10. Bh6 {g7 filinin değişimi siyah şahın çevresini zayıflatır. Konum dengeli; beyaz ileride f4-f5 ile oynayabilir.} *
+
+[Event "4...d5: merkezin açılması"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...d5: merkezin açılması"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... a6 {Esnek bir hamle: Siyah ...b5 ile vezir kanadında yer kazanmak ve b7 filini g2 filine karşı yerleştirmek ister.} 4. Bg2 {Fil uzun çaprazda; e4'ü destekler ve ...d5 kırılmasını zorlaştırır.} 4... d5 {Siyah merkezi hemen açar, ancak ...a6 ile bir tempo harcadığı için bu, ...d5'in iyi zamanı değildir.} 5. exd5 {Beyaz değişir ve siyaha d5'te tek bir merkez piyonu bırakır.} 5... exd5 {Siyah merkez piyonuyla geri alır.} 6. d4 {Şimdi d4 iyidir: c5 piyonuna saldırır ve d5'i yalnız bırakmaya (izole piyon) çalışır.} 6... Nf6 7. Nge2 {At d4'ü destekler ve g2 filinin d5 üzerindeki baskısını açık tutar.} 7... Nc6 8. O-O {Şah güvenliği.} 8... Be7 9. Bg5 {f6 atı açmazda: d5 piyonunun savunucusu zayıflar.} 9... cxd4 {Siyah piyonu değişir ama d5 izole kalır.} 10. Nxd4 {Beyaz d5'teki izole piyona baskı yapar: g2 fili, c3 atı ve d hattı. Beyaz hafif üstün.} 10... O-O *
+
+[Event "4...Nc6 5.exd5 exd5 6.Nge2"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "B23"]
+[Opening "4...Nc6 5.exd5 exd5 6.Nge2"]
+
+1. e4 {Beyaz merkezi e4 piyonuyla tutar, fil ve vezire yol açar.} 1... c5 {Sicilya: Siyah d4 karesini yandan, c piyonuyla kontrol eder; dengesiz ve kazanmaya yönelik bir savunma.} 2. Nc3 {Kapalı Sicilya: Beyaz d4 ile merkezi açmaz. At e4'ü ve d5'i destekler; plan g3, Bg2, d3 ve ardından f4 ile şah kanadında yer kazanmaktır. Az ezber, çok plan gerektiren bir sistem.} 2... e6 {Siyah ...d5 ile merkezde karşılık vermeye hazırlanır; ayrıca ...a6 ve ...b5 ile vezir kanadında genişleyebilir.} 3. g3 {Fiyanketto hazırlığı: g2'deki fil uzun çaprazdan d5 ve b7'ye baskı yapacak.} 3... d5 {Siyahın en doğrudan cevabı: merkezde hemen hesap sorar.} 4. Bg2 {Beyaz e4'ü fil ile destekler; 4.exd5 de oynanır ama fiyanketto ile devam etmek planın doğal parçasıdır.} 4... Nc6 {Gelişim; d4 karesi kontrol edilir.} 5. exd5 exd5 6. Nge2 {Beyaz önce gelişir; d4 hamlesini doğru ana saklar.} 6... Nf6 {Gelişim.} 7. O-O Be7 8. d4 {Şimdi d4: c5'e baskı ve d5'e karşı oyun.} 8... O-O 9. Bg5 {d5'in savunucusu f6 atı açmazda.} 9... c4 {Siyah izole piyondan kaçınmak için vezir kanadında alan alır ama d5 geri kalır ve c4 hedef olur.} 10. b3 {Beyaz hemen c4 zincirine saldırır; cxb3 axb3'ten sonra a hattı açılır ve d5 zayıf kalır. Beyaz daha iyi.} *

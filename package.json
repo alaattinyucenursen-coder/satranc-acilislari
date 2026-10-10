@@ -1,0 +1,22 @@
+{
+  "name": "satranc-acilislari",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Satranç açılışları: varyant ağaçları, etkileşimli tahta ve antrenman modu",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-openings.mjs",
+    "check": "node tools/build-openings.mjs --check",
+    "app": "node tools/build-app.mjs"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.6.9",
+    "chess.js": "^1.4.0",
+    "stockfish.js": "^10.0.2"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/core": "^7.6.9"
+  }
+}

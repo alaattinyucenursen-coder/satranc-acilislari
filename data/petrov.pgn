@@ -1,0 +1,203 @@
+[Event "3.d4 Nxe4 4.Bd3 d5 5.Nxe5"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C43"]
+[Opening "3.d4 Nxe4 4.Bd3 d5 5.Nxe5"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. d4 {Daha az teorik bir alternatif: beyaz merkezi hemen açar, simetriyi bozar.} 3... Nxe4 {Ana yanıt: Siyah da piyon alır.} 4. Bd3 {Fil e4 atına saldırır.} 4... d5 {At desteklenir.} 5. Nxe5 {Beyaz piyonunu geri kazanır; merkezde iki güçlü at karşı karşıya.} 5... Nd7 {e5 atını değiştirmeye zorlar.} 6. Nxd7 {Değişim.} 6... Bxd7 7. O-O {Rok.} 7... Bd6 {Aktif fil; h2'ye bakar.} 8. c4 {Klasik merkez baskısı.} 8... c6 9. cxd5 {c hattı açılır.} 9... cxd5 10. Nc3 {e4 atı değişir.} 10... Nxc3 11. bxc3 {Beyaz yarı açık b hattına sahip.} 11... O-O 12. Qh5 {h7 ve d5 piyonlarına çift saldırı.} 12... f5 {Siyah h7 ve şahı kapatır. Beyaz Qf3 ile d5'e baskı yapar; konum dengeli, beyaz hafif aktif.} *
+
+[Event "3.Nc3 Nc6 4.Bb5: İspanyol Dört At"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C49"]
+[Opening "3.Nc3 Nc6 4.Bb5: İspanyol Dört At"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nc3 {Petrov'un teorisinden kaçmanın sakin yolu. Siyah 3...Nc6 ile Dört At'a geçer; 3...Bb4 ile kendi yolunu da seçebilir.} 3... Nc6 {En yaygın: Dört At Oyunu.} 4. Bb5 {İspanyol tarzı: c6 atına baskı. (4.d4 İskoç Dört At da iyi bir seçenek.)} 4... Bb4 {Simetrik kuruluş.} 5. O-O {Rok.} 5... O-O 6. d3 {Sağlam merkez.} 6... d6 7. Bg5 {Simetriyi bozar: f6 atını açmaza alır.} 7... Bxc3 {Siyah filini değişir.} 8. bxc3 {Beyaz iki file ve merkezde ek bir piyona sahip.} 8... Qe7 {Metger açmaz kırılışı: ...Nd8-e6 ile g5 filini kovalayacak.} 9. Re1 {d4 hazırlığı.} 9... Nd8 10. d4 {Merkezi genişletir.} 10... Ne6 {Fili kovalar.} 11. Bc1 {Fil geri döner, Bf1 ve a4 manevraları sonra gelir.} 11... c5 {Siyah d4'e baskı yapar. Beyazın iki fili ve merkez avantajı var; motor beyazı hafif üstün görüyor.} *
+
+[Event "6...Bd6: aktif fil"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "6...Bd6: aktif fil"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. d4 {Klasik: merkezi genişletir ve e4 atını d3 fili ile kovalamaya hazırlanır. Plan: Bd3, O-O, c4 ve Re1 ile e4 atına baskı.} 5... d5 {Siyah atını e4'te sağlamlaştırır.} 6. Bd3 {Fil e4 atını hedefler ve kısa roka hazırlanır.} 6... Bd6 {Fil şah kanadına bakan aktif kareye çıkar; siyahın saldırı fikirleri olabilir.} 7. O-O O-O 8. c4 {Yine merkez gerginliği.} 8... c6 {d5 desteklenir.} 9. Re1 {e4 atına baskı.} 9... Bf5 {At desteklenir.} 10. Qb3 {b7 piyonuna saldırı; d5'e baskı.} 10... Qd7 {Vezir b7'yi dolaylı korur ve f5 filini destekler.} 11. Nc3 {e4 atına bir saldırı daha.} 11... Nxc3 12. Bxf5 {Ara hamle: önce filler değişir.} 12... Qxf5 13. bxc3 {Beyaz yarı açık b hattı ve b7 baskısıyla rahat bir konuma sahip; motor küçük bir beyaz üstünlüğü gösteriyor.} *
+
+[Event "5.Qe2: vezir değişimi ve uzun rok"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "5.Qe2: vezir değişimi ve uzun rok"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. Qe2 {Sakin bir silah: e hattındaki açmaz yüzünden siyah vezirle karşılık vermeli. Beyaz, beraberliğe yakın ama riski olmayan bir oyunsonuna benzer konum arar.} 5... Qe7 {En yaygın ve güvenli yanıt: e hattındaki açmaz tehlikelerine karşı vezir vezirle karşılanır.} 6. d3 {At geri çekilmek zorunda.} 6... Nf6 7. Bg5 {Fil aktif gelişir ve f6 atına baskı yapar.} 7... Qxe2+ {Vezirler değişir.} 8. Bxe2 {Beyaz gelişimde öndedir.} 8... Be7 9. Nc3 {Gelişim; Nb5 veya Nd4-b5 fikirleri.} 9... c6 10. O-O-O {Şah oyunsonu için merkeze yakın, kale d hattında.} 10... Na6 11. Rhe1 {e hattında baskı; e7 fili açmazda.} 11... Nc7 {At e6'ya gelmeye hazırlanır. Beyazın rahat ve risksiz bir avantajı var; motor beyazı hafif üstün görüyor.} *
+
+[Event "5.Nc3 Nxc3 6.dxc3 Be7: zıt rok planı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "5.Nc3 Nxc3 6.dxc3 Be7: zıt rok planı"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. Nc3 {Günümüzün en popüler sistemi: e4 atını değiştirmeye zorlar. Plan basit ve tehlikeli: Be3, Qd2, uzun rok ve h4-g4 piyon yürüyüşü.} 5... Nxc3 {Neredeyse zorunlu; at değişir.} 6. dxc3 {Beyaz bilerek çift piyon alır: karşılığında d hattı açılır ve taşlar hızla gelişir.} 6... Be7 {Sağlam gelişim.} 7. Be3 {Fil gelişir, vezir için d2 açılır.} 7... O-O {Siyah kısa rok yapar; artık zıt rok kesinleşiyor.} 8. Qd2 {Uzun roka hazırlık.} 8... Nd7 {At f6'ya giderek şahı savunacak.} 9. O-O-O {Uzun rok: d hattında kale, h ve g piyonları ileri.} 9... Nf6 {Savunmacı at.} 10. Bd3 {Fil şah kanadına bakar.} 10... Re8 {e hattı.} 11. h4 {Saldırı başlar: h5, g4-g5 fikirleri. Konum dengeli ama keskin; pratikte siyahın savunması kolay değildir.} *
+
+[Event "6...Nc6 7.O-O Be7 8.c4 Nb4: Jaenisch Varyantı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "6...Nc6 7.O-O Be7 8.c4 Nb4: Jaenisch Varyantı"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. d4 {Klasik: merkezi genişletir ve e4 atını d3 fili ile kovalamaya hazırlanır. Plan: Bd3, O-O, c4 ve Re1 ile e4 atına baskı.} 5... d5 {Siyah atını e4'te sağlamlaştırır.} 6. Bd3 {Fil e4 atını hedefler ve kısa roka hazırlanır.} 6... Nc6 {En aktif kuruluş: d4'e baskı yapar.} 7. O-O {Rok; e hattı yakında açılacak.} 7... Be7 {Ana hat: sağlam gelişim.} 8. c4 {Beyazın ana fikri: d5 desteğini sorgular, e4 atının dayanağını zayıflatır.} 8... Nb4 {Jaenisch: at, beyazın güçlü d3 filini hedefler.} 9. Be2 {Fil değişimden kaçar; beyaz iki filini korur.} 9... O-O {Siyah rok yapar.} 10. Nc3 {e4 atına bir saldırgan daha.} 10... Bf5 {e4 atını destekler.} 11. a3 {b4 atını kovalar.} 11... Nxc3 {Siyah değişimi kendisi yapar.} 12. bxc3 {Beyaz yarı açık b hattı ve merkezde c3-d4 piyonları kazanır.} 12... Nc6 {At geri döner.} 13. Re1 {e hattı kontrolü.} 13... Re8 {Siyah e hattında karşı koyar.} 14. Bf4 {Fil aktif kareye çıkar.} 14... dxc4 {Siyah gerginliği çözer.} 15. Bxc4 {Fil c4'te güzel bir çaprazda.} 15... Bd6 {Kara kareli filleri değiştirmeyi önerir.} 16. Rxe8+ {e hattında değişimler.} 16... Qxe8 17. Bxd6 {Değişimlerden sonra konum dengeli; beyazın taşları biraz daha aktif. Petrov'da beklenen tipik sonuç: küçük ama kalıcı bir baskı.} 17... cxd6 *
+
+[Event "6...Be7: sade gelişim"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "6...Be7: sade gelişim"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. d4 {Klasik: merkezi genişletir ve e4 atını d3 fili ile kovalamaya hazırlanır. Plan: Bd3, O-O, c4 ve Re1 ile e4 atına baskı.} 5... d5 {Siyah atını e4'te sağlamlaştırır.} 6. Bd3 {Fil e4 atını hedefler ve kısa roka hazırlanır.} 6... Be7 {Atı c6'ya değil d7'ye getirmeyi düşünen sağlam bir sıralama.} 7. O-O O-O 8. c4 {Beyazın standart planı burada da işler.} 8... c6 {d5'i piyonla destekler.} 9. Nc3 {e4 atına saldırır.} 9... Nxc3 {Değişim.} 10. bxc3 {Beyaz merkezde c3-d4 piyonlarına ve b hattına sahip.} 10... dxc4 {Siyah gerginliği çözer.} 11. Bxc4 {Fil aktif çapraza geçer.} 11... Nd7 {At b6 üzerinden d5'e gelmeyi planlar.} 12. Re1 {e hattı ve e7 filine baskı.} 12... Nb6 13. Bb3 {Fil güçlü çaprazda kalır. Beyazın alan ve aktiflik üstünlüğü var; motor beyazı hafif üstün görüyor.} *
+
+[Event "8.Re1 Bg4 9.c3 f5: klasik sistem"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "8.Re1 Bg4 9.c3 f5: klasik sistem"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. d4 {Klasik: merkezi genişletir ve e4 atını d3 fili ile kovalamaya hazırlanır. Plan: Bd3, O-O, c4 ve Re1 ile e4 atına baskı.} 5... d5 {Siyah atını e4'te sağlamlaştırır.} 6. Bd3 {Fil e4 atını hedefler ve kısa roka hazırlanır.} 6... Nc6 {En aktif kuruluş: d4'e baskı yapar.} 7. O-O {Rok; e hattı yakında açılacak.} 7... Be7 {Ana hat: sağlam gelişim.} 8. Re1 {c4 yerine eski ana hat: önce e4 atına kale ile baskı.} 8... Bg4 {Siyah f3 atını açmaza alır.} 9. c3 {d4'ü sağlamlaştırır, Qb3 ile b7'ye bakmaya hazırlanır.} 9... f5 {e4 atını f piyonuyla destekler: tipik Petrov kalesi.} 10. Nbd2 {e4 atını değiştirmeye çalışır.} 10... O-O 11. Qb3 {b7 ve d5'e baskı; siyahın ...O-O sonrası a2-g8 çaprazı da önemli.} 11... Kh8 {Şah çaprazdan çekilir; b7 taktik nedenlerle korunur (Qxb7 sonrası Rf6-Rb6 tehlikeleri).} 12. Nf1 {At Ng3 ile e4 atını değiştirmeye gider. Konum dengeli ve karmaşık; siyahın e4 atı güçlü, beyaz sabırla bu atı değiştirmeye çalışır.} *
+
+[Event "3.d4 exd4 4.e5 Ne4 5.Qxd4"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C43"]
+[Opening "3.d4 exd4 4.e5 Ne4 5.Qxd4"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. d4 {Daha az teorik bir alternatif: beyaz merkezi hemen açar, simetriyi bozar.} 3... exd4 {Siyah merkez piyonunu alır.} 4. e5 {Tempo: f6 atı kovalanır.} 4... Ne4 {At aktif kalır.} 5. Qxd4 {Beyaz piyonu geri alır; vezir merkezde güçlü.} 5... d5 {Siyah e4 atını destekler.} 6. exd6 {Geçerken alma.} 6... Nxd6 7. Bd3 {Hızlı gelişim, h7'ye bakış.} 7... Nc6 8. Qf4 {Vezir güvenli ve aktif bir kareye çekilir.} 8... g6 {Siyah fiyanketto kurar.} 9. O-O {Rok.} 9... Bg7 10. Re1+ {Siyah şah henüz merkezde ve beyaz daha hızlı gelişti; ancak siyah ...Be6 ve ...O-O ile rahatça dengeyi korur. Motor konumu dengeli görüyor.} *
+
+[Event "5.c4: Kaufmann Hücumu"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "5.c4: Kaufmann Hücumu"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. c4 {d5'i önler ve Nc3 ile e4 atını kovalamaya hazırlanır.} 5... Nc6 {Hızlı gelişim.} 6. Nc3 {e4 atı değişmek zorunda.} 6... Nxc3 7. dxc3 {Nimzowitsch'tekine benzer yapı, ama c4 piyonu d5'i de kontrol ediyor.} 7... Ne5 {At değişimi arar.} 8. Be2 {Fil gelişir; Nxf3+'yı kabul eder.} 8... Nxf3+ 9. Bxf3 {Fil uzun çaprazda güçlü.} 9... Be7 10. O-O {Şah güvende.} 10... O-O 11. Re1 {e hattı. Beyazın iki fili ve alan üstünlüğü var; konum dengeli ama beyaz için daha rahat.} *
+
+[Event "8.c4 Nf6: geri çekilme ve izole piyon"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "8.c4 Nf6: geri çekilme ve izole piyon"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. d4 {Klasik: merkezi genişletir ve e4 atını d3 fili ile kovalamaya hazırlanır. Plan: Bd3, O-O, c4 ve Re1 ile e4 atına baskı.} 5... d5 {Siyah atını e4'te sağlamlaştırır.} 6. Bd3 {Fil e4 atını hedefler ve kısa roka hazırlanır.} 6... Nc6 {En aktif kuruluş: d4'e baskı yapar.} 7. O-O {Rok; e hattı yakında açılacak.} 7... Be7 {Ana hat: sağlam gelişim.} 8. c4 {Beyazın ana fikri: d5 desteğini sorgular, e4 atının dayanağını zayıflatır.} 8... Nf6 {At geri çekilir; konum İzole Vezir Piyonu yapısına dönmeye hazırlanır.} 9. Nc3 {Doğal gelişim; d5'e baskı.} 9... O-O 10. h3 {g4 karesini alır; Bg4 açmazını engeller.} 10... dxc4 {Siyah c4'te piyon alır, beyaz d4'te izole piyonla kalır.} 11. Bxc4 {Fil tempo kaybetmeden geri alır.} 11... Na5 {Fili kovalar.} 12. Bd3 {Fil şah kanadına bakan çaprazda kalır.} 12... Be6 {d5 karesini kontrol eder (izole piyonun önü).} 13. Re1 {e hattına kale; Ne5 ve şah kanadı saldırısı fikirleri.} 13... c5 {Siyah d4 piyonunu hemen sorgular.} 14. Be3 {d4'ü korur. Beyaz aktif taşlar ve alan avantajıyla hafif üstün; motor da beyazı tercih ediyor.} *
+
+[Event "3.Nxe5 d6 4.Nxf7: Cochrane Gambiti"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "3.Nxe5 d6 4.Nxf7: Cochrane Gambiti"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nxf7 {Cochrane: at f7'de feda edilir. Beyaz iki piyon ve siyah şahın açıklığı karşılığında taş verir. Objektif olarak siyah iyi ama pratikte savunması zor; sürpriz silah.} 4... Kxf7 {Siyah fedayı kabul eder.} 5. d4 {Güçlü piyon merkezi: e5 ve f4 ile yürüyüş planı.} 5... g6 {Siyah fiyanketto ile şahını güvene almaya çalışır.} 6. Nc3 {Gelişim.} 6... Bg7 7. Bc4+ {Şah çekerek a2-g8 çaprazını kullanır.} 7... Be6 {Araya fil girer.} 8. Bxe6+ {Değişim; siyah şah merkeze çekilir.} 8... Kxe6 9. f4 {Piyon fırtınası: e5 ile f6 atını kovalamak.} 9... Kf7 {Şah geri çekilir.} 10. O-O {Kale f hattına bağlanır.} 10... Rf8 {Siyah f hattını savunur.} 11. e5 {At kovalanır.} 11... Nfd7 {Tek iyi kare.} 12. Qf3 {Vezir f hattına ve b7'ye bakar; Qd5+ fikri.} 12... Kg8 {Şah g8'e saklanır. Beyazın güçlü merkezi ve inisiyatifi taş eksiğini telafi ediyor; motor konumu yaklaşık dengeli görüyor.} *
+
+[Event "3...Nxe4 4.Qe2 Qe7: siyahın en iyi savunması"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "3...Nxe4 4.Qe2 Qe7: siyahın en iyi savunması"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... Nxe4? {Yaygın bir hata: simetriyi sürdürmek doğal görünür ama e hattı açıldığı için siyah şah tehlikede.} 4. Qe2! {Vezir e hattında e4 atına saldırır. Atın geri çekilmesi beyaz ata açarak şah imkânı verir.} 4... Qe7 {Siyahın en iyisi: vezirle karşı açmaz.} 5. Qxe4 {Beyaz atı alır; siyah d6 ile e5 atını açmaza alarak geri kazanacak.} 5... d6 {e5 atı açmazda; düşecek.} 6. d4 {Atı korur.} 6... dxe5 {Siyah taşını geri alır.} 7. dxe5 {Materyal eşit.} 7... Nc6 {e5 piyonuna baskı.} 8. Nc3 {Gelişim önceliği.} 8... Qxe5 {Siyah piyonu alır, vezir değişimi kaçınılmaz.} 9. Qxe5+ {Vezirler değişir.} 9... Nxe5 10. Bf4 {Beyaz gelişimde öndedir; Nb5 ve O-O-O ile c7'ye baskı kurar. Materyal eşit ama inisiyatif beyazda: hatanın bedeli bu kez sadece küçük bir avantaj.} *
+
+[Event "6...Nc6 ve iki taraf da uzun rok"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "6...Nc6 ve iki taraf da uzun rok"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... d6 {Doğru sıra! Hemen 3...Nxe4? 4.Qe2 ile sorun yaşar.} 4. Nf3 {At geri çekilir; en yaygın kare.} 4... Nxe4 {Siyah piyonu geri alır; materyal eşit.} 5. Nc3 {Günümüzün en popüler sistemi: e4 atını değiştirmeye zorlar. Plan basit ve tehlikeli: Be3, Qd2, uzun rok ve h4-g4 piyon yürüyüşü.} 5... Nxc3 {Neredeyse zorunlu; at değişir.} 6. dxc3 {Beyaz bilerek çift piyon alır: karşılığında d hattı açılır ve taşlar hızla gelişir.} 6... Nc6 {Siyah da hızlı gelişip uzun roka hazırlanabilir.} 7. Be3 {Standart kuruluş.} 7... Be6 {a7'ye bakan beyaz fili karşılamak için.} 8. Qd2 {Uzun rok hazırlığı.} 8... Qd7 {Siyah da aynı kuruluşu seçer.} 9. O-O-O {Beyaz önce rok yapar.} 9... Be7 10. Kb1 {Şahı güvenli kareye çeker; a2'yi korur.} 10... O-O-O {Simetrik kuruluş.} 11. Bd3 {Fil gelişir; beyaz Rhe1 ve h4 ile oynar. Konum dengeli; beyaz daha rahat gelişmiş.} *
+
+[Event "3...Nxe4? 4.Qe2 Nf6?? 5.Nc6+: vezir kaybı"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "3...Nxe4? 4.Qe2 Nf6?? 5.Nc6+: vezir kaybı"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... Nxe4? {Yaygın bir hata: simetriyi sürdürmek doğal görünür ama e hattı açıldığı için siyah şah tehlikede.} 4. Qe2! {Vezir e hattında e4 atına saldırır. Atın geri çekilmesi beyaz ata açarak şah imkânı verir.} 4... Nf6?? {Doğal ama büyük hata! e hattı tamamen açılır.} 5. Nc6+ {Açarak şah! e5'teki at hem şah çekilmesini sağlar hem de d8 vezirine saldırır.} 5... Be7 6. Nxd8 {Beyaz veziri alır.} 6... Kxd8 {Beyaz vezir karşılığında at kazanmıştır; kesin kazanılmış konum.} *
+
+[Event "Stafford: 5.d3 Bc5 6.Be2! ile güvenli savunma"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "Stafford: 5.d3 Bc5 6.Be2! ile güvenli savunma"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... Nc6 {Stafford Gambiti: siyah piyon feda eder, açık hatlar ve tuzaklar için. Objektif olarak çürük ama hazırlıksız beyaz için çok tehlikeli.} 4. Nxc6 {En basit: atı değiştirir.} 4... dxc6 {Siyah d ve f8-c5 hatlarını açar; f2'ye yönelik saldırı fikirleri başlar.} 5. d3 {e4'ü korur. 5.Nc3 de iyi; ama 5.e5 Ne4 6.d3 Bc5! 7.dxe4?? Bxf2+ 8.Ke2 Bg4+ ile vezir kaybı gibi f2 tuzaklarına dikkat.} 5... Bc5 {Fil f2'ye bakar; ...Ng4 tehdidi var.} 6. Be2! {Doğru savunma! g4 karesini kontrol eder ve Ng4 fikirlerini önler. 6.Bg5?? ise mat ile biter (bkz. Tuzaklar).} 6... h5 {Siyah g4'ü h piyonuyla desteklemek ister.} 7. c3 {d4 ile merkezi kurup c5 filini kovalamaya hazırlanır. Beyaz Bxg4 ile değişmekten çekinmemeli: h hattı açılsa da şah güvende kalır.} 7... Bb6 {Fil f2 baskısını sürdürür.} 8. O-O {Şah güvene alınır; h5-g4 saldırısına karşı taşlar yakında.} 8... Be6 9. Nd2 {At f3 karesine gelerek şahı savunacak.} 9... Qe7 10. d4 {Merkezi kurar ve b6 filini kapatır.} 10... O-O-O {Siyah uzun rok yapar.} 11. b4 {Beyaz b4-a4-a5 ile vezir kanadında saldırır. Beyaz sağlam bir piyon fazlasıyla açıkça üstün; motor da bunu doğruluyor.} *
+
+[Event "Stafford: 6.Bg5?? Nxe4! ve mat"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C42"]
+[Opening "Stafford: 6.Bg5?? Nxe4! ve mat"]
+
+1. e4 {Beyaz merkezi tutar, fil ve vezire yol açar.} 1... e5 {Simetrik ve klasik yanıt.} 2. Nf3 {Gelişirken e5 piyonuna saldırır.} 2... Nf6 {Petrov: Siyah e5'i korumak yerine karşı saldırıyla e4'e yüklenir. Çok sağlam, beraberliğe yakın bir savunma; beyaz küçük avantajlarla sabırlı oynamalı.} 3. Nxe5 {En iyi ve en yaygın: beyaz piyonu alır. Siyah önce d6 ile atı kovalamalı.} 3... Nc6 {Stafford Gambiti: siyah piyon feda eder, açık hatlar ve tuzaklar için. Objektif olarak çürük ama hazırlıksız beyaz için çok tehlikeli.} 4. Nxc6 {En basit: atı değiştirir.} 4... dxc6 {Siyah d ve f8-c5 hatlarını açar; f2'ye yönelik saldırı fikirleri başlar.} 5. d3 {e4'ü korur. 5.Nc3 de iyi; ama 5.e5 Ne4 6.d3 Bc5! 7.dxe4?? Bxf2+ 8.Ke2 Bg4+ ile vezir kaybı gibi f2 tuzaklarına dikkat.} 5... Bc5 {Fil f2'ye bakar; ...Ng4 tehdidi var.} 6. Bg5?? {Doğal görünen açmaz ama ölümcül hata! Beyazın düşmemesi gereken en ünlü Stafford tuzağı.} 6... Nxe4! {Vezir feda! d3 piyonunun da e4'ü alması (dxe4) Qxd1+ ile kaybettirir.} 7. Bxd8 {Açgözlü: veziri almak mat getirir. Doğrusu 7.dxe4 Bxf2+ 8.Kxf2 Qxg5 ile siyah piyonu geri alır; beyaz daha kötü ama oyun devam eder.} 7... Bxf2+ {Şah çekilir, şah e2'ye gitmek zorunda.} 8. Ke2 {Tek kare.} 8... Bg4# {Mat! e4 atı d2 ve f2 karelerini, fil f2 üzerinden e1 ve e3'ü, g4 fili şahı kontrol eder. Ders: Stafford'da g5'e fil çıkarmadan önce e4'ün güvenliğini düşünün; 6.Be2! oynayın.} *
