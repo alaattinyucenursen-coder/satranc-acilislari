@@ -15,7 +15,7 @@ function save(key, val) {
   try { localStorage.setItem(key, JSON.stringify(val)); } catch { /* depolama yoksa yoksay */ }
 }
 const settings = Object.assign(
-  { board: "kahve", coords: true, engine: false, db: "genel", sort: "oran", side: "w", theme: "auto" },
+  { board: "kahve", coords: true, engine: false, db: "genel", sort: "oran", side: "w", theme: "auto", all: false },
   load("ayarlar", {}),
 );
 const saveSettings = () => save("ayarlar", settings);
@@ -27,9 +27,16 @@ function recordResult(oid, lid, stars, firstTry, total) {
   p[lid] = { best: Math.max(prev.best, stars), plays: prev.plays + 1, last: Date.now(), firstTry, total };
   save("ilerleme", progress);
 }
+// Sade görünüm: varsayılan olarak her açılışın yalnızca temel varyantları gösterilir.
+// Açılış sayfasındaki düğmeyle ya da ayarlardan bütün varyantlar açılabilir.
+const expanded = new Set();
+const showsAll = (o) => settings.all || expanded.has(o.id);
+const visibleLines = (o) => (showsAll(o) ? o.lines : o.lines.filter((l) => l.core));
+const coreLines = (o) => (settings.all ? o.lines : o.lines.filter((l) => l.core));
 function openingProgress(o) {
-  const done = o.lines.filter((l) => lineProgress(o.id, l.id)?.best > 0).length;
-  return { done, total: o.lines.length };
+  const lines = coreLines(o);
+  const done = lines.filter((l) => lineProgress(o.id, l.id)?.best > 0).length;
+  return { done, total: lines.length };
 }
 
 const BOARDS = [
@@ -68,9 +75,14 @@ function pathTo(o, leafId) {
 }
 const stat = (l) => l.played?.[settings.db];
 function sortedLines(o) {
-  const arr = [...o.lines];
+  const arr = [...visibleLines(o)];
   if (o.played?.[settings.db]) arr.sort((a, b) => (stat(b)?.mac ?? -1) - (stat(a)?.mac ?? -1));
   return arr;
+}
+// Bir düğümden geçen ilk (görünür) varyant.
+function lineUnder(o, node, any = false) {
+  const inside = (l) => l.leaf === node.id || l.leaf.startsWith(node.id + ".");
+  return sortedLines(o).find(inside) || (any ? o.lines.find(inside) : null);
 }
 function shortName(l) {
   return l.name.replace(/^(Reddedilmiş Vezir Gambiti|Kabul Edilmiş Vezir Gambiti|Slav Savunması|Yarı-Slav|Albin Karşı Gambiti|Tuzak): /, "");
@@ -323,7 +335,7 @@ function renderHome() {
   setHeader("Açılış Defteri", "Varyantları öğren, alıştırmayla pekiştir", false);
   const last = load("son", null);
   const lastO = last && OPENING.get(last.o), lastL = lastO?.lines.find((l) => l.id === last.l);
-  const totalLines = OPENINGS.reduce((a, o) => a + o.lines.length, 0);
+  const totalLines = OPENINGS.reduce((a, o) => a + coreLines(o).length, 0);
   const doneLines = OPENINGS.reduce((a, o) => a + openingProgress(o).done, 0);
   let html = `<div class="card hero">
     <h2>${lastL ? "Kaldığın yerden devam et" : "Hoş geldin!"}</h2>
@@ -338,7 +350,7 @@ function renderHome() {
       if (!o) continue;
       const p = openingProgress(o);
       html += `<a class="item opening-item" href="#/a/${o.id}">
-        <span><span class="name">${esc(o.name)}</span><span class="sub">${o.lines.length} varyant · ECO ${esc(o.eco)}</span></span>
+        <span><span class="name">${esc(o.name)}</span><span class="sub">${coreLines(o).length} varyant · ECO ${esc(o.eco)}</span></span>
         <span class="side">${progressRing(p.done, p.total)}</span></a>`;
     }
     html += `</div>`;
@@ -349,7 +361,8 @@ function renderHome() {
 
 // ---------- Açılış sayfası ----------
 function renderOpening(o) {
-  setHeader(o.name, `${o.lines.length} varyant · ECO ${o.eco}`, true);
+  const hidden = o.lines.length - o.lines.filter((l) => l.core).length;
+  setHeader(o.name, `${visibleLines(o).length} varyant · ECO ${o.eco}`, true);
   const info = o.played?.[settings.db];
   const lines = sortedLines(o);
   const max = Math.max(1, ...o.lines.map((l) => stat(l)?.oran || 0));
@@ -370,7 +383,7 @@ function renderOpening(o) {
   view.innerHTML = `
     <div class="card intro"><p class="clamp" id="desc">${esc(o.description)}</p><button class="more" id="more">Devamını oku</button></div>
     <div class="card" style="margin-top:10px;display:grid;gap:10px">
-      <div class="exrow"><span><b style="color:var(--fg)">${p.done}/${p.total}</b> varyantın alıştırması tamam</span>${p.done ? starsHtml(Math.round(o.lines.reduce((a, l) => a + (lineProgress(o.id, l.id)?.best || 0), 0) / o.lines.length)) : ""}</div>
+      <div class="exrow"><span><b style="color:var(--fg)">${p.done}/${p.total}</b> varyantın alıştırması tamam</span>${p.done ? starsHtml(Math.round(coreLines(o).reduce((a, l) => a + (lineProgress(o.id, l.id)?.best || 0), 0) / p.total)) : ""}</div>
       <a class="btn block" href="#/a/${o.id}/karisik">Karışık alıştırma (5 varyant)</a>
     </div>
     <div class="toolbar">
@@ -381,7 +394,9 @@ function renderOpening(o) {
       ${info ? `<div class="chips" role="group" aria-label="Veritabanı">${["genel", "usta"].filter((k) => o.played[k]).map((k) => `<button class="chip" data-db="${k}" aria-pressed="${settings.db === k}">${k === "genel" ? "Genel" : "Usta"}</button>`).join("")}</div>` : ""}
     </div>
     ${list}
-    ${info ? `<p class="note">Oran: bu açılışın listedeki varyantlarına giren ${fmtN(info.total || 0)} maç içindeki pay (toplam %100). Kaynak: ${esc(info.source || "")}.</p>` : ""}`;
+    ${hidden && !settings.all ? `<button class="btn ghost block" id="toggleAll" style="margin-top:12px">${expanded.has(o.id) ? "Yalnızca temel varyantları göster" : `Tüm varyantları göster (+${hidden})`}</button>` : ""}
+    ${info ? `<p class="note">Oran: bu açılışın bütün varyantlarına giren ${fmtN(info.total || 0)} maç içindeki pay (${hidden && !showsAll(o) ? "gizli varyantlarla birlikte " : ""}toplam %100). Kaynak: ${esc(info.source || "")}.</p>` : ""}`;
+  if ($("toggleAll")) $("toggleAll").onclick = () => { expanded.has(o.id) ? expanded.delete(o.id) : expanded.add(o.id); renderOpening(o); };
   $("more").onclick = () => { $("desc").classList.toggle("clamp"); $("more").textContent = $("desc").classList.contains("clamp") ? "Devamını oku" : "Daha az göster"; };
   view.querySelectorAll("[data-sort]").forEach((b) => (b.onclick = () => { settings.sort = b.dataset.sort; saveSettings(); renderOpening(o); }));
   view.querySelectorAll("[data-db]").forEach((b) => (b.onclick = () => { settings.db = b.dataset.db; saveSettings(); renderOpening(o); }));
@@ -418,10 +433,8 @@ function renderStudy(o, line) {
         const child = curNode().children.find((ch) => ch.uci === uci);
         if (child && path[idx] === child) { idx++; render(); return true; }
         if (child) {
-          // Başka bir varyantın hamlesi: o varyanta geç.
-          let n = child;
-          while (n.children.length) n = n.children[0];
-          const other = o.lines.find((x) => x.leaf === n.id);
+          // Başka bir varyantın hamlesi: o varyanta geç (gizli varyantlara da).
+          const other = lineUnder(o, child, true);
           if (other) { toast(`${shortName(other)} varyantına geçildi`); location.replace(`#/a/${o.id}/v/${other.id}`); return true; }
         }
       }
@@ -449,7 +462,7 @@ function renderStudy(o, line) {
         <p class="comment">${line.trap ? "Bu bir tuzak varyantı: hatalı hamleyi ve cezasını gösterir. " : ""}Hamleleri ▶ ile tek tek izle ya da taşları kendin oynat. Sonunda alıştırmayla pekiştir.</p>`;
     } else {
       const sym = node.symbol ? `<span class="sym${node.symbol.includes("!") && !node.symbol.includes("?") ? " good" : ""}">${esc(node.symbol)}</span>` : "";
-      const others = node.children.filter((c) => c !== path[idx]);
+      const others = node.children.filter((c) => c !== path[idx] && lineUnder(o, c));
       const atEnd = idx === path.length;
       mc.innerHTML = `<div class="head"><span class="mv">${esc(moveLabel(node))}${sym}</span>${op ? `<span class="op">${esc(op.name)} · ${esc(op.eco)}</span>` : ""}</div>
         <p class="comment">${esc(node.comment || "Bu hamle için açıklama yok.")}</p>
@@ -460,9 +473,7 @@ function renderStudy(o, line) {
         mc.insertAdjacentHTML("beforeend", `<div style="margin-top:12px"><h3>Varyantın sonu</h3><p>${pr?.best ? `En iyi sonucun: ${starsHtml(pr.best)}. Tekrar ederek pekiştirebilirsin.` : "Şimdi hamleleri kendin bularak alıştırma yap."}</p><a class="btn block" href="#/a/${o.id}/v/${line.id}/alistirma">Alıştırmaya başla</a></div>`);
       } else mc.classList.remove("endcard");
       mc.querySelectorAll("[data-alt]").forEach((b) => (b.onclick = () => {
-        let n = o.byId.get(b.dataset.alt);
-        while (n.children.length) n = n.children[0];
-        const other = o.lines.find((x) => x.leaf === n.id);
+        const other = lineUnder(o, o.byId.get(b.dataset.alt));
         if (other) location.replace(`#/a/${o.id}/v/${other.id}`);
       }));
     }
@@ -673,10 +684,10 @@ function renderExercise(o, line) {
 // Açılıştan 5 varyant: önce hiç çalışılmamış ya da düşük puanlılar.
 function renderMixed(o) {
   setHeader("Karışık alıştırma", o.name, true);
-  const pick = [...o.lines]
+  const pick = [...coreLines(o)]
     .map((l) => ({ l, s: (lineProgress(o.id, l.id)?.best || 0) + Math.random() * 0.9 }))
     .sort((a, b) => a.s - b.s)
-    .slice(0, Math.min(5, o.lines.length))
+    .slice(0, 5)
     .map((x) => x.l);
   let i = 0, runner;
   const results = [];
@@ -716,6 +727,7 @@ function renderSettings() {
     <div class="setting"><span class="lbl">Tahta rengi</span><div class="swatches">${BOARDS.map(([id, name, l, d]) => `<button class="swatch" data-board="${id}" aria-label="${name}" aria-pressed="${settings.board === id}" style="--l:${l};--d:${d}"><i></i><i></i><i></i><i></i></button>`).join("")}</div></div>
     <div class="setting"><span class="lbl">Görünüm</span><div class="chips">${[["auto", "Telefona göre"], ["light", "Açık"], ["dark", "Koyu"]].map(([k, n]) => `<button class="chip" data-theme="${k}" aria-pressed="${settings.theme === k}">${n}</button>`).join("")}</div></div>
     <div class="setting"><span class="lbl">Alıştırmada oynadığın renk</span>${sideToggle()}<span class="desc">Tahta da bu renge göre çevrilir.</span></div>
+    <div class="setting"><label class="switch">Tüm varyantları göster<input type="checkbox" id="allChk" ${settings.all ? "checked" : ""}></label><span class="desc">Kapalıyken her açılışta yalnızca temel varyantlar görünür; uygulama daha sade olur.</span></div>
     <div class="setting"><label class="switch">Kare koordinatları<input type="checkbox" id="coords" ${settings.coords ? "checked" : ""}></label></div>
     <div class="setting"><label class="switch">Satranç motoru (Stockfish)<input type="checkbox" id="engineChk" ${settings.engine ? "checked" : ""}></label><span class="desc">Varyant ekranında değerlendirme ve en iyi devamı gösterir. Pili daha çok kullanır.</span></div>
     <div class="setting"><span class="lbl">Oynanma oranı veritabanı</span><div class="chips"><button class="chip" data-db="genel" aria-pressed="${settings.db === "genel"}">Genel</button><button class="chip" data-db="usta" aria-pressed="${settings.db === "usta"}">Usta (2600+)</button></div><span class="desc">${esc(SOURCES.genel || "")}<br>${esc(SOURCES.usta || "")}</span></div>
@@ -726,6 +738,7 @@ function renderSettings() {
   view.querySelectorAll("[data-theme]").forEach((b) => (b.onclick = () => { settings.theme = b.dataset.theme; saveSettings(); applyTheme(); renderSettings(); }));
   view.querySelectorAll("[data-db]").forEach((b) => (b.onclick = () => { settings.db = b.dataset.db; saveSettings(); renderSettings(); }));
   bindSide(renderSettings);
+  $("allChk").onchange = (e) => { settings.all = e.target.checked; saveSettings(); };
   $("coords").onchange = (e) => { settings.coords = e.target.checked; saveSettings(); };
   $("engineChk").onchange = (e) => { settings.engine = e.target.checked; saveSettings(); };
   $("reset").onclick = () => {

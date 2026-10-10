@@ -31,6 +31,22 @@ const statsPath = join(data, 'oynanma.json');
 const stats = existsSync(statsPath) ? JSON.parse(readFileSync(statsPath, 'utf8')) : {};
 const sources = Object.fromEntries(Object.entries(stats).map(([k, v]) => [k, v.kaynak]));
 
+// Temel varyantlar: uygulamada varsayılan olarak yalnızca bunlar görünür.
+// data/temel.json'da listesi olmayan açılışlarda en çok oynanan TEMEL_SAYI varyant seçilir.
+const TEMEL_SAYI = 6;
+const temel = JSON.parse(readFileSync(join(data, 'temel.json'), 'utf8'));
+for (const o of openings) {
+  let ids = temel[o.id];
+  if (ids) {
+    const missing = ids.filter((id) => !o.lines.some((l) => l.id === id));
+    if (missing.length) throw new Error(`temel.json: ${o.id} içinde bulunamayan varyant: ${missing.join(', ')}`);
+  } else {
+    const count = (l) => l.played?.genel?.mac ?? 0;
+    ids = [...o.lines].sort((a, b) => count(b) - count(a)).slice(0, TEMEL_SAYI).map((l) => l.id);
+  }
+  for (const l of o.lines) if (ids.includes(l.id)) l.core = true;
+}
+
 const payload = { openings, categories, sources };
 writeFileSync(join(dist, 'data.js'), `window.APP_DATA = ${JSON.stringify(payload).replace(/</g, '\\u003c')};\n`);
-console.log(`app/dist hazır: ${openings.length} açılış, ${openings.reduce((a, o) => a + o.lines.length, 0)} varyant`);
+console.log(`app/dist hazır: ${openings.length} açılış, ${openings.reduce((a, o) => a + o.lines.length, 0)} varyant (${openings.reduce((a, o) => a + o.lines.filter((l) => l.core).length, 0)} temel)`);

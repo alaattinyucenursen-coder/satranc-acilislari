@@ -1,0 +1,6 @@
+{
+  "_aciklama": "Uygulamada her açılışta varsayılan olarak görünen temel varyantlar. Listede olmayan açılışlarda en çok oynanan 6 varyant temel sayılır; diğerleri 'Tüm varyantları göster' ile açılır.",
+  "kapali-sicilya": ["e6-a6-b5", "e6-a6-d5", "e6-d5-dxe4", "e6-d5-d4", "klasik-f4-e6", "klasik-e6", "d6-g6", "grand-prix"],
+  "sicilya-kan": ["kan-nc3-qc7", "kan-polugaevsky", "kan-bd3-qc7", "kan-bd3-nc6", "kan-bronstein", "kan-kanat-saldirisi"],
+  "vezir-gambiti": ["ret-tarrasch", "ret-tartakower", "ret-harrwitz", "ret-ragozin", "kabul-klasik", "chigorin", "albin"]
+}
