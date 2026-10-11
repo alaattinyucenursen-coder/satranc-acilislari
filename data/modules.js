@@ -6,5 +6,6 @@ import sicilyaKapaliA6 from './sicilya-kapali-a6.js';
 import sicilyaKapaliD5 from './sicilya-kapali-d5.js';
 import sicilyaKan from './sicilya-kan.js';
 import slav from './slav.js';
+import slavBeyaz from './slav-beyaz.js';
 
-export default [vezirGambiti, nimzoHint, sicilyaAlapin, sicilyaKapaliA6, sicilyaKapaliD5, sicilyaKan, slav];
+export default [vezirGambiti, nimzoHint, sicilyaAlapin, sicilyaKapaliA6, sicilyaKapaliD5, sicilyaKan, slav, slavBeyaz];

@@ -1,6 +1,6 @@
 # Satranç Açılışları: Usta Maçlarıyla Çalışma
 
-Belirli açılışları (Vezir Gambiti, Nimzo-Hint, Sicilya Alapin, Sicilya 2.Nc3 e6 3.g3 a6, Sicilya 2.Nc3 e6 3.g3 d5, Sicilya Kan ve Slav) usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
+Belirli açılışları (Vezir Gambiti, Nimzo-Hint, Sicilya Alapin, Sicilya 2.Nc3 e6 3.g3 a6, Sicilya 2.Nc3 e6 3.g3 d5, Sicilya Kan ve Slav; Slav için hem Siyahın hem Beyazın kazandığı maçlar) usta maçları üzerinden çalışmak için tarayıcıda çalışan bir program. Her maçta:
 
 - iki tarafın genel planı,
 - hamle hamle açıklama (Beyaz ve Siyah için ayrı ayrı),
@@ -119,6 +119,21 @@ Tam 1.e4 c5 2.Nc3 e6 3.g3 d5 4.Bg2 sırasıyla Siyahın kazandığı yalnızca d
 | ...e5 kırılması ve merkezde kalan şaha karşı geçer d-piyonu | Gelfand – Aronian, Wijk aan Zee 2008 | Eljanov – Karjakin, Aerosvit turnuvası, Foros 2007; Miles – Kasparov, Basel maçı 1986 |
 | Ara şah ve vezir akını: ...Qa5+ ve ...Qxd1+ | Aronian – Ivanchuk, Sofya 2008 | Pillsbury – Lasker, Sankt-Peterburg turnuvası 1895-96; Timman – Kasparov, Tilburg turnuvası 1991 |
 | ...e5 kırılması ve merkezde kalan şaha beyaz karelerden saldırı | Anand – Aronian, Moskova 2009 | Ivanchuk – Bacrot, Avrupa Takımlar Şampiyonası, Girit 2007; Ljubojevic – Hodgson, Hollanda Takımlar Ligi 1995/96 |
+
+### Slav Savunması (Beyazın kazandığı maçlar)
+
+| Tema | Maç | Alıştırma kaynakları |
+| --- | --- | --- |
+| Açık d-hattı ve f5’e sıçrayan at | Alekhine – Euwe, Hollanda 1935 | Ivanchuk – Carlsen, Avrupa Kulüpler Kupası, Kallithea 2008; Lputian – Sedina, Saint-Vincent 2001 |
+| Fil çifti ve e5-f5 piyon yürüyüşü | Botvinnik – Smislov, Moskova 1954 | Kasparov – Anand, Linares turnuvası 1993; Spasski – Nei, Tallinn turnuvası 1975 |
+| e5 kaması ve şah kanadında taş saldırısı | Portisch – Petrosyan, Moskova 1967 | Arnason – Dreev, Reykjavik açık turnuvası 1990; Spasski – Mititelu, Leningrad 1960 |
+| c5 kilidi ve kara karelerde fil hakimiyeti | Kramnik – Morozevich, Dortmund 2001 | Khismatullin – Dreev, Avrupa Kulüpler Kupası, Eilat 2012; Aronian – Carlsen, Norway Chess, Stavanger 2017 |
+| Zayıf vezir kanadına karşı vezirsiz oyun sonu | Kasparov – Svidler, Moskova 2004 | Mamedyarov – Arngrimsson, Reykjavik Açık turnuvası 2006; Gelfand – Shirov, Tal Memorial, Moskova 2010 |
+| Fil çifti, e5 ile alan ve f7’ye toplu saldırı | Topalov – Kramnik, Elista 2006 | Bacrot – Aronian, Avrupa Takımlar Şampiyonası, Novi Sad 2009; Taimanov – Beilin, SSCB Şampiyonası yarı finali, Moskova 1955 |
+| c5 ile alan, h-hattı ve kale kaldırma | Eljanov – Kamsky, Dagomys 2008 | Shirov – Nyback, Olimpiyat, İstanbul 2012; Kasparov – Hübner, Hamburg maçı 1985 |
+| e5 piyonu, d6’ya giren at ve zıt renkli fillerle kazanılan oyun sonu | Topalov – Anand, Sofya 2010 | Kasparov – Shirov, Dos Hermanas 1996; Smislov – Botvinnik, Dünya Şampiyonası maçı 1954, 11. oyun |
+| Nh4xg6, vezir kanadında yayılma ve b8’de vezir vuruşu | Nakamura – Topalov, Moskova 2016 | Bareev – Kobalia, Aeroflot Open, Moskova 2010; Korçnoy – S. Polgar, San Francisco 1995 |
+| Ne5 ve f3 ile c4’ü geri almak, sonra e4 merkezi | Ding – Caruana, Yekaterinburg 2020 | Taimanov – Simic, Vrnjacka Banja 1974; Giri – P.H. Nielsen, Remco Heite turnuvası 2010 |
 
 Maç kayıtları [PgnMentor](https://www.pgnmentor.com/) oyuncu arşivlerinden alındı. Açıklamalardaki motor değerlendirmeleri ve alıştırma çözümleri Stockfish ile kontrol edildi.
 
