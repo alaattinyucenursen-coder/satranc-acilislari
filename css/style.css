@@ -225,3 +225,16 @@ h1, h2, h3, h4 { text-wrap: balance; }
   .top { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { .evalbar i { transition: none; } }
+
+/* Zengin hamle notu: amaç, neden, diğer hamleler */
+.note-parts { margin: 10px 0 0; display: grid; gap: 4px; }
+.note-parts dt { font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted, inherit); margin-top: 6px; }
+.note-parts dd { margin: 0; max-width: 70ch; }
+.note-parts ul { margin: 2px 0 0; padding-left: 18px; }
+.note-parts li { margin-bottom: 4px; }
+.alt-mv { font-weight: 700; white-space: nowrap; }
+.qa details { margin-bottom: 8px; max-width: 70ch; }
+.qa summary { cursor: pointer; font-weight: 600; }
+.qa details p { margin: 6px 0 0 16px; }
+.sources { margin: 0; padding-left: 18px; }
+.sources li { margin-bottom: 4px; overflow-wrap: anywhere; }

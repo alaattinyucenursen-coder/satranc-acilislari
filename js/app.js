@@ -13,6 +13,21 @@ const store = {
   set(k, v) { try { localStorage.setItem('qg:' + k, JSON.stringify(v)); } catch { /* depolama kapalı olabilir */ } },
 };
 
+// Hamle notu düz metin ya da { text, amac, neden, diger: [{ move, text }] } nesnesi olabilir.
+function normNote(n) {
+  if (!n) return { text: '' };
+  return typeof n === 'string' ? { text: n } : n;
+}
+function noteHtml(n) {
+  let h = `<p>${rich(n.text)}</p>`;
+  const parts = [];
+  if (n.amac) parts.push(`<dt>Amaç</dt><dd>${rich(n.amac)}</dd>`);
+  if (n.neden) parts.push(`<dt>Neden bu hamle?</dt><dd>${rich(n.neden)}</dd>`);
+  if (n.diger && n.diger.length) parts.push(`<dt>Diğer hamleler</dt><dd><ul>${n.diger.map((d) => `<li><span class="alt-mv">${esc(d.move)}</span> ${rich(d.text)}</li>`).join('')}</ul></dd>`);
+  if (parts.length) h += `<dl class="note-parts">${parts.join('')}</dl>`;
+  return h;
+}
+
 // ---------- Oyun verisini hazırla ----------
 function prepareGame(g) {
   const chess = new Chess();
@@ -23,9 +38,9 @@ function prepareGame(g) {
     const side = i % 2 === 0 ? 'w' : 'b';
     const key = num + side;
     return { ply: i + 1, num, side, key, san: m.san, from: m.from, to: m.to, fenAfter: m.after, fenBefore: m.before,
-      note: g.notes[key] || '', critical: (g.critical || []).find((c) => c.move === key) || null };
+      note: normNote(g.notes[key]), critical: (g.critical || []).find((c) => c.move === key) || null };
   });
-  const missing = plies.filter((p) => !p.note).map((p) => p.key);
+  const missing = plies.filter((p) => !p.note.text).map((p) => p.key);
   if (missing.length) console.warn(g.id, 'açıklaması eksik hamleler:', missing.join(' '));
   return { ...g, plies, startFen: history[0].before };
 }
@@ -103,6 +118,12 @@ function renderGame() {
     return `<li><button class="crit-jump" data-ply="${p.ply}"><span class="mv">${p.num}${p.side === 'w' ? '.' : '...'}${esc(p.san)}</span> ${esc(c.title)}</button></li>`;
   }).join('');
   $('#lessons').innerHTML = g.lessons.map((l) => `<li>${rich(l)}</li>`).join('');
+  const qa = g.qa || [];
+  $('#qa-head').hidden = $('#qa').hidden = !qa.length;
+  $('#qa').innerHTML = qa.map((x) => `<details><summary>${rich(x.q)}</summary><p>${rich(x.a)}</p></details>`).join('');
+  const src = g.sources || [];
+  $('#sources-head').hidden = $('#sources').hidden = !src.length;
+  $('#sources').innerHTML = src.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('');
   renderMoveList();
   setTab(state.tab);
 }
@@ -172,7 +193,7 @@ function showPly() {
     const sideName = p.side === 'w' ? 'Beyaz' : 'Siyah';
     const crit = p.critical ? `<div class="crit-box"><span class="crit-tag">Kritik an</span><h4>${esc(p.critical.title)}</h4><p>${rich(p.critical.text)}</p></div>` : '';
     box.innerHTML = `<div class="c-head"><span class="side ${p.side}">${sideName}</span><span class="c-move">${p.num}${p.side === 'w' ? '.' : '...'} ${esc(p.san)}</span></div>
-      <p>${rich(p.note)}</p>${crit}`;
+      ${noteHtml(p.note)}${crit}`;
   }
   $('#ply-pos').textContent = `${state.ply} / ${g.plies.length}`;
   requestEngine(chess.fen());

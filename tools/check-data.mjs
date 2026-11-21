@@ -12,7 +12,13 @@ for (const MODULE of MODULES) for (const g of MODULE.games) {
   try { c.loadPgn(g.pgn); } catch (e) { fail(`${g.id}: PGN okunamadı: ${e.message}`); continue; }
   const hist = c.history();
   const keys = hist.map((_, i) => `${Math.floor(i / 2) + 1}${i % 2 ? 'b' : 'w'}`);
-  for (const k of keys) if (!g.notes[k]) fail(`${g.id}: ${k} hamlesinin açıklaması yok`);
+  for (const k of keys) {
+    const n = g.notes[k];
+    if (!n || !(typeof n === 'string' ? n : n.text)) { fail(`${g.id}: ${k} hamlesinin açıklaması yok`); continue; }
+    if (typeof n === 'object') for (const d of n.diger || []) if (!d.move || !d.text) fail(`${g.id}: ${k} diğer hamle kaydı eksik`);
+  }
+  for (const x of g.qa || []) if (!x.q || !x.a) fail(`${g.id}: soru-cevap kaydı eksik`);
+  for (const x of g.sources || []) if (!x.title || !/^https:\/\//.test(x.url || '')) fail(`${g.id}: kaynak kaydı hatalı`);
   for (const k of Object.keys(g.notes)) if (!keys.includes(k)) fail(`${g.id}: fazladan açıklama ${k}`);
   for (const cr of g.critical) if (!keys.includes(cr.move)) fail(`${g.id}: kritik an ${cr.move} maçta yok`);
   const result = g.pgn.trim().split(/\s+/).pop();
