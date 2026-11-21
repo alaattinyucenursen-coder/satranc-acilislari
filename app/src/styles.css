@@ -184,3 +184,31 @@ main { max-width: 640px; margin: 0 auto; padding: 12px 12px 24px }
 .endcard p.comment { color: var(--fg); margin-bottom: 0 }
 .result .big .stars { font-size: 2.6rem; letter-spacing: 6px }
 .study { padding-bottom: 8px }
+
+/* Usta maçı */
+.gamelink .name { color: var(--accent) }
+.gamehead { display: grid; gap: 8px }
+.gamehead .players { display: grid; gap: 4px }
+.gamehead .players span { display: flex; align-items: center; gap: 8px }
+.gamehead .players small { color: var(--muted); font-family: var(--mono) }
+.gamehead .dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--fg); display: inline-block; flex: none }
+.gamehead .dot.w { background: #fff } .gamehead .dot.b { background: #222 }
+.gamehead .gmeta { font-size: .82rem; color: var(--muted) }
+.gamehead > p.clamp, .gamehead > p#gsum { font-size: .92rem }
+.gamehead .more { all: unset; cursor: pointer; color: var(--accent); font-weight: 600; font-size: .85rem }
+.gamehead .plans { display: grid; gap: 6px; font-size: .88rem; padding: 10px; border-radius: 10px; background: var(--accent-soft) }
+.evalgraph { width: 100%; max-width: 560px; height: 64px; margin: 0 auto; display: block; border-radius: 8px; cursor: pointer }
+.evalgraph .bgb { fill: #3a3835 } .evalgraph .book { fill: rgba(127,194,155,.25) }
+.evalgraph .area { fill: #f4f2ec } .evalgraph .mid { stroke: #888; stroke-width: .6 }
+.evalgraph .cur { stroke: #e0a100; stroke-width: 2 }
+.tag { font-size: .72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent) }
+.tag.book { background: var(--line); color: var(--muted) }
+.tag.best, .tag.good { background: var(--good-soft); color: var(--good) }
+.tag.inacc { background: var(--warn-soft); color: var(--warn) }
+.tag.mist, .tag.blund { background: var(--bad-soft); color: var(--bad) }
+.evaltxt { margin-left: auto; font: 700 .9rem/1 var(--mono) }
+.note-usta { font-size: .98rem; padding: 10px 12px; border-left: 4px solid var(--accent-2); background: var(--accent-soft); border-radius: 8px; margin-bottom: 8px }
+.bestline { font-size: .82rem; color: #1e6ee6; margin-top: 6px }
+.movelist button.bk { color: var(--muted) }
+.movelist button.t1 { color: var(--warn); font-weight: 700 }
+.movelist button.t2, .movelist button.t3 { color: var(--bad); font-weight: 700 }

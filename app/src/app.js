@@ -302,6 +302,7 @@ function route() {
     const o = OPENING.get(parts[1]);
     const l = parts[2] === "v" ? o.lines.find((x) => x.id === parts[3]) : null;
     if (l && parts[4] === "alistirma") return renderExercise(o, l);
+    if (l && parts[4] === "mac" && l.game) return renderGame(o, l);
     if (l) return renderStudy(o, l);
     if (parts[2] === "karisik") return renderMixed(o);
     return renderOpening(o);
@@ -373,7 +374,7 @@ function renderOpening(o) {
     return `<a class="item" href="#/a/${o.id}/v/${l.id}">
       <span class="name">${esc(shortName(l))}</span>
       <span class="side">${pr?.best ? starsHtml(pr.best) : ""}${chevron}</span>
-      <span class="meta"><span class="eco">${esc(l.eco)}</span>${l.trap ? `<span class="badge trap">Tuzak</span>` : ""}${settings.sort === "oran" && l.group ? `<span>${esc(l.group)}</span>` : ""}${rate}</span></a>`;
+      <span class="meta"><span class="eco">${esc(l.eco)}</span>${l.trap ? `<span class="badge trap">Tuzak</span>` : ""}${l.game ? `<span class="badge">♔ Usta maçı</span>` : ""}${settings.sort === "oran" && l.group ? `<span>${esc(l.group)}</span>` : ""}${rate}</span></a>`;
   };
   let list = "";
   if (settings.sort === "grup") {
@@ -414,6 +415,7 @@ function renderStudy(o, line) {
     ${settings.engine ? `<div class="card engine" id="engine"><b id="escore">…</b><span class="pv" id="epv">hesaplanıyor</span></div>` : ""}
     <div class="card movecard" id="movecard"></div>
     <div class="card"><div class="movelist" id="moves"></div></div>
+    ${line.game ? gameLink(o, line) : ""}
     <div class="navbar">
       <button class="nb" id="first" aria-label="Başa dön">⏮</button>
       <button class="nb" id="prev" aria-label="Önceki hamle">◀</button>
@@ -500,6 +502,121 @@ function renderStudy(o, line) {
   $("prev").onclick = () => { if (extraIdx) { extraIdx--; if (!extraIdx) extra = []; } else if (idx) idx--; render(); };
   $("next").onclick = () => { if (extra.length) { if (extraIdx < extra.length) extraIdx++; } else if (idx < path.length) idx++; render(); };
   $("last").onclick = () => { if (extra.length) extraIdx = extra.length; else idx = path.length; render(); };
+  render();
+}
+
+// ---------- Usta maçı ----------
+const shortPlayer = (n) => String(n || "").replace(/\s*\([A-Z]{3}\)\s*/g, "").split(",")[0].trim();
+const fullPlayer = (n) => {
+  const s = String(n || "").replace(/\s*\([A-Z]{3}\)\s*/g, "").trim();
+  const [last, first] = s.split(",").map((x) => x.trim());
+  return first ? `${first} ${last}` : last;
+};
+const RESULT_TR = { "1-0": "1–0 (Beyaz kazandı)", "0-1": "0–1 (Siyah kazandı)", "1/2-1/2": "½–½ (berabere)" };
+function gameLink(o, l) {
+  const g = l.game;
+  return `<a class="item gamelink" href="#/a/${o.id}/v/${l.id}/mac">
+    <span><span class="name">♔ Usta maçını incele</span><span class="sub">${esc(fullPlayer(g.white))} – ${esc(fullPlayer(g.black))} · ${esc(g.date.slice(0, 4))} · ${esc(g.result.replace("1/2", "½"))}</span></span>
+    <span class="side">${chevron}</span></a>`;
+}
+const TAGS = {
+  kitap: ["Kitap", "book"], eniyi: ["En iyi", "best"], iyi: ["İyi", "good"], kabul: ["Oynanabilir", "ok"],
+  "?!": ["Dikkatsizlik ?!", "inacc"], "?": ["Hata ?", "mist"], "??": ["Ciddi hata ??", "blund"],
+};
+function gameEval(e) {
+  if (typeof e === "string") {
+    if (e === "M+") return { mate: 1, txt: "mat", pct: 100 };
+    if (e === "M-") return { mate: -1, txt: "mat", pct: 0 };
+    const n = +e.slice(1);
+    return { mate: n, txt: `${n > 0 ? "+" : "−"}M${Math.abs(n)}`, pct: n > 0 ? 100 : 0 };
+  }
+  const v = e / 100;
+  return { cp: e, txt: (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(1), pct: 50 + 50 * (2 / (1 + Math.exp(-0.00368208 * e)) - 1) };
+}
+function renderGame(o, line) {
+  const g = line.game;
+  setHeader(`${shortPlayer(g.white)} – ${shortPlayer(g.black)}`, `${shortName(line)} · ${g.date.slice(0, 4)}`, true);
+  const flipped = settings.side === "b";
+  const c = new Chess();
+  const fens = [c.fen()], nums = [];
+  for (const m of g.moves) { nums.push({ n: +c.fen().split(" ")[5], col: c.turn() }); c.move(m.s); fens.push(c.fen()); }
+  let idx = 0;
+  const N = g.moves.length;
+  const keyMoments = g.moves.map((m, i) => ({ m, i })).filter(({ m }) => m.n || m.k === "?" || m.k === "??");
+  const mlabel = (i) => (nums[i].col === "w" ? `${nums[i].n}.${g.moves[i].s}` : `${nums[i].n}...${g.moves[i].s}`);
+  // Değerlendirme grafiği
+  const W = 300, H = 60;
+  const ys = [50, ...g.moves.map((m) => gameEval(m.e).pct)].map((p) => H - (p / 100) * H);
+  const xs = ys.map((_, i) => (i / Math.max(1, N)) * W);
+  const area = `M0,${H / 2} ` + ys.map((y, i) => `L${xs[i].toFixed(1)},${y.toFixed(1)}`).join(" ") + ` L${W},${H / 2} Z`;
+  const bookX = (g.book / Math.max(1, N)) * W;
+  view.innerHTML = `<div class="study">
+    <div class="card gamehead">
+      <div class="players"><span><i class="dot w"></i><b>${esc(fullPlayer(g.white))}</b>${g.we ? ` <small>${g.we}</small>` : ""}</span><span><i class="dot b"></i><b>${esc(fullPlayer(g.black))}</b>${g.be ? ` <small>${g.be}</small>` : ""}</span></div>
+      <p class="gmeta">${esc(RESULT_TR[g.result] || g.result)} · ${esc(g.event)}${g.site && g.site !== "?" ? `, ${esc(g.site)}` : ""} · ${esc(g.date.replace(/\.\?\?/g, ""))}</p>
+      ${g.ozet ? `<p class="clamp" id="gsum">${esc(g.ozet)}</p><button class="more" id="gmore">Devamını oku</button>` : ""}
+      ${g.planlar ? `<div class="plans">${g.planlar.map((p) => `<p><b>${esc(p[0])}:</b> ${esc(p[1])}</p>`).join("")}</div>` : ""}
+      ${keyMoments.length ? `<div class="alts"><span>Kritik anlar:</span>${keyMoments.map(({ i }) => `<button class="chip" data-jump="${i + 1}">${esc(mlabel(i))}${g.moves[i].k === "??" || g.moves[i].k === "?" ? esc(g.moves[i].k) : ""}</button>`).join("")}</div>` : ""}
+    </div>
+    <div class="boardbox" id="gbb"><div class="evalbar${flipped ? " flip" : ""}"><div class="w" id="gevalw" style="height:50%"></div></div></div>
+    <svg class="evalgraph" id="graph" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-label="Değerlendirme grafiği">
+      <rect x="0" y="0" width="${W}" height="${H}" class="bgb"/>
+      <rect x="0" y="0" width="${bookX.toFixed(1)}" height="${H}" class="book"/>
+      <path d="${area}" class="area"/><line x1="0" x2="${W}" y1="${H / 2}" y2="${H / 2}" class="mid"/>
+      <line id="gcur" x1="0" x2="0" y1="0" y2="${H}" class="cur"/>
+    </svg>
+    <div class="card movecard" id="gcard"></div>
+    <div class="card"><div class="movelist" id="gmoves"></div></div>
+    <div class="navbar">
+      <button class="nb" id="first" aria-label="Başa dön">⏮</button>
+      <button class="nb" id="prev" aria-label="Önceki hamle">◀</button>
+      <button class="nb" id="next" aria-label="Sonraki hamle">▶</button>
+      <button class="nb" id="last" aria-label="Sona git">⏭</button>
+      <a class="btn" href="#/a/${o.id}/v/${line.id}">Varyant</a>
+    </div></div>`;
+  const board = createBoard($("gbb"), { canMove: () => false });
+  function render() {
+    const m = idx ? g.moves[idx - 1] : null;
+    let arrows = [];
+    if (m?.b) {
+      try { const mv = new Chess(fens[idx - 1]).move(m.b); arrows = [[mv.from, mv.to]]; } catch { /* yoksay */ }
+    }
+    board.set(fens[idx], { flipped, marks: m ? lastMoveMarks(m.u) : {}, arrows });
+    const ev = m ? gameEval(m.e) : { pct: 50, txt: "0.0" };
+    $("gevalw").style.height = `${ev.pct}%`;
+    const x = (idx / Math.max(1, N)) * W;
+    $("gcur").setAttribute("x1", x); $("gcur").setAttribute("x2", x);
+    const card = $("gcard");
+    if (!m) {
+      card.innerHTML = `<div class="head"><span class="mv">Başlangıç</span><span class="op">${esc(line.name)}</span></div>
+        <p class="comment">Maçın ilk ${Math.ceil(g.book / 2)} hamlesi bu varyantla aynı (grafikte gölgeli kısım). Ardından ustaların kararlarını hamle hamle izle: her hamlede amacı, motorun görüşünü ve daha iyi devamı (mavi ok) görürsün.</p>`;
+    } else {
+      const [tl, tc] = TAGS[m.k] || ["", ""];
+      card.innerHTML = `<div class="head"><span class="mv">${esc(mlabel(idx - 1))}</span><span class="tag ${tc}">${esc(tl)}</span><span class="evaltxt">${esc(ev.txt)}</span></div>
+        ${m.n ? `<p class="note-usta">${esc(m.n)}</p>` : ""}
+        <p class="comment">${esc(m.t)}</p>
+        ${m.b ? `<p class="bestline">Mavi ok: motorun önerisi ${esc(m.b)}</p>` : ""}`;
+    }
+    $("gmoves").innerHTML = g.moves.map((mm, i) => {
+      const num = nums[i].col === "w" ? `<span class="num">${nums[i].n}.</span>` : "";
+      const sym = ["?!", "?", "??"].includes(mm.k) ? mm.k : "";
+      return `${num}<button class="${mm.n ? "c " : ""}${i < g.book ? "bk " : ""}${sym ? "t" + (sym === "?!" ? "1" : sym === "?" ? "2" : "3") : ""}" data-i="${i + 1}" aria-current="${i + 1 === idx}">${esc(mm.s)}${esc(sym)}</button>`;
+    }).join("");
+    $("gmoves").querySelectorAll("[data-i]").forEach((b) => (b.onclick = () => { idx = +b.dataset.i; render(); }));
+    $("gmoves").querySelector('[aria-current="true"]')?.scrollIntoView({ block: "nearest" });
+    $("first").disabled = $("prev").disabled = idx === 0;
+    $("next").disabled = $("last").disabled = idx === N;
+  }
+  $("first").onclick = () => { idx = 0; render(); };
+  $("prev").onclick = () => { if (idx) idx--; render(); };
+  $("next").onclick = () => { if (idx < N) idx++; render(); };
+  $("last").onclick = () => { idx = N; render(); };
+  view.querySelectorAll("[data-jump]").forEach((b) => (b.onclick = () => { idx = +b.dataset.jump; render(); $("gbb").scrollIntoView({ block: "start", behavior: "smooth" }); }));
+  $("graph").onclick = (e) => { const r = $("graph").getBoundingClientRect(); idx = Math.round(((e.clientX - r.left) / r.width) * N); render(); };
+  if ($("gmore")) $("gmore").onclick = () => { $("gsum").classList.toggle("clamp"); $("gmore").textContent = $("gsum").classList.contains("clamp") ? "Devamını oku" : "Daha az göster"; };
+  const onKey = (e) => { if (e.key === "ArrowRight") $("next").click(); if (e.key === "ArrowLeft") $("prev").click(); };
+  document.addEventListener("keydown", onKey);
+  cleanup = () => document.removeEventListener("keydown", onKey);
   render();
 }
 

@@ -1,0 +1,30 @@
+{
+  "alekhine/alburt": {
+    "ozet": "Satranç tarihinin en ünlü 'şah yürüyüşü' maçı. Short, Alekhine'in 4...g6 kuruluşuna karşı e5 piyonunu sağlam tuttu; bu piyon g7 filini kapattı ve f6/d6 karelerini Siyaha yasakladı. Beyaz önce d hattını ele geçirdi, kalelerini d7-d8'e soktu, siyah kareli filleri değiştirerek Siyahın şahını savunmasız bıraktı. Vezir f6'ya yerleşince Siyahın bütün taşları bağlandı ve hiçbir şey yapamaz hale geldi. Sonunda Short, mat ağını tamamlamak için şahını h2-g3-f4-g5 yoluyla h6'ya yürüttü: Qg7 matını kimse durduramadı. Ders: rakibin hiç karşı oyunu yoksa, oyun ortasında bile şah saldıran bir taş olabilir.",
+    "planlar": [
+      ["Beyaz", "e5 piyonunu koru (Re1, Qe2), d hattını ele geçir, siyah kareli filleri değiştir (Be3-h6), veziri f6'ya yerleştir ve son olarak şahı saldırıya kat."],
+      ["Siyah", "e5 piyonunu baskıyla zayıflatmak ve vezir kanadında (…a5, …b6, …Bb7) karşı oyun bulmak; ama g7 fili e5'e çarptığı için taşları pasif kalır."]
+    ],
+    "hamleler": {
+      "13...e6": "Varyantın bittiği yer. Siyah d5 karesini atı için hazırlar, ama bedeli f6 ve d6 karelerinin zayıflamasıdır: e5 piyonu artık bu kareleri tamamen kontrol ediyor. Motor Beyazı şimdiden belirgin üstün görüyor, çünkü g7 fili e5 piyonuna çarpıyor.",
+      "14.Nd2": "Atı f3'ten çekip vezirin önünü açar ve d4'teki siyah veziri merkezden kovmaya hazırlanır (Nf3 ile). Aynı zamanda e4 karesi vezire açılır.",
+      "15...Qc5": "Vezir merkezden kovulmadan önce çekilir. Siyah veziri c5-b4 üzerinden vezir kanadında etkin tutmak istiyor.",
+      "16.Qe4": "Vezir merkeze ve şah kanadına bakar. Buradan h4'e geçip saldırıya katılabilir; ayrıca b7 piyonuna ve d5 atına baskı yapar.",
+      "17.Bc4": "Beyaz d5 atını değiştirmeye çağırır. Siyah atı alırsa Beyazın b piyonu c4'e gelir ve d5 karesini sürekli kontrol eder: Siyahın atı bir daha merkeze dönemez.",
+      "18...Nxc4": "Siyah sonunda filin yerine iki fil avantajını alır, ama c4'e gelen piyon d5'i kontrol ettiği için Siyahın beyaz kareli fili ve e6-d5 kırılması zorlaşır.",
+      "20.Rd1": "Kilit fikir: açık d hattını ele geçirmek. Siyahın kaleleri d hattına rakip olamaz, çünkü d6 ve d8 kareleri Beyazın kontrolünde.",
+      "21.Qh4": "Vezir saldırı konumuna geçer. Fikir Bh6 ile g7 filini değiştirmek ve Qf6 ile Siyahın şahını kilitlemek; Qh4 aynı zamanda h7'ye ve e7'ye bakar.",
+      "22.Be3": "'Ayrıntılar önemlidir' denen hamle: fil c5 karesini kontrol ederek Siyah veziri yerinden eder ve ardından Bh6 ile g7 filini değiştirmeye gider.",
+      "23.Bh6": "Siyah kareli fillerin değişimi teklif ediliyor. g7 fili Siyahın şahını koruyan tek taş; o gidince f6 ve h6 kareleri Beyazın olur.",
+      "24.Rd8": "Kale sekizinci yataya iner. Siyah kaleyi alırsa Beyaz Rxd8 ile geri alır ve yine d8'de kalır; Siyahın taşları geri çekilip birbirine yapışmak zorunda kalıyor.",
+      "26.R8d7": "Kale yedinci yatayda: f7 piyonuna baskı yapar ve Siyahın taşlarını arka yatayda tutar. Beyazın kaleleri artık rakip konumun içinde.",
+      "27.Bxg7": "Fil değişimi tamamlanıyor. Siyahın şahı artık koruyucu filinden yoksun; f6 karesi Beyaz vezir için hazır.",
+      "29.Qf6+": "Vezir f6'ya yerleşir ve Siyahı tamamen bağlar: g7 karesinde Qg7 mat tehdidi var, Siyahın şahı g8'den çıkamıyor, kaleleri f7'yi korumak zorunda. Siyahın hamle yapabilecek tek taşı fili.",
+      "30.h4": "Motor burada Qf4 gibi daha keskin yollar gösteriyor, ama Short'un planı farklı ve insanca: Siyah hiçbir şey yapamadığına göre, şahını g5'e getirip h6 karesinden Qg7 matını hazırlamak. h4, şahın yürüyüşü için g5'i destekler.",
+      "31.Kh2": "Şah yürüyüşü başlıyor! Siyahın taşları bağlı olduğu için Beyazın şahına şah çekebilecek bir taş yok. Plan: Kg3-f4-g5-h6 ve Qg7 mat.",
+      "32.Kg3": "Şah ilerliyor. Siyah karşı tehdit kuramıyor: kaleleri f7'yi, fili e6'yı korumakla meşgul.",
+      "33.Kf4": "Şah merkezden geçip g5'e yaklaşıyor. Siyahın tek çaresi …Bc8 ile kaleyi almak, ama o da mata yetişmez.",
+      "34.Kg5": "Siyah terk etti: Beyaz Kh6 ile Qg7 matını tehdit ediyor. 34...Bxd7 35.Kh6 olursa mat kaçınılmaz. Bir şahın tahtanın ortasından geçip matı kendi eliyle hazırlaması satranç tarihinin en ünlü anlarından biri."
+    }
+  }
+}

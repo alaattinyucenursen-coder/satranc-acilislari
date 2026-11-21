@@ -3,6 +3,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildGame } from './mac-yorum.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const src = join(root, 'app', 'src');
@@ -47,6 +48,28 @@ for (const o of openings) {
   for (const l of o.lines) if (ids.includes(l.id)) l.core = true;
 }
 
+// Usta maçları: motor incelemesi data/ustamaclari.json, elle yazılmış notlar data/kaynak/usta-notlar.json.
+const gamesPath = join(data, 'ustamaclari.json');
+const games = existsSync(gamesPath) ? JSON.parse(readFileSync(gamesPath, 'utf8')) : {};
+const notesPath = join(data, 'kaynak', 'usta-notlar.json');
+const allNotes = existsSync(notesPath) ? JSON.parse(readFileSync(notesPath, 'utf8')) : {};
+let gameCount = 0;
+for (const o of openings) for (const l of o.lines) {
+  const raw = games[`${o.id}/${l.id}`];
+  if (!raw) continue;
+  const nt = allNotes[`${o.id}/${l.id}`] || {};
+  if (!o.posComments) {
+    o.posComments = new Map();
+    (function walk(n) { if (n.comment && n.fen) o.posComments.set(n.fen.split(' ').slice(0, 4).join(' '), n.comment); n.children.forEach(walk); })(o.tree);
+  }
+  const g = buildGame(raw, l, nt.hamleler || {}, o.posComments);
+  if (g.unknownNotes.length) throw new Error(`usta-notlar.json: ${o.id}/${l.id} içinde maçta olmayan hamle: ${g.unknownNotes.join(', ')}`);
+  l.game = { white: raw.white, black: raw.black, we: raw.we, be: raw.be, event: raw.event, site: raw.site, date: raw.date, result: raw.result,
+    book: g.book, ozet: nt.ozet, planlar: nt.planlar, moves: g.moves };
+  gameCount++;
+}
+
+for (const o of openings) delete o.posComments;
 const payload = { openings, categories, sources };
 writeFileSync(join(dist, 'data.js'), `window.APP_DATA = ${JSON.stringify(payload).replace(/</g, '\\u003c')};\n`);
-console.log(`app/dist hazır: ${openings.length} açılış, ${openings.reduce((a, o) => a + o.lines.length, 0)} varyant (${openings.reduce((a, o) => a + o.lines.filter((l) => l.core).length, 0)} temel)`);
+console.log(`app/dist hazır: ${gameCount} usta maçı, ${openings.length} açılış, ${openings.reduce((a, o) => a + o.lines.length, 0)} varyant (${openings.reduce((a, o) => a + o.lines.filter((l) => l.core).length, 0)} temel)`);
