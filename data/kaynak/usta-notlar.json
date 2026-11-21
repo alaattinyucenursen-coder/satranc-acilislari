@@ -1145,5 +1145,358 @@
       "31.fxg6": "Şah kanadında piyonlar değişti; konum dengede.",
       "35.Bd3+": "Fil-at oyun sonunda iki taraf da ilerleme yapamıyor; beraberlik."
     }
+  },
+  "nimzo-hint/rubinstein-b6": {
+    "ozet": "Nimzo-Hint'in Rubinstein (4.e3) kolunda Siyah …b6 ve …Bb7 ile fiyanketto kurar; maçta cxd5 exd5 sonrası Carlsbad'a benzeyen bir piyon yapısı oluştu. Ehlvest a3-b4 ile vezir kanadında yer kazandı, a4-a5 ile hat açtı ve kalesini a7'ye soktu. Siyah …Ne4 ve …f5 ile şah kanadında oyun aradı. Taktik bir değişim serisinde 26...c4?? hatası kale ile b7 filinin kaybına yol açtı; Beyazın kaleleri yedinci yatayda Siyahın şahını sıkıştırdı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "a3-b4-a4-a5 ile vezir kanadında hat açmak, a hattında kale; merkezi sağlam tutmak."
+      ],
+      [
+        "Siyah",
+        "…Ne4 ve …f5 ile e4 karesinde güçlü at (Stonewall benzeri), şah kanadında saldırı."
+      ]
+    ],
+    "hamleler": {
+      "4.e3": "Rubinstein Varyantı: Beyaz sağlam gelişir; f1 fili d3'e gelecek.",
+      "4...b6": "Siyah filini b7'ye getirip e4 karesini kontrol eder.",
+      "8...exd5": "Piyon yapısı oluştu: Siyahın d5 piyonu e4'ü destekler, Beyazın vezir kanadında çoğunluğu var.",
+      "10.b4": "Beyaz vezir kanadında yer kazanır; c5 karesini kontrol eder.",
+      "12.a4": "Beyaz a5 ile b6 piyonuna dokunacak.",
+      "14...Ne4": "At e4'te güçlü bir merkez karesinde; …f5 ile desteklenecek.",
+      "16...f5": "Siyah e4 atını sağlamlaştırır ve şah kanadında saldırı hazırlar.",
+      "18.a5": "Kırılma: a hattı açılıyor.",
+      "20.Ra7": "Kale yedinci yatayda; b7 filine baskı.",
+      "20...Kh8": "Motor 20...Ra8 ile a hattına karşı çıkmayı öneriyordu. Beyaz şimdi b5 ile c6'yı kırıyor.",
+      "21.b5": "Kırılma: c6 piyonu sorgulanıyor ve b7 fili zayıflıyor.",
+      "24.Bc4": "Taktik: fil fedası ile d7 vezirine yol açılıyor.",
+      "26.Rxg7": "Kale g7'de: Siyahın şahı tehlikede.",
+      "26...c4": "Ciddi hata: b7 fili korumasız kaldı. Motor 26...Ne5 öneriyordu.",
+      "27.Rgxb7+": "Beyaz fili şahla birlikte aldı; kaleler yedinci yatayda.",
+      "31.Rxg6": "Beyaz atı da aldı ve mat tehditleri durdurulamıyor; Siyah terk etti."
+    }
+  },
+  "nimzo-hint/klasik-a3-b6": {
+    "ozet": "Nimzo-Hint'in Klasik kolunda 4...O-O 5.a3 Bxc3+ 6.Qxc3 b6 sonrası Beyazın iki fili var; 12. hamlede vezirler değişti. Kramnik, iki filin oyun sonunda nasıl kazandığını gösteren sabırlı bir maç oynadı. Şahını b2'ye getirip vezir kanadında b4-b5 ve a4-a5 ile piyon çoğunluğunu yürüttü. Leko atlarıyla savundu, ama Beyazın b piyonu geçer piyon oldu. İki taraf da oyun sonunda küçük hatalar yaptı; Kramnik sonunda Siyahın piyonlarını toplayarak kazandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "İki fil, vezir kanadı çoğunluğu (b4-b5, a4-a5), şahı merkeze/vezir kanadına getirmek."
+      ],
+      [
+        "Siyah",
+        "Atlarla sağlam savunma, …c5 ve …e5 ile merkezi açmak, şah kanadında karşı oyun."
+      ]
+    ],
+    "hamleler": {
+      "6.Qxc3": "Beyaz vezirle geri alır; piyon yapısı bozulmadı ve iki fil kaldı.",
+      "6...b6": "Siyah fiyanketto kurar; b7 fili e4 ve g2'ye bakacak.",
+      "8.f3": "Beyaz e4'ü kontrol eder ve e4 ile merkezi kurmaya hazırlanır.",
+      "12.Bxd8": "Vezirler değişti: Siyah vezir karşılığında vezir aldı. İki filin oyun sonu başlıyor.",
+      "14...c5": "Siyah merkeze baskı yapar.",
+      "15.e4": "Beyaz merkezi kurar ve d5 atını kovar.",
+      "17...cxd4": "Merkez açıldı; Beyazın fili d4'e gelecek.",
+      "21...e5": "Siyah merkezde yer kazanır ve d4 filini kovar.",
+      "22.b4": "Vezir kanadı çoğunluğu harekete geçiyor.",
+      "24.Kb2": "Şah vezir kanadındaki piyonları desteklemeye gidiyor.",
+      "26.Bxe6": "Beyaz bir fili ata verir; iki fil gitti ama b piyonu güçlü.",
+      "30.b5": "b piyonu ilerliyor; Siyahın fili kenara itildi.",
+      "33.a5": "Kırılma: a ve b piyonlarından biri geçer olacak.",
+      "38.Nxa5": "Motor 38.Nxe5 öneriyordu. Yine de Beyazın b piyonu çok tehlikeli.",
+      "41.b7": "Piyon terfiye bir kare uzakta; Siyah filini vermek zorunda.",
+      "47.Bxh6": "Motor 47.Kd2 öneriyordu; avantaj azaldı ama Beyaz hâlâ önde ve Siyah sonunda terk etti."
+    }
+  },
+  "nimzo-hint/kmoch-f3": {
+    "ozet": "4.f3 (Kmoch) ile Beyaz e4 ile büyük bir merkez kurmak ister; Siyah …d5 ile e4'ü engeller. 5.a3 Bxc3+ 6.bxc3 sonrası Sämisch'e benzer bir yapı oluştu: Beyazın iki fili ve merkez piyonları, Siyahın ise c4 karesi ve sağlam yapısı. Siyah …b6-Ba6 ile beyaz kareli filleri değiştirdi. Mamedyarov e4 ile merkezi açtı, ama Ivanchuk taşları değiştirerek dengeyi korudu. Maç kısa bir oyun sonunda berabere bitti.",
+    "planlar": [
+      [
+        "Beyaz",
+        "e3-e4 ile merkezi kurmak, iki fil, şah kanadında oyun."
+      ],
+      [
+        "Siyah",
+        "…d5 ile e4'ü engellemek, …Ba6 ile beyaz kareli filleri değiştirmek, c4 karesi."
+      ]
+    ],
+    "hamleler": {
+      "4.f3": "Kmoch Varyantı: Beyaz e4 ile merkezi tamamen ele geçirmek istiyor.",
+      "4...d5": "Siyah e4'ü engeller; merkezde hemen karşı çıkar.",
+      "5...Bxc3+": "Siyah filini at karşılığında verir ve Beyazın piyon yapısını bozar.",
+      "9...b6": "Siyah …Ba6 ile Beyazın iyi filini değiştirmeyi hazırlar.",
+      "10...Ba6": "Beyaz kareli filler değişecek; Beyazın merkezdeki piyonları artık daha az destekli.",
+      "12...Bxd3": "Değişim tamamlandı; Siyahın atları Beyazın filine karşı iyi.",
+      "14.Ra2": "Kale ikinci yataydan e2'ye geçip e4 kırılmasını destekleyecek.",
+      "18.e4": "Merkez kırılması: d5 baskı altında.",
+      "21.dxc5": "Merkez açıldı; taşlar değişmeye başlıyor.",
+      "23...dxe4": "Siyah merkezdeki gerginliği çözer.",
+      "26...Nf5": "At d4 filine saldırır; Siyah değişimlerle beraberliğe gidiyor.",
+      "29.exf5": "Taşlar azaldı ve konum eşit; oyuncular beraberlikte anlaştı."
+    }
+  },
+  "nimzo-hint/leningrad": {
+    "ozet": "Leningrad Varyantı (4.Bg5): Beyaz filini g5'e getirip f6 atını açmaza alır; Siyah …c5 ile merkeze karşı çıkar ve d5 kapanınca Benoni'ye benzeyen bir yapı oluşur. Maçta Siyah …h6 ve …Ne5-g6 ile filini rahatsız etti, Beyaz f4 ile şah kanadında yer kazandı. Siyah …f5 ile e4 karesini kontrol etti. İki taraf da riske girmedi; Beyazın fili f2-h4 arasında, Siyahın atı e7-g6 arasında gidip gelince konum tekrarlandı ve maç berabere bitti.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Bg5 açmazı, d5 ile merkezde yer, f4 ile şah kanadında genişleme."
+      ],
+      [
+        "Siyah",
+        "…c5 ve …exd5 ile Benoni yapısı, …Ne5-g6 ile fili rahatsız etmek, …f5 ile e4 karesi."
+      ]
+    ],
+    "hamleler": {
+      "4.Bg5": "Leningrad: fil f6 atını açmaza alır; Beyaz e4 ile merkezi kurmak istiyor.",
+      "4...c5": "Siyah merkeze karşı çıkar; d5 kapanmasını kışkırtır.",
+      "5.d5": "Beyaz merkezi kapatır ve yer kazanır.",
+      "6.cxd5": "Benoni yapısı: Beyazın d5 piyonu, Siyahın d6 ve c5 piyonları.",
+      "10...Ne5": "At merkeze gelir ve d3 filine bakar.",
+      "11...Ng6": "At h4 filine saldırır; Beyaz filini g3'e çekiyor.",
+      "12...Nh5": "At g3 filine saldırıyor; Siyah fili değiştirmek istiyor.",
+      "13.f4": "Beyaz şah kanadında yer kazanır ve e5 karesini kontrol eder.",
+      "13...f5": "Siyah e4 karesini kontrol eder; merkez kilitleniyor.",
+      "18.Bh4": "Fil e7 atına saldırır; Siyah atını g6'ya getirerek karşılık veriyor.",
+      "21.Bf2": "Fil ve at gidip geliyor; konum üçüncü kez tekrarlandı ve beraberlik."
+    }
+  },
+  "nimzo-hint/samisch-a3": {
+    "ozet": "Sämisch Varyantı (4.a3): Beyaz iki fil karşılığında c3'te ikiz piyonları kabul eder ve büyük bir merkez kurar. Siyah Capablanca'nın fikriyle …c5, …Nc6, …b6, …Ba6 ile c4 piyonunu hedef alır, …Ne8 ve …f5 ile Beyazın şah kanadı saldırısını önler. Radjabov 12.d5?! ile merkezi açtı, ama Leko beyaz kareli filleri değiştirip c4 ve e4 karelerini aldı. Siyahın atları b3 ve f5'e girdi; Beyazın zayıf piyonları düştü ve Siyah kazandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "İki fil ve merkez (e4-f4), şah kanadında f5 ile saldırı."
+      ],
+      [
+        "Siyah",
+        "c4 piyonunu hedef almak (…Ba6, …Na5), …f5 ile şah kanadı saldırısını durdurmak, merkezde blokaj."
+      ]
+    ],
+    "hamleler": {
+      "4.a3": "Sämisch: Beyaz filden c3'te değişim ister; iki fil karşılığında piyon yapısı bozulacak.",
+      "5.bxc3": "Beyazın c3-c4 ikiz piyonları var; c4 Siyahın ana hedefi olacak.",
+      "8...b6": "Siyah …Ba6 ile c4'e baskı kuracak.",
+      "9...Ne8": "Capablanca'nın fikri: at f6'dan çekilip …f5 hamlesine yol açar; Beyazın e5 ve f5 saldırılarını önler.",
+      "10...Ba6": "Fil c4 piyonuna saldırıyor.",
+      "11...f5": "Siyah, Beyazın şah kanadı saldırısını durdurur.",
+      "12.d5": "Motor 12.Ng3 öneriyordu. Merkezi açmak Siyahın taşlarına yarıyor.",
+      "13...Bxd3": "Beyaz kareli filler değişti; Beyazın iki fil avantajı gitti.",
+      "15...Nd6": "At blokaj karesinde: c4, e4 ve f5'e bakar.",
+      "16...Na5": "At b3'e yönelir; c1 filine ve Beyazın vezir kanadına saldıracak.",
+      "19...Nb3": "At b3'te; Beyazın c1 filini değiştirmeye gidiyor.",
+      "22...Nxf5": "Siyah bir piyon kazandı ve atı merkeze döndü.",
+      "26.Qxf8+": "Beyaz vezirleri değişir ama Siyahın malzeme üstünlüğü kalıyor.",
+      "31...Kd8": "Siyah bir piyon fazlası ve daha iyi taşlarla; Beyaz terk etti."
+    }
+  },
+  "petrov/steinitz-nxe4": {
+    "ozet": "Petrov'un 3.d4 (Steinitz) kolu: Siyah e4 piyonunu alır, Beyaz da e5'i alır; simetrik bir yapı oluşur. Bu dünya şampiyonası maçında (Ponomariov o yıl şampiyon oldu) Beyaz vezirini h5'e getirip şah kanadında baskı kurdu, Siyah …f5 ve …Re4 ile aktif bir kale yerleştirdi. Beyazın 25.Rf1? hatası …Bg4 ile vezir kaybına (vezir karşılığı kale+fil) yol açtı. Ardından Siyahın veziri Beyazın açık şahına girdi ve maçı kazandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "İki fil ve e hattı, Qh5 ile şah kanadında baskı, c3-d4 merkezi."
+      ],
+      [
+        "Siyah",
+        "Simetrik yapıda aktif taşlar, …f5 ve …Re4 ile merkez, Beyazın şahına karşı vezir saldırısı."
+      ]
+    ],
+    "hamleler": {
+      "3.d4": "Steinitz kolu: Beyaz merkezde hemen gerginlik yaratır.",
+      "3...Nxe4": "Siyah piyonu alır; Beyaz e5'i alarak dengeyi koruyacak.",
+      "5.Nxe5": "Beyaz piyonu geri aldı; at merkezde güçlü.",
+      "6.Nxd7": "Beyaz atı değiştirir; Siyahın gelişimi rahatladı.",
+      "10...Nxc3": "Siyah e4 atını değiştirir; Beyazın c3-d4 piyonları kaldı.",
+      "12.Qh5": "Vezir şah kanadına geçti; h7 ve f7'ye baskı.",
+      "12...f5": "Siyah b1-h7 çaprazını kapatır ve e4'ü kontrol eder.",
+      "16...Re4": "Kale e4'te güçlü: f4 ve d4'e bakar.",
+      "18...Bxf4": "Filler değişti; Beyazın şah kanadı piyonları bozuldu.",
+      "20.Bxe4": "Beyaz kaleyi aldı ama Siyahın e4 piyonu güçlü ve f hattı açık.",
+      "25.Rf1": "Hata: Beyaz …Bg4 tehdidini gözden kaçırdı. Motor 25.Rb2 öneriyordu.",
+      "25...Bg4": "Fil vezire saldırır; f3 kalesi açmazda.",
+      "26.Qxg4": "Beyaz veziri fil ve kaleye vermek zorunda kaldı.",
+      "33...Qc1": "Siyahın veziri birinci yatayda; Beyazın şahı ve piyonları savunmasız.",
+      "38...Qxd4+": "Siyah d4'ü aldı; bağlantılı merkez piyonları terfiye gidecek. Beyaz terk etti."
+    }
+  },
+  "petrov/uc-at-dort-at": {
+    "ozet": "Petrov'a 3.Nc3 ile karşılık verilince oyun İspanyol Dört At yapısına döner. Siyah (Karpov) filini c3 atına verdi ve Beyazın piyonlarını bozdu, ama Beyaz iki file sahip oldu. Svidler filini geri çekip g3 ve Nh4-g2-e3 manevrasıyla atını iyi bir kareye taşıdı ve şah kanadında f3-f4-f5 ile oyun kurdu. Karpov'un veziri h3'e gidince kapana girdi: Beyaz önce f6 atını alıp Siyahın şahını açtı, sonra veziri yakaladı. Ders: iki fil ve şah kanadında piyon çoğunluğu zamanla güçlenir.",
+    "planlar": [
+      [
+        "Beyaz",
+        "İki fili korumak, d4 ile merkezi açmak, atı e3'e getirmek, f4-f5 ile şah kanadı saldırısı."
+      ],
+      [
+        "Siyah",
+        "…Bxc3 ile Beyazın yapısını bozmak, …Nd8-e6 ile d4 ve f4 karelerini kontrol, …c5 ile merkez."
+      ]
+    ],
+    "hamleler": {
+      "4.Bb5": "İspanyol Dört At: fil c6 atını açmaza alır, e5'e dolaylı baskı yapar.",
+      "6...Bxc3": "Siyah filini at karşılığında verir; Beyazın c piyonları ikizlenir.",
+      "9...Nd8": "Klasik manevra: at e6'ya gidip d4, f4 ve g5 karelerini kontrol edecek.",
+      "11...c5": "Siyah d4 karesine baskı yapar.",
+      "12.Bf1": "Beyaz filini koruyup daha sonra c4'e getirmeyi planlar.",
+      "15.Nh4": "At f5 karesine ve g2-e3 üzerinden d5'e yönelecek.",
+      "17.Ng2": "At e3'e gidiyor: d5 ve f5 karelerine bakacak.",
+      "19.Ne3": "At ideal karesinde; Beyazın taşları uyum içinde.",
+      "20.Bc4": "Fil vezire saldırır; Siyahın veziri h3'e gidecek ve kapana yaklaşacak.",
+      "20...Qh3": "Vezir Beyazın şahına yakın ama kaçış yolları kısıtlı. Beyaz bunu kullanacak.",
+      "21.Bxf6": "Fil atı alır; Siyahın şahının önü açılır.",
+      "23.f5": "Piyon h3'teki vezirin yolunu kapatır; f1 fili vezire saldırmaya hazırlanıyor.",
+      "25.Bxh3": "Vezir kazanıldı; Siyah karşılığında bir at ve piyonlar aldı ama malzemede açıkça geride.",
+      "27.Qxh6": "Beyaz vezir Siyahın şahına girdi.",
+      "33.Rg5+": "Mat tehditleri durdurulamıyor; Karpov terk etti."
+    }
+  },
+  "petrov/klasik-bd6": {
+    "ozet": "Petrov'un klasik ana hattında (5.d4 d5 6.Bd3 Bd6) iki taraf da simetrik gelişir. Adams beyaz kareli filleri değiştirip Siyahın veziri ve at değişimiyle c3-d4 piyonlarını kabul etti. Vezirler gitti; Beyaz c4-c5 ile vezir kanadında yer kazandı. Morozevich şah kanadında …h5 ve …g5 ile oyun aradı, ama 28...g5? hatası taktik bir darbe getirdi: 29.Nxg5+ ile Beyaz bir piyon ve f5 atını kazandı. Uzun bir kale-fil oyun sonunda Beyaz Siyahın şahını sıkıştırarak kazandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Beyaz kareli filleri değiştirmek, c4-c5 ile vezir kanadında yer, Siyahın d5 piyonunu hedef almak."
+      ],
+      [
+        "Siyah",
+        "Aktif fil (…Bd6), …Bf5 ile değişimler, şah kanadında …h5-g5 ile yer kazanma."
+      ]
+    ],
+    "hamleler": {
+      "6...Bd6": "Fil aktif bir kareye gelir: h2'ye bakar.",
+      "9.c4": "Beyaz d5 piyonuna baskı yapar; merkezi açmak istiyor.",
+      "10.Qb3": "Vezir b7 ve d5'e baskı yapar.",
+      "12.Bxf5": "Beyaz kareli filler değişti.",
+      "13.bxc3": "Beyazın c3-d4 piyonları var; c hattı açılacak.",
+      "15.Qb5": "Beyaz vezir değişimi teklif eder; Siyahın d5 piyonu ve vezir kanadı zayıf.",
+      "20.c4": "Beyaz d5'e baskı yapar.",
+      "22.Qxd7": "Vezirler değişti.",
+      "23.c5": "Beyaz vezir kanadında yer kazandı; Siyahın fili kısıtlandı.",
+      "25.Bxc5": "Fil c5'te güçlü: e7 ve f8'e bakar.",
+      "28...g5": "Hata: f5 atının desteği zayıflıyor ve Nxg5+ taktiği doğuyor. Motor 28...Rc8 öneriyordu.",
+      "29.Nxg5+": "At fedası! fxg5 sonrası Rf3 ile f5 atı açmazda kalıyor ve düşüyor.",
+      "31.Rxf5+": "Beyaz atı geri aldı ve bir piyon önde.",
+      "40.Rb7": "Kale yedinci yatayda; Siyahın şahı arka yataylara itildi.",
+      "46.Rxa5": "Beyaz bir piyon daha aldı.",
+      "49.Rg8+": "Siyahın şahı açıkta ve piyonları düşüyor; Siyah terk etti."
+    }
+  },
+  "petrov/cozio-qe2": {
+    "ozet": "5.Qe2 (Cozio) ile Beyaz vezirleri erkenden değiştirip uzun rok yapar: sessiz ama sinsi bir oyun sonu planı. Siyahın taşları biraz pasif kalır. Timman atını d4'e ve f5'e soktu, iki fil karşılığında Siyahın piyon yapısını hedef aldı. Siyahın 26...dxc4?! hamlesi b7 piyonunu kaybettirdi. Uzun bir kale-fil oyun sonunda Timman vezir kanadındaki geçer piyonlarını yürüttü ve teknikle kazandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Vezirsiz oyunda uzun rok, d hattı, atı f5'e getirmek, vezir kanadı piyonları."
+      ],
+      [
+        "Siyah",
+        "Sağlam savunma, iki fil, …d5 ile merkezi açmak."
+      ]
+    ],
+    "hamleler": {
+      "5.Qe2": "Beyaz e4 atını açmaza alır; Siyah vezir değişimini kabul etmek zorunda.",
+      "7.Bg5": "Fil vezir değişimini zorlar; Siyah değişmezse e7 vezirine baskı devam eder.",
+      "7...Qxe2+": "Vezirler değişti; oyun sonu başladı.",
+      "10.O-O-O": "Uzun rok: kale d hattında, d6 piyonuna baskı.",
+      "13...Bxg5+": "Filler değişiyor; Beyazın e4 piyonu merkezde.",
+      "16.Nd4": "At d4'te güçlü; f5 ve c6'ya bakar.",
+      "17.f4": "Beyaz şah kanadında yer kazanır.",
+      "21.Nf5": "At f5'e geldi: d6 ve g7'ye baskı.",
+      "23.g4": "At f5'i destekler.",
+      "26...dxc4": "Motor 26...Na6 öneriyordu. Şimdi b7 piyonu düşüyor.",
+      "27.Bxb7": "Beyaz bir piyon kazandı.",
+      "31...gxf5": "Siyah piyonu geri aldı ama Beyazın fili f5'i alacak.",
+      "39...Nc2": "Siyah atını aktifleştiriyor; Beyaz piyonlarını korumak zorunda.",
+      "43...f5": "Hata: motor 43...Rb5 öneriyordu. Beyazın fili ve kalesi Siyahın piyonlarını topluyor.",
+      "50.Rxb3": "Beyaz b3'ü aldı; vezir kanadında iki bağlantılı geçer piyonu var.",
+      "63.a6": "Piyonlar terfiye yaklaşıyor; Siyahın h piyonu yetişemiyor.",
+      "66.Rh5": "h piyonu da durdu; Siyah terk etti."
+    }
+  },
+  "petrov/nimzowitsch-be7": {
+    "ozet": "Petrov'un 5.Nc3 kolunda Beyaz e4 atını değiştirip dxc3 ile geri alır; amaç hızlı gelişim, uzun rok ve şah kanadında piyon saldırısı. Aronian h4 ile saldırıya başladı, ama Dominguez …d5 ve …c5-c4 ile vezir kanadında daha hızlı karşı saldırı kurdu. Siyahın c piyonu c3'e kadar girdi ve Beyazın şahını sıkıştırdı. 25.Bf2? ve 28.a4?! hataları sonrası Siyahın kalesi ve veziri Beyazın şahına girdi.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Hızlı gelişim, uzun rok, h4-g4 ile Siyahın şahına piyon saldırısı."
+      ],
+      [
+        "Siyah",
+        "Sağlam kısa rok, …d5 ve …c5-c4-c3 ile Beyazın uzun roktaki şahına karşı saldırı."
+      ]
+    ],
+    "hamleler": {
+      "5.Nc3": "Beyaz e4 atını değişmeye çağırır; dxc3 ile geri alınca filler serbestleşir.",
+      "6.dxc3": "Beyazın piyon yapısı bozuldu ama taşları hızla gelişiyor.",
+      "9.O-O-O": "Uzun rok: zıt roklar ve karşılıklı saldırı.",
+      "11.h4": "Beyaz piyon saldırısını başlatır; Ng5 ve h5 fikirleri.",
+      "11...d5": "Siyah merkezde yer kazanır; …c5 için hazırlık.",
+      "13...c5": "Siyahın vezir kanadı saldırısı başladı.",
+      "15.Bxd7": "Beyaz kareli filler değişti.",
+      "19...d4": "Merkez kırılması: c3 piyonu baskı altında.",
+      "20...c4": "Piyon Beyazın şahına yaklaşıyor.",
+      "21.g3": "Motor 21.g4 öneriyordu. Siyah …c3 ile piyonu Beyazın şahının dibine soktu.",
+      "21...c3": "Piyon c3'te Beyazın şahını kilitliyor; b2 zayıf.",
+      "25.Bf2": "Hata: e1 kalesi korumasız. Motor 25.Bc1 öneriyordu.",
+      "25...Rxe1": "Siyah kaleyi değiştirir ve Beyazın birinci yatayı zayıflar.",
+      "26...Bb2": "Fil b2'de: Beyazın şahına mat tehditleri.",
+      "28.a4": "Bir hata daha; Siyahın veziri b4'e girip kesin saldırı kuruyor. Beyaz terk etti."
+    }
+  },
+  "petrov/klasik-jaenisch": {
+    "ozet": "Petrov'un Jaenisch kolu en uzun teorik hatlardan biri: 34 yarım hamle boyunca maç varyantı izledi. Taşlar simetrik gelişti, kaleler ve siyah kareli filler değişti. Dominguez atını g5'e soktu ve h4-h5 ile Siyahın filine saldırdı; Leko fili verip at karşılığında piyonları aldı ve vezirle Beyazın şahına sürekli şah çekti. Maç bir 'teorik beraberlik' örneği: iki taraf da hatasız oynadı ve konum tekrarı oldu.",
+    "planlar": [
+      [
+        "Beyaz",
+        "c4 ile merkezde baskı, iki fil, Ng5 ve h4-h5 ile şah kanadına saldırı."
+      ],
+      [
+        "Siyah",
+        "Aktif taşlar (…Nb4, …Bf5), değişimlerle eşitlik, gerektiğinde vezirle sürekli şah."
+      ]
+    ],
+    "hamleler": {
+      "6...Nc6": "Siyah d4'e baskı yapar; …Nb4 ile d3 filine saldırmaya hazırlanır.",
+      "8...Nb4": "At d3 filini kovalar; Beyaz filini e2'ye çeker.",
+      "10...Bf5": "Fil aktif bir kareye gelir; c2 ve b1'e bakar.",
+      "11...Nxc3": "Siyah e4 atını değiştirir; Beyazın c3-d4 piyonları kaldı.",
+      "14...dxc4": "Siyah merkezi açar; Beyazın fili c4'e gelir.",
+      "16.Rxe8+": "Kaleler değişti; e hattı boşaldı.",
+      "17...cxd6": "Siyah kareli filler değişti; varyant burada bitiyor.",
+      "18.Ng5": "At şah kanadına yönelir: f7 ve h7'ye baskı.",
+      "19.h4": "Piyon h5 ile g6 filine saldırmaya hazırlanır.",
+      "21.h5": "Fil kovalandı; Siyah onu feda edecek.",
+      "21...Bxh5": "Siyah fili verir: Qxh5 hxg5 sonrası at ve piyon karşılığında aktif vezir.",
+      "22...hxg5": "Malzeme eşit (fil karşılığı at ve piyon); Siyahın veziri aktif.",
+      "25...Qxf2": "Vezir f2'yi aldı ve Beyazın şahını rahatsız ediyor.",
+      "32.Kf1": "Siyah sürekli şah çekiyor; konum tekrarlandı ve beraberlik."
+    }
+  },
+  "pirc/philidor-nf3": {
+    "ozet": "Pirc/Philidor yapısında (Hanham kuruluşu) Siyah …e5 ve …Nbd7 ile sağlam bir merkez kurar. Vachier-Lagrave a4 ve Re1 ile klasik şekilde gelişti; Siyah …exd4 ile merkezi açıp atını e5'e getirdi. Beyaz Bf4 ile d6'ya baskı yaptı. Taşlar değişti, Siyahın şah kanadı piyonları bozuldu ama …f5 ile aktifleşti. Konum dengede kaldı ve maç berabere bitti.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Klasik gelişim (Bc4, a4, Re1), d6 piyonuna baskı, merkezde yer."
+      ],
+      [
+        "Siyah",
+        "Sağlam e5-d6 merkezi, …exd4 ile açılım ve e5 karesine at, …Re8 ile e4'e baskı."
+      ]
+    ],
+    "hamleler": {
+      "3...e5": "Philidor yapısı: Siyah merkezde e5 piyonuyla yer tutar.",
+      "4...Nbd7": "Hanham kuruluşu: at e5'i destekler.",
+      "7.a4": "Beyaz …b5 ile yer kazanılmasını engeller.",
+      "8...exd4": "Siyah merkezi açar ve e5 karesini atı için boşaltır.",
+      "9...Ne5": "At ideal karesinde: c4 filine ve f3/d3 karelerine bakar.",
+      "10.Ba2": "Fil saldırıdan kaçar ama a2-g8 çaprazında kalır.",
+      "12.Bf4": "Fil d6 piyonuna baskı yapar.",
+      "14...Ng6": "At filine saldırır; Beyaz filini h2'ye çekiyor.",
+      "17.Nd5": "Beyaz vezir değişimine gider.",
+      "18...gxf6": "Siyahın piyonları bozuldu ama f hattı ve fil çiftinden biri aktif.",
+      "19...f5": "Siyah e4'e saldırır ve piyon yapısını düzeltir.",
+      "24.Ne3": "Konum dengede; oyuncular beraberlikte anlaştı."
+    }
   }
 }
