@@ -198,7 +198,7 @@ function toPgn(opening) {
 
 let failed = false;
 const index = [];
-for (const file of readdirSync(srcDir).filter((f) => f.endsWith('.json'))) {
+for (const file of readdirSync(srcDir).filter((f) => f.endsWith('.json') && f !== 'usta-notlar.json')) {
   try {
     const src = JSON.parse(readFileSync(join(srcDir, file), 'utf8'));
     // En çok oynanan varyant önce gelsin (ağaçta da ilk çocuk = en çok oynanan devam).
