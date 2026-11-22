@@ -2770,5 +2770,246 @@
       "46.e6": "Geçer piyon ilerliyor.",
       "52.Bd2+": "Siyah terk etti."
     }
+  },
+  "yari-slav/yari-cambridge": {
+    "ozet": "Cambridge Springs Varyantı'nda Siyah …Qa5 ile c3 atını açmaza alır ve g5 filinin c3'ü korumayı bıraktığı gerçeğinden yararlanır. Van der Sterren Nd2 ile açmazı karşıladı. Siyah …e5 ile merkezi açtı ve konum karmaşıklaştı. Beyaz atını d6'ya soktu ama 22.Qxc5? hatası avantajı kaçırdı: Siyah …Qxh4 ve …Qxf2+ ile taktik bir değişime gitti ve konum eşitlendi. Oyun sonunda iki tarafın da piyonları terfiye koştu, sonunda yalnız şahlar ve hafif taşlar kalınca beraberlik oldu.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Nd2 ile açmazı karşılamak, c4'ü korumak, merkezde yer ve Nd6 gibi güçlü kareler."
+      ],
+      [
+        "Siyah",
+        "…Qa5 ve …Bb4 ile c3'e baskı, …dxc4 ve …e5 ile merkezi açmak."
+      ]
+    ],
+    "hamleler": {
+      "6...Qa5": "Cambridge Springs: vezir c3 atını açmaza alır; g5 fili artık korumasız olabilir.",
+      "7.Nd2": "At c4'ü korur ve vezirin açmaz baskısını azaltır.",
+      "7...Bb4": "Fil de c3'e baskı yapar.",
+      "9...e5": "Siyah merkezi açar.",
+      "10...exd4": "Merkez açıldı.",
+      "12...dxc4": "Siyah c4 piyonunu aldı.",
+      "14.Na4": "At vezire saldırır ve c5 karesine bakar.",
+      "15.Bxc4": "Beyaz piyonunu geri aldı.",
+      "16.Nb5": "At d6'ya gidecek.",
+      "17.Nd6": "At d6'da çok güçlü: c8 ve b7'ye bakar.",
+      "18...bxc4": "Siyah fili aldı ama b4 fili de düşecek.",
+      "20.Qxc4": "Beyaz piyonu geri aldı; konum Beyaz lehine.",
+      "21...Ne5": "At vezire saldırır.",
+      "22.Qxc5": "Hata: motor 22.Qxb4 öneriyordu. Siyahın …Qxh4 ve …Qxf2+ taktikleri geliyor.",
+      "22...Qxh4": "Siyah fili aldı.",
+      "23...Qxf2+": "Vezir fedası: …Ng4+ ile vezir geri alınacak.",
+      "24...Ng4+": "At çatal: şah ve vezire saldırıyor.",
+      "25...Nxe5": "Siyah veziri geri aldı; malzeme eşit.",
+      "26.Nxc8": "Taşlar değişiyor.",
+      "29.Rxa6": "Beyaz a6 piyonunu aldı.",
+      "33...Rxg2+": "Siyah g2'yi aldı; iki taraf da piyon topluyor.",
+      "35.b6": "Beyazın b piyonu ilerliyor.",
+      "39...Rxb6": "Siyah kaleyi b piyonu için verdi.",
+      "42...h1=Q": "Siyahın piyonu terfi etti ama hemen alınacak.",
+      "43.Rxh1+": "Değişimler sonunda konum eşit.",
+      "47.Kxh1": "Yalnızca birer hafif taş kaldı; beraberlik."
+    }
+  },
+  "yari-slav/yari-noteboom": {
+    "ozet": "Noteboom Varyantı Yarı-Slav'ın en keskin kollarından biridir: Siyah c4 piyonunu alır ve …b5 ile tutar, vezir kanadında geçer piyonlar kazanır; Beyaz ise merkezde güçlü piyonlar ve iki fil alır. Hammer–Nakamura (Norway Chess 2013) maçında Siyahın a ve b piyonları vezir kanadında ilerledi. Beyaz e4-e5 ile merkezde saldırdı ama Siyahın b piyonu b2'ye ulaştı. 23.Qg4?! ve 25.Qg5?! hataları sonrası Siyahın piyonu a1'de terfi etti ve Nakamura kazandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Merkezde d4-e4-f4 piyonları, iki fil, şah kanadında saldırı."
+      ],
+      [
+        "Siyah",
+        "Vezir kanadında a ve b geçer piyonları, …b4-b3-b2 ile terfi."
+      ]
+    ],
+    "hamleler": {
+      "4...dxc4": "Siyah c4'ü alır.",
+      "5...b5": "Siyah piyonu b5 ile tutar.",
+      "6.a4": "Beyaz b5'i sorgular.",
+      "6...Bb4": "Fil c3 atını açmaza alır.",
+      "8...Bxc3": "Siyah fili ata verdi; Beyaz iki fil kazanır.",
+      "9...cxb5": "Siyahın vezir kanadında a, b ve c piyonları var.",
+      "11.bxc4": "Beyaz c4'ü geri aldı.",
+      "11...b4": "Siyahın b piyonu geçer oldu.",
+      "16.f4": "Beyaz şah kanadında yer kazanır ve e4-e5'i hazırlar.",
+      "16...a4": "Siyahın a ve b piyonları ilerliyor.",
+      "18...b3": "Piyon b3'te.",
+      "19.Ba1": "Fil uzun çaprazda kaldı ama b piyonunun yolunda.",
+      "20.e4": "Beyaz merkezi açar.",
+      "21.e5": "Beyaz f6 atına saldırır.",
+      "22.exf6": "Beyaz atı aldı.",
+      "22...Nxd3": "Siyah d3 filini aldı.",
+      "23.Qg4": "Motor 23.Rf3 öneriyordu.",
+      "24...b2": "Piyon b2'de; terfi tehdidi.",
+      "25.Qg5": "Motor 25.Rxd3 öneriyordu.",
+      "25...bxa1=Q": "Piyon terfi etti ve a1 filini aldı.",
+      "27...Rxd4": "Siyah d4'ü aldı; Siyah malzeme önde.",
+      "29...Rxd3": "Siyah kaleyi aldı.",
+      "30...a3": "a piyonu da terfiye koşuyor.",
+      "33...Rxf3+": "Siyah atı da aldı; Beyaz terk etti."
+    }
+  },
+  "yari-slav/yari-slav-botvinnik": {
+    "ozet": "Botvinnik Sistemi Yarı-Slav'ın en karmaşık kollarındandır: Siyah c4'ü alır, …b5 ile tutar ve …h6-g5 ile Beyazın filini kovalar; Beyaz Nxg5 ile at feda eder. Kasparov–Ivanchuk (Linares 1994) maçı bu sistemin klasik örneklerinden biridir. Siyah uzun rok yaptı ama Kasparov 17.Nxb5 ile b5'i aldı ve Siyahın şahına saldırdı. Beyazın atı a7 ve b5'te, veziri c7 ve b6'da Siyahın şahını rahatsız etti. Sonunda Beyazın kalesi e8'e girdi, Siyahın şahı köşede sıkıştı ve a piyonu terfi tehdidiyle maç bitti.",
+    "planlar": [
+      [
+        "Beyaz",
+        "e5 ile merkezde yer, Nxg5 fedası, Siyahın vezir kanadındaki şahına saldırı."
+      ],
+      [
+        "Siyah",
+        "c4'ü tutmak, …b5-Bb7 ile uzun çapraz, uzun rok ve merkez piyonları."
+      ]
+    ],
+    "hamleler": {
+      "5...dxc4": "Botvinnik Sistemi: Siyah c4'ü alır.",
+      "6.e4": "Beyaz merkezi alır.",
+      "6...b5": "Siyah piyonu tutar.",
+      "7.e5": "At f6'dan kovuluyor.",
+      "8...g5": "Siyah fili kovalıyor.",
+      "9.Nxg5": "At fedası: Beyaz h ve g piyonlarını açar.",
+      "10.Bxg5": "Beyaz piyonları geri aldı: malzeme dengede ama konum çok karmaşık.",
+      "11.exf6": "Beyaz atı aldı; f6 piyonu Siyahın kampının içinde.",
+      "12.g3": "Fil g2'ye gelecek ve uzun çaprazda Bb7 ile çarpışacak.",
+      "13.d5": "Beyaz merkezi açar.",
+      "15.Bxf6": "Filler değişiyor.",
+      "16...O-O-O": "Siyah uzun rok yaptı ama şahı vezir kanadında güvende değil.",
+      "17.Nxb5": "At b5'i aldı ve şaha yaklaşıyor.",
+      "18.Nxa7+": "At a7'de şah çeker.",
+      "20.a4": "Beyazın a piyonu ilerliyor.",
+      "22.Qe1": "Vezir vezir kanadına geçiyor.",
+      "23.Qa5": "Vezir şaha saldırıyor.",
+      "24.Qc7+": "Vezir şah çeker.",
+      "27.Rfe1": "Kale e hattında.",
+      "29.a5": "a piyonu ilerliyor.",
+      "30.Re8": "Kale arka yataya girdi.",
+      "31...Qxg2+": "Siyah veziri g2'de verdi; d4+ ile açarak şah gelecek.",
+      "32...d4+": "Açarak şah: Bb7'nin çaprazı açıldı.",
+      "33.Qxb7+": "Beyaz fili aldı.",
+      "34.Rxh8": "Beyaz kaleyi aldı; Beyaz büyük malzeme önde.",
+      "37.Rxf7+": "Kale şah çeker.",
+      "38.a7": "a piyonu terfiye çok yakın.",
+      "39.Rf8": "Mat tehdidi; Siyah terk etti."
+    }
+  },
+  "yari-slav/yari-slav-moskova": {
+    "ozet": "Moskova Varyantı'nda Beyaz 6.Bxf6 ile fili ata verir; Siyah iki fil alır ve sağlam bir konum kurar. Kramnik–Aronian (Zürih 2012) eşleşmesinin bu maçında Siyah …e5 ile merkezde karşı hamle yaptı. Beyaz d5 ile merkezi kapattı ama Siyah …b5 ile c4 filine saldırdı. Taktik değişimlerden sonra vezirler gitti; Siyahın iki fili ve aktif kaleleri vardı. Beyaz şah kanadında g4-g5 ile hat açtı ama Siyah b2 ve a2'yi aldı. 40.Rd7?! hatasından sonra Siyahın filleri ve kalesi Beyazı yendi.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Bxf6 ile gelişim ve merkez, e4-d5 ile yer, şah kanadında saldırı."
+      ],
+      [
+        "Siyah",
+        "İki fil, …e5 ile merkezde karşı oyun, …b5 ile vezir kanadında hat açmak."
+      ]
+    ],
+    "hamleler": {
+      "6.Bxf6": "Moskova Varyantı: Beyaz fili ata verir; Siyah iki fil alır.",
+      "8...dxc4": "Siyah c4'ü alır.",
+      "9...g6": "Siyah filini g7'ye getirecek.",
+      "12.e4": "Beyaz merkezi alır.",
+      "12...e5": "Siyah merkezde karşı hamle yapar.",
+      "13.d5": "Beyaz merkezi kapatır.",
+      "14...b5": "Siyah c4 filine saldırır.",
+      "15.dxc6": "Beyaz c6'yı aldı.",
+      "16.Nd5": "At d5'te vezire saldırır.",
+      "17.cxd7": "Beyaz atı aldı.",
+      "19.Qxc4": "Beyaz piyonu geri aldı.",
+      "19...Bxd5": "Siyah atı aldı.",
+      "21.Qxd5": "Vezirler değişti; Siyahın iki fili var.",
+      "23.g4": "Beyaz şah kanadında piyon saldırısı başlatır.",
+      "25.Nxg5+": "At g5'te.",
+      "26.f4": "Beyaz e5'e saldırır.",
+      "27...Rxb2": "Siyah b2'yi aldı.",
+      "28...Rxa2": "Siyah a2'yi de aldı; vezir kanadında geçer piyonlar.",
+      "30.Rxe6": "Kale e6'da aktif.",
+      "34.Rc1": "Motor 34.Rf1 öneriyordu.",
+      "35.Rc7+": "Kale yedinci yatayda.",
+      "40.Rd7": "Motor 40.Rc1 öneriyordu. Siyah …g5 ile atı kapatıyor.",
+      "40...g5": "At h4'te tuzağa düştü.",
+      "41...Bd6": "Siyahın avantajı belirleyici; Beyaz terk etti."
+    }
+  },
+  "yari-slav/yari-shabalov": {
+    "ozet": "Shabalov-Shirov Gambiti (7.g4) Yarı-Slav'a karşı en saldırgan cevaptır: Beyaz g piyonunu feda edip g hattını açar. Keymer–Abdusattorov (Tata Steel 2026) maçında Siyah piyonu aldı, …Qf6 ile karşı saldırıya geçti ve Beyazın f3 atını aldı. Beyaz g7'yi alıp kalesini aktif tuttu. Konum dengeliydi ama 19.Ba5?! hatası sonrası Siyah …e5 ile merkezi açtı ve vezirleri değişti. Siyahın iki fili ve aktif kaleleri oyun sonunda belirleyici oldu.",
+    "planlar": [
+      [
+        "Beyaz",
+        "g4 fedasıyla g hattını açmak, hızlı saldırı ve gelişim avantajı."
+      ],
+      [
+        "Siyah",
+        "Piyonu alıp …Qf6 ile karşı saldırı, şahı merkezde tutup iki fil."
+      ]
+    ],
+    "hamleler": {
+      "6.Qc2": "Vezir e4 karesini kontrol eder.",
+      "6...Bd6": "Fil h2'ye bakar.",
+      "7.g4": "Shabalov-Shirov Gambiti: Beyaz g piyonunu feda eder.",
+      "7...Nxg4": "Siyah piyonu aldı.",
+      "8.Rg1": "Kale g hattında atı kovalar.",
+      "8...Qf6": "Vezir f3 atına ve f2'ye baskı yapar.",
+      "9.Rxg4": "Beyaz atı aldı.",
+      "9...Qxf3": "Siyah f3 atını aldı.",
+      "10.Rxg7": "Beyaz g7'yi aldı; malzeme dengede.",
+      "11...Qh1": "Vezir h2 ve f1'e bakar.",
+      "13...Ne4": "At merkezde.",
+      "14.Nxe4": "Atlar değişti.",
+      "16.Rh5": "Kale h hattında aktif.",
+      "19.Ba5": "Motor 19.Qf3 öneriyordu. Siyah …e5 ile merkezi açıyor.",
+      "19...e5": "Siyah merkezde kırılma yapar.",
+      "21...Qxd1+": "Vezirler değişti.",
+      "22...Bg4": "Fil d1 kalesine baskı yapar.",
+      "24.Rxe7+": "Kale fil ile değişti.",
+      "29...Rxg3": "Kaleler değişti.",
+      "30...dxe4": "Siyah merkezi açtı; filler aktif.",
+      "35...Rxd5": "Filler değişti; kale-fil oyun sonu Siyah lehine.",
+      "38...Kd5": "Siyahın şahı merkezde.",
+      "41...Rh1": "Siyahın kalesi Beyazın piyonlarına saldırıyor; Beyaz terk etti."
+    }
+  },
+  "yari-slav/yari-anti-meran": {
+    "ozet": "Anti-Meran'da (6.Qc2) Beyaz …dxc4 ve …b5 Meran planına karşı vezirini c2'ye getirip e4 kırılmasını hazırlar. So–Navara (Prag 2015) maçında Beyaz Ng5-e4 ile at manevrası yaptı, Siyah …e5 ile merkezi açtı. Beyazın filleri Bh7+ ve Bf5 ile Siyahın şahını rahatsız etti. Vezir kanadında b4 ile hatlar açıldı, vezirler değişti. Beyazın atı d6 ve f7'ye girip piyon kazandı. Siyahın 42...b3?! hatası atını kaybettirdi ve Beyaz kazandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Qc2 ile e4 kırılması, Ng5-e4 manevrası, fillerle şah kanadında baskı."
+      ],
+      [
+        "Siyah",
+        "…dxc4, …b5 ve …Bb7 ile Meran tarzı plan, …e5 ile merkezi açmak."
+      ]
+    ],
+    "hamleler": {
+      "6.Qc2": "Anti-Meran: vezir e4 kırılmasını hazırlar.",
+      "8...dxc4": "Siyah c4'ü alır.",
+      "9...b5": "Siyah fili kovalar ve …Bb7 ile gelişecek.",
+      "11.a3": "Beyaz …b4'ü önler.",
+      "12.Ng5": "At h7'ye baskı yapar.",
+      "13.Nge4": "At e4'e geçti; f6 atı ile değişecek.",
+      "15.Nxf6+": "Atlar değişti.",
+      "16...e5": "Siyah merkezi açıyor.",
+      "17.Bh7+": "Fil şah çeker.",
+      "18.Bf5": "Fil f5'te aktif.",
+      "19.Ne4": "At d6'ya gidecek.",
+      "20.b4": "Beyaz vezir kanadında hat açar.",
+      "21...Bxb4": "Filler değişiyor.",
+      "22...exd4": "Merkez açıldı.",
+      "24.Nd6": "At d6'da çok güçlü.",
+      "25...Qxc5": "Vezirler değişti.",
+      "27...Bxa8": "Kaleler değişti.",
+      "29.Nxf7+": "At f7'yi aldı; Beyaz bir piyon önde.",
+      "30.Rd7": "Kale yedinci yatayda.",
+      "33.e5": "Beyazın merkez piyonları ilerliyor.",
+      "37.Ke3": "Şah merkeze geliyor.",
+      "42.Nc8": "At b6'ya gidecek.",
+      "42...b3": "Motor 42...Kf7 öneriyordu. Şimdi şah a4 atını alıyor.",
+      "43.Kxa4": "Beyaz atı aldı.",
+      "45.Kxb2": "Beyaz piyonu da aldı.",
+      "47.Ne4": "Beyaz bir at fazlasıyla kazanıyor; Siyah terk etti."
+    }
   }
 }
