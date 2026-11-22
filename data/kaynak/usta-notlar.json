@@ -2304,5 +2304,197 @@
       "41...Nh4+": "Şah çekme; Siyah saldırıyor.",
       "42...Qf1+": "Büyük hata! Motor 42...Qf4 öneriyordu. Beyazın şahı kaçar ve Siyah malzeme kaybeder."
     }
+  },
+  "smith-morra/morra-ret-nf6": {
+    "ozet": "Smith-Morra Gambiti'ni 3...Nf6 ile reddetmek oyunu Alapin'in 2...Nf6 koluna götürür: Beyaz e5 ile atı kovalar ve cxd4 ile merkezde iki piyon kurar. Bu maçta Siyah …d6 ile e5'i değiştirdi ve Beyazın d4 piyonu yalnız kaldı. Simacek d5 ile bu piyonu değiştirdi, vezirler gitti ve taşlar hızla azaldı. Simetrik ve eşit bir oyun sonunda beraberlik oldu. Ders: gambiti reddetmek, Siyaha sakin ve sağlam bir oyun verir.",
+    "planlar": [
+      [
+        "Beyaz",
+        "e5 ile yer, izole d4 piyonuyla aktif taşlar, uygun anda d5 kırılması."
+      ],
+      [
+        "Siyah",
+        "…d6 ile e5'i sorgulamak, d4'ü blokajla zayıf tutmak, taş değişimleri."
+      ]
+    ],
+    "hamleler": {
+      "3...Nf6": "Siyah gambiti kabul etmez; e4 piyonuna saldırır. Konum Alapin'e geçiyor.",
+      "4.e5": "At kovalanıyor.",
+      "6.cxd4": "Beyaz piyonunu geri aldı; merkezde d4 ve e5 piyonları var.",
+      "6...d6": "Siyah e5'i sorgular.",
+      "8.Bb5": "Fil c6 atını açmaza alır.",
+      "8...dxe5": "e5 değişti; Beyazın d4 piyonu yalnız.",
+      "10.Nxd7": "At file değişti.",
+      "11...Rd8": "Kale d4 piyonuna baskı yapar.",
+      "14.Qg4": "Vezir g7'ye baskı yapar.",
+      "15...Kh8": "Siyah şahını köşeye çeker.",
+      "16.d5": "Beyaz yalnız piyonunu değiştirir; taşlar azalacak.",
+      "17.Qxd7": "Vezirler değişti.",
+      "18.Bxb6": "Fil ata değişti; Siyahın b piyonları ikiz oldu.",
+      "19...Rxd5": "Kaleler değişti.",
+      "21...g6": "Konum eşit ve taşlar az; beraberlik."
+    }
+  },
+  "smith-morra/morra-klasik": {
+    "ozet": "Smith-Morra'nın klasik kolunda Siyah piyonu alır, …d6, …e6 ve …e5 ile sağlam bir yapı kurar. Beyazın amacı gelişim avantajı ve açık hatlarla saldırı yapmaktır. Kosten sabırla savundu ve fil değişimleriyle Beyazın saldırı gücünü azalttı. Beyazın atı d5 ve f5'e girdi ama Siyah dayandı. Uzun manevralardan sonra 35.Bb6?? hatası Siyaha …Qc4 ve …Qe2 ile saldırı verdi: Siyahın veziri ve kalesi Beyazın şahına girdi ve kısa sürede mat geldi.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Gelişim avantajı, Qe2-Rd1 ile d hattında baskı, Nd5 ve Nf5 ile atlar."
+      ],
+      [
+        "Siyah",
+        "Piyonu tutmak, …e5 ile merkezi kapatmak, taşları değişip Beyazın saldırısını söndürmek."
+      ]
+    ],
+    "hamleler": {
+      "3...dxc3": "Siyah gambiti kabul eder: bir piyon önde.",
+      "4.Nxc3": "Beyaz piyon karşılığında hızlı gelişim ve açık c ve d hatları aldı.",
+      "6.Bc4": "Fil f7'ye bakar.",
+      "8.Qe2": "Vezir d hattına kale getirmek için yer açar.",
+      "9.Rd1": "Kale d hattında d6 piyonuna baskı yapar.",
+      "9...e5": "Siyah merkezi kapatır ve d4 karesini kontrol eder.",
+      "11...Be6": "Siyah c4 filini değişmek istiyor.",
+      "13.b4": "Beyaz vezir kanadında yer kazanır.",
+      "15...Bxc4": "Beyazın güçlü fili değişti.",
+      "17.Nd5": "At d5'te güçlü ama Siyah onu değiştirecek.",
+      "19.g4": "Beyaz şah kanadında saldırı arar.",
+      "24.Nd2": "At f5'e gidecek.",
+      "27.Nf5": "At f5'te güçlü: d6 ve g7'ye bakar.",
+      "28...a5": "Siyah vezir kanadında karşı oyun açar.",
+      "32...Rc2": "Kale ikinci yataya girdi.",
+      "33...g6": "Motor 33...Nc4 öneriyordu. Beyaz şimdi şansını kaçırmazsa avantaj alabilir.",
+      "35.Bb6": "Büyük hata! Motor 35.Nxh6+ öneriyordu. Siyahın veziri c4'e geliyor.",
+      "35...Qc4": "Vezir saldırıya katılıyor.",
+      "36...Qe2": "Vezir f2'ye ve şaha bakıyor.",
+      "38.Rh1": "Bu hamle mata gidiyor; motor 38.Qxc2 öneriyordu.",
+      "38...Qg2+": "Şah çekme; şah h4'e kaçmak zorunda.",
+      "39...Be7+": "Mat geliyor; Beyaz terk etti."
+    }
+  },
+  "smith-morra/morra-ret-d3": {
+    "ozet": "3...d3 ile Siyah piyonu geri verir ama Beyazın c3 piyonunun Nc3 karesini işgal etmesini sağlar. Bu maçta Beyaz c4 ile Maróczy yapısına geçti, Siyah …g6 ve …Bg7 ile Ejderha tarzı bir kuruluş seçti. Finegold …f5 ile şah kanadında kırılma yaptı. Beyaz vezir kanadında b4-b5 ile ilerledi ve a7'yi aldı ama Siyahın …f4-f3 ve …Nf4 hamleleri saldırı getirdi. 27.Bc3?? hatası sonrası Siyahın atı e2'ye şah çekti, kalesi g2'yi aldı ve maç bitti.",
+    "planlar": [
+      [
+        "Beyaz",
+        "c4-e4 Maróczy yapısı, vezir kanadında b4-b5, d5 karesi."
+      ],
+      [
+        "Siyah",
+        "…g6-Bg7 ile uzun çapraz, …f5 kırılması, şah kanadında saldırı."
+      ]
+    ],
+    "hamleler": {
+      "3...d3": "Siyah piyonu geri verir; amaç c3 piyonunu orada tutup Beyazın Nc3 gelişimini zorlaştırmak.",
+      "4.c4": "Beyaz Maróczy yapısı kurar.",
+      "5.Bxd3": "Beyaz piyonunu geri aldı.",
+      "11...Nc5": "At d3 filine saldırır.",
+      "12...f5": "Siyah şah kanadında kırılma yapar.",
+      "13...gxf5": "Siyahın merkez piyonları güçlendi ama şahı biraz açık.",
+      "16.Nd5": "At d5'te güçlü.",
+      "19.Nxc6": "Atlar değişti.",
+      "20.b4": "Beyaz vezir kanadında ilerliyor.",
+      "21...f4": "Siyah şah kanadında saldırıya geçti.",
+      "22.Bxa7": "Beyaz a7 piyonunu aldı.",
+      "24.Ba5": "Motor 24.c5 öneriyordu. Siyah …f3 ile saldırıyı hızlandırdı.",
+      "24...f3": "Piyon g2'ye baskı yapıyor.",
+      "25...Nf4": "At şaha yaklaşıyor.",
+      "26...Rg8": "Kale g hattında saldırıya katıldı.",
+      "27.Bc3": "Büyük hata! Motor 27.g3 öneriyordu. Siyahın atı e2'ye şah çekiyor.",
+      "27...Ne2+": "At şah çeker ve fil c3 ile değişecek.",
+      "29...Rxg2+": "Kale g2'yi aldı; Beyazın şahı açık.",
+      "31...Bd2": "Siyah vezire saldırıyor ve mat tehdidi var; Beyaz terk etti."
+    }
+  },
+  "smith-morra/morra-ret-d5": {
+    "ozet": "3...d5 ile Siyah merkezi açar ve gambiti reddeder. Bu maçta Beyaz 4.Qxd4 ile varyant ana hattından (4.exd5) ayrıldı. Vezirler merkezde erken çıktı ve taşlar sakin şekilde gelişti. Değişimlerle konum eşitlendi ve maç kısa sürede berabere bitti. Bu maç ana hattı değil, 3...d5'e karşı sakin bir alternatifi gösteriyor.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Qxd4 ile piyonu geri almak, hızlı gelişim, merkezde vezir."
+      ],
+      [
+        "Siyah",
+        "…dxe4 ile merkezi açmak, …Nc6 ile veziri kovalayıp gelişim kazanmak."
+      ]
+    ],
+    "hamleler": {
+      "3...d5": "Siyah merkezi açar ve gambiti reddeder.",
+      "4.Qxd4": "Ana hattan (4.exd5) ayrılış: Beyaz piyonu vezirle alır.",
+      "4...dxe4": "Siyah e4'ü aldı.",
+      "5.Qxe4": "Vezir e4'te merkezde ama …Nc6 ve …Nf6 ile kovalanabilir.",
+      "6.Bb5": "Fil c6 atını açmaza alır.",
+      "8.Qe2": "Vezir güvenli bir kareye çekildi.",
+      "11.Ne4": "At f6 atına saldırır.",
+      "13.Nxf6+": "Atlar değişti.",
+      "14...Bxg5": "Filler değişti; konum eşit.",
+      "15...h6": "Konum eşit ve oyuncular beraberlikte anlaştı."
+    }
+  },
+  "smith-morra/morra-fianchetto": {
+    "ozet": "Carlsen–Nakamura maçı (Clutch Chess 2025, hızlı satranç) 2.Nf3 g6 sırasıyla Smith-Morra'nın fiyanketto koluna geçti. Siyah …g6 ve …Bg7 ile uzun çaprazı güçlendirir. Carlsen 8.e5 ile hemen merkezi açtı; Siyah piyonu geri verip …Nh6 ile gelişti. Karmaşık taktik değişimler sonrası Beyaz kaleyi c6'da verip vezir aldı, malzeme dengelendi. Taşlar azaldı ve filler gidip gelince konum tekrarlandı.",
+    "planlar": [
+      [
+        "Beyaz",
+        "e5 ile merkezi açmak, Nd5 ile güçlü at, gelişim avantajını taktiğe çevirmek."
+      ],
+      [
+        "Siyah",
+        "…g6-Bg7 ile uzun çapraz, piyonu verip gelişimi tamamlamak."
+      ]
+    ],
+    "hamleler": {
+      "2...g6": "Siyah filini uzun çapraza getirecek.",
+      "4.c3": "Hamle sırası farklı ama konum Smith-Morra'ya geçti.",
+      "6...Bg7": "Fil uzun çaprazda c3 atına ve b2'ye bakar.",
+      "8.e5": "Beyaz merkezi hemen açar.",
+      "8...Nh6": "Siyah atını geliştirir; dxe5 yerine piyonu geri vermeyi seçti.",
+      "10.dxe7": "Beyaz piyonu aldı; Siyahın veziri e7'den geri alacak.",
+      "11.Nd5": "At d5'te güçlü; vezire saldırıyor.",
+      "13.Be3": "Fil vezire saldırıyor.",
+      "16.Rc1": "Kale c6 atına baskı yapar.",
+      "17.Bxd8": "Beyaz kaleyi aldı.",
+      "18.Rxc6": "Kale c6 atını aldı; Siyah geri alacak ama Ne7+ geliyor.",
+      "19.Ne7+": "At şah çeker ve c6'ya gidecek.",
+      "21.Nxa5": "Beyaz veziri aldı; malzeme dengede.",
+      "24...Bxc4": "Taşlar değişiyor.",
+      "28.Nxe5": "Atlar değişti; filler kaldı.",
+      "32...Be5": "Konum tekrarlandı; beraberlik."
+    }
+  },
+  "smith-morra/morra-f7-tuzagi": {
+    "ozet": "Bu varyant e5 ve Bxf7+ ile Siyahın veziri kaybettiği bir tuzağı gösterir. Postny–Abdusattorov (çevrimiçi yıldırım maç) maçında Siyah tuzağa düşmedi ve Beyaz farklı bir sırayla gelişti. Hızlı satrançta iki taraf da birçok hata yaptı: eval grafiği bir o yana bir bu yana gidiyor. Siyah …b5 ve …Nc4 ile vezir kanadında baskı kurdu ve malzeme kazandı. Ancak zaman baskısında 40...Re6?? Beyazın atına kale verdi ve Beyazın veziri ile fili Siyahın şahına saldırıp kazandı. Ders: tuzak bilgisi önemlidir ama yıldırım maçlarında sakin kalmak daha önemli.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Gelişim avantajı, Bc4 ile f7'ye baskı, e5 kırılması ve tuzak fırsatları."
+      ],
+      [
+        "Siyah",
+        "Piyonu tutup gelişimi tamamlamak, …b5 ile vezir kanadında karşı oyun."
+      ]
+    ],
+    "hamleler": {
+      "4...d6": "Siyah e5'i kontrol eder; ama Bc4 ve e5 tuzağına dikkat etmeli.",
+      "5.Nf3": "Beyaz tuzak hattından ayrıldı; önce atını geliştiriyor.",
+      "7...Nge7": "Siyah atını e7'ye getirir; …Ng6 ile f4'e bakacak.",
+      "12...b5": "Siyah vezir kanadında ilerler.",
+      "16.h4": "Beyaz h piyonuyla g6 atını kovalamak istiyor.",
+      "19...Na5": "At c4'e gidecek; motor 19...b4 öneriyordu.",
+      "20.f4": "Beyaz e5 atını kovalıyor.",
+      "23.Qg4": "Motor 23.a4 öneriyordu.",
+      "27...Nxb2": "Siyah b2 piyonunu aldı.",
+      "29.Rb1": "Hata: motor 29.Bh4 öneriyordu. Siyah d1 kalesini alıyor.",
+      "29...Nxd1": "Siyah bir kale kazandı.",
+      "35.Qd3": "Büyük hata: motor 35.Qa1 öneriyordu. Siyahın veziri a2 filini alıyor.",
+      "36...Qxa2": "Siyah fili aldı; malzeme Siyah lehine.",
+      "38.Ng5": "Zaman baskısında hatalar art arda geliyor.",
+      "40...Re6": "Büyük hata: motor 40...d5 öneriyordu. Kale e6'da atın önüne düşüyor.",
+      "41.Nxe6": "Beyaz kaleyi aldı; şimdi Beyaz önde.",
+      "42.Qc7": "Vezir yedinci yatayda.",
+      "45.Bxf6": "Beyaz f6'yı aldı; Siyahın şahı açık.",
+      "53.Qxd6": "Beyazın veziri her yerde.",
+      "56.Qe7": "Beyazın saldırısı sürüyor ve Siyah terk etti."
+    }
   }
 }
