@@ -5,7 +5,7 @@ name: APK
 
 on:
   push:
-    branches: [main, claude/vezir-gambiti-varyantlar-o8gkv7]
+    branches: [main, claude/vezir-gambiti-varyantlar-o8gkv7, claude/project-thread-9kcl8k]
     paths:
       - "app/**"
       - "data/**"

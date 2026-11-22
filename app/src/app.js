@@ -542,7 +542,8 @@ function renderGame(o, line) {
   for (const m of g.moves) { nums.push({ n: +c.fen().split(" ")[5], col: c.turn() }); c.move(m.s); fens.push(c.fen()); }
   let idx = 0;
   const N = g.moves.length;
-  const keyMoments = g.moves.map((m, i) => ({ m, i })).filter(({ m }) => m.n || m.k === "?" || m.k === "??");
+  const KEY_RE = /hata|!|feda|kırılma|çatal|yenilik|terk etti|mat /i;
+  const keyMoments = g.moves.map((m, i) => ({ m, i })).filter(({ m }) => m.k === "?" || m.k === "??" || (m.n && KEY_RE.test(m.n)));
   const mlabel = (i) => (nums[i].col === "w" ? `${nums[i].n}.${g.moves[i].s}` : `${nums[i].n}...${g.moves[i].s}`);
   // Değerlendirme grafiği
   const W = 300, H = 60;

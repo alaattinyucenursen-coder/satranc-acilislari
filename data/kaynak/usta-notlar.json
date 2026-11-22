@@ -3011,5 +3011,75 @@
       "45.Kxb2": "Beyaz piyonu da aldı.",
       "47.Ne4": "Beyaz bir at fazlasıyla kazanıyor; Siyah terk etti."
     }
+  },
+  "kapali-sicilya/klasik-e6": {
+    "ozet": "Kapalı Sicilya'nın 5...e6 kolunda Siyah …Nge7 ve …Nd4 ile merkezde güçlü bir kare alır. Beyaz Be3 ve Nce2 ile bu atı değişip c3-d4 ile merkezi kurar. Bu maçta (çevrimiçi takım şampiyonası) Beyaz d4 ile merkezi erken açtı ve vezirler 12. hamlede değişti. Siyahın şahı c7'de merkezde güvendeydi. Kaleler d hattında değişti, at-fil oyun sonunda iki taraf da hata yapmadı ve maç berabere bitti. Ders: erken vezir değişimi Kapalı Sicilya'yı sakin bir oyun sonuna çevirebilir.",
+    "planlar": [
+      [
+        "Beyaz",
+        "Be3 ve Nce2 ile d4 atını değişmek, c3-d4 ile merkez, e5 ile yer."
+      ],
+      [
+        "Siyah",
+        "…Nd4 ile güçlü kare, …b6 ve …Ba6 ile vezir kanadında aktif fil."
+      ]
+    ],
+    "hamleler": {
+      "5...e6": "Siyah …Nge7 ile gelişip f5 karesini kontrol edecek; d5 de güçleniyor.",
+      "6.Be3": "Fil d4 karesini kontrol eder ve c5'e baskı yapar.",
+      "6...Nd4": "At merkezdeki güçlü kareye gelir.",
+      "7.Nce2": "Beyaz d4 atını değiştirmek için atını e2'ye getirir; c3 piyonuna da yer açar.",
+      "8.c3": "Piyon atı kovalıyor.",
+      "8...Nxe2": "Siyah atları değişir.",
+      "10.d4": "Beyaz merkezi açar.",
+      "11.dxc5": "Merkezde değişimler başladı; d hattı açılıyor.",
+      "12.Qxd8+": "Vezirler değişti; Siyahın şahı rok hakkını kaybetti ama oyun sonunda sorun olmaz.",
+      "13.O-O-O+": "Beyaz şah çekerek uzun rok yaptı.",
+      "14.e5": "Beyaz g7 filinin çaprazını kapatır.",
+      "15...Ba6": "Fil uzun çaprazda aktif; e2 karesine bakar.",
+      "17...Rxd2": "Kaleler değişiyor.",
+      "19.Rxd8": "Tüm kaleler gitti.",
+      "22...Nxe3": "Siyah fili aldı; at-fil oyun sonu.",
+      "29...hxg4": "Piyonlar değişti.",
+      "31...b4": "Siyah vezir kanadında yer kazandı.",
+      "33...Bxe4": "Taşlar azaldı; beraberlik."
+    }
+  },
+  "kapali-sicilya/e6-d5-dxe4": {
+    "ozet": "Kapalı Sicilya'ya karşı 2...e6 ve …d5 ile Siyah merkezi hemen açar; 4...dxe4 ile e4 piyonunu değiştirir. Bu yapıda Beyazın g2 fili uzun çaprazda güçlüdür ama Siyah da kolay gelişir. Bu maçta atlar değişti, Siyah …e5 ile merkezde yer aldı ve …Nd4 ile güçlü bir kareye yerleşti. Beyaz f4 ile açtı, ama Siyahın fili f3'e girdi. Kaleler değişti, vezir-fil oyun sonunda Siyahın veziri sürekli şah çekti ve maç beraberlikle bitti.",
+    "planlar": [
+      [
+        "Beyaz",
+        "g2 filiyle uzun çapraz, f4 ile şah kanadında yer, merkezde d3-c3."
+      ],
+      [
+        "Siyah",
+        "…d5xe4 ile merkezi açmak, hızlı gelişim, …e5 ve …Nd4 ile merkezde yer."
+      ]
+    ],
+    "hamleler": {
+      "3...d5": "Siyah merkezi hemen açar.",
+      "4...dxe4": "Siyah e4'ü alır; Beyaz at ile geri alacak.",
+      "5.Nxe4": "At merkezde.",
+      "6.Nxf6+": "Atlar değişti; Siyahın veziri f6'da aktif.",
+      "6...Qxf6": "Vezir b2'ye ve f3'e bakıyor.",
+      "8...Bd6": "Fil aktif bir kareye geldi.",
+      "11.Ne4": "At d6 filine saldırır.",
+      "12.Nxd6": "At fille değişti; Beyaz iki fil kazandı.",
+      "13...e5": "Siyah merkezde yer kazanır.",
+      "17...Nd4": "At güçlü merkez karesinde.",
+      "18.f4": "Beyaz e5'e saldırır.",
+      "19...Qxe5": "Siyahın veziri merkezde.",
+      "20...Nf3+": "At şah çeker ve g2 fili ile değişecek.",
+      "21...Bxf3": "Fil f3'te güçlü.",
+      "23.Rxe8+": "Kaleler değişti.",
+      "25.Qxe1": "Vezir-fil oyun sonu.",
+      "28...g5": "Siyah şah kanadında hat açar.",
+      "34.dxc5": "Merkezde piyonlar değişti.",
+      "44...Qxb2+": "Siyah b2'yi aldı.",
+      "52...Qxc3+": "Siyah c3'ü de aldı ama Beyaz da piyonları alacak.",
+      "65.Qxc5": "Piyon sayısı eşit.",
+      "75.Qxf5+": "Beyazın veziri sürekli şah çekiyor; beraberlik."
+    }
   }
 }
