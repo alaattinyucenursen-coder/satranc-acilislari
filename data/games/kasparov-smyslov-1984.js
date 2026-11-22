@@ -790,7 +790,7 @@ export default {
       link: 'Kasparov fil çiftini merkezde kullandı, Capablanca fil çaprazıyla şah kanadını açtı. Cambridge Springs’te Siyahın vezir çıkışı vezir kanadına gidince şah kanadı zayıf kalabilir.' },
     { id: 'ks-4', kind: 'transfer', plan: false, title: 'Kale yedinci yatayda',
       source: 'Capablanca – Alekhine, Dünya Şampiyonası maçı, Buenos Aires 1927, 7. oyun (29. hamle)',
-      fen: '4rk2/1p3pp1/3rb3/p1qB4/2P1R3/1P2P3/1Q3P2/4K2R w K - 8 29',
+      fen: '4rk2/1p3pp1/3rb3/p1qB4/2P1R3/1P2P3/1Q3P2/4K2R w - - 8 29',
       prompt: 'h-hattı açık. Saldırıyı nasıl sürdürürsünüz?',
       hint: 'Kale h-hattından yedinci yataya girebilir.',
       line: ['Rh7'],
